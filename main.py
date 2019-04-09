@@ -16,7 +16,7 @@ for x in rang:
 
     for line in data:
         count += 1
-        average = average + ten
+        average = average + data
         average = average / count
 
     print("Der Durchschnitt bei " + str(rang[ten]) + "cm Entfernung beträgt: " + str(
