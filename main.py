@@ -1,10 +1,8 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 ten = -1
 data = 0
-count = 0
-average = 0
-dumob = 0
 
 vec = np.zeros((21, 3))
 rang = ["10", "13", "16", "19", "22", "25", "28", "31", "34", "37", "40", "43", "46", "49", "52", "55", "58", "61",
@@ -16,3 +14,11 @@ for x in rang:
 
     print("Durchschnitt " + str(rang[ten]) + "cm:" + str(np.nanmean(data)))
     print("Standartabweichung " + str(rang[ten]) + "cm:" + str(np.nanstd(data)) + "\n")
+
+    vec[ten, 0] = rang[ten]
+    vec[ten, 1] = np.nanmean(data)
+    vec[ten, 2] = np.nanstd(data)
+
+plt.plot([1,2,3,4])
+plt.ylabel('some numbers')
+plt.show()
