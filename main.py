@@ -19,6 +19,8 @@ for x in rang:
     vec[ten, 1] = np.nanmean(data)
     vec[ten, 2] = np.nanstd(data)
 
+
+
 ten = -1
 
 plt.axis([0,80,0,1])
@@ -58,3 +60,5 @@ plt.plot([vec[0, 0], vec[1, 0], vec[2, 0],vec[3, 0], vec[4, 0],
     #plt.plot
 
 plt.show()
+
+
