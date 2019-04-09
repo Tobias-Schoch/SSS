@@ -11,7 +11,8 @@ rang = ["10", "13", "16", "19", "22", "25", "28", "31", "34", "37", "40", "43", 
 
 for x in rang:
     ten += 1
-    data = np.genfromtxt('data/' + str(rang[ten]) + '.csv', delimiter=",", skip_header=1000, skip_footer=499)
+    data = np.genfromtxt('data/' + str(rang[ten]) + '.csv', delimiter=",", skip_header=1000, skip_footer=499,
+                         deletechars=",")
 
     for line in data:
         count += 1
@@ -19,9 +20,9 @@ for x in rang:
 
         average = average / count
 
-    print("Der Durchschnitt bei " + str(rang[ten]) + "cm Entfernung beträgt: " + str(
-            average) + " cm" + " und hat eine Standartabweichung von " + str(np.std))
+print("Der Durchschnitt bei " + str(rang[ten]) + "cm Entfernung beträgt: " + str(
+    average) + " cm" + " und hat eine Standartabweichung von " + str(np.std))
 
-    vec[ten, 0] = str(rang[ten])
-    # vec[ten, 1] = np.mean(data[1001, 2000])
-    # vec[ten, 2] = np.std(data[1001, 2000])
+vec[ten, 0] = str(rang[ten])
+# vec[ten, 1] = np.mean(data[1001, 2000])
+# vec[ten, 2] = np.std(data[1001, 2000])
