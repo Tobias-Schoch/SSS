@@ -11,13 +11,11 @@ rang = ["10", "13", "16", "19", "22", "25", "28", "31", "34", "37", "40", "43", 
 
 for x in rang:
     ten += 1
-    data = np.genfromtxt('data/' + str(rang[ten]) + '.csv', delimiter=",", skip_header=1000, skip_footer=499,
-                         deletechars=",")
+    data = np.genfromtxt('data/10.csv', delimiter=",", skip_header=1000, skip_footer=499)
 
     for line in data:
         count += 1
         average = average + line
-
         average = average / count
 
 print("Der Durchschnitt bei " + str(rang[ten]) + "cm Entfernung beträgt: " + str(
