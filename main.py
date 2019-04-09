@@ -14,11 +14,5 @@ for x in rang:
     ten += 1
     data = np.genfromtxt('data/' + str(rang[ten]) + '.csv', delimiter=",", skip_header=1000, skip_footer=499)
 
-    for line in data:
-        count += 1
-        average = average + data
-        average = average / count
-
-    print("Der Durchschnitt bei " + str(rang[ten]) + "cm Entfernung beträgt: " + str(
-            average) + " cm " + "und hat eine Standartabweichung von " + str(np.std(average)))
-
+    print("Durchschnitt " + str(rang[ten]) + "cm:" + str(np.nanmean(data)))
+    print("Standartabweichung " + str(rang[ten]) + "cm:" + str(np.nanstd(data)) + "\n")
