@@ -28,7 +28,6 @@ for x in rang:
 
     vol[ten, 0] = rang[ten]
     vol[ten, 1] = np.log(data)
-    vol[ten, 2] =
 
 
 
@@ -36,7 +35,7 @@ for x in rang:
 
 ten = -1
 
-plt.axis([0,80,0,1])
+plt.axis([0,80,0,0.8])
 plt.xlabel('Entfernung')
 plt.ylabel('Durchschnitt')
 plt.plot([vec[0, 0], vec[1, 0], vec[2, 0],vec[3, 0], vec[4, 0],
@@ -52,7 +51,7 @@ plt.plot([vec[0, 0], vec[1, 0], vec[2, 0],vec[3, 0], vec[4, 0],
 plt.show()
 
 
-plt.axis([0,80,0,1])
+plt.axis([0,80,0,0.8])
 plt.xlabel('Entfernung')
 plt.ylabel('Standartabweichung')
 plt.plot([vec[0, 0], vec[1, 0], vec[2, 0],vec[3, 0], vec[4, 0],
