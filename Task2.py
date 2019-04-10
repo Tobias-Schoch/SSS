@@ -25,7 +25,7 @@ for x in rang:
     print("Distanz: " + str(vec3[ten, 0]))
     print("Spannung: " + str(vec3[ten, 1]))
 
-    vec4[ten, 0] = (vec2[ten, 0] / vec2[ten, 1]) * vec3[ten, 1]
+    vec4[ten, 0] = (vec2[ten, 0] / vec2[ten, 1]) * vec2[ten, 1]
 
     print(str(vec4[ten, 0]))
 
@@ -43,6 +43,7 @@ mn = np.min(x)
 mx = np.max(x)
 x1 = np.linspace(mn, mx, 500)
 y1 = gradient * x1 + intercept
+
 plt.plot(x, y, 'ob')
 plt.plot(x1, y1, '-r')
 plt.show()
@@ -54,7 +55,7 @@ plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0]
           vec2[9, 1], vec2[10, 1], vec2[11, 1], vec2[12, 1], vec2[13, 1], vec2[14, 1], vec2[15, 1], vec2[16, 1],
           vec2[17, 1], vec2[18, 1], vec2[19, 1], vec2[20, 1]], 'b')
 plt.ylabel('Durchschnitt von Log')
-plt.xlabel('cm')
+plt.xlabel('cm mit log')
 plt.axis([2, 4.5, -1.2, 1])
 plt.show()
 
@@ -63,7 +64,7 @@ plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0]
           vec2[17, 0], vec2[18, 0], vec2[19, 0], vec2[20, 0]],
          [vec4[0, 0], vec4[1, 0], vec4[2, 0], vec4[3, 0], vec4[4, 0], vec4[5, 0], vec4[6, 0], vec4[7, 0], vec4[8, 0],
           vec4[9, 0], vec4[10, 0], vec4[11, 0], vec4[12, 0], vec4[13, 0], vec4[14, 0], vec4[15, 0], vec4[16, 0],
-          vec4[17, 0], vec4[18, 0], vec4[19, 0], vec4[20, 0]], 'g')
+          vec4[17, 0], vec4[18, 0], vec4[19, 0], vec4[20, 0]], marker = "o", )
 plt.ylabel('Durchschnitt von Log')
 plt.xlabel('cm')
 plt.show()
