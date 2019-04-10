@@ -1,0 +1,419 @@
+%---------------
+%╔═╗╔═╗╔╦╗╦ ╦╔═╗
+%╚═╗║╣  ║ ║ ║╠═╝
+%╚═╝╚═╝ ╩ ╚═╝╩  
+%---------------
+
+% language setup
+\newcommand{\docLanguage}{ngerman}
+%\newcommand{\docLanguage}{english}
+
+% DOCUMENT SETUP
+\documentclass[12pt, oneside, a4paper, \docLanguage]{report}
+\usepackage[left=3cm, 
+			right=2.5cm, 
+			top=2.5cm, 
+			bottom=2.5cm, 
+			includehead, 
+			includefoot]{geometry}
+
+% line spacing
+\usepackage{setspace}
+\setstretch{1,25} % 15/12 --> 1.25
+
+% encoding setup
+% T1 font encoding for languages that use a latin alphabet
+\usepackage[T1]{fontenc} 
+
+% enhanced input encoding handling - utf8 for äÄüÜöÖß...
+\usepackage[utf8]{inputenc}
+
+%de­fines Adobe Times Ro­man as de­fault text font
+\usepackage{mathptmx}
+\usepackage{times} % needed for acronym package
+
+%PDF linking package
+\usepackage[hidelinks]{hyperref}
+
+
+% Language Setup
+\usepackage[\docLanguage]{babel}
+% after babel - set chapter string
+\AtBeginDocument{\renewcommand{\chaptername}{}}
+
+% language specific bibliography style
+\usepackage[numbers, square]{natbib}
+%\setcitestyle{square,aysep={},yysep={;}}
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{\docLanguage}
+% bliographystyle setup
+% babel specific: babplain, babplai3, babalpha, babunsrt, bababbrv, bababbr3
+\bibliographystyle{babunsrt}
+
+
+% enumeration
+\usepackage{enumitem}
+% tabular extension tabularx
+\usepackage{tabularx}
+
+% math packages
+\usepackage{amsmath}
+\usepackage{nicefrac}
+\usepackage{amsthm}
+\usepackage{amsbsy}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+%\usepackage{MnSymbol}
+
+
+%special characters
+\usepackage{amssymb}
+\usepackage{upgreek,textgreek}
+
+% acronym package
+\usepackage[printonlyused, footnote]{acronym}
+
+% breakable text in \seqsplit{}
+\usepackage{seqsplit}
+
+% \textmu
+\usepackage{textcomp}
+
+% package provides a way to compile sections of a document using the same preamble as the main document
+\usepackage{subfiles}
+
+% driver-independent color extension - used by listings,tabularx
+\usepackage[usenames,dvipsnames,table,xcdraw]{xcolor}
+
+% -- SYNTAX HIGHLIGHTING --
+\usepackage{listings}
+%\input{cfgs/listings/listings_def_lang_bash-cmd.tex} % adds style BASH_CMD
+%\input{cfgs/listings/listings_def_lang_bash-script.tex} % adds style BASH_SCRIPT
+\input{cfgs/listings/listings_def_lang_latex.tex} % adds style LATEX
+%\input{cfgs/listings/listings_def_lang_matlab.tex} % adds style MATLAB
+\input{cfgs/listings/listings_def_lang_python.tex} % adds style PYTHON
+%\input{cfgs/listings/listings_def_lang_c++.tex} % adds style CPP
+%\input{cfgs/listings/listings_def_lang_c.tex} % adds style C
+%\input{cfgs/listings/listings_def_lang_json.tex} % adds style JSON
+
+% HEADLINE CFG
+\usepackage{fancyhdr} % Headers and footers
+\usepackage{lastpage}
+\usepackage{ifthen}
+\setlength{\headheight}{1.5cm}
+%\pagestyle{fancy} % All pages have headers and footers
+% override plain page style for \part, \chapter or 
+% \maketitle, which implicit specifies plain page style
+\input{cfgs/fancyhdr/fancyhdr_pagestyle_plain.tex}
+% set list pagestyle
+\input{cfgs/fancyhdr/fancyhdr_pagestyle_preface.tex}
+% set default pagestyle
+\input{cfgs/fancyhdr/fancyhdr_pagestyle_default_onepage.tex}
+%\input{cfgs/fancyhdr/fancyhdr_pagestyle_default_twopage.tex}
+
+\renewcommand{\chaptermark}[1]{\markright{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% PICTURE CFG 
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{caption}
+\usepackage[list=true,listformat=simple]{subcaption}
+% floating prevention packages
+\usepackage{float}    % used with [H] positioning parameter
+\usepackage{placeins} % \FloatBarrier 
+% tikz packages
+\usepackage{tikz}
+\usepackage{standalone}
+\usepackage{pgfplots}
+
+
+% include only specified tex files - uncommend here
+\includeonly{preface/cover,
+             preface/abstract,
+             preface/tableofcontents,
+             preface/listoffigures,
+             preface/listoftables,
+             preface/lstlistoflistings,
+             appendix/bibliography}
+
+%-------------------
+%╔═╗╔╦╗╦═╗╦╔╗╔╔═╗╔═╗
+%╚═╗ ║ ╠╦╝║║║║║ ╦╚═╗
+%╚═╝ ╩ ╩╚═╩╝╚╝╚═╝╚═╝
+%-------------------
+\newcommand{\strLecture}{Signale, Systeme und Sensoren}
+\newcommand{\strDate}{\today}
+\newcommand{\strAuthorA}{T. Schoch}
+\newcommand{\strAuthorB}{L. Stratmann}
+%\newcommand{\strAuthorC}{C. Author}
+\newcommand{\strAuthorAEmail}{tobias.schoch@htwg-konstanz.de}
+\newcommand{\strAuthorBEmail}{luca.stratmann@htwg-konstanz.de}
+%\newcommand{\strAuthorCEmail}{cauthor@htwg-konstanz.de}
+% Versuchsbeschreibung 
+\newcommand{\strTopic}{Aufbau, Kalibrierung und Einsatz eines einfachen Entfernungsmessers}
+\newcommand{\strAbstract}{In dem Versuch haben wir einen Entfernungsmesser dazu verwendet, um die bereits in der Vorlesung behandelten Vorgehensweisen zum Thema Kalibrierung, Fehlerbehandlung und Fehlerrechnung anzuwenden.
+Der Distanzsensor der Marke "Sharp" benutzt für das Triangulationsprinzip Infrarot-LEDS mit einer Linse. Diese geben Lichtstrahlen von sich, um dann wiederrum reflektiert zu werden und durch die zweite Linse zu gelangen.
+Je nachdem wo der Lichtstrahl auftrifft, wandelt der Signalprozessor die Leitfähigkeit in eine Spannung um.
+Da das Ausgangssignal anti-proportional ist, wird mit der zunehmenden Entfernung das Ausgangssignal kleiner.
+Die Entfernungen liegen zwischen 10cm und 70cm. Durch ein Oszillsokop können wir den Spannungsverlauf des Abstandssensors überprüfen.
+ }
+% hyperref customization
+\hypersetup{
+	pdftitle     = {\strTopic}, % title
+	pdfsubject   = {\strLecture}, % subject of the document
+	pdfauthor    = {\strAuthorA, \strAuthorB}, % author
+	pdfkeywords  = {}, % list of keywords
+	pdfcreator   = {}, % creator of the document
+	pdfproducer  = {}, % producer of the document
+	colorlinks   = false, % false: boxed links; true: colored links
+	linkcolor    = red, % color of internal links (change box color with linkbordercolor)
+    citecolor    = green, % color of links to bibliography
+    filecolor    = magenta, % color of file links
+    urlcolor     = cyan, % color of external links
+	%bookmarks    = true, % show bookmarks bar?
+	unicode	     = true, % non-Latin characters in Acrobat’s bookmarks
+	pdftoolbar   = true, % show Acrobat’s toolbar?
+	pdfmenubar   = true, % show Acrobat’s menu?
+    pdffitwindow = false, % window fit to page when opened
+	pdfnewwindow = true % links in new PDF window
+}
+
+%-----------------------------------------
+% ╔╗ ╔═╗╔═╗╦╔╗╔  ╔╦╗╔═╗╔═╗╦ ╦╔╦╗╔═╗╔╗╔╔╦╗ 
+% ╠╩╗║╣ ║ ╦║║║║   ║║║ ║║  ║ ║║║║║╣ ║║║ ║  
+% ╚═╝╚═╝╚═╝╩╝╚╝  ═╩╝╚═╝╚═╝╚═╝╩ ╩╚═╝╝╚╝ ╩  
+%-----------------------------------------
+
+\begin{document}
+\pagenumbering{Roman} 
+
+\setcounter{section}{0}
+\include{preface/cover}
+
+\include{preface/abstract}
+\clearpage
+
+%
+% TABLE OF CONTENTS
+%
+\include{preface/tableofcontents}
+
+%
+% Abbildungsverzeichnis
+%
+\include{preface/listoffigures}
+
+%
+% Tabellenverzeichnis
+%
+\include{preface/listoftables}
+
+%
+% Listingverzeichnis
+%
+\include{preface/lstlistoflistings}
+
+
+%--------------------------
+% ╔═╗╦ ╦╔═╗╔═╗╔╦╗╔═╗╦═╗╔═╗ 
+% ║  ╠═╣╠═╣╠═╝ ║ ║╣ ╠╦╝╚═╗ 
+% ╚═╝╩ ╩╩ ╩╩   ╩ ╚═╝╩╚═╚═╝ 
+%--------------------------
+
+\pagenumbering{arabic} 
+\setcounter{page}{1} 
+\pagestyle{default}
+%
+% CHAPTER Einleitung
+%
+\chapter{Einleitung}
+\label{chap:EINL}
+
+\cite{Franz2016n}
+\cite{Franz2016e}
+
+%
+% CHAPTER Versuch 1
+%
+\chapter{Versuch 1: Ermittlung der Kennlinie des Abstandssensors}
+\label{chap:VERSUCH_1}
+
+\section{Fragestellung, Messprinzip, Aufbau, Messmittel}
+\label{chap:VERSUCH_1_FRAGESTELLUNG}
+Im ersten Versuch werden wir die Kennlinie des Abstandssensors ermitteln.  Für den Aufbau des Projektes verbinden den Abstandssensor an 'Output 3' des Labornetzgerätes 'EA-PS 2342-06 B' durch Ground ( - ) und dem 5V Anschluss ( + ) angeschlossen.
+Der Abstandssensor lautet 'GP2Y0A21YK0F' und wurde von der Firma 'Sharp' entworfen. Das Netzgerät wird auf 5V Gleichspannung eingestellt. Das Oszilloskop von 'Tektronix' mit dem Namen 'TDS 2022B' wird an den Abstandssensor mit Ground( - ), sowie an den Signalausgang angeschlossen.
+Dies wird im Oszilloskop mit einem Adapter an Channel1 verbunden. Nachdem das Oszillskop richtig eingestellt wurde, haben wir es mit dem PC verbunden.
+Über ein Programm konnten wir so das Oszilloskop mit dem Computer verbinden. Ein Programm hat uns geholfen den aktuellen Bildschirm des Oszilloskopes auf dem Bildschirm zu empfangen.
+Zudem kann das Programm die empfangenen Daten über die Ausgangsspannung in eine '.csv' Datei ausgeben.
+So konnten wir für jede Messung einen Screenshot und eine '.csv' Datei erstellen. 
+Ein hochkant stehendes Holzbrett definiert den Abstand. Die 21 zu messenden Werte liegen zwischen 10cm und 70cm in jeweils  3cm Abständen. Mit einem Meterstab haben wir einen Richtwert für den Abstand zwischen Abstandssensor und Holzbrett. 
+Nachdem wir durch die erschwerten Lichtverhältnisse die richtige Lage des Abstandssensors gefunden haben, haben wir über das Programm sowohl Screenshots vom Bildschirm des Oszilloskopes gemacht, als auch die Daten in einer '.csv' Datei gespeichert.
+Zudem haben wir die gemessen Längen mit deren dazugehörigen Ausgangsspannung handschriftlich in einer Tabelle aufgeschrieben, welche am Ende des Versuches vom Tutor unterschrieben wurde.
+Anschließend haben wir in Python programmiert, um die Dateien aus den '.csv' einzulesen mit genfromtxt(). Um den Einschwingvorgang nicht mit zu berechnen haben wir die ersten 1000 Zeilen übersprungen.
+Nachdem werden wir den Durchschnitt sowie die Standardabweichung berechnet haben, visualisieren wir in einer Kennlinie den Durchschnitt sowie die Standartabweichung mittels matplotlib.
+
+\section{Messwerte}
+\label{chap:VERSUCH_1_MESSWERTE}
+Tabelle [\ref{chap:VERSUCH_1_MESSWERTE}] zeigt die von Hand notierten sowie die per Skript erfassten Messwerte
+
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		Distanz & Spannung &  Durchschnitt & Standartabweichung \\
+		\hline
+		10 cm & 1.34 V & 0.6659393794704831 & 0.6660828058406754 \\
+		\hline
+		13 cm & 1.15 V & 0.5748604885613923 & 0.5750357147324959 \\
+		\hline
+		16 cm & 1.05 V & 0.5234618726058222 & 0.5236664822795073 \\
+		\hline
+		19 cm & 0.935 V & 0.4653799639943883 & 0.4656458563403725 \\
+		\hline
+		22 cm & 0.838 V & 0.4172580848541211 & 0.41750096830677325 \\
+		\hline
+		25 cm & 0.775 V & 0.4172580848541211 & 0.41750096830677325 \\
+		\hline
+		28 cm & 0.696 V & 0.3457795703901795 & 0.3462834179341396 \\
+		\hline
+		31 cm & 0.657 V & 0.3270183282633423 & 0.32727442926760836 \\
+		\hline
+		34 cm & 0.617 V & 0.30706827965420097 & 0.3073858905206787 \\
+		\hline
+		37 cm & 0.580 V & 0.2883470006555391 & 0.2886328902698045 \\
+		\hline
+		40 cm & 0.560 V & 0.28011523262263754 & 0.28047480730534874 \\
+		\hline
+		43 cm & 0.519 V & 0.25865669034127736 & 0.2589851949585083 \\
+		\hline
+		46 cm & 0.499 V & 0.24820714314341125 & 0.2486386557159006 \\
+		\hline
+		49 cm & 0.479 V & 0.23764770166808308 & 0.2380554924324234 \\
+		\hline
+		52 cm & 0.457 V & 0.2263390103963483 & 0.22679061638041825 \\
+		\hline
+		55 cm & 0.434 V & 0.21142392568638377 & 0.22598395876834088 \\
+		\hline
+		58 cm & 0.412 V & 0.20893641211394368 & 0.20936113207355245 \\
+		\hline
+		61 cm & 0.395 V & 0.19631902915868696 & 0.19675309457785908 \\
+		\hline
+		64 cm & 0.374 V & 0.18642892104853862 & 0.1869330192510634 \\
+		\hline
+		67 cm & 0.395 V & 0.19552981861590926 & 0.19618095153123555 \\
+		\hline
+		70 cm & 0.374 V & 0.18458076957849764 & 0.18511617366642327 \\
+		\hline
+	\end{tabular}
+	\caption{Messwerte Kalibrierung}
+	\label{fig:VERSUCH_1_MESSWERTE_TABELLE}
+\end{table}
+
+
+\section{Auswertung}
+\label{chap:VERSUCH_1_AUSWERTUNG}
+In der folgenden Abbildung sind die Messergebnisse nochmals dargestellt. Die Messergebnisse wurden mit matplotlib in Python visualisiert.
+
+\begin{figure}[H]
+	\centering\small
+	\includegraphics[width=\textwidth]{media/myplot.png}
+	\caption{Plot Messungen}
+	\label{fig:VERSUCH_1_AUSWERTUNG_PLOT}
+\end{figure}
+
+\section{Interpretation}
+\label{chap:VERSUCH_1_INTERPRETATION}
+Wie man gut sehen kann wird die Spannung stets niedriger. Dies liegt an der Anti-proportionalität, dass mit der zunehmenden Entfernung zwischen Holzbrett und Abstandssensor die vom Signalprozessor übertragene Spannung geringer wird.
+
+Leider haben wir beim Generieren der Dateien einen Fehler gemacht und bei 22cm und 25cm zu spät die Single Sequenz aktualisiert, weshalb eine Gerade in dem Plot zwischen 22cm und 25cm genau gleich ist.
+Ansonsten sieht man im Vergleich zu den manuellen Messdaten keine sichtbaren Unterschiede.
+
+%
+% CHAPTER Versuch 2
+%
+\chapter{Versuch 2: Modellierung der Kennlinie durch lineare Regression}
+\label{chap:VERSUCH_2}
+
+\section{Fragestellung, Messprinzip, Aufbau, Messmittel}
+\label{chap:VERSUCH_2_FRAGESTELLUNG}
+
+\section{Messwerte}
+\label{chap:VERSUCH_2_MESSWERTE}
+
+\section{Auswertung}
+\label{chap:VERSUCH_2_AUSWERTUNG}
+
+\section{Interpretation}
+\label{chap:VERSUCH_2_INTERPRETATION}
+
+%
+% CHAPTER Versuch 3
+%
+\chapter{Versuch 3: Flächenmessung mit Fehlerrechnung}
+\label{chap:VERSUCH_3}
+
+\section{Fragestellung, Messprinzip, Aufbau, Messmittel}
+\label{chap:VERSUCH_3_FRAGESTELLUNG}
+
+\section{Messwerte}
+\label{chap:VERSUCH_3_MESSWERTE}
+
+\section{Auswertung}
+\label{chap:VERSUCH_3_AUSWERTUNG}
+
+\section{Interpretation}
+\label{chap:VERSUCH_3_INTERPRETATION}
+
+%
+% CHAPTER Anhang
+%
+\renewcommand\thesection{A.\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+
+\chapter*{Anhang}
+\label{chap:APPENDIX}
+\addcontentsline{toc}{chapter}{Anhang}
+%\setcounter{chapter}{0}
+\addtocounter{chapter}{1}
+\setcounter{section}{0}
+
+\section{Quellcode}
+\label{chap:APPENDIX_SOURCECODE}
+
+\subsection{Quellcode Versuch 1: Messung Kalibrierung}
+\label{chap:APPENDIX_SOURCECODE_MEASURE}
+\lstinputlisting[style=PYTHON, frame=single, caption=Messung, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../main.py}
+
+
+\subsection{Quellcode Versuch 2}
+\label{chap:APPENDIX_SOURCECODE_V2}
+
+\subsection{Quellcode Versuch 3}
+\label{chap:APPENDIX_SOURCECODE_V3}
+
+
+\section{Messergebnisse}
+\label{chap:APPENDIX_MEASUREMENT_SOURCE}
+
+%
+% Literaturverzeichnis
+%
+%\setcounter{chapter}{0}
+\addtocounter{chapter}{1}
+\setcounter{section}{1}
+
+\include{appendix/bibliography}
+
+\end{document}
+
+
+\end{document}
+%------------------------------------
+% ╔═╗╔╗╔╔╦╗  ╔╦╗╔═╗╔═╗╦ ╦╔╦╗╔═╗╔╗╔╔╦╗
+% ║╣ ║║║ ║║   ║║║ ║║  ║ ║║║║║╣ ║║║ ║ 
+% ╚═╝╝╚╝═╩╝  ═╩╝╚═╝╚═╝╚═╝╩ ╩╚═╝╝╚╝ ╩ 
+%------------------------------------
