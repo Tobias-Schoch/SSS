@@ -25,7 +25,7 @@ for x in rang:
     print("Distanz: " + str(vec3[ten, 0]))
     print("Spannung: " + str(vec3[ten, 1]))
 
-    vec4[ten, 0] = (vec2[ten, 1] / vec2[ten, 0]) * vec3[ten, 1]
+    vec4[ten, 0] = (vec2[ten, 0] / vec2[ten, 1]) * vec3[ten, 1]
 
     print(str(vec4[ten, 0]))
 
