@@ -1,10 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
-from scipy.optimize import curve_fit
-from scipy.optimize import differential_evolution
-import warnings
-from math import *
 
 ten = -1
 data = 0
@@ -61,7 +57,6 @@ plt.ylabel('Durchschnitt von Log')
 plt.xlabel('cm')
 plt.axis([2, 4.5, -1.2, 1])
 plt.show()
-
 
 plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0], vec2[6, 0], vec2[7, 0], vec2[8, 0],
           vec2[9, 0], vec2[10, 0], vec2[11, 0], vec2[12, 0], vec2[13, 0], vec2[14, 0], vec2[15, 0], vec2[16, 0],
