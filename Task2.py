@@ -39,13 +39,6 @@ mx = np.max(x)
 x1 = np.linspace(mn, mx, 500)
 y1 = gradient * x1 + intercept
 
-
-print(gradient)
-print(intercept)
-print(m.exp(gradient * np.log(0.861) + intercept))
-print(m.exp(intercept) * m.pow(0.861, gradient))
-
-
 plt.plot(x, y, 'ob')
 plt.plot(x1, y1, '-r')
 plt.show()
