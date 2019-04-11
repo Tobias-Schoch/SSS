@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  11 APR 2019 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  11 APR 2019 14:04
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -2069,50 +2069,87 @@ Package natbib Warning: Citation `Franz2016e' on page 1 undefined on input line
 
 ]
  2.
+<media/aufbau.jpg, id=208, 3468.96pt x 2601.72pt>
+File: media/aufbau.jpg Graphic file (type jpg)
+<use media/aufbau.jpg>
+Package pdftex.def Info: media/aufbau.jpg  used on input line 262.
+(pdftex.def)             Requested size: 308.71106pt x 231.52457pt.
 [2
 
-]
+] [3 <./media/aufbau.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 267.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 273.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 267.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 273.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 267.
-<media/myplot.png, id=197, 642.4pt x 481.8pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 273.
+ [4]
+<media/myplot.png, id=222, 642.4pt x 481.8pt>
 File: media/myplot.png Graphic file (type png)
 <use media/myplot.png>
-Package pdftex.def Info: media/myplot.png  used on input line 325.
+Package pdftex.def Info: media/myplot.png  used on input line 331.
 (pdftex.def)             Requested size: 441.01773pt x 330.77351pt.
- [3] [4 <./media/myplot.png (PNG copy)>]
-<media/myplot2.png, id=206, 642.4pt x 481.8pt>
+ [5 <./media/myplot.png (PNG copy)>]
+<media/myplot2.png, id=227, 642.4pt x 481.8pt>
 File: media/myplot2.png Graphic file (type png)
 <use media/myplot2.png>
-Package pdftex.def Info: media/myplot2.png  used on input line 335.
+Package pdftex.def Info: media/myplot2.png  used on input line 341.
 (pdftex.def)             Requested size: 441.01773pt x 330.77351pt.
+ [6 <./media/myplot2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 349--357
 
-Overfull \hbox (21.52245pt too wide) in paragraph at lines 343--344
-\T1/ptm/m/n/12 Wie man gut se-hen kann wird die Span-nung stets nied-ri-ger. Di
-es liegt an der Anti-proportionalität,
  []
 
-[5 <./media/myplot2.png (PNG copy)>]
-<media/52.png, id=211, 240.9pt x 225.84375pt>
+<media/52.png, id=233, 240.9pt x 225.84375pt>
 File: media/52.png Graphic file (type png)
 <use media/52.png>
-Package pdftex.def Info: media/52.png  used on input line 356.
+Package pdftex.def Info: media/52.png  used on input line 361.
 (pdftex.def)             Requested size: 176.40439pt x 165.38492pt.
-<media/55.png, id=212, 240.9pt x 225.84375pt>
+<media/55.png, id=234, 240.9pt x 225.84375pt>
 File: media/55.png Graphic file (type png)
 <use media/55.png>
-Package pdftex.def Info: media/55.png  used on input line 359.
+Package pdftex.def Info: media/55.png  used on input line 364.
 (pdftex.def)             Requested size: 176.40439pt x 165.38492pt.
- [6 <./media/52.png> <./media/55.png>]
+[7 <./media/52.png> <./media/55.png>]
  3.
-[7
-
-]
- 4.
 [8
+
+] [9]
+<media/myplot4.png, id=252, 642.4pt x 481.8pt>
+File: media/myplot4.png Graphic file (type png)
+<use media/myplot4.png>
+Package pdftex.def Info: media/myplot4.png  used on input line 439.
+(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
+<media/myplot5.png, id=253, 642.4pt x 481.8pt>
+File: media/myplot5.png Graphic file (type png)
+<use media/myplot5.png>
+Package pdftex.def Info: media/myplot5.png  used on input line 447.
+(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
+ [10 <./media/myplot4.png (PNG copy)> <./media/myplot5.png (PNG copy)>]
+<media/myplot3.png, id=258, 642.4pt x 481.8pt>
+File: media/myplot3.png Graphic file (type png)
+<use media/myplot3.png>
+Package pdftex.def Info: media/myplot3.png  used on input line 455.
+(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
+
+[11 <./media/myplot3.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 462--468
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.469 \newline
+              
+? 
+[12]
+ 4.
+[13
 
 ]
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
@@ -2120,7 +2157,7 @@ stlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 417.
+nput line 508.
  (../main.py
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -2138,9 +2175,72 @@ Overfull \hbox (5.10043pt too wide) in paragraph at lines 8--9
 ][][][][][][][][][] 
  []
 
-[9
 
-]) [10]
+Overfull \hbox (5.2811pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.74678pt too wide) in paragraph at lines 21--23
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][] 
+ []
+
+[14
+
+]) [15] (../Task2.py
+Overfull \hbox (5.10043pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 20.
+
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1
+ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (21.36745pt too wide) in paragraph at lines 23--25
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.4913pt too wide) in paragraph at lines 27--28
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] 
+ []
+
+[16]
+Overfull \hbox (0.27078pt too wide) in paragraph at lines 44--45
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (0.27078pt too wide) in paragraph at lines 54--55
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][] 
+ []
+
+) [17] (../Task3.py)
+<media/scan.png, id=394, 614.7768pt x 845.559pt>
+File: media/scan.png Graphic file (type png)
+<use media/scan.png>
+Package pdftex.def Info: media/scan.png  used on input line 522.
+(pdftex.def)             Requested size: 352.81552pt x 485.2766pt.
+ [18] [19 <./media/scan.png>]
 \openout2 = `appendix/bibliography.aux'.
 
  (appendix/bibliography.tex
@@ -2151,24 +2251,24 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 439.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 439.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 439.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 439.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 536.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 536.
 Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 00AC126CBF2C33F4F9050EC5FA213219;4308.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 439.
+(rerunfilecheck)             Checksum: 66B7792A97B7876A4EEADCB43DD5F545;4308.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 536.
  ) 
 Here is how much of TeX's memory you used:
- 38654 strings out of 492945
- 836826 string characters out of 3122700
- 1181549 words of memory out of 3000000
- 41691 multiletter control sequences out of 15000+200000
- 63003 words of font info for 112 fonts, out of 3000000 for 9000
+ 38863 strings out of 492945
+ 839539 string characters out of 3122700
+ 1190461 words of memory out of 3000000
+ 41766 multiletter control sequences out of 15000+200000
+ 63317 words of font info for 113 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,98p,715b,2356s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
@@ -2176,9 +2276,9 @@ e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on SSS_Laborbericht.pdf (17 pages, 159456 bytes).
+Output written on SSS_Laborbericht.pdf (26 pages, 4890330 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

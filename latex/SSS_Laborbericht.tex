@@ -255,9 +255,15 @@ So konnten wir für jede Messung einen Screenshot und eine '.csv' Datei erstelle
 Ein hochkant stehendes Holzbrett definiert den Abstand. Die 21 zu messenden Werte liegen zwischen 10cm und 70cm in jeweils  3cm Abständen. Mit einem Meterstab haben wir einen Richtwert für den Abstand zwischen Abstandssensor und Holzbrett. 
 Nachdem wir durch die erschwerten Lichtverhältnisse die richtige Lage des Abstandssensors gefunden haben, haben wir über das Programm sowohl Screenshots vom Bildschirm des Oszilloskopes gemacht, als auch die Daten in einer '.csv' Datei gespeichert.
 Zudem haben wir die gemessen Längen mit deren dazugehörigen Ausgangsspannung handschriftlich in einer Tabelle aufgeschrieben, welche am Ende des Versuches vom Tutor unterschrieben wurde.
-Anschließend haben wir in Python programmiert, um die Dateien aus den '.csv' einzulesen mit genfromtxt(). Um den Einschwingvorgang nicht mit zu berechnen haben wir die ersten 1000 Zeilen übersprungen.
+Anschließend haben wir in Python programmiert, um die Dateien aus den '.csv' einzulesen mit genfromtxt(). Um den Einschwingvorgang nicht mit zu berechnen haben wir die ersten 1000 Zeilen übersprungen. 
 Nachdem werden wir den Durchschnitt sowie die Standardabweichung berechnet haben, visualisieren wir in einer Kennlinie den Durchschnitt sowie die Standartabweichung mittels matplotlib.
-
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.7\textwidth]{media/aufbau.jpg}
+	\caption{Aufbau im Labor}
+	\label{fig:Aufbau im Labor}
+\end{figure}
+\newpage
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
 Tabelle [\ref{chap:VERSUCH_1_MESSWERTE}] zeigt die von Hand notierten, sowie die in Python programmierten Werte.
@@ -315,7 +321,7 @@ Tabelle [\ref{chap:VERSUCH_1_MESSWERTE}] zeigt die von Hand notierten, sowie die
 	\label{fig:VERSUCH_1_MESSWERTE_TABELLE}
 \end{table}
 
-
+\newpage
 \section{Auswertung}
 \label{chap:VERSUCH_1_AUSWERTUNG}
 In der folgenden Abbildung sind die Messergebnisse der durchschnittlichen Spannung nochmals visuell dargestellt. Die Messergebnisse wurden mit matplotlib in Python visualisiert.
@@ -337,20 +343,19 @@ In der folgenden Abbildung sind die Messergebnisse der Standartabweichung visuel
 	\label{fig:VERSUCH_1_PLOT_STANDARTABWEICHUNG}
 \end{figure}
 
-
+\newpage
 \section{Interpretation}
 \label{chap:VERSUCH_1_INTERPRETATION}
-Wie man gut sehen kann wird die Spannung stets niedriger. Dies liegt an der Anti-proportionalität, dass mit der zunehmenden Entfernung zwischen Holzbrett und Abstandssensor die vom Signalprozessor übertragene Spannung geringer wird.
-
+Wie man gut in der Tabelle und der Abbildung 2.2 ablesen kann, wird die Spannung stets niedriger. Dies liegt an der Anti-proportionalität, dass mit der zunehmenden Entfernung zwischen Holzbrett und Abstandssensor die vom Signalprozessor übertragene Spannung geringer wird. 
+\newline
 Leider haben wir bei der Generierung der Dateien einen Fehler gemacht und bei 22cm und 25cm zu spät die Single Sequenz aktualisiert, weshalb eine Gerade in dem Plot zwischen 22cm und 25cm genau gleich ist.
-Zudem geht bei Messung zwischen 64cm und 67cm Abstand die Spannung nach oben. An dem Tag der Messung war das Wetter sehr wechselhaft, was zu einer Erhöhung der Werte geführt hat.
-
+Zudem geht bei Messung zwischen 64cm und 67cm Abstand die Spannung nach oben. An dem Tag der Messung war das Wetter sehr wechselhaft, was zu einer Erhöhung der Werte führen könnte.
+\newline
+\newline
 Bei der Messung 55cm ist eine sehr hohe Standardabweichung im Vergleich zu den anderen Werten. Dies liegt daran, dass das Oszilloskop durch andere Störfaktoren gestört wurde und so eine ungleiche Single Sequenz ergeben hat.
+In dem rechten Bild der Abbildung 2.4 ist im Vergleich nochmals gut zu sehen, wie die hohe Standartabweichung zu stande kommt.
 
-In den unteren Sequenzen der Bilder ist nochmals gut zu sehen, wie die hohe Standartabweichung zu stande kommt.
-
-
-\begin{figure}
+\begin{figure}[hbt!]
   	\centering
   	\subfloat[Messung bei 52cm]{
 		\includegraphics[width=0.4\textwidth]{media/52.png}\label{fig:f1}}
@@ -368,16 +373,106 @@ In den unteren Sequenzen der Bilder ist nochmals gut zu sehen, wie die hohe Stan
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_2_FRAGESTELLUNG}
+In Versuch Nummer 2 war es die Aufgabe die Ein- und Ausgangswerte, also die Distanz und die durchschnittliche Spannung in der Tabelle zu logarithmieren.
+Zudem sollte man die Ergebnisse der Logarithmierung im Zusammenhang graphisch darzustellen.
+Daraufhin sollte man eine Kennlinie erlangen durch die Logarithmierung von der Distanz.
 
+\newpage
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
-
+Tabelle [\ref{chap:VERSUCH_2_MESSWERTE}] zeigt die in Python logarithmierten Werte.
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Distanz & log cm & log Durchschnitt \\
+		\hline
+		10cm & 2.302585092994046 & 0.28658251236288684 \\
+		\hline
+		13cm & 2.5649493574615367 & 0.13950997769809692 \\
+		\hline
+		16cm & 2.772588722239781 & 0.04584587706574458 \\
+		\hline
+		19cm & 2.9444389791664403 & -0.0717653956802384 \\
+		\hline
+		22cm & 3.091042453358316 & -0.18091598142798918 \\
+		\hline
+		25cm & 3.2188758248682006 & -0.18091598142798918 \\
+		\hline
+		28cm & 3.332204510175204 & -0.3688220785875914 \\
+		\hline
+		31cm & 3.4339872044851463 & -0.42460823943365683 \\
+		\hline
+		34cm & 3.5263605246161616 & -0.48755538925392977 \\
+		\hline
+		37cm & 3.6109179126442243 & -0.5504620343701235 \\
+		\hline
+		40cm & 3.6888794541139363 & -0.579426134298413 \\
+		\hline
+		43cm & 3.7612001156935624 & -0.659127119920277 \\
+		\hline
+		46cm & 3.828641396489095 & -0.7003660010868976 \\
+		\hline
+		49cm & 3.8918202981106265 & -0.7438412790564594 \\
+		\hline
+		52cm & 3.9512437185814275 & -0.792597814482305 \\
+		\hline
+		55cm & 4.007333185232471 & -0.8607681589957209 \\
+		\hline
+		58cm & 4.060443010546419 & -0.8726037472131969 \\
+		\hline
+		61cm & 4.110873864173311 & -0.9348943146021321 \\
+		\hline
+		64cm & 4.1588830833596715 & -0.9865867500420398 \\
+		\hline
+		67cm & 4.204692619390966 & -0.9389225676676274 \\
+		\hline
+		70cm & 4.248495242049359 & -0.9965499402651674 \\
+		\hline
+	\end{tabular}
+	\caption{Logarithmus von der Distanz und der Durchschnittsspannung}
+	\label{fig:VERSUCH_2_LOGARITHMUS_TABELLE}
+\end{table}
+\newpage
 \section{Auswertung}
 \label{chap:VERSUCH_2_AUSWERTUNG}
+In der folgenden Abbildung wurden die Messergebnisse logarithmiert und daraufhin mit matplotlib in Python visualisiert.
 
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.7\textwidth]{media/myplot4.png}
+	\caption{Logarithmus der Ein- und Ausgangswerte}
+	\label{fig:Logarithmus der Ein- und Ausgangswerter}
+\end{figure}
+In der folgenden Abbildung wurde die Kennlinie visualisiert mit matplotlib in Python.
+
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.7\textwidth]{media/myplot5.png}
+	\caption{Kennlinie}
+	\label{fig:Kennlinie}
+\end{figure}
+In der folgenden Abbildung wurde die Lineare Regression realisiert mit matplotlib in Python.
+
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.7\textwidth]{media/myplot3.png}
+	\caption{Lineare Regression}
+	\label{fig:Lineare Regression}
+\end{figure}
+\newpage
 \section{Interpretation}
 \label{chap:VERSUCH_2_INTERPRETATION}
+In Abbildung 3.1 sieht man nur wenige Unstimmigkeiten.
+Bei der x-Achse an der Stelle 3.25cm liegt der Fehler an der Messung, für die unsere Messung verantwortlich ist.
+Leider haben wir denselben Wert zweimal eingelesen, ohne die Single Sequenz zu aktualisieren, was zu diesem Ausschlag führt.
+Kurz vor dem Ende der Visualisierung geht der Wert nach oben, was an einer Erhöhung der Spannung liegt. Dies ist auch sichtbar in der Tabelle 2.1.
+Vermutlich ist dies passiert durch veränderte Wetterverhältnisse, die die Lichtverhältnisse im Raum veränderten.
+\newline
 
+\newline
+In Abbildung 3.3 zieht sich die Ausgleichsgerade durch die einzelnen Punkte um den Abstand minimal werden zu lassen. Abgesehen von einzelnen Ausreißern wie zum Beispiel dem Wert bei 3.25cm, der durch einen Messfehler entstanden ist wie schon weiter oben berichtet, liegen die Punkte sehr nah an der Ausgleichsgeraden.
+Dies lässt darauf deuten, dass die meisten Punkte durch den Abstandssensor richtig gemessen wurden.
 %
 % CHAPTER Versuch 3
 %
@@ -413,19 +508,25 @@ In den unteren Sequenzen der Bilder ist nochmals gut zu sehen, wie die hohe Stan
 \label{chap:APPENDIX_SOURCECODE}
 
 \subsection{Quellcode Versuch 1: Messung Kalibrierung}
-\label{chap:APPENDIX_SOURCECODE_MEASURE}
-\lstinputlisting[style=PYTHON, frame=single, caption=Messung, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../main.py}
-
-
+\label{chap:APPENDIX_SOURCECODE_V1}
+\lstinputlisting[style=PYTHON, frame=single, caption=Ermittlung der Kennlinie des Abstandssensors, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../main.py}
+\newpage
 \subsection{Quellcode Versuch 2}
 \label{chap:APPENDIX_SOURCECODE_V2}
-
+\lstinputlisting[style=PYTHON, frame=single, caption=Lineare Regression, captionpos=b, label=lst:APPENDIX_SOURCECODE_REGRESSION]{../Task2.py}
+\newpage
 \subsection{Quellcode Versuch 3}
 \label{chap:APPENDIX_SOURCECODE_V3}
-
+\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA]{../Task3.py}
 
 \section{Messergebnisse}
 \label{chap:APPENDIX_MEASUREMENT_SOURCE}
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.8\textwidth]{media/scan.png}
+	\caption{Messungen aus dem Labor}
+	\label{fig:Messungen aus dem Labor}
+\end{figure}
 
 %
 % Literaturverzeichnis
