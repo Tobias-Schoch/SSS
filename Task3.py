@@ -1,8 +1,6 @@
 import numpy as np
-import matplotlib.pyplot as plt
-from scipy import stats
 
-ten = -1
+
 data = 0
 data2 = 0
 vec1 = np.zeros((2, 3))
@@ -11,7 +9,7 @@ korrektur_lang1 = 0
 korrektur_breit2 = 0
 korrektur_lang2 = 0
 faktor1 = 1
-faktor2 = 1.98
+faktor2 = 1.96
 
 data = np.genfromtxt('data/DinA4Breit.csv', delimiter=",", skip_header=1000, skip_footer=499,
                      usecols=(4))
