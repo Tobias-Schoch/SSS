@@ -5,8 +5,7 @@ from scipy import stats
 ten = -1
 data = 0
 vec2 = np.zeros((21, 2))
-vec3 = np.zeros((21, 2))
-vec4 = np.zeros((21, 1))
+vec3 = np.zeros((21, 1))
 
 rang = ["10", "13", "16", "19", "22", "25", "28", "31", "34", "37", "40", "43", "46", "49", "52", "55", "58", "61",
         "64", "67", "70"]
@@ -19,13 +18,10 @@ for x in rang:
     vec2[ten, 0] = np.log(int(rang[ten]))
     vec2[ten, 1] = np.log(np.mean(data))
 
-    vec3[ten, 0] = rang[ten]
-    vec3[ten, 1] = np.mean(data)
+    print("\\hline")
+    print(str(rang[ten]) + "cm & " + str(vec2[ten, 0]) + " & " + str(vec2[ten, 1]) + " \\\\")
 
-    print("Distanz: " + str(vec3[ten, 0]))
-    print("Spannung: " + str(vec3[ten, 1]))
-
-    vec4[ten, 0] = (vec2[ten, 0] / vec2[ten, 1]) * vec2[ten, 1]
+    vec3[ten, 0] = (vec2[ten, 0] / vec2[ten, 1]) * vec2[ten, 1]
 
 x = np.array(
     [vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0], vec2[6, 0], vec2[7, 0], vec2[8, 0],
@@ -54,15 +50,14 @@ plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0]
           vec2[17, 1], vec2[18, 1], vec2[19, 1], vec2[20, 1]], 'b')
 plt.ylabel('Durchschnitt von Log')
 plt.xlabel('cm mit log')
-plt.axis([2, 4.5, -1.2, 1])
 plt.show()
 
 plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0], vec2[6, 0], vec2[7, 0], vec2[8, 0],
           vec2[9, 0], vec2[10, 0], vec2[11, 0], vec2[12, 0], vec2[13, 0], vec2[14, 0], vec2[15, 0], vec2[16, 0],
           vec2[17, 0], vec2[18, 0], vec2[19, 0], vec2[20, 0]],
-         [vec4[0, 0], vec4[1, 0], vec4[2, 0], vec4[3, 0], vec4[4, 0], vec4[5, 0], vec4[6, 0], vec4[7, 0], vec4[8, 0],
-          vec4[9, 0], vec4[10, 0], vec4[11, 0], vec4[12, 0], vec4[13, 0], vec4[14, 0], vec4[15, 0], vec4[16, 0],
-          vec4[17, 0], vec4[18, 0], vec4[19, 0], vec4[20, 0]], marker = "o", )
+         [vec3[0, 0], vec3[1, 0], vec3[2, 0], vec3[3, 0], vec3[4, 0], vec3[5, 0], vec3[6, 0], vec3[7, 0], vec3[8, 0],
+          vec3[9, 0], vec3[10, 0], vec3[11, 0], vec3[12, 0], vec3[13, 0], vec3[14, 0], vec3[15, 0], vec3[16, 0],
+          vec3[17, 0], vec3[18, 0], vec3[19, 0], vec3[20, 0]], marker = "o", )
 plt.ylabel('Durchschnitt von Log')
 plt.xlabel('cm mit log')
 plt.show()
