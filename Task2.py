@@ -27,8 +27,6 @@ for x in rang:
 
     vec4[ten, 0] = (vec2[ten, 0] / vec2[ten, 1]) * vec2[ten, 1]
 
-    print(str(vec4[ten, 0]))
-
 x = np.array(
     [vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0], vec2[6, 0], vec2[7, 0], vec2[8, 0],
      vec2[9, 0], vec2[10, 0], vec2[11, 0], vec2[12, 0], vec2[13, 0], vec2[14, 0], vec2[15, 0], vec2[16, 0], vec2[17, 0],
@@ -66,5 +64,5 @@ plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0]
           vec4[9, 0], vec4[10, 0], vec4[11, 0], vec4[12, 0], vec4[13, 0], vec4[14, 0], vec4[15, 0], vec4[16, 0],
           vec4[17, 0], vec4[18, 0], vec4[19, 0], vec4[20, 0]], marker = "o", )
 plt.ylabel('Durchschnitt von Log')
-plt.xlabel('cm')
+plt.xlabel('cm mit log')
 plt.show()
