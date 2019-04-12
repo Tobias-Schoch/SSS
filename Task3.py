@@ -23,7 +23,7 @@ b1 = np.log(21)-(a*np.log(np.mean(data)))
 
 
 korrektur_lang = (np.mean(data2) + faktor2 * stdaritl) - np.mean(data2)
-korrektur_breit = (np.mean(data) + faktor2 * stdaritl) - np.mean(data)
+korrektur_breit = (np.mean(data) + faktor2 * stdaritb) - np.mean(data)
 z1 = (np.exp(b)*a*np.mean(data2)**(a-1))
 z2 = (np.exp(b)*a*np.mean(data)**(a-1))
 deltay65 = z1 * stdaritl
