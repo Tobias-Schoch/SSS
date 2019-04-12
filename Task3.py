@@ -1,16 +1,7 @@
 import numpy as np
-import matplotlib.pyplot as plt
-from scipy import stats
-import math
-
 
 data = 0
 data2 = 0
-vec1 = np.zeros((2, 3))
-korrektur_breit1 = 0
-korrektur_lang1 = 0
-korrektur_breit2 = 0
-korrektur_lang2 = 0
 faktor1 = 1
 faktor2 = 1.96
 
@@ -20,33 +11,30 @@ data2 = np.genfromtxt('data/DinA4Lang.csv', delimiter=",", skip_header=1000, ski
                       usecols=(4))
 
 
-
-vec1[0, 0] = 21
-vec1[0, 1] = np.mean(data)
-vec1[0, 2] = np.std(data)
-
-vec1[1, 0] = 29.7
-vec1[1, 1] = np.mean(data2)
-vec1[1, 2] = np.std(data2)
-
-korrektur_breit1 = 0.861 + faktor1 * vec1[0, 2]
-korrektur_lang1 = 0.662 + faktor1 * vec1[1, 2]
-korrektur_breit2 = 0.861 + faktor2 * vec1[0, 2]
-korrektur_lang2 = 0.662 + faktor2 * vec1[1, 2]
-
-x = math.exp(np.log(vec1[1, 1]))
-x1 = np.array([vec1[0, 1]])
-x2 = np.array([vec1[0, 1]])
-
-gradient, intercept, r_value, p_value, std_err = stats.linregress(x1, x2)
-z1 = (math.exp(intercept)*gradient*x**(gradient-1)) * korrektur_breit1
-z2 = math.exp(intercept)*gradient*x**(gradient-1) * korrektur_breit2
+stdaritl = np.std(data2) / np.sqrt(1000)
+stdaritb = np.std(data) / np.sqrt(1000)
 
 
 
-print("68,26%: " + str(vec1[0, 1]))
-print("68,26%: " + str(korrektur_lang1))
-print("95%: " + str(vec1[0, 1]))
-print("95%: " + str(korrektur_lang2))
-print(str(z1))
-print(str(z2))
+a = np.log(29.7)/np.log(np.mean(data2))
+b = np.log(29.7)-(a*np.log(np.mean(data2)))
+a1 = np.log(21)/np.log(np.mean(data))
+b1 = np.log(21)-(a*np.log(np.mean(data)))
+
+
+korrektur_lang = (np.mean(data2) + faktor2 * stdaritl) - np.mean(data2)
+korrektur_breit = (np.mean(data) + faktor2 * stdaritl) - np.mean(data)
+z1 = (np.exp(b)*a*np.mean(data2)**(a-1))
+z2 = (np.exp(b)*a*np.mean(data)**(a-1))
+deltay65 = z1 * stdaritl
+deltay96 = z1 * korrektur_lang
+deltayb65 = z2 * stdaritb
+deltayb96 = z2 * korrektur_breit
+
+
+print("29.7 cm", deltay65, "cm 68%")
+print("29.7 cm", deltay96, "cm 95%")
+print("21 cm", deltayb65, "cm 68%")
+print("21 cm", deltayb96, "cm 95%")
+print("623,7 cm^2", (deltay65+deltayb65), "cm bei 68%")
+print("623,7 cm^2", (deltay96+deltayb96), "cm bei 95%")
