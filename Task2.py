@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
+import math as m
 
 ten = -1
 data = 0
@@ -20,7 +21,8 @@ for x in rang:
     vec3[ten, 0] = vec2[ten, 0]
 
     print("\\hline")
-    print(str(rang[ten]) + "cm & " + str(vec2[ten, 0]) + " & " + str(vec2[ten, 1]) + " & " + str(vec3[ten, 0]) + " \\\\")
+    print(
+        str(rang[ten]) + "cm & " + str(vec2[ten, 0]) + " & " + str(vec2[ten, 1]) + " & " + str(vec3[ten, 0]) + " \\\\")
 
 x = np.array(
     [vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0], vec2[6, 0], vec2[7, 0], vec2[8, 0],
@@ -36,9 +38,6 @@ mn = np.min(x)
 mx = np.max(x)
 x1 = np.linspace(mn, mx, 500)
 y1 = gradient * x1 + intercept
-
-print(gradient)
-print(intercept)
 
 plt.plot(x, y, 'ob')
 plt.plot(x1, y1, '-r')
@@ -59,7 +58,7 @@ plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0]
           vec2[17, 0], vec2[18, 0], vec2[19, 0], vec2[20, 0]],
          [vec3[0, 0], vec3[1, 0], vec3[2, 0], vec3[3, 0], vec3[4, 0], vec3[5, 0], vec3[6, 0], vec3[7, 0], vec3[8, 0],
           vec3[9, 0], vec3[10, 0], vec3[11, 0], vec3[12, 0], vec3[13, 0], vec3[14, 0], vec3[15, 0], vec3[16, 0],
-          vec3[17, 0], vec3[18, 0], vec3[19, 0], vec3[20, 0]], marker = "o")
+          vec3[17, 0], vec3[18, 0], vec3[19, 0], vec3[20, 0]], marker="o")
 plt.ylabel('Durchschnitt von Log')
 plt.xlabel('cm mit log')
 plt.show()
