@@ -1,10 +1,10 @@
 import numpy as np
 
+#       Aufgabe3      #
+
 data = 0
 data2 = 0
 faktor2 = 1.96
-
-# Berechnung von 29,7 cm Messfehler #
 
 # data sind die Werte aus der (21cm) breiten DinA4 Seite in die .csv Datei gespeichert wurden.
 data = np.genfromtxt('data/DinA4Breit.csv', delimiter=",", skip_header=1000, skip_footer=499,
@@ -14,18 +14,27 @@ data = np.genfromtxt('data/DinA4Breit.csv', delimiter=",", skip_header=1000, ski
 data2 = np.genfromtxt('data/DinA4Lang.csv', delimiter=",", skip_header=1000, skip_footer=499,
                       usecols=(4))
 
-#Standartabweichung und Average ausrechnen aufgrund der Gaußverteilung mit 2sx und 4sx
+# Standartabweichung und Average ausrechnen aufgrund der Gaußverteilung mit 2sx und 4sx
 avglang = np.mean(data2)
 stdlang = np.std(data2) / np.sqrt(1000)
 avgbreit = np.mean(data)
 stdbreit = np.std(data) / np.sqrt(1000)
 
-print("x(68%) = " + str(avglang) + "V +" + "1 * " + str(stdlang) + "V * 2")
-print("x(95%) = " + str(avglang) + "V +" + "1,96 * " + str(stdbreit) + "V * 4")
-print("x(68%) = " + str(avgbreit) + "V +" + "1 * " + str(stdlang) + "V * 2")
-print("x(95%) = " + str(avgbreit) + "V +" + "1,96 * " + str(stdbreit) + "V * 4")
-print()
+result1 = avglang + 1 * stdlang * 2
+result2 = avglang + 1.96 * stdlang * 4
 
+# LaTeX Format für Tabellen um die Tabelle automatisch generieren zu lassen mittels der For Schleife
+print("\\hline")
+print(str(np.mean(data2)) + " \\\\")
+print("\\hline")
+print(str(np.mean(data)) + " \\\\")
+
+print("x(68%) = " + str(avglang) + "V + " + "1 * " + str(stdlang) + "V * 2")
+print("x(95%) = " + str(avglang) + "V + " + "1,96 * " + str(stdlang) + "V * 4")
+print()
+print(result1)
+print(result2)
+print()
 # Funktionen zur Berechnung
 a1 = np.log(29.7) / np.log(np.mean(data2))
 b1 = np.log(29.7) - (a1 * np.log(np.mean(data2)))

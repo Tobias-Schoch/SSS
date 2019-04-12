@@ -234,9 +234,26 @@ Die Entfernungen liegen zwischen 10cm und 70cm. Durch ein Oszillsokop können wi
 %
 \chapter{Einleitung}
 \label{chap:EINL}
+In dem ersten Versuch geht es um die "Kalibrierung und Einsatz eines Infrarot-Entfernungsmessers". Mittels eines aktiven Abstandssensors der Marke 'Sharp' mit dem Namen 'GP2Y0A21YK0F'  messen wir 21 unterschiedliche Distanzen die mit einem Meterstab überprüft werden.
+\newline
+\newline
+Ein 5V Netzgerät versorgt den Abstandssensor mit Strom. Der Abstandssensor gibt eine Ausgangsspannung an das Oszilloskop, mit welchem wiederrum man .csv Dateien ausgeben kann.d
+Im ersten Kapitel dieses Versuches haben wir die Aufgabe diese Geräte miteinander zu verbinden.
+Nachdem wir unter Anderem das Oszillskop kalibriert haben, starten wir mit den einzelnen Messungen.
+Wir erstellen dazu eine Pythonfunktion um die Daten aus den .csv Dateien zu verwerten. 
+\newline
+\newline
+Mit matplotlib stellen wir die Übertragungsfunktion und die Kennlinie dar. 
+Im zweiten Kapitel arbeiten wir mit logarithmierten Werten und stellen diese in einem Graphen visuell dar unter anderem als Kennlinie.
+\newline
+Eines der Hauptthemen des Versuches ist die lineare Regression.
+\newline
+\newline
+Deshalb haben wir selbstverständlich die Aufgabe eine Ausgleichsgerade in Python darzustellen mittels der linearen Regression.
+Im dritten und mathematisch anspruchvollsten Kapitel beschäftigen wir uns mit der Ermittlung des Messfehlers und der Flächenmessung.
+Bei der Ermittlung des Messfehlers behandeln wir auch die Gaußsche Fehlerfortpflanzungsgesetz mit 68\% und 95\%.
 
-\cite{Franz2016n}
-\cite{Franz2016e}
+
 
 %
 % CHAPTER Versuch 1
@@ -326,6 +343,10 @@ Tabelle [\ref{chap:VERSUCH_1_MESSWERTE}] zeigt die von Hand notierten, sowie die
 \label{chap:VERSUCH_1_AUSWERTUNG}
 In der folgenden Abbildung sind die Messergebnisse der durchschnittlichen Spannung nochmals visuell dargestellt. Die Messergebnisse wurden mit matplotlib in Python visualisiert.
 
+Zuerst wurden die Werte von der .csv Datei mit \textit{genfromtxt()} in das Programm eingelesen.
+Nachdem für die einzelnen Dateien mit der numpy Funktion \textit{np.mean()} der Durchschnitt der von dem Oszilloskop gemessen Ausgangsspannung in Volt ausgerechnet wurde, haben wir diese mit der y-Achse initialisiert.
+
+Die x-Achse wurde mit dem Abstand in cm definiert. Durch eine For-Schleife kann nun jedem Abstandswert eine durchschnittliche Spannung zugewiesen werden.
 \begin{figure}[H]
 	\centering\small
 	\includegraphics[width=\textwidth]{media/myplot.png}
@@ -334,7 +355,10 @@ In der folgenden Abbildung sind die Messergebnisse der durchschnittlichen Spannu
 \end{figure}
 
 \newpage
-In der folgenden Abbildung sind die Messergebnisse der Standartabweichung visuell dargestellt. Die Messergebnisse wurden mit matplotlib in Python visualisiert.
+In der folgenden Abbildung sind die Messergebnisse der Standardabweichung visuell dargestellt. Die Messergebnisse wurden mit matplotlib in Python visualisiert.
+Hierfür wurde mit der numpy Funktion \textit{np.std()} die Standardabweichung in Volt berechnet und mit der y-Achse initialisiert.
+
+Die x-Achse wurde wieder mit dem Abstand in cm deklariert. Wieder wurden durch die For-Schleife jedem Abstand ein Standardabweichung der Spannung zugewiesen werden.
 
 \begin{figure}[H]
 	\centering\small
@@ -374,12 +398,14 @@ In dem rechten Bild der Abbildung 2.4 ist im Vergleich nochmals gut zu sehen, wi
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_2_FRAGESTELLUNG}
 In Versuch Nummer 2 war es die Aufgabe die Ein- und Ausgangswerte, also die Distanz und die durchschnittliche Spannung in der Tabelle zu logarithmieren.
-Zudem sollte man die Ergebnisse der Logarithmierung im Zusammenhang graphisch darzustellen.
-Daraufhin sollte man eine Kennlinie erlangen durch die Logarithmierung von der Distanz.
-Als letzte Aufgabe im dritten Versuch sollte man mithilfe der linearen Regression eine Ausgleichsgerade in Python visualisieren. 
-
-Dabei erhält man aus der Regression die Parameter a und b für den Zusammenhang von
-y' = a * x' + b
+\newline
+Zudem soll man so eine Kennlinie, logarithmierte Werte sowie die lineare Regression darstellen.
+\newline
+So soll man die bereits erlernten Formeln aus den Vorlesungen in System, Signale und Sensoren anwenden und für die Daten des Sharp-Sensors umwandeln um so die Prinzipien der linearen Regression praktisch zu verwenden.
+\newline
+Durch die Errechnung und Darstellung der Kennlinie, soll man auch prüfen ob ein systematischer Fehler geschehen ist. Falls dies nicht der Falls ist, sollte die Kennlinie einer typischen Kennliniensteigung entsprechen.
+\newline
+Für den Versuch benötigt man lediglich die bereits gemessenen Daten, eine Python IDE, sowie die nützlichen Formeln aus den Vorlesungs- und Aufgabenblättern.
 \newpage
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
@@ -440,26 +466,56 @@ Tabelle [\ref{chap:VERSUCH_2_MESSWERTE}] zeigt die in Python logarithmierten Wer
 \section{Auswertung}
 \label{chap:VERSUCH_2_AUSWERTUNG}
 In der folgenden Abbildung wurden die Messergebnisse logarithmiert und daraufhin mit matplotlib in Python visualisiert.
+Die Werte wurden mit der Funktion \textit{genfromtxt()} aus der .csv Datei in das Programm eingelesen.
+Die Distanz in cm wurde mit der numpy Funktion \textit{np.log()} logarithmiert. Die durchschnittlichen Spannung in Volt wurde ebenfalls mit \textit{np.log(np.mean())} logarithmiert. 
+Während die x-Achse mit dem logarithmierten Wert von dem Abstand belegt wird, initialisiert man die y-Achse mit dem logarithmierten Durchschnitt der Spannung in Volt.
 
 \begin{figure}[hbt!]
 	\centering\small
-	\includegraphics[width=0.7\textwidth]{media/myplot4.png}
+	\includegraphics[width=\textwidth]{media/myplot4.png}
 	\caption{Logarithmus der Ein- und Ausgangswerte}
 	\label{fig:Logarithmus der Ein- und Ausgangswerter}
 \end{figure}
+\newpage
 In der folgenden Abbildung wurde die Kennlinie visualisiert mit matplotlib in Python.
+\newline
+Da die Werte bereits eingelesen wurden in der vorherigen Darstellung müssen wir dies nicht erneut machen.
+Hier werden erneut die logarithmierten Abstände in cm verwendet, sowie der logarithmierte Durchschnitt der Spannung in Volt. Ebenfalls brauchen wir die Steigung.
+Wir benötigen die folgende Formel, welche auf dem Aufgabenblatt auf Seite 3 vorzufinden ist:
+\textit{y\textsuperscript{'} = ln y = ln(x\textsuperscript{a}) = a * ln(x) = a * ln(e\textsuperscript{x\textsuperscript{'}}) = a * x\textsuperscript{'}}
+\newline
+\newline
 
 \begin{figure}[hbt!]
 	\centering\small
-	\includegraphics[width=0.7\textwidth]{media/myplot5.png}
+	\includegraphics[width=\textwidth]{media/myplot5.png}
 	\caption{Kennlinie}
 	\label{fig:Kennlinie}
 \end{figure}
+\newpage
 In der folgenden Abbildung wurde die Lineare Regression realisiert mit matplotlib in Python.
-
+Auch hier wurden die Werte die Werte bereits eingelesen, weshalb dieser Schritt entfällt.
+\newline
+Hier werden erneut die logarithmierten Abstände in cm verwendet, sowie der logarithmierte Durchschnitt der Spannung in Volt. 
+Sämtliche logarithmierten Abstände in cm wurden in ein Array gemacht, was später für die x-Achse verwendet wird.
+Die Werte für die logarithmierten Durchschnitte der Spannung in Volt wurden ebenfalls in ein seperates Array gepackt, welche später wiederrum für die y-Achse verwendet werden.
+\newline
+\newline
+Danach wurde stats.lingress() in folgender Darstellung verwendet:
+\newline
+\textit{gradient, intercept, r\_value, p\_value, std\_err = stats.linregress(x, y)}
+\newline
+Danach wird noch die folgende Formel angewendet: 
+\textit{y\textsuperscript{'} = a *  x\textsuperscript{'} + b}
+\newline
+In Python sieht diese Formel folgendermaßen aus: \textit{y1 = gradient * x1 + intercept} \& \textit{x1 = np.linspace(mn, mx, 500)}
+\textit{y1} wird mit \textit{x1} als Ausgleichsgerade der linearen Regression angezeigt.
+x und y wurden bereits vorher in ein Array gespeichert und nun als Punkte angezeigt.
+\newline
+Die Ausgleichsgerade macht den Abstand zu den Punkten im Gesamten minimal.
 \begin{figure}[hbt!]
 	\centering\small
-	\includegraphics[width=0.7\textwidth]{media/myplot3.png}
+	\includegraphics[width=0.9\textwidth]{media/myplot3.png}
 	\caption{Lineare Regression}
 	\label{fig:Lineare Regression}
 \end{figure}
@@ -469,12 +525,18 @@ In der folgenden Abbildung wurde die Lineare Regression realisiert mit matplotli
 In Abbildung 3.1 sieht man nur wenige Unstimmigkeiten.
 Bei der x-Achse an der Stelle 3.25cm liegt der Fehler an der Messung, für die unsere Messung verantwortlich ist.
 Leider haben wir denselben Wert zweimal eingelesen, ohne die Single Sequenz zu aktualisieren, was zu diesem Ausschlag führt.
+
 Kurz vor dem Ende der Visualisierung geht der Wert nach oben, was an einer Erhöhung der Spannung liegt. Dies ist auch sichtbar in der Tabelle 2.1.
 Vermutlich ist dies passiert durch veränderte Wetterverhältnisse, die die Lichtverhältnisse im Raum veränderten.
 \newline
+\newline
+Die Kennlinie in Abbildung 3.2 weißt auch keine systematischen Fehler auf, da sie einer Kennliniensteigung beziehungsweise der Sensitivät eines Sensors entspricht.
 
+Das heißt, dass bei einem doppelten Eingangswert auch der doppelte Ausgangswert ausgegeben wird.
+\newline
 \newline
 In Abbildung 3.3 zieht sich die Ausgleichsgerade durch die einzelnen Punkte um den Abstand minimal werden zu lassen. Abgesehen von einzelnen Ausreißern wie zum Beispiel dem Wert bei 3.25cm, der durch einen Messfehler entstanden ist wie schon weiter oben berichtet, liegen die Punkte sehr nah an der Ausgleichsgeraden.
+
 Dies lässt darauf deuten, dass die meisten Punkte durch den Abstandssensor richtig gemessen wurden.
 %
 % CHAPTER Versuch 3
@@ -484,15 +546,152 @@ Dies lässt darauf deuten, dass die meisten Punkte durch den Abstandssensor rich
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_3_FRAGESTELLUNG}
-
+Im dritten Versuch ist eine Aufgabe die Ermittlung des Messfehlers des Abstandsmessers. Zuerst müssen wir die lange Seite eines DinA4 Blattes vom Sensor müssen und danach das Resultat als  .csv Datei speichern. 
+\newline
+So müssen wir zur Ermittlung des Messfehlers die Fehlerfortpflanzung durch die folgende Kennlinie berechnen: 
+\newline
+\textit{e\textsuperscript{b} *  x\textsuperscript{a}}
+Zudem muss man berechnen wie groß der Vertrauensbereich für eine Sicherheit von 68\% und für eine Sicherheit von 95\% berechnen. Danach sollten wir die Fehlerfortpflanzung dazu benutzen um das Ergebnis der Abstandsmessung in cm angeben zu können.
+\newline
+\newline
+Im zweiten Teil des dritten Versuchs müssen wir nun die breite Seite eines DinA4 Blattes messen. Daraufhin sollen wir mit der selben Methode die Breite des Blattes berechnen und die Fläche des Blattes berechnen. Dies geschieht mithilfe dem Gaußschen Fehlerfortpflanzungsgesetz.
+\newpage
 \section{Messwerte}
 \label{chap:VERSUCH_3_MESSWERTE}
-
+Tabelle [\ref{chap:VERSUCH_3_MESSWERTE}] zeigt die durchschnittliche Spannung in Volt für die breite und die lange Seite eines DinA4 Blattes.
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|}
+		\hline
+		Distanz &  durchschnittliche Spannung in Volt \\
+		\hline
+		29,7cm & 0.6583416425026114V \\
+		\hline
+		21cm & 0.8572027683256641V \\
+		\hline
+	\end{tabular}
+	\caption{Messwerte DinA4}
+	\label{fig:VERSUCH_3_MESSWERTE_DINA4}
+\end{table}
 \section{Auswertung}
 \label{chap:VERSUCH_3_AUSWERTUNG}
+Tabelle [\ref{chap:VERSUCH_3_MESSWERTE}] zeigt die berechneten Messfehler im Vertrauensbereich bei einer Distanz von 29,7cm.
+Für die Berechnung des Messfehlers bei den entsprechenden Vertrauensbereichen der Gaußverteilung benötigt man die folgende Formel:
+\newline
+\textit{x = Durchschnitt der Spannung in Volt + Korrekturfaktor * Standardabweichung + (2sx oder 4sx, je nach Vertrauensbereich)}
+\newline 
+\newline 
+In Python wird die Formel folgendermaßen ausgeführt:
+\newline 
+\textit{result1 = np.mean(data2) + 1,95 * (np.std(data2) / np.sqrt(1000)) * 4}
+Der Vertrauensbereich bei 68\% hat einen Korrekturfaktor von 1 und  ist +-1sx groß  , während der der Vetrauensbereich bei 95\% einen Korrekturfaktor von 1,96 hat und +-2sx groß ist.
+\newline 
+\textit{np.mean} ist hier eine numpy Funktion welche den Durchschnitt berechnet, wie hier die durchschnittliche Spannung in Volt für die lange Seite der DinA4 Seite.
+\newline 
+\newline 
+\textit{np.std} ist ebenfalls eine numpy Funktion und berechnet die Standardabweichung in cm für die lange Seite der DinA4 Seite.
+\newline 
+\textit
+Diese wird durch die numpy Funktion { np.sqrt(1000)} ist ebenfalls eine numpy Funktion und berechnet die Wurzel. In diesem Fall soll die Funktion die Anzahl der verwendeten Spannungen pro Messung die Wurzel ziehen. 
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|}
+		\hline
+		 Formel &  Ergebnis \\
+		\hline
+		68\% = 0.6583416425026114V + 1 * 0.0006520905314570869V * 2sx & 0.6596458235655256cm \\
+		\hline
+		95\% = 0.6583416425026114V + 1,96 * 0.0006520905314570869V * 4sx & 0.6634540322692349cm \\
+		\hline
+	\end{tabular}
+	\caption{Messfehler in Gaußverteilung}
+	\label{fig:VERSUCH_3_MESSFEHLER_TABELLE}
+\end{table}
 
+Tabelle [\ref{chap:VERSUCH_3_MESSWERTE}] zeigt die Ergebnisse der Abstandsmessung mittels der Fehlerfortpflanzung an.
+Verglichen werden die Gaußverteilungen von 68\% und 95\% mit den Distanzen eines DinA4 Blattes.
+Um diese Formel zu berechnen benötigen wir noch \textit{a} und \textit{b}. 
+\newline \textit{a} erhält man durch den Logarithmus aus der Länge bzw. der Breite des Blattes geteilt durch die Logarithmierung der durchschnittlichen Spannung:
+\newline 
+\textit{a1 = np.log(29.7) / np.log(np.mean(data2))}
+\newline
+\newline
+\textit{b} wiederrum erhält man aus dem Logarithmus der Distanz subtrahiert von der Multiplikation von dem Logarithmus der durchschnittlichen Spannung in Volt und a:
+\newline
+\textit{b1 = np.log(29.7) - (a1 * np.log(np.mean(data2)))}
+\newline
+Um die Abstandsmessung mit der Fehlerfortpflanzung zu berechnen benötigt man zuerst die folgende Formel:
+\newline 
+\textit{e\textsuperscript{b} *  x\textsuperscript{a}}.
+\newline 
+Bzw. deren Ableitung:
+\textit{e\textsuperscript{b} * a * x\textsuperscript{a-1}}. Nun nur noch  die errechneten Werte einfügen.
+\newline 
+\newline 
+Wenn man ein Vertrauensintervall von 68\% verwendet, muss man nur noch die abgeleitete Funktion mit der Standardabweichung geteilt durch die Wurzel mit der Anzahl der Messungen multiplizieren und schon hat man den Vertrauensintervall.
+Für den Vertrauensintervall von 95\% hingegen muss man noch zusätzlich den Vertrauensfaktor von 1,96 mulitplizieren.
+\newline 
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Sicherheit & Distanz &  Abstandsmessung \\
+		\hline
+		68\% & 21cm & 0.31835908731736245cm \\
+		\hline
+		68\% & 29,7cm & 0.23864419265666054cm \\
+		\hline
+		95\% & 21cm & 0.6239838111420121cm \\
+		\hline
+		95\%  & 29,7cm & 0.4677426176070423cm \\
+		\hline
+	\end{tabular}
+	\caption{Abstandsmessung mit Fehlerfortpflanzung}
+	\label{fig:VERSUCH_3_FEHLERFORTPFLANZUNG_ABSTANDSMESSUNG_TABELLE}
+\end{table}
+\newpage
+Wenn man die Länge und die Breite eines DinA4 Blattes multipliziert, erhält man den 
+\newline
+Flächeninhalt. 
+\newline
+29,7cm Länge * 21cm Breite = 623,7cm\textsuperscript{2}.
+\newline
+Damit hat ein DinA4 Blatt einen Flächeninhalt von 623.7 cm\textsuperscript{2}.
+\newline
+\newline
+Um den Messfehler in einem Vertrauensbereich von 68\% mit 623.7cm\textsuperscript{2} Flächeninhalt zu berechnen muss man nur die Werte von 68\% addieren: 
+\newline
+0.557003279974023cm.
+\newline
+Um den Messfehler in einem Vertrauensbereich von 95\% hat mit 623.7cm\textsuperscript{2}zu berechnen muss man nur die Werte von 95\% addieren: 
+\newline
+1.0917264287490545cm.
 \section{Interpretation}
 \label{chap:VERSUCH_3_INTERPRETATION}
+Die Messfehler auf den Flächeninhalt eines DinA4 Blattes bezogen
+\newline
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|}
+		\hline
+		Vertrauensintervall &  Messfehler \\
+		\hline
+		68\% & 0.557003279974023cm \\
+		\hline
+		95\%  & 1.0917264287490545cm \\
+		\hline
+	\end{tabular}
+	\caption{Messfehler im Gaußsche Intervall}
+	\label{fig:VERSUCH_3_FLACHENINHALT_VERTRAUENSINTERVALL}
+\end{table}
+Die Höhe der Messunsicherheit hängt mit der Anzahl der Messungen zusammen: Zum Beispiel bei einem Vertrauensintervall von 95\%, aber nur 2 Messungen gibt es einen Korrekturfaktor von 12,71.
+\newline
+Zudem gilt: Desto höher der Vertrauensintervall, desto höher sind auch die Werte.
+Dies trifft hier, als auch in Tabelle 4.3 zu, da die Messunsicherheit hier bei 95\% doppelt so hoch ist, wie die bei 68\%.
+\newline
+Diese erhöhten Werte kommen durch einen erhöhten Korrekturfaktor.
+
+\newline
 
 %
 % CHAPTER Anhang
@@ -521,7 +720,7 @@ Dies lässt darauf deuten, dass die meisten Punkte durch den Abstandssensor rich
 \subsection{Quellcode Versuch 3}
 \label{chap:APPENDIX_SOURCECODE_V3}
 \lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA]{../Task3.py}
-
+\newpage
 \section{Messergebnisse}
 \label{chap:APPENDIX_MEASUREMENT_SOURCE}
 \begin{figure}[hbt!]

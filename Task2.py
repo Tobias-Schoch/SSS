@@ -8,7 +8,7 @@ import math as m
 ten = -1
 data = 0
 # Matrix gefüllt mit 0en 21 Zeilen, 2 Spalten
-vec2 = np.zeros((21, 2))
+vec2 = np.zeros((21, 3))
 
 # Abstandswerte in cm
 rang = ["10", "13", "16", "19", "22", "25", "28", "31", "34", "37", "40", "43", "46", "49", "52", "55", "58", "61",
@@ -26,10 +26,8 @@ for x in rang:
     vec2[ten, 0] = np.log(int(rang[ten]))
     # Stelle 1: Logarithmus des Durchschnittes der Spannung in Volt
     vec2[ten, 1] = np.log(np.mean(data))
-
-    # LaTeX Format für Tabellen um die Tabelle automatisch generieren zu lassen mittels der For Schleife
-    print("\\hline")
-    print(str(rang[ten]) + "cm & " + str(vec2[ten, 0]) + " & " + str(vec2[ten, 1]) + " \\\\")
+    # Stelle 2: Logarithmus der Distanz in cm durch die Logarithmierung der Spannung in Volt
+    vec2[ten, 2] = np.log(np.std(data)) / np.log(np.mean(data))
 
 # x-Werte des Graphen  zur Darstellung der Linearen Regression
 x = np.array(
@@ -52,6 +50,9 @@ y1 = gradient * x1 + intercept
 # Darstellung der Linearen Regression in einem Graphen
 plt.plot(x, y, 'ob')
 plt.plot(x1, y1, '-r')
+plt.grid(True)
+plt.ylabel('logarithmierter Durchschnitt der Spannung in V')
+plt.xlabel('logarithmierter Abstand in cm')
 plt.show()
 
 # Darstellung der Logarithmierung von der avg Spannung und dem Abstand
@@ -63,6 +64,7 @@ plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0]
           vec2[17, 1], vec2[18, 1], vec2[19, 1], vec2[20, 1]], 'b')
 plt.ylabel('logarithmierter Durchschnitt der Spannung in V')
 plt.xlabel('logarithmierter Abstand in cm')
+plt.grid(True)
 plt.show()
 
 # Darstellung der Kennlinie in einem Graphen
@@ -74,4 +76,5 @@ plt.plot([vec2[0, 0], vec2[1, 0], vec2[2, 0], vec2[3, 0], vec2[4, 0], vec2[5, 0]
           vec2[17, 0], vec2[18, 0], vec2[19, 0], vec2[20, 0]], marker="o")
 plt.ylabel('logarithmierter Abstand in cm')
 plt.xlabel('logarithmierter Abstand in cm')
+plt.grid(True)
 plt.show()

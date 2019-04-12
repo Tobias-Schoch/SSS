@@ -44,6 +44,7 @@ plt.plot([10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61
 plt.ylabel('Durchschnitt der Spannung in V')
 plt.xlabel('Abstand in cm')
 plt.axis([0, 70, 0, 1.5])
+plt.grid(True)
 plt.show()
 
 # Zeichnung des Graphen für die Standartabweichung der Spannung
@@ -54,4 +55,5 @@ plt.plot([10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61
 plt.ylabel('Standardabweichung der Spannung in V')
 plt.xlabel('Abstand in cm')
 plt.axis([0, 70, 0, 0.12])
+plt.grid(True)
 plt.show()
