@@ -25,7 +25,7 @@ for x in range(1, 6):
     vec2[ten, 2] = np.std(image)
 
     print("\hline")
-    print("Stufe " + str(x) + " & " + str(vec2[ten, 1]) + " & " + hex + " & " + str(vec2[ten, 2]) + "\\\\")
+    print("Stufe " + str(x) + " & " + str(vec2[ten, 1]) + " & " + hex + " & " + str(vec2[ten, 2]) + " \\\\")
 
 print("\hline")
 
