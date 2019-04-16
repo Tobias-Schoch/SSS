@@ -7,7 +7,7 @@ vec = np.zeros((5, 4))
 crop = ["crop1", "crop2", "crop3", "crop4", "crop5"]
 ten = -1
 
-image = cv2.imread('data/Versuch1.png')
+image = cv2.imread('data/Versuch1a.png')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 vec[0, 0] = 0
