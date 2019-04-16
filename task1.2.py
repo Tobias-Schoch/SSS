@@ -3,47 +3,44 @@ import cv2
 
 # ------------------------------ Aufgabe1.2 ------------------------------ #
 
+vec = np.zeros((5, 4))
+ten = -1
+
 image = cv2.imread('data/Versuch1.png')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-y = 0
-x = 0
-h = 480
-w = 105
-crop1 = image[y:y + h, x:x + w]
-cv2.imshow('Crop1', crop1)
-cv2.imwrite("data/bild1.png", crop1)
+vec[0, 0] = 0
+vec[0, 1] = 0
+vec[0, 2] = 480
+vec[0, 3] = 105
+vec[1, 0] = 0
+vec[1, 1] = 111
+vec[1, 2] = 480
+vec[1, 3] = 135
+vec[2, 0] = 0
+vec[2, 1] = 249
+vec[2, 2] = 480
+vec[2, 3] = 137
+vec[3, 0] = 0
+vec[3, 1] = 389
+vec[3, 2] = 480
+vec[3, 3] = 132
+vec[4, 0] = 0
+vec[4, 1] = 527
+vec[4, 2] = 480
+vec[4, 3] = 113
 
-y = 0
-x = 111
-h = 480
-w = 135
-crop2 = image[y:y + h, x:x + w]
-cv2.imshow('Crop2', crop2)
-cv2.imwrite("data/bild2.png", crop2)
+for x in range(1, 6):
+    ten += 1
 
-y = 0
-x = 249
-h = 480
-w = 137
-crop3 = image[y:y + h, x:x + w]
-cv2.imshow('Crop3', crop3)
-cv2.imwrite("data/bild3.png", crop3)
+    y = int(vec[ten, 0])
+    x = int(vec[ten, 1])
+    h = int(vec[ten, 2])
+    w = int(vec[ten, 3])
 
-y = 0
-x = 389
-h = 480
-w = 132
-crop4 = image[y:y + h, x:x + w]
-cv2.imshow('Crop4', crop4)
-cv2.imwrite("data/bild4.png", crop4)
+    crop1 = image[y:y + h, x:x + w]
+    cv2.imshow("Crop" + str(x), crop1)
+    cv2.imwrite("data/bild" + str(x) + ".png", crop1)
 
-y = 0
-x = 527
-h = 480
-w = 113
-crop5 = image[y:y + h, x:x + w]
-cv2.imshow('Crop5', crop5)
-cv2.imwrite("data/bild5.png", crop5)
 
 cv2.waitKey(0)
