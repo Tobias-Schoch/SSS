@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-image = cv2.imread('data/Versuch1.png')
+image = cv2.imread('data/Versuch2.png')
 
 y = 0
 x = 0
