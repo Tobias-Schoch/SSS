@@ -3,20 +3,18 @@ import matplotlib.pyplot as plt
 
 #       Aufgabe1      #
 
-import numpy as np
 import cv2
 
 cap = cv2.VideoCapture(0)
 
-cap.set(3) = 640
-cap.set(4) = 480
-cap.set(10) = 133
-cap.set(11) = 32
-cap.set(12) = 32
-cap.set(14) = 20
-cap.set(15) = -4
-cap.set(17) = 10000
-
+cap.set(3, 640)
+cap.set(4, 480)
+cap.set(10, 133)
+cap.set(11, 32)
+cap.set(12, 32)
+cap.set(14, 20)
+cap.set(15, -4)
+cap.set(17, 10000)
 
 while (True):
     ret, frame = cap.read()
@@ -24,6 +22,10 @@ while (True):
     cv2.imshow("frame", gray)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break;
+
+#cv2.imwrite("bild.png", frame)
+#for x in range(1, 11):
+    #cv2.imwrite("bild" + str(x) + ".png", frame)
 
 print("frame width: " + str(cap.get(3)))
 print("frame height: " + str(cap.get(4)))
