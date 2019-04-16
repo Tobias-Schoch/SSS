@@ -6,7 +6,6 @@ import cv2
 vec = np.zeros((10, 3079000))
 anzahl = 0
 mean = 0
-value = 0
 
 vec1 = np.zeros((480, 640))
 vec2 = np.zeros((480, 640))
@@ -28,18 +27,25 @@ for x in range(0, 10):
     whitepic[x] = cv2.cvtColor(whitepic[x], cv2.COLOR_BGR2GRAY)
 
     print("Datei: " + str(x + 1) + ".png erfolgreich")
-    b, g, r, a = cv2.mean(whitepic[x])
-    print("Der Durchschnitt der Datei liegt bei " + str(b))
+    for y in range(0, 480):
+        for z in range(0, 640):
+            b = whitepic[x][y, z]
+            vector[x][y, z] = b
+            anzahl += 1
     print("-----------------------------------")
 
-    value += b
-
-b /= 10
+for y in range(0, 480):
+    for z in range(0, 640):
+        mean = 0
+        for file in range(0, 10):
+            mean += vector[file][y, z]
+        mean = float(mean / 10)
+        average[y, z] = mean
 
 image = cv2.imread("data/whiteaverage.png")
 for x in range(0, 480):
     for y in range(0, 640):
-        image[x, y] = b
+        image[x, y] = average[x, y]
 
 cv2.imwrite("data/whiteaverage.png", image)
 cv2.imshow('image', image)
