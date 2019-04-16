@@ -4,6 +4,7 @@ import cv2
 # ------------------------------ Aufgabe1.2 ------------------------------ #
 
 vec = np.zeros((5, 4))
+crop = ["crop1", "crop2", "crop3", "crop4", "crop5"]
 ten = -1
 
 image = cv2.imread('data/Versuch1.png')
@@ -26,11 +27,11 @@ vec[3, 1] = 389
 vec[3, 2] = 480
 vec[3, 3] = 132
 vec[4, 0] = 0
-vec[4, 1] = 527
+vec[4, 1] = 529
 vec[4, 2] = 480
 vec[4, 3] = 113
 
-for x in range(1, 6):
+for z in range(1, 6):
     ten += 1
 
     y = int(vec[ten, 0])
@@ -38,9 +39,8 @@ for x in range(1, 6):
     h = int(vec[ten, 2])
     w = int(vec[ten, 3])
 
-    crop1 = image[y:y + h, x:x + w]
-    cv2.imshow("Crop" + str(x), crop1)
-    cv2.imwrite("data/bild" + str(x) + ".png", crop1)
-
+    crop[ten] = image[y:y + h, x:x + w]
+    cv2.imshow("Crop" + str(z), crop[ten])
+    cv2.imwrite("bild" + str(z) + ".png", crop[ten])
 
 cv2.waitKey(0)
