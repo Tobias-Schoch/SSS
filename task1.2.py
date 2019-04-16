@@ -11,33 +11,28 @@ image = cv2.imread('data/Versuch1.png')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 vec[0, 0] = 0
-vec[0, 1] = 0
-vec[0, 2] = 480
-vec[0, 3] = 105
-vec[1, 0] = 0
-vec[1, 1] = 111
-vec[1, 2] = 480
-vec[1, 3] = 135
-vec[2, 0] = 0
-vec[2, 1] = 249
-vec[2, 2] = 480
-vec[2, 3] = 137
-vec[3, 0] = 0
-vec[3, 1] = 389
-vec[3, 2] = 480
-vec[3, 3] = 132
-vec[4, 0] = 0
-vec[4, 1] = 529
-vec[4, 2] = 480
-vec[4, 3] = 113
+vec[0, 1] = 480
+vec[0, 2] = 105
+vec[1, 0] = 111
+vec[1, 1] = 480
+vec[1, 2] = 135
+vec[2, 0] = 249
+vec[2, 1] = 480
+vec[2, 2] = 137
+vec[3, 0] = 389
+vec[3, 1] = 480
+vec[3, 2] = 132
+vec[4, 0] = 529
+vec[4, 1] = 480
+vec[4, 2] = 113
 
 for z in range(1, 6):
     ten += 1
 
-    y = int(vec[ten, 0])
-    x = int(vec[ten, 1])
-    h = int(vec[ten, 2])
-    w = int(vec[ten, 3])
+    y = 0
+    x = int(vec[ten, 0])
+    h = int(vec[ten, 1])
+    w = int(vec[ten, 2])
 
     crop[ten] = image[y:y + h, x:x + w]
     cv2.imshow("Crop" + str(z), crop[ten])
