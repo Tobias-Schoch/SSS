@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe2.2 ------------------------------ #
+# ------------------------------ Aufgabe3.1 ------------------------------ #
 
 vec = np.zeros((10, 3079000))
 anzahl = 0
@@ -17,7 +17,6 @@ vec7 = np.zeros((480, 640))
 vec8 = np.zeros((480, 640))
 vec9 = np.zeros((480, 640))
 vec10 = np.zeros((480, 640))
-
 average = np.zeros((480, 640))
 
 whitepic = ["white1", "white2", "white3", "white4", "white5", "white6", "white7", "white8", "white9", "white10"]
@@ -43,7 +42,7 @@ for y in range(0, 480):
         mean = float(mean / 10)
         average[y, z] = mean
 
-image = cv2.imread("data/blacked.png")
+image = cv2.imread("data/whiteaverage.png")
 for x in range(0, 480):
     for y in range(0, 640):
         image[x, y] = average[x, y]

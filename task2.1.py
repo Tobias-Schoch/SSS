@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe2.2 ------------------------------ #
+# ------------------------------ Aufgabe2.1 ------------------------------ #
 
 vec = np.zeros((10, 3079000))
 anzahl = 0
@@ -43,12 +43,22 @@ for y in range(0, 480):
         mean = float(mean / 10)
         average[y, z] = mean
 
-image = cv2.imread("data/whited.png")
+image = cv2.imread("data/blackaverage.png")
 for x in range(0, 480):
     for y in range(0, 640):
         image[x, y] = average[x, y]
 
 cv2.imwrite("data/blackaverage.png", image)
 cv2.imshow('image', image)
+
+# Convert to YUV
+image_contrast = cv2.cvtColor(image, cv2.COLOR_BGR2YUV)
+# Apply histogram equalization
+image_contrast[:, :, 0] = cv2.equalizeHist(image_contrast[:, :, 0])
+# Convert to RGB
+image_contrast = cv2.cvtColor(image_contrast, cv2.COLOR_YUV2RGB)
+
+cv2.imwrite("data/contrastblackaverage.png", image_contrast)
+cv2.imshow('image_contrast', image_contrast)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
