@@ -4,7 +4,7 @@ import matplotlib
 
 # ------------------------------ Aufgabe1.3 ------------------------------ #
 vec1 = np.zeros((5, 3))
-vec2 = np.zeros((5, 5))
+vec2 = np.zeros((5, 4))
 ten = -1
 
 print("\hline")
@@ -21,13 +21,11 @@ for x in range(1, 6):
     hex = matplotlib.colors.to_hex([b1, g1, r1])
 
     vec2[ten, 0] = x
-    vec2[ten, 1] = b
-    vec2[ten, 2] = g
-    vec2[ten, 3] = r
-    vec2[ten, 4] = np.std(image)
+    vec2[ten, 1] = (b + g + r)/3
+    vec2[ten, 2] = np.std(image)
 
     print("\hline")
-    print("Stufe " + str(x) + " & " + str(vec2[ten, 1]) + " & " + str(vec2[ten, 2]) + " & " + str(vec2[ten, 3]) + " & " + hex + " & " + str(vec2[ten, 4]) + " \\\\")
+    print("Stufe " + str(x) + " & " + str(vec2[ten, 1]) + " & " + hex + " & " + str(vec2[ten, 2]) + "\\\\")
 
 print("\hline")
 
