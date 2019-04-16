@@ -1,7 +1,4 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
-#       Aufgabe1      #
+#       Aufgabe1.1      #
 
 import cv2
 
@@ -20,12 +17,12 @@ while (True):
     ret, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     cv2.imshow("frame", gray)
+    for x in range(1,11):
+        cv2.imwrite("data/bild" + str(x) + ".png", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break;
 
-#cv2.imwrite("bild.png", frame)
-#for x in range(1, 11):
-    #cv2.imwrite("bild" + str(x) + ".png", frame)
+#cv2.imwrite("data/bild.png", frame)
 
 print("frame width: " + str(cap.get(3)))
 print("frame height: " + str(cap.get(4)))
