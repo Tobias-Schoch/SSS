@@ -43,7 +43,7 @@ for y in range(0, 480):
         mean = float(mean / 10)
         average[y, z] = mean
 
-image = cv2.imread("data/justblack.png")
+image = cv2.imread("data/blacked.png")
 for x in range(0, 480):
     for y in range(0, 640):
         image[x, y] = average[x, y]
