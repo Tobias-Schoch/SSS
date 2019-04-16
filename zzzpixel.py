@@ -10,8 +10,8 @@ randompixel = cv2.imread('data/zzzrandom.png')
 for y in range(0, 1080):
     for z in range(0, 1920):
         r = rand.randint(150, 255)
-        g = rand.randint(50, 150)
-        b = rand.randint(50, 150)
+        g = rand.randint(150, 255)
+        b = rand.randint(150, 255)
 
         randompixel[y, z] = r, g, b
 
