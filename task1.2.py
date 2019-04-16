@@ -1,7 +1,10 @@
 import numpy as np
 import cv2
 
-image = cv2.imread('data/Versuch2.png')
+# ------------------------------ Aufgabe1.2 ------------------------------ #
+
+image = cv2.imread('data/Versuch1.png')
+image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 y = 0
 x = 0

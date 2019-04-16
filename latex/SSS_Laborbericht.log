@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  13 APR 2019 01:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  16 APR 2019 17:30
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -2088,7 +2088,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--255
 
 ]
  2.
-<media/aufbau.jpg, id=216, 3468.96pt x 2601.72pt>
+<media/aufbau.jpg, id=210, 3468.96pt x 2601.72pt>
 File: media/aufbau.jpg Graphic file (type jpg)
 <use media/aufbau.jpg>
 Package pdftex.def Info: media/aufbau.jpg  used on input line 279.
@@ -2103,127 +2103,127 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 290.
  [4]
-<media/myplot.png, id=230, 642.4pt x 481.8pt>
+<media/myplot.png, id=224, 642.4pt x 481.8pt>
 File: media/myplot.png Graphic file (type png)
 <use media/myplot.png>
-Package pdftex.def Info: media/myplot.png  used on input line 352.
+Package pdftex.def Info: media/myplot.png  used on input line 320.
 (pdftex.def)             Requested size: 441.01773pt x 330.77351pt.
  [5 <./media/myplot.png (PNG copy)>]
-<media/myplot2.png, id=236, 642.4pt x 481.8pt>
+<media/myplot2.png, id=230, 642.4pt x 481.8pt>
 File: media/myplot2.png Graphic file (type png)
 <use media/myplot2.png>
-Package pdftex.def Info: media/myplot2.png  used on input line 365.
+Package pdftex.def Info: media/myplot2.png  used on input line 333.
 (pdftex.def)             Requested size: 441.01773pt x 330.77351pt.
  [6 <./media/myplot2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 373--381
+Underfull \hbox (badness 10000) in paragraph at lines 341--349
 
  []
 
-<media/52.png, id=242, 240.9pt x 225.84375pt>
+<media/52.png, id=236, 240.9pt x 225.84375pt>
 File: media/52.png Graphic file (type png)
 <use media/52.png>
-Package pdftex.def Info: media/52.png  used on input line 385.
+Package pdftex.def Info: media/52.png  used on input line 353.
 (pdftex.def)             Requested size: 176.40439pt x 165.38492pt.
-<media/55.png, id=243, 240.9pt x 225.84375pt>
+<media/55.png, id=237, 240.9pt x 225.84375pt>
 File: media/55.png Graphic file (type png)
 <use media/55.png>
-Package pdftex.def Info: media/55.png  used on input line 388.
+Package pdftex.def Info: media/55.png  used on input line 356.
 (pdftex.def)             Requested size: 176.40439pt x 165.38492pt.
 [7 <./media/52.png> <./media/55.png>]
  3.
 [8
 
 ] [9]
-<media/myplot4.png, id=261, 642.4pt x 481.8pt>
+<media/myplot4.png, id=255, 642.4pt x 481.8pt>
 File: media/myplot4.png Graphic file (type png)
 <use media/myplot4.png>
-Package pdftex.def Info: media/myplot4.png  used on input line 475.
+Package pdftex.def Info: media/myplot4.png  used on input line 443.
 (pdftex.def)             Requested size: 441.01773pt x 330.77351pt.
  [10 <./media/myplot4.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 485.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 453.
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--488
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--488
+Underfull \hbox (badness 10000) in paragraph at lines 448--456
 
  []
 
-<media/myplot5.png, id=266, 642.4pt x 481.8pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--456
+
+ []
+
+<media/myplot5.png, id=260, 642.4pt x 481.8pt>
 File: media/myplot5.png Graphic file (type png)
 <use media/myplot5.png>
-Package pdftex.def Info: media/myplot5.png  used on input line 491.
+Package pdftex.def Info: media/myplot5.png  used on input line 459.
 (pdftex.def)             Requested size: 441.01773pt x 330.77351pt.
 [11 <./media/myplot5.png (PNG copy)>]
-<media/myplot3.png, id=271, 642.4pt x 481.8pt>
+<media/myplot3.png, id=265, 642.4pt x 481.8pt>
 File: media/myplot3.png Graphic file (type png)
 <use media/myplot3.png>
-Package pdftex.def Info: media/myplot3.png  used on input line 518.
+Package pdftex.def Info: media/myplot3.png  used on input line 486.
 (pdftex.def)             Requested size: 396.91325pt x 297.69102pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--522
+Underfull \hbox (badness 10000) in paragraph at lines 464--490
 
  []
 
 [12 <./media/myplot3.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 529--534
+Underfull \hbox (badness 10000) in paragraph at lines 497--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--539
+Underfull \hbox (badness 10000) in paragraph at lines 503--507
 
  []
 
 [13]
  4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--558
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
 
  []
 
 [14
 
 ]
-Overfull \hbox (16.88103pt too wide) in paragraph at lines 598--607
+Overfull \hbox (16.88103pt too wide) in paragraph at lines 566--575
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--609
+Underfull \hbox (badness 10000) in paragraph at lines 546--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--609
+Underfull \hbox (badness 10000) in paragraph at lines 546--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--651
+Underfull \hbox (badness 10000) in paragraph at lines 579--619
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--651
+Underfull \hbox (badness 10000) in paragraph at lines 579--619
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--651
+Underfull \hbox (badness 10000) in paragraph at lines 579--619
 
  []
 
 [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 653--669
+Underfull \hbox (badness 10000) in paragraph at lines 621--637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--686
+Underfull \hbox (badness 10000) in paragraph at lines 639--654
 
  []
 
@@ -2234,7 +2234,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.694 \newline
+l.662 \newline
               
 ? 
 [17]
@@ -2242,151 +2242,90 @@ l.694 \newline
 stlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 714.
- (../main.py
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 
-Overfull \hbox (5.10043pt too wide) in paragraph at lines 12--13
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][] 
- []
+! Package Listings Error: File `../main(.py)' not found.
 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: py)
 
-Overfull \hbox (5.2811pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (27.5279pt too wide) in paragraph at lines 24--25
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][] 
- []
-
+Enter file name: 
+! Undefined control sequence.
+\\lst@inputlisting ...empty }\egroup \lst@doendpe 
+                                                  \@newlistfalse \ignorespaces 
+l.682 ...:APPENDIX_SOURCECODE_MEASURE]{../main.py}
+                                                  
+? 
 [18
 
 ]
-Overfull \hbox (17.74678pt too wide) in paragraph at lines 30--32
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][] 
- []
 
-) [19] (../Task2.py
-Overfull \hbox (5.10043pt too wide) in paragraph at lines 14--15
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][] 
- []
+! Package Listings Error: File `../Task2(.py)' not found.
 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: py)
 
-Overfull \hbox (27.5279pt too wide) in paragraph at lines 21--22
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][] 
- []
+Enter file name: 
+! Undefined control sequence.
+\\lst@inputlisting ...empty }\egroup \lst@doendpe 
+                                                  \@newlistfalse \ignorespaces 
+l.686 ...ENDIX_SOURCECODE_REGRESSION]{../Task2.py}
+                                                  
+? 
+[19]
 
+! Package Listings Error: File `../Task3(.py)' not found.
 
-Overfull \hbox (17.4913pt too wide) in paragraph at lines 35--36
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][] 
- []
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: py)
 
+Enter file name: 
+! Undefined control sequence.
+\\lst@inputlisting ...empty }\egroup \lst@doendpe 
+                                                  \@newlistfalse \ignorespaces 
+l.690 ...st:APPENDIX_SOURCECODE_AREA]{../Task3.py}
+                                                  
+? 
 [20]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 48.
-
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1
-ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (0.27078pt too wide) in paragraph at lines 59--60
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (0.27078pt too wide) in paragraph at lines 71--72
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
- []
-
-) [21] (../Task3.py [22]
-Overfull \hbox (1.89774pt too wide) in paragraph at lines 77--78
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
-
- []
-
-
-Overfull \hbox (1.89774pt too wide) in paragraph at lines 79--80
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
-
- []
-
-) [23]
-<media/scan.png, id=545, 614.7768pt x 845.559pt>
+<media/scan.png, id=307, 614.7768pt x 845.559pt>
 File: media/scan.png Graphic file (type png)
 <use media/scan.png>
-Package pdftex.def Info: media/scan.png  used on input line 728.
+Package pdftex.def Info: media/scan.png  used on input line 696.
 (pdftex.def)             Requested size: 352.81552pt x 485.2766pt.
- [24 <./media/scan.png>]
+ [21 <./media/scan.png>]
 \openout2 = `appendix/bibliography.aux'.
 
  (appendix/bibliography.tex
 No file SSS_Laborbericht.bbl.
 ) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 742.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 742.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 710.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 710.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 742.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 742.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 710.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 710.
 Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
 (rerunfilecheck)             Checksum: 25E32E3199ED0E2DB07438DF3262E7AD;4308.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 742.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 710.
  ) 
 Here is how much of TeX's memory you used:
- 39006 strings out of 492945
- 841614 string characters out of 3122700
- 1193670 words of memory out of 3000000
- 41813 multiletter control sequences out of 15000+200000
- 81165 words of font info for 133 fonts, out of 3000000 for 9000
+ 38237 strings out of 492945
+ 832833 string characters out of 3122700
+ 1162481 words of memory out of 3000000
+ 41286 multiletter control sequences out of 15000+200000
+ 64848 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,98p,715b,2356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,12n,98p,715b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
 e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (31 pages, 4989181 bytes).
+urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SSS_Laborbericht.pdf (28 pages, 4926013 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 298 named destinations out of 1000 (max. 500000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
