@@ -24,10 +24,7 @@ for y in range(0, 480):
         r1, g1, b1 = grey[y, z]
         r2, g2, b2 = blackavg[y, z]
         korrigiertes_bild[y, z] = int(r1) - int(r2)
-        print("----------------------------------")
-        print(korrigiertes_bild[y, z])
         korrigiertes_bild[y, z] *= b
-        print(korrigiertes_bild[y, z])
 
 image = cv2.imread("data/korrigiertes_bild2.png")
 for x in range(0, 480):

@@ -9,8 +9,6 @@ whiteavg = cv2.imread('data/whiteaverage.png')
 blackavg = cv2.imread('data/blackaverage.png')
 
 
-
-
 for y in range(0, 480):
     for z in range(0, 640):
         r1, g1, b1 = whiteavg[y, z]
