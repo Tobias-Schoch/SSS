@@ -17,16 +17,17 @@ b, g, r, a = cv2.mean(whiteavg)
 
 norm = b ** 2 + g ** 2 + r ** 2
 norm = math.sqrt(norm)
-b = b / norm
+b = b / norm + g / norm + r / norm
+print(b)
 
 for y in range(0, 480):
     for z in range(0, 640):
         r1, g1, b1 = grey[y, z]
         r2, g2, b2 = blackavg[y, z]
         korrigiertes_bild[y, z] = int(r1) - int(r2)
-        korrigiertes_bild[y, z] *= b
+        korrigiertes_bild[y, z] /= b
 
-image = cv2.imread("data/korrigiertes_bild2.png")
+image = cv2.imread("data/korrigiertes_bild.png")
 for x in range(0, 480):
     for y in range(0, 640):
         image[x, y] = korrigiertes_bild[x, y]

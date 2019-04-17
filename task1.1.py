@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 
 cap.set(3, 640)
 cap.set(4, 480)
-cap.set(10, 133)
+cap.set(10, 200)
 cap.set(11, 32)
 cap.set(12, 32)
 cap.set(14, 20)
