@@ -15,11 +15,11 @@ high4 = 0
 
 vec1 = np.zeros((480, 640))
 
-white1 = cv2.imread('data/white1.png')
+white1 = cv2.imread('data/Versuch1b.png')
 white1 = cv2.cvtColor(white1, cv2.COLOR_BGR2GRAY)
 value = np.std(white1)
 
-image = cv2.imread("data/zzz.png")
+image = cv2.imread("data/zzz2.png")
 for x in range(0, 480):
     for y in range(0, 640):
         value = white1[x, y]
@@ -41,6 +41,6 @@ cv2.circle(image, (cir2, cir1), 5, (142, 123, 228), 2)
 cv2.circle(image, (cir4, cir3), 5, (46, 179, 66), 2)
 
 cv2.imshow('image',image)
-cv2.imwrite("zzz.png", image)
+cv2.imwrite("zzz2.png", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
