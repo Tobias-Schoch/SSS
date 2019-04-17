@@ -5,10 +5,12 @@ import cv2
 
 # ------------------------------ Random ------------------------------ #
 
+
+
 randompixel = cv2.imread('data/zzzrandom.png')
 
-for y in range(0, 1080):
-    for z in range(0, 1920):
+for y in range(0, 1440):
+    for z in range(0, 2560):
         r = rand.randint(150, 255)
         g = rand.randint(150, 255)
         b = rand.randint(150, 255)
