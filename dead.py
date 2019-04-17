@@ -27,11 +27,10 @@ for x in range(0, 480):
             cir2 = y
             high1 = value
 
-        if(value > high4):
+        if (value > high4):
             cir3 = x
             cir4 = y
             high4 = value
-
 
 print("Der dunkelste Punkt liegt bei: " + str(cir1) + " " + str(cir2))
 print("Der hellste Punkt liegt bei: " + str(cir3) + " " + str(cir4))
@@ -39,7 +38,7 @@ print("Der hellste Punkt liegt bei: " + str(cir3) + " " + str(cir4))
 cv2.circle(image, (cir2, cir1), 5, (142, 123, 228), 2)
 cv2.circle(image, (cir4, cir3), 5, (46, 179, 66), 2)
 
-cv2.imshow('image',image)
+cv2.imshow('image', image)
 cv2.imwrite("zzz.png", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

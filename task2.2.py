@@ -9,7 +9,6 @@ grey = cv2.imread('data/Versuch1a.png')
 image = cv2.cvtColor(grey, cv2.COLOR_BGR2GRAY)
 blackavg = cv2.imread('data/blackaverage.png')
 
-
 for y in range(0, 480):
     for z in range(0, 640):
         r1, g1, b1 = grey[y, z]

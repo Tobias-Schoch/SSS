@@ -21,7 +21,7 @@ for x in range(1, 6):
     hex = matplotlib.colors.to_hex([b1, g1, r1])
 
     vec2[ten, 0] = x
-    vec2[ten, 1] = (b + g + r)/3
+    vec2[ten, 1] = (b + g + r) / 3
     vec2[ten, 2] = np.std(image)
 
     print("\hline")
