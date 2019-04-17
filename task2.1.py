@@ -23,13 +23,14 @@ blackpic = ["black1", "black2", "black3", "black4", "black5", "black6", "black7"
 vector = [vec1, vec2, vec3, vec4, vec5, vec6, vec7, vec8, vec9, vec10]
 
 for x in range(0, 10):
-    blackpic[x] = cv2.imread('data/' + blackpic[x] + '.png')
-    blackpic[x] = cv2.cvtColor(blackpic[x], cv2.COLOR_BGR2GRAY)
+    blackpic[x] = cv2.imread('data/' + blackpic[x] + '.png', cv2.IMREAD_GRAYSCALE)
 
     print("Datei: " + str(x + 1) + ".png erfolgreich")
     for y in range(0, 480):
         for z in range(0, 640):
             b = blackpic[x][y, z]
+            if (b != 73):
+                print(b)
             vector[x][y, z] = b
             anzahl += 1
     print("-----------------------------------")
