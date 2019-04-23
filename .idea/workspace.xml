@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/dead.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/dead.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/dead2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/dead2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/SSS_Laborbericht.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/SSS_Laborbericht.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/SSS_Laborbericht.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/SSS_Laborbericht.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/SSS_Laborbericht.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/SSS_Laborbericht.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/appendix/bibliography.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/appendix/bibliography.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/preface/listoffigures.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/preface/listoffigures.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/preface/listoftables.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/preface/listoftables.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/preface/lstlistoflistings.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/preface/lstlistoflistings.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/latex/preface/tableofcontents.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/latex/preface/tableofcontents.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task1.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task1.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task1.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task2.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task2.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task3.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task3.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task3.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task3.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task3.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task3.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task3.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task3.4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch2/task3.4b.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch2/task3.4b.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task1.3.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task2.1.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task3.1.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task3.2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="34">
+                <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task3.3.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="34">
+                <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task3.4.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task3.4b.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Versuch2/dead.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/task2.2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="34">
+                <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch2/dead2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+                <folding>
+                  <element signature="e#0#18#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vec4</find>
+      <find>stats</find>
+      <find>black</find>
+      <find>white</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Desktop/Aufgabe1/Aufgabe1/main.py" />
+        <option value="$USER_HOME$/Desktop/SSS-master/SSS-master/main.py" />
+        <option value="$PROJECT_DIR$/log.py" />
+        <option value="$PROJECT_DIR$/Task2.py" />
+        <option value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/caputre_img.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Task3.py" />
+        <option value="$PROJECT_DIR$/task2.3.py" />
+        <option value="$PROJECT_DIR$/random.py" />
+        <option value="$PROJECT_DIR$/zzzpixel.py" />
+        <option value="$PROJECT_DIR$/task3.4.py" />
+        <option value="$PROJECT_DIR$/dead3.py" />
+        <option value="$PROJECT_DIR$/task1.1.py" />
+        <option value="$PROJECT_DIR$/dead.py" />
+        <option value="$PROJECT_DIR$/dead2.py" />
+        <option value="$PROJECT_DIR$/task2.2.py" />
+        <option value="$PROJECT_DIR$/task3.2.py" />
+        <option value="$PROJECT_DIR$/task3.4b.py" />
+        <option value="$PROJECT_DIR$/task3.1.py" />
+        <option value="$PROJECT_DIR$/task2.1.py" />
+        <option value="$PROJECT_DIR$/task1.2.py" />
+        <option value="$PROJECT_DIR$/task3.3.py" />
+        <option value="$PROJECT_DIR$/task1.3.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task1.1.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task1.2.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task1.3.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task2.1.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task2.2.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task3.1.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task3.2.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task3.3.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task3.4.py" />
+        <option value="$PROJECT_DIR$/Versuch2/task3.4b.py" />
+        <option value="$PROJECT_DIR$/Versuch2/dead2.py" />
+        <option value="$PROJECT_DIR$/Versuch2/dead.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2544" />
+    <option name="y" value="-24" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Versuch2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Versuch2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\data\old" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch2\data" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.dead2">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="SSS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dead" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SSS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch2/dead.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dead2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SSS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch2/dead2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task1.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SSS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SSS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch2/task2.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task3.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SSS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch2/task3.4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dead2" />
+        <item itemvalue="Python.dead" />
+        <item itemvalue="Python.task3.4" />
+        <item itemvalue="Python.task2.1" />
+        <item itemvalue="Python.task1.3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="" />
+      <created>1554811024775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554811024775</updated>
+      <workItem from="1554811030847" duration="12018000" />
+      <workItem from="1554848211268" duration="5180000" />
+      <workItem from="1554889373130" duration="11433000" />
+      <workItem from="1554964110900" duration="13185000" />
+      <workItem from="1554990605053" duration="5705000" />
+      <workItem from="1554998902522" duration="893000" />
+      <workItem from="1555072170740" duration="27339000" />
+      <workItem from="1555152728550" duration="705000" />
+      <workItem from="1555414899524" duration="13000" />
+      <workItem from="1555415003890" duration="596000" />
+      <workItem from="1555415625010" duration="4835000" />
+      <workItem from="1555420629424" duration="103000" />
+      <workItem from="1555420744804" duration="819000" />
+      <workItem from="1555421694130" duration="17758000" />
+      <workItem from="1555439717899" duration="137000" />
+      <workItem from="1555440407990" duration="16843000" />
+      <workItem from="1555458435878" duration="111000" />
+      <workItem from="1555495694231" duration="8414000" />
+      <workItem from="1555505661454" duration="6463000" />
+      <workItem from="1555515817672" duration="318000" />
+      <workItem from="1555525973440" duration="1822000" />
+      <workItem from="1555530836252" duration="1877000" />
+      <workItem from="1555533198631" duration="7020000" />
+      <workItem from="1555540264992" duration="36000" />
+      <workItem from="1555947316997" duration="869000" />
+    </task>
+    <task id="LOCAL-00036" summary="capture pictures">
+      <created>1555421838025</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1555421838025</updated>
+    </task>
+    <task id="LOCAL-00037" summary="splicing pictures">
+      <created>1555423622558</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1555423622558</updated>
+    </task>
+    <task id="LOCAL-00038" summary="splicing pictures">
+      <created>1555425114570</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1555425114570</updated>
+    </task>
+    <task id="LOCAL-00039" summary="adding pictures">
+      <created>1555425140248</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1555425140248</updated>
+    </task>
+    <task id="LOCAL-00040" summary="saving cropped pictures">
+      <created>1555425769416</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1555425769416</updated>
+    </task>
+    <task id="LOCAL-00041" summary="cropped pictures">
+      <created>1555425809203</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1555425809203</updated>
+    </task>
+    <task id="LOCAL-00042" summary="cropped pictures">
+      <created>1555425880836</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1555425880836</updated>
+    </task>
+    <task id="LOCAL-00043" summary="calculating hex, rgb and standard deviation">
+      <created>1555428715737</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1555428715737</updated>
+    </task>
+    <task id="LOCAL-00044" summary="calculating hex, rgb and standard deviation">
+      <created>1555428866464</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1555428866464</updated>
+    </task>
+    <task id="LOCAL-00045" summary="making a for loop instead of splicing every greyscale single">
+      <created>1555429914867</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1555429914867</updated>
+    </task>
+    <task id="LOCAL-00046" summary="calculate all values">
+      <created>1555429968189</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1555429968189</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added for loop for cropping">
+      <created>1555431190214</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1555431190214</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added for loop for cropping">
+      <created>1555431383892</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1555431383892</updated>
+    </task>
+    <task id="LOCAL-00049" summary="deleting old files">
+      <created>1555431425849</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1555431425849</updated>
+    </task>
+    <task id="LOCAL-00050" summary="changing names for black and white pictures">
+      <created>1555431715336</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1555431715337</updated>
+    </task>
+    <task id="LOCAL-00051" summary="changing names for black and white pictures">
+      <created>1555431733061</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1555431733061</updated>
+    </task>
+    <task id="LOCAL-00052" summary="starting with second task: reading the 10 black pictures">
+      <created>1555432503727</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1555432503727</updated>
+    </task>
+    <task id="LOCAL-00053" summary="getting for every pixel in every 10 pictures a value - for black and white pictures">
+      <created>1555435527032</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1555435527032</updated>
+    </task>
+    <task id="LOCAL-00054" summary="getting average from every pixel in task 2">
+      <created>1555439661204</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1555439661204</updated>
+    </task>
+    <task id="LOCAL-00055" summary="getting contrast pictures">
+      <created>1555445274648</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1555445274649</updated>
+    </task>
+    <task id="LOCAL-00056" summary="getting contrast pictures">
+      <created>1555446785243</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1555446785243</updated>
+    </task>
+    <task id="LOCAL-00057" summary="getting contrast pictures">
+      <created>1555447823721</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1555447823721</updated>
+    </task>
+    <task id="LOCAL-00058" summary="getting contrast pictures">
+      <created>1555447830174</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1555447830174</updated>
+    </task>
+    <task id="LOCAL-00059" summary="getting contrast pictures">
+      <created>1555448752781</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1555448752781</updated>
+    </task>
+    <task id="LOCAL-00060" summary="white - black = whitepicture">
+      <created>1555451278224</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1555451278224</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added the calcualtion picture - black = correct picture">
+      <created>1555451656945</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1555451656945</updated>
+    </task>
+    <task id="LOCAL-00062" summary="deleting bugs">
+      <created>1555455718430</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1555455718430</updated>
+    </task>
+    <task id="LOCAL-00063" summary="deleting bugs">
+      <created>1555456341296</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1555456341296</updated>
+    </task>
+    <task id="LOCAL-00064" summary="deleting bugs">
+      <created>1555456393978</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1555456393978</updated>
+    </task>
+    <task id="LOCAL-00065" summary="deleting bugs">
+      <created>1555456567725</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1555456567725</updated>
+    </task>
+    <task id="LOCAL-00066" summary="deleting bugs">
+      <created>1555456573173</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1555456573173</updated>
+    </task>
+    <task id="LOCAL-00067" summary="normierung">
+      <created>1555458283209</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1555458283210</updated>
+    </task>
+    <task id="LOCAL-00068" summary="normierung">
+      <created>1555496612171</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1555496612172</updated>
+    </task>
+    <task id="LOCAL-00069" summary="normierung">
+      <created>1555496994117</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1555496994117</updated>
+    </task>
+    <task id="LOCAL-00070" summary="normierung">
+      <created>1555497271631</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1555497271631</updated>
+    </task>
+    <task id="LOCAL-00071" summary="added highest and lowest colorvalue">
+      <created>1555503866875</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1555503866875</updated>
+    </task>
+    <task id="LOCAL-00072" summary="added highest and lowest colorvalue">
+      <created>1555504650641</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1555504650641</updated>
+    </task>
+    <task id="LOCAL-00073" summary="added highest and lowest colorvalue">
+      <created>1555510513586</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1555510513586</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added highest and lowest colorvalue">
+      <created>1555511216732</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1555511216732</updated>
+    </task>
+    <task id="LOCAL-00075" summary="added highest and lowest colorvalue">
+      <created>1555526415323</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1555526415324</updated>
+    </task>
+    <task id="LOCAL-00076" summary="added highest and lowest colorvalue">
+      <created>1555526464825</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1555526464825</updated>
+    </task>
+    <task id="LOCAL-00077" summary="editing file structur">
+      <created>1555537078701</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1555537078702</updated>
+    </task>
+    <task id="LOCAL-00078" summary="editing file structur">
+      <created>1555537131072</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1555537131073</updated>
+    </task>
+    <task id="LOCAL-00079" summary="editing file structur">
+      <created>1555537250143</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1555537250143</updated>
+    </task>
+    <task id="LOCAL-00080" summary="adding comments">
+      <created>1555538481126</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1555538481126</updated>
+    </task>
+    <task id="LOCAL-00081" summary="adding comments">
+      <created>1555538911506</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1555538911506</updated>
+    </task>
+    <task id="LOCAL-00082" summary="adding comments">
+      <created>1555539071925</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1555539071925</updated>
+    </task>
+    <task id="LOCAL-00083" summary="adding comments">
+      <created>1555539792477</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1555539792477</updated>
+    </task>
+    <task id="LOCAL-00084" summary="adding comments">
+      <created>1555540274508</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1555540274508</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="144492000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.2524377" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" visible="true" weight="0.2524377" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9505814" weight="0.31183368" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.049418606" side_tool="true" visible="true" weight="0.3379531" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30916846" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.2524377" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" visible="true" weight="0.2524377" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9505814" weight="0.31183368" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.049418606" side_tool="true" visible="true" weight="0.3379531" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last format changes" />
+    <MESSAGE value="latex changed" />
+    <MESSAGE value="added data" />
+    <MESSAGE value="capture pictures" />
+    <MESSAGE value="splicing pictures" />
+    <MESSAGE value="adding pictures" />
+    <MESSAGE value="saving cropped pictures" />
+    <MESSAGE value="cropped pictures" />
+    <MESSAGE value="calculating hex, rgb and standard deviation" />
+    <MESSAGE value="making a for loop instead of splicing every greyscale single" />
+    <MESSAGE value="calculate all values" />
+    <MESSAGE value="added for loop for cropping" />
+    <MESSAGE value="deleting old files" />
+    <MESSAGE value="changing names for black and white pictures" />
+    <MESSAGE value="starting with second task: reading the 10 black pictures" />
+    <MESSAGE value="getting for every pixel in every 10 pictures a value - for black and white pictures" />
+    <MESSAGE value="getting average from every pixel in task 2" />
+    <MESSAGE value="getting contrast pictures" />
+    <MESSAGE value="white - black = whitepicture" />
+    <MESSAGE value="added the calcualtion picture - black = correct picture" />
+    <MESSAGE value="deleting bugs" />
+    <MESSAGE value="normierung" />
+    <MESSAGE value="added highest and lowest colorvalue" />
+    <MESSAGE value="editing file structur" />
+    <MESSAGE value="adding comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding comments" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SSS$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1554814040632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Aufgabe1/Aufgabe1" />
+    <SUITE FILE_PATH="coverage/SSS$main.coverage" NAME="main Coverage Results" MODIFIED="1555093967134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SSS$task1_2.coverage" NAME="task1.2 Coverage Results" MODIFIED="1555430779209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SSS$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1554816678191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/SSS-master/SSS-master" />
+    <SUITE FILE_PATH="coverage/SSS$Task2.coverage" NAME="Task2 Coverage Results" MODIFIED="1554896038555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/log.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1432979551/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="198">
+            <caret line="5233" column="8" selection-start-line="5233" selection-start-column="8" selection-end-line="5233" selection-end-column="8" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/subimage_extractor.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/set_contrast.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-255" />
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/medimg_white.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/medimg_black.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/image_fixup.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/caputre_img.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="317">
+            <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <folding>
+              <element signature="e#24#34#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/latex/SSS_Laborbericht.tex" />
+    <entry file="file://$PROJECT_DIR$/bild6.png" />
+    <entry file="file://$PROJECT_DIR$/bild7.png" />
+    <entry file="file://$PROJECT_DIR$/bild8.png" />
+    <entry file="file://$PROJECT_DIR$/bild10.png" />
+    <entry file="file://$PROJECT_DIR$/bild9.png" />
+    <entry file="file://$PROJECT_DIR$/data/bild3.png" />
+    <entry file="file://$PROJECT_DIR$/data/bild2.png" />
+    <entry file="file://$PROJECT_DIR$/data/bild1.png" />
+    <entry file="file://$PROJECT_DIR$/data/bild4.png" />
+    <entry file="file://$PROJECT_DIR$/data/bild5.png" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="221">
+            <caret line="3266" selection-start-line="3266" selection-end-line="3266" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/blacked.png" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/tempfile.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="221">
+            <caret line="44" selection-start-line="44" selection-end-line="44" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/task3.1.py" />
+    <entry file="file://$PROJECT_DIR$/zzzpixel.py" />
+    <entry file="file://$PROJECT_DIR$/data/old/task3.1.py" />
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/SSS 2.Versuch/scratch.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-38">
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead3.py" />
+    <entry file="file://$PROJECT_DIR$/task3.4.py" />
+    <entry file="file://$PROJECT_DIR$/task3.4b.py" />
+    <entry file="file://$PROJECT_DIR$/dead2.py" />
+    <entry file="file://$PROJECT_DIR$/dead.py" />
+    <entry file="file://$PROJECT_DIR$/task3.1.py" />
+    <entry file="file://$PROJECT_DIR$/task2.2.py" />
+    <entry file="file://$PROJECT_DIR$/task3.3.py" />
+    <entry file="file://$PROJECT_DIR$/task2.1.py" />
+    <entry file="file://$PROJECT_DIR$/task1.1.py" />
+    <entry file="file://$PROJECT_DIR$/task1.2.py" />
+    <entry file="file://$PROJECT_DIR$/task3.2.py" />
+    <entry file="file://$PROJECT_DIR$/task1.3.py" />
+    <entry file="file://$PROJECT_DIR$/Versuch2/task1.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="34">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task1.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task1.3.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task2.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task2.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="34">
+            <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task3.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task3.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="34">
+            <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task3.3.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="34">
+            <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task3.4.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/task3.4b.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/dead2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch2/dead.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <folding>
+              <element signature="e#0#18#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

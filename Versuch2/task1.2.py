@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe1.2 ------------------------------ #
+# -------- Aufgabe1.2 -------- #
 
 # Vector um Grenz- und Breitenwert zu speichern
 vec = np.zeros((5, 2))

@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe3.1 ------------------------------ #
+# -------- Aufgabe3.1 -------- #
 
 # Vectoren für die 10 Weißbildern
 vec1 = np.zeros((480, 640))
@@ -18,7 +18,8 @@ vec10 = np.zeros((480, 640))
 average = np.zeros((480, 640))
 
 # String für die einzelnen Dateinamen
-whitepic = ["white1", "white2", "white3", "white4", "white5", "white6", "white7", "white8", "white9", "white10"]
+whitepic = ["white1", "white2", "white3", "white4", "white5", "white6",
+            "white7", "white8", "white9", "white10"]
 # Vektornamen in einem Vektor
 vector = [vec1, vec2, vec3, vec4, vec5, vec6, vec7, vec8, vec9, vec10]
 

@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe3.2 ------------------------------ #
+# -------- Aufgabe3.2 -------- #
 
 # Vektor um die Werte der Subtraktion zu speichern
 white_minus_black = np.zeros((480, 640))
@@ -9,6 +9,7 @@ white_minus_black = np.zeros((480, 640))
 # Weiß und Schwarz einlesen
 whiteavg = cv2.imread('data/whiteaverage.png')
 blackavg = cv2.imread('data/blackaverage.png')
+image = cv2.imread("data/whiteminusblack.png")
 
 # for-Schleife um auf alle 307200 Pixel zuzugreifen
 for y in range(0, 480):
@@ -19,8 +20,6 @@ for y in range(0, 480):
         # Weiß - Schwarz
         white_minus_black[y, z] = int(r1) - int(r2)
 
-# Bild einlesen als Grundlage
-image = cv2.imread("data/whiteminusblack.png")
 # for-Schleife um auf alle 307200 Pixel zuzugreifen
 for x in range(0, 480):
     for y in range(0, 640):

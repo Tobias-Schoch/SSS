@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import matplotlib
 
-# ------------------------------ Aufgabe1.3 ------------------------------ #
+# -------- Aufgabe3.4b -------- #
 
 # Vektor zum speichern
 vec2 = np.zeros((5, 4))
@@ -20,10 +20,8 @@ for x in range(1, 6):
     b, g, r, a = cv2.mean(image)
     # bgr durch 1000 da die hexfunktion Werte zwischen 0 und 1 braucht
     b1 = b / 1000
-    g1 = g / 1000
-    r1 = r / 1000
     # Hex Wert berechnen
-    hex = matplotlib.colors.to_hex([b1, g1, r1])
+    hex = matplotlib.colors.to_hex([b1, b1, b1])
 
     # LaTeX Tabellenformat für jede Stufe
     print("\hline")

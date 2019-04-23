@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe2.2 ------------------------------ #
+# -------- Aufgabe3.3 -------- #
 
 # Vektor zum Speichern des korrigierten Bildes
 korrigiertes_bild = np.zeros((480, 640))

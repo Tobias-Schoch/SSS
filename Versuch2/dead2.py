@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe3.1 ------------------------------ #
+# -------- dead2 -------- #
 
 # Values for dark x & y
 cir1 = 1000
@@ -16,7 +16,7 @@ high1 = 1000
 high4 = 0
 
 # Bild einlesen
-white1 = cv2.imread('data/Versuch1b.png', cv2.IMREAD_GRAYSCALE)
+white1 = cv2.imread('data/black2.png', cv2.IMREAD_GRAYSCALE)
 image = cv2.imread("data/zzz.png")
 
 # for-Schleife um auf alle 307200 Pixel zuzugreifen

@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe3.1 ------------------------------ #
+# -------- dead -------- #
 
 # Values for dark x & y
 cir1 = 1000

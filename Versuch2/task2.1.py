@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-# ------------------------------ Aufgabe2.1 ------------------------------ #
+# -------- Aufgabe2.1 -------- #
 
 # Vectoren für die 10 Dunkelbildern
 vec1 = np.zeros((480, 640))
@@ -18,7 +18,8 @@ vec10 = np.zeros((480, 640))
 average = np.zeros((480, 640))
 
 # String für die einzelnen Dateinamen
-blackpic = ["black1", "black2", "black3", "black4", "black5", "black6", "black7", "black8", "black9", "black10"]
+blackpic = ["black1", "black2", "black3", "black4", "black5", "black6",
+            "black7", "black8", "black9", "black10"]
 # Vektornamen in einem Vektor
 vector = [vec1, vec2, vec3, vec4, vec5, vec6, vec7, vec8, vec9, vec10]
 
