@@ -25,6 +25,7 @@ for x in range(1, 6):
 
     # LaTeX Tabellenformat für jede Stufe
     print("\hline")
-    print("Stufe " + str(x) + " & " + str((b + g + r) / 3) + " & " + str(hex) + " & " + str(np.std(image)) + " \\\\")
+    print("Stufe " + str(x) + " & " + str((b + g + r) / 3) + " & " + str(hex)
+          + " & " + str(np.std(image)) + " \\\\")
 
 print("\hline")
