@@ -16,9 +16,9 @@ whiteminusblack = cv2.imread('data/whiteminusblack.png')
 for y in range(0, 480):
     for z in range(0, 640):
         # (Weiß-Schwarz) - avg(Weiß-Schwarz)
-        r, g, b = whiteminusblack[y, z] - np.mean(whiteminusblack)
+        r, g, b = whiteaverage[y, z] - np.mean(whiteaverage)
         # Grau-Werte berechnen
-        r1, g1, b1 = grey[y, z]
+        r1 = grey[y, z]
         r2, g2, b2 = blackavg[y, z]
         # Weiß - Schwarz
         korrigiertes_bild[y, z] = int(r1) - int(r2)
