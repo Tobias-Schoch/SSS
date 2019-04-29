@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  29 APR 2019 02:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  29 APR 2019 12:29
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -1809,13 +1809,13 @@ LaTeX Warning: Label `sub@fig:f2' multiply defined.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \T1\ss 
-l.120 ...}{Weißbild\relax }{figure.caption.17}{}}
+l.120 ...Weißbilder\relax }{figure.caption.17}{}}
                                                   
 ? 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \T1\ss 
-l.120 ...}{Weißbild\relax }{figure.caption.17}{}}
+l.120 ...Weißbilder\relax }{figure.caption.17}{}}
                                                   
 ? 
 
@@ -1854,10 +1854,18 @@ LaTeX Warning: Label `fig:f2' multiply defined.
 
 LaTeX Warning: Label `sub@fig:f2' multiply defined.
 
-
-LaTeX Warning: Label `fig:Dunkelbild mit Dead- und Stuckpixel' multiply defined
-.
-
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
+                                                  
+? 
 
 LaTeX Warning: Label `fig:f1' multiply defined.
 
@@ -1873,12 +1881,6 @@ LaTeX Warning: Label `sub@fig:f2' multiply defined.
 
 LaTeX Warning: Label `fig:Dunkelbild mit Dead- und Stuckpixel' multiply defined
 .
-
-
-LaTeX Warning: Label `fig:VERSUCH_1_MESSWERTE' multiply defined.
-
-
-LaTeX Warning: Label `fig:VERSUCH_1_MESSWERTE' multiply defined.
 
 
 LaTeX Warning: Label `fig:f1' multiply defined.
@@ -2215,13 +2217,13 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 282.
 ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<media/aufbau.jpg, id=282, 3468.96pt x 4625.28pt>
+<media/aufbau.jpg, id=283, 3468.96pt x 4625.28pt>
 File: media/aufbau.jpg Graphic file (type jpg)
 <use media/aufbau.jpg>
 Package pdftex.def Info: media/aufbau.jpg  used on input line 291.
 (pdftex.def)             Requested size: 264.61333pt x 352.80942pt.
  [3 <./media/aufbau.jpg>]
-<../data/Versuch1a.png, id=287, 642.4pt x 481.8pt>
+<../data/Versuch1a.png, id=288, 642.4pt x 481.8pt>
 File: ../data/Versuch1a.png Graphic file (type png)
 <use ../data/Versuch1a.png>
 Package pdftex.def Info: ../data/Versuch1a.png  used on input line 303.
@@ -2235,32 +2237,32 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 315.
  [4 <../data/Versuch1a.png (PNG copy)>]
-<../data/bild1.png, id=293, 105.39375pt x 481.8pt>
+<../data/bild1.png, id=294, 105.39375pt x 481.8pt>
 File: ../data/bild1.png Graphic file (type png)
 <use ../data/bild1.png>
 Package pdftex.def Info: ../data/bild1.png  used on input line 350.
 (pdftex.def)             Requested size: 35.28221pt x 161.28821pt.
-<../data/bild2.png, id=294, 135.50626pt x 481.8pt>
+<../data/bild2.png, id=295, 135.50626pt x 481.8pt>
 File: ../data/bild2.png Graphic file (type png)
 <use ../data/bild2.png>
 Package pdftex.def Info: ../data/bild2.png  used on input line 352.
 (pdftex.def)             Requested size: 35.28221pt x 125.44882pt.
-<../data/bild3.png, id=295, 137.51375pt x 481.8pt>
+<../data/bild3.png, id=296, 137.51375pt x 481.8pt>
 File: ../data/bild3.png Graphic file (type png)
 <use ../data/bild3.png>
 Package pdftex.def Info: ../data/bild3.png  used on input line 354.
 (pdftex.def)             Requested size: 35.28221pt x 123.61092pt.
-<../data/bild4.png, id=296, 132.495pt x 481.8pt>
+<../data/bild4.png, id=297, 132.495pt x 481.8pt>
 File: ../data/bild4.png Graphic file (type png)
 <use ../data/bild4.png>
 Package pdftex.def Info: ../data/bild4.png  used on input line 356.
 (pdftex.def)             Requested size: 35.28221pt x 128.30127pt.
-<../data/bild5.png, id=297, 111.41624pt x 481.8pt>
+<../data/bild5.png, id=298, 111.41624pt x 481.8pt>
 File: ../data/bild5.png Graphic file (type png)
 <use ../data/bild5.png>
 Package pdftex.def Info: ../data/bild5.png  used on input line 358.
 (pdftex.def)             Requested size: 35.28221pt x 152.56912pt.
-<../data/Versuch1b.png, id=298, 642.4pt x 481.8pt>
+<../data/Versuch1b.png, id=299, 642.4pt x 481.8pt>
 File: ../data/Versuch1b.png Graphic file (type png)
 <use ../data/Versuch1b.png>
 Package pdftex.def Info: ../data/Versuch1b.png  used on input line 361.
@@ -2269,12 +2271,12 @@ Package pdftex.def Info: ../data/Versuch1b.png  used on input line 361.
 [5 <../data/bild1.png (PNG copy)> <../data/bild2.png (PNG copy)> <../data/bild3
 .png (PNG copy)> <../data/bild4.png (PNG copy)> <../data/bild5.png (PNG copy)> 
 <../data/Versuch1b.png (PNG copy)>] [6]
-<media/myplot.png, id=315, 642.4pt x 481.8pt>
+<media/myplot.png, id=316, 642.4pt x 481.8pt>
 File: media/myplot.png Graphic file (type png)
 <use media/myplot.png>
 Package pdftex.def Info: media/myplot.png  used on input line 411.
 (pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<media/myplot2.png, id=316, 642.4pt x 481.8pt>
+<media/myplot2.png, id=317, 642.4pt x 481.8pt>
 File: media/myplot2.png Graphic file (type png)
 <use media/myplot2.png>
 Package pdftex.def Info: media/myplot2.png  used on input line 414.
@@ -2289,18 +2291,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--438
 [8
 
 ]
-<../data/black1.png, id=327, 642.4pt x 481.8pt>
+<../data/black1.png, id=328, 642.4pt x 481.8pt>
 File: ../data/black1.png Graphic file (type png)
 <use ../data/black1.png>
 Package pdftex.def Info: ../data/black1.png  used on input line 446.
 (pdftex.def)             Requested size: 396.91325pt x 297.69102pt.
  [9 <../data/black1.png (PNG copy)>]
-<../data/blackaverage.png, id=332, 642.4pt x 481.8pt>
+<../data/blackaverage.png, id=333, 642.4pt x 481.8pt>
 File: ../data/blackaverage.png Graphic file (type png)
 <use ../data/blackaverage.png>
 Package pdftex.def Info: ../data/blackaverage.png  used on input line 459.
 (pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/contrastblackaverage.png, id=333, 642.4pt x 481.8pt>
+<../data/contrastblackaverage.png, id=334, 642.4pt x 481.8pt>
 File: ../data/contrastblackaverage.png Graphic file (type png)
 <use ../data/contrastblackaverage.png>
 Package pdftex.def Info: ../data/contrastblackaverage.png  used on input line 4
@@ -2310,7 +2312,7 @@ File: ../data/Versuch1b.png Graphic file (type png)
 <use ../data/Versuch1b.png>
 Package pdftex.def Info: ../data/Versuch1b.png  used on input line 473.
 (pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/korrigiertes_bild.png, id=334, 642.4pt x 481.8pt>
+<../data/korrigiertes_bild.png, id=335, 642.4pt x 481.8pt>
 File: ../data/korrigiertes_bild.png Graphic file (type png)
 <use ../data/korrigiertes_bild.png>
 Package pdftex.def Info: ../data/korrigiertes_bild.png  used on input line 476.
@@ -2366,7 +2368,7 @@ Type  H <return>  for immediate help.
 l.525 \newline
               
 ? 
-<../data/white1.png, id=352, 642.4pt x 481.8pt>
+<../data/white1.png, id=353, 642.4pt x 481.8pt>
 File: ../data/white1.png Graphic file (type png)
 <use ../data/white1.png>
 Package pdftex.def Info: ../data/white1.png  used on input line 531.
@@ -2377,18 +2379,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 526--535
  []
 
 [13 <../data/white1.png (PNG copy)>]
-<../data/whiteaverage.png, id=359, 642.4pt x 481.8pt>
+<../data/whiteaverage.png, id=360, 642.4pt x 481.8pt>
 File: ../data/whiteaverage.png Graphic file (type png)
 <use ../data/whiteaverage.png>
 Package pdftex.def Info: ../data/whiteaverage.png  used on input line 545.
 (pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/contrastwhiteaverage1.png, id=360, 642.4pt x 481.8pt>
+<../data/contrastwhiteaverage1.png, id=361, 642.4pt x 481.8pt>
 File: ../data/contrastwhiteaverage1.png Graphic file (type png)
 <use ../data/contrastwhiteaverage1.png>
 Package pdftex.def Info: ../data/contrastwhiteaverage1.png  used on input line 
 548.
 (pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/whiteminusblack.png, id=361, 642.4pt x 481.8pt>
+<../data/whiteminusblack.png, id=362, 642.4pt x 481.8pt>
 File: ../data/whiteminusblack.png Graphic file (type png)
 <use ../data/whiteminusblack.png>
 Package pdftex.def Info: ../data/whiteminusblack.png  used on input line 556.
@@ -2399,7 +2401,7 @@ File: ../data/Versuch1b.png Graphic file (type png)
 <use ../data/Versuch1b.png>
 Package pdftex.def Info: ../data/Versuch1b.png  used on input line 567.
 (pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/korrigiertes_bild2.png, id=368, 642.4pt x 481.8pt>
+<../data/korrigiertes_bild2.png, id=369, 642.4pt x 481.8pt>
 File: ../data/korrigiertes_bild2.png Graphic file (type png)
 <use ../data/korrigiertes_bild2.png>
 Package pdftex.def Info: ../data/korrigiertes_bild2.png  used on input line 570
@@ -2431,39 +2433,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 606--617
 [17
 
 ]
-<../data/zzz.png, id=383, 642.4pt x 481.8pt>
+<../data/zzz.png, id=384, 642.4pt x 481.8pt>
 File: ../data/zzz.png Graphic file (type png)
 <use ../data/zzz.png>
 Package pdftex.def Info: ../data/zzz.png  used on input line 625.
 (pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
-<../data/zzz2.png, id=384, 642.4pt x 481.8pt>
+<../data/zzz2.png, id=385, 642.4pt x 481.8pt>
 File: ../data/zzz2.png Graphic file (type png)
 <use ../data/zzz2.png>
 Package pdftex.def Info: ../data/zzz2.png  used on input line 634.
 (pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
  [18 <../data/zzz.png (PNG copy)> <../data/zzz2.png (PNG copy)>]
-<../data/proof1.png, id=390, 493.0922pt x 393.72093pt>
+<../data/proof1.png, id=391, 493.0922pt x 393.72093pt>
 File: ../data/proof1.png Graphic file (type png)
 <use ../data/proof1.png>
 Package pdftex.def Info: ../data/proof1.png  used on input line 647.
 (pdftex.def)             Requested size: 198.45662pt x 158.46483pt.
-<../data/proof2.png, id=391, 493.0922pt x 393.72093pt>
+<../data/proof2.png, id=392, 493.0922pt x 393.72093pt>
 File: ../data/proof2.png Graphic file (type png)
 <use ../data/proof2.png>
 Package pdftex.def Info: ../data/proof2.png  used on input line 650.
 (pdftex.def)             Requested size: 198.45662pt x 158.46483pt.
-<../data/proof3.png, id=392, 534.49687pt x 342.5297pt>
+<../data/proof3.png, id=393, 534.49687pt x 342.5297pt>
 File: ../data/proof3.png Graphic file (type png)
 <use ../data/proof3.png>
 Package pdftex.def Info: ../data/proof3.png  used on input line 656.
 (pdftex.def)             Requested size: 220.50887pt x 141.31091pt.
  [19 <../data/proof1.png> <../data/proof2.png> <../data/proof3.png>] [20]
-<../data/table1.png, id=404, 642.4pt x 481.8pt>
+<../data/table1.png, id=405, 642.4pt x 481.8pt>
 File: ../data/table1.png Graphic file (type png)
 <use ../data/table1.png>
 Package pdftex.def Info: ../data/table1.png  used on input line 705.
 (pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/table2.png, id=405, 642.4pt x 481.8pt>
+<../data/table2.png, id=406, 642.4pt x 481.8pt>
 File: ../data/table2.png Graphic file (type png)
 <use ../data/table2.png>
 Package pdftex.def Info: ../data/table2.png  used on input line 708.
@@ -2495,7 +2497,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (../task2.1.py [27]) [28] (../task2.2.py) [29] (../task3.1.py [30]) [31]
 (../task3.2.py) [32] (../task3.3.py) [33] (../task3.4.py [34]) (../task3.4b.py
 [35]) (../dead.py [36]) [37] (../dead2.py [38]) [39]
-<media/scan.png, id=1091, 614.7768pt x 845.559pt>
+<media/scan.png, id=1090, 614.7768pt x 845.559pt>
 File: media/scan.png Graphic file (type png)
 <use media/scan.png>
 Package pdftex.def Info: media/scan.png  used on input line 759.
@@ -2570,15 +2572,9 @@ l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
 (appendix/bibliography.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 773.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 773.
+Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
+(rerunfilecheck)             Checksum: 3B74FEB5BFB1CE3DEE66469FCA7A0EDD;5129.
 
-
-Package rerunfilecheck Warning: File `SSS_Laborbericht.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SSS_Laborbericht.out':
-(rerunfilecheck)             Before: 70C3ACBB213C467C9EEBEEDF447151E9;5129
-(rerunfilecheck)             After:  3B74FEB5BFB1CE3DEE66469FCA7A0EDD;5129.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2592,34 +2588,22 @@ Stuck-pi-xel
 
  ) 
 Here is how much of TeX's memory you used:
- 39586 strings out of 492945
- 852355 string characters out of 3122700
- 1188262 words of memory out of 3000000
- 41905 multiletter control sequences out of 15000+200000
+ 39581 strings out of 492945
+ 852269 string characters out of 3122700
+ 1188767 words of memory out of 3000000
+ 41904 multiletter control sequences out of 15000+200000
  71816 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,98p,715b,2236s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.26} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.28} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/
-8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (47 pages, 12296122 bytes).
+{C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
+e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SSS_Laborbericht.pdf (47 pages, 12296375 bytes).
 PDF statistics:
- 1266 PDF objects out of 1440 (max. 8388607)
- 741 named destinations out of 1000 (max. 500000)
+ 1263 PDF objects out of 1440 (max. 8388607)
+ 737 named destinations out of 1000 (max. 500000)
  401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
