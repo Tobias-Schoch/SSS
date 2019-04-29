@@ -1,11 +1,12 @@
 import numpy as np
 import cv2
+import matplotlib.pyplot as plt
 import matplotlib
 
 # -------- Aufgabe3.4b -------- #
 
 # Vektor zum speichern
-vec2 = np.zeros((5, 4))
+vec = np.zeros((5, 4))
 
 # LaTeX Table format
 print("\hline")
@@ -14,7 +15,7 @@ print("Stufe & Mittelwert & Hex-Value & Standartabweichung \\\\")
 # for-Schleife um jede der 5 Dateien zu erreichen
 for x in range(1, 6):
     # einlesen der aufgeteilten Bilder
-    image = cv2.imread("data/bild" + str(x) + ".png")
+    image = cv2.imread("data/korrigiert" + str(x) + ".png")
 
     # Durchschnitt des aufgeteilten Bildes bekommen
     b, g, r, a = cv2.mean(image)
@@ -27,5 +28,26 @@ for x in range(1, 6):
     print("\hline")
     print("Stufe " + str(x) + " & " + str((b + g + r) / 3) + " & " + str(hex)
           + " & " + str(np.std(image)) + " \\\\")
+
+    vec[x - 1, 0] = x
+    vec[x - 1, 1] = (b + g + r) / 3
+    vec[x - 1, 2] = np.std(image)
+
+# Darstellung des Grauwerts in einem Graphen
+plt.plot([vec[0, 0], vec[1, 0], vec[2, 0], vec[3, 0], vec[4, 0]],
+         [vec[0, 1], vec[1, 1], vec[2, 1], vec[3, 1], vec[4, 1]], 'b')
+plt.ylabel('Grauwert in RGB')
+plt.xlabel('Grauwertkeil')
+plt.grid(True)
+plt.show()
+
+# Darstellung der Standartabweichung in einem Graphen
+
+plt.plot([vec[0, 0], vec[1, 0], vec[2, 0], vec[3, 0], vec[4, 0]],
+         [vec[0, 2], vec[1, 2], vec[2, 2], vec[3, 2], vec[4, 2]], 'b')
+plt.ylabel('Standartabweichung in RGB')
+plt.xlabel('Grauwertkeil')
+plt.grid(True)
+plt.show()
 
 print("\hline")
