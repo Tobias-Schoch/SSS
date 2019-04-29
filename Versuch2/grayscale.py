@@ -1,0 +1,1 @@
+grey = cv2.imread('data/Versuch1a.png', cv2.IMREAD_GRAYSCALE)
