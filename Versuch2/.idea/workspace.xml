@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/task1.2.py" line="20" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task3.3.py" afterDir="false" />
-    </list>
+    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/task3.4b.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="119">
-                <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <first_editor relative-caret-position="442">
+                <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
                 <folding>
                   <element signature="e#0#18#0" expanded="true" />
                 </folding>
@@ -375,6 +372,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -394,6 +394,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -455,28 +458,7 @@
       <workItem from="1556018043563" duration="8032000" />
       <workItem from="1556183977672" duration="5046000" />
       <workItem from="1556201865424" duration="10000" />
-      <workItem from="1556447745767" duration="8351000" />
-    </task>
-    <task id="LOCAL-00030" summary="last format changes">
-      <created>1555085772393</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1555085772393</updated>
-    </task>
-    <task id="LOCAL-00031" summary="last format changes">
-      <created>1555091475502</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1555091475502</updated>
-    </task>
-    <task id="LOCAL-00032" summary="latex changed">
-      <created>1555111296605</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1555111296605</updated>
+      <workItem from="1556447745767" duration="8743000" />
     </task>
     <task id="LOCAL-00033" summary="added data">
       <created>1555419519039</created>
@@ -800,11 +782,32 @@
       <option name="project" value="LOCAL" />
       <updated>1556189108083</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="LaTeX added">
+      <created>1556499756731</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1556499756732</updated>
+    </task>
+    <task id="LOCAL-00080" summary="LaTeX added">
+      <created>1556499793867</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1556499793868</updated>
+    </task>
+    <task id="LOCAL-00081" summary="LaTeX added">
+      <created>1556499812999</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1556499812999</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161716000" />
+    <option name="totallyTimeSpent" value="162108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -870,7 +873,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getting cm" />
     <MESSAGE value="working on getting cm" />
     <MESSAGE value="last format changes" />
     <MESSAGE value="latex changed" />
@@ -895,7 +897,8 @@
     <MESSAGE value="deleting bugs" />
     <MESSAGE value="normierung" />
     <MESSAGE value="added highest and lowest colorvalue" />
-    <option name="LAST_COMMIT_MESSAGE" value="added highest and lowest colorvalue" />
+    <MESSAGE value="LaTeX added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LaTeX added" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -1206,8 +1209,8 @@
     <entry file="file://$PROJECT_DIR$/task3.4b.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="119">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <first_editor relative-caret-position="442">
+            <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             <folding>
               <element signature="e#0#18#0" expanded="true" />
             </folding>
