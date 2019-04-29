@@ -157,11 +157,16 @@
 %\newcommand{\strAuthorCEmail}{cauthor@htwg-konstanz.de}
 % Versuchsbeschreibung 
 \newcommand{\strTopic}{Kalibrierung von digitalen Kameras}
-\newcommand{\strAbstract}{In dem Versuch haben wir einen Entfernungsmesser dazu verwendet, um die bereits in der Vorlesung behandelten Vorgehensweisen zum Thema Kalibrierung, Fehlerbehandlung und Fehlerrechnung anzuwenden.
-Der Distanzsensor der Marke "Sharp" benutzt für das Triangulationsprinzip Infrarot-LEDS mit einer Linse. Diese geben Lichtstrahlen von sich, um dann wiederrum reflektiert zu werden und durch die zweite Linse zu gelangen.
-Je nachdem wo der Lichtstrahl auftrifft, wandelt der Signalprozessor die Leitfähigkeit in eine Spannung um.
-Da das Ausgangssignal anti-proportional ist, wird mit der zunehmenden Entfernung das Ausgangssignal kleiner.
-Die Entfernungen liegen zwischen 10cm und 70cm. Durch ein Oszillsokop können wir den Spannungsverlauf des Abstandssensors überprüfen.
+\newcommand{\strAbstract}{In dem zweiten Versuch der Versuchsreihe des Semesters haben wir die Eigenschaften von digitalen Kameras untersucht.
+Deshalb erfolgt mittels der Python Bibliothek OpenCV eine Kalibrierung der Kamerasensoren.
+\newline
+Wir nehmen mit einer Webcam ein Grauwertkeil auf und berechnen den Durchschnitt und die Standartabweichung jeder einzelnen Grauwertstufe.
+Zudem werden wir 10 Dunkelbilder und 10 Weißbilder aufnehmen und von diesen den pixelweisen Mittelwert der 10 Dunkel- und Weißbilder berechnen.
+Wir werden mithilfe des durchschnittlichen Dunkelbildes das thermische Ausleserauschen entfernen aus dem Bild des Grauwertkeils entfernen.
+Dadurch bleibt nur noch der Offset bzw. der Dunkelstrom jedes Pixels übrig und wir haben damit jeden Nullpunkt des Dunkelbildes bestimmt.
+In der dritten Aufgabe normieren wir das Weißbild und dividieren wir dieses durch den Abzug des Dunkelbildes  von dem korrigierten Eingangsbild.
+Dadurch erhalten wir die tatsächliche Intensität des einfallenden Lichtes.
+Im letzten Teil der Aufgabe überprüfen wir die Bilder auf funktionsuntüchtige Pixel wie zum Beispiel Hot, Stuck und Deadpixels.
  }
 % hyperref customization
 \hypersetup{
@@ -234,72 +239,96 @@ Die Entfernungen liegen zwischen 10cm und 70cm. Durch ein Oszillsokop können wi
 %
 \chapter{Einleitung}
 \label{chap:EINL}
-In dem ersten Versuch geht es um die "Kalibrierung und Einsatz eines Infrarot-Entfernungsmessers". Mittels eines aktiven Abstandssensors der Marke 'Sharp' mit dem Namen 'GP2Y0A21YK0F'  messen wir 21 unterschiedliche Distanzen die mit einem Meterstab überprüft werden.
+In dem zweiten Versuch der Versuchsreihe in Signale, Systeme und Sensoren geht es um die Kalibrierung von Kameras. 
+\newline 
+Die Kalibrierung erfolgt mithilfe unseres Python Skriptes und der OpenCV Bibliothek. So wird nach der Kalibrierung und der Justierung ein Grauwertkeil aufgenommen und ausgewertet. 
 \newline
 \newline
-Ein 5V Netzgerät versorgt den Abstandssensor mit Strom. Der Abstandssensor gibt eine Ausgangsspannung an das Oszilloskop, mit welchem wiederrum man .csv Dateien ausgeben kann.d
-Im ersten Kapitel dieses Versuches haben wir die Aufgabe diese Geräte miteinander zu verbinden.
-Nachdem wir unter Anderem das Oszillskop kalibriert haben, starten wir mit den einzelnen Messungen.
-Wir erstellen dazu eine Pythonfunktion um die Daten aus den .csv Dateien zu verwerten. 
+So kann man über ein Bild mehr herausfinden, als auf den ersten Blick zu sehen ist. 
+\newline
+Während des Versuches werden wir so das Bild in die einzelnen Grauwerte des Grauwertkeiles auteilen und über diese die Standardabweichung, den Mittelwert, sowie den Hexwert zu berechnen.
 \newline
 \newline
-Mit matplotlib stellen wir die Übertragungsfunktion und die Kennlinie dar. 
-Im zweiten Kapitel arbeiten wir mit logarithmierten Werten und stellen diese in einem Graphen visuell dar unter anderem als Kennlinie.
+So können wir bei einem Bild außerdem noch das thermische Rauschen entfernen, beziehungsweise die Vignettierung relativieren.
+Kontrastmaximiert ist es so besonders interessant die Vignettierung zu sehen.
 \newline
-Eines der Hauptthemen des Versuches ist die lineare Regression.
+Durch die erhaltenen Daten wie zum Beispiel die Intensität des Lichteinfalls, können wir unter Anderem die Standardabweichung, den Mittelwert und den Hexwert berechnen.
+Eine weitere Möglichkeit ist durch die Normierung des durchschnittlichen Weißbildes die Intensivität des Lichteinfalls zu berechnen.
+Außerdem kann man wenn welche vorhanden sind, Stuck-, Hot- und Deadpixel beobachten.
 \newline
-\newline
-Deshalb haben wir selbstverständlich die Aufgabe eine Ausgleichsgerade in Python darzustellen mittels der linearen Regression.
-Im dritten und mathematisch anspruchvollsten Kapitel beschäftigen wir uns mit der Ermittlung des Messfehlers und der Flächenmessung.
-Bei der Ermittlung des Messfehlers behandeln wir auch die Gaußsche Fehlerfortpflanzungsgesetz mit 68\% und 95\%.
-
+Im großen Ganzen ist es wirklich sehr interessant, wieviele unscheinbare Informationen man aus einem Bild erhalten kann, wenn man sie richtig auswertet. 
+Welche Informationen tatsächlich vorhanden sind und wie interessant diese auch tatsächlich sind, werden wir im Laufe der folgenden 4 Versuche noch feststellen.
 
 
 %
 % CHAPTER Versuch 1
 %
-\chapter{Versuch 1: Ermittlung der Kennlinie des Abstandssensors}
+\chapter{Versuch 1: Aufnahme und Analyse eines Grauwertkeiles}
 \label{chap:VERSUCH_1}
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_1_FRAGESTELLUNG}
-Im ersten Versuch werden wir die Kennlinie des Abstandssensors ermitteln.  Für den Aufbau des Projektes verbinden wir den Abstandssensor an 'Output 3' des Labornetzgerätes 'EA-PS 2342-06 B' durch Ground ( - ) und dem 5V Anschluss ( + ).
-Der Abstandssensor lautet 'GP2Y0A21YK0F' und wurde von der Firma 'Sharp' entworfen. Das Netzgerät wird auf 5V Gleichspannung eingestellt. Das Oszilloskop von 'Tektronix' mit dem Namen 'TDS 2022B' wird an den Abstandssensor mit Ground( - ), sowie an den Signalausgang angeschlossen.
-Dies wird im Oszilloskop mit einem Adapter an Channel1 angeschlossen. Nachdem das Oszillskop richtig eingestellt wurde, haben wir es mit dem PC verbunden.
-Über ein Programm konnten wir so das Oszilloskop mit dem Computer verbinden. Ein Programm hat uns geholfen den aktuellen Bildschirm des Oszilloskopes auf dem Bildschirm zu empfangen.
-Zudem kann das Programm die empfangenen Daten über die Ausgangsspannung in eine '.csv' Datei ausgeben.
-So konnten wir für jede Messung einen Screenshot und eine '.csv' Datei erstellen. 
-Ein hochkant stehendes Holzbrett definiert den Abstand. Die 21 zu messenden Werte liegen zwischen 10cm und 70cm in jeweils  3cm Abständen. Mit einem Meterstab haben wir einen Richtwert für den Abstand zwischen Abstandssensor und Holzbrett. 
-Nachdem wir durch die erschwerten Lichtverhältnisse die richtige Lage des Abstandssensors gefunden haben, haben wir über das Programm sowohl Screenshots vom Bildschirm des Oszilloskopes gemacht, als auch die Daten in einer '.csv' Datei gespeichert.
-Zudem haben wir die gemessen Längen mit deren dazugehörigen Ausgangsspannung handschriftlich in einer Tabelle aufgeschrieben, welche am Ende des Versuches vom Tutor unterschrieben wurde.
-Anschließend haben wir in Python programmiert, um die Dateien aus den '.csv' einzulesen mit genfromtxt(). Um den Einschwingvorgang nicht mit zu berechnen haben wir die ersten 1000 Zeilen übersprungen. 
-Nachdem werden wir den Durchschnitt sowie die Standardabweichung berechnet haben, visualisieren wir in einer Kennlinie den Durchschnitt sowie die Standartabweichung mittels matplotlib.
+Im zweiten Versuch verwenden wir eine Webcam um einen Grauwertkeil aufzunehmen. Das Foto wird senkrecht aufgenommen, indem die Webcam an eine Metallhalterung angebracht wird.
+Nachdem alles richtig positioniert wurde, so dass die Grauwertstufen möglichst parallel zum Bildrand verlaufen, nehmen wir mittels einem Pythonskript das wir programmiert haben aus \textit{task1.1} und der OpenCV Bibliothek ein Bild auf. Ebenfalls können wir die Belichtungs- und Sättigungsparameter mit \textit{.get( entsprechende Kennzahl)}. Das Bild soll mittels des Skriptes in das .png Format erstellt werden, da das .jpg Format verlustbehaftet ist. Zudem sollten wir die Einstellungen der Kamera notieren, sowie den Abstand von Grauwertkeil und Kamera.
+\newline
+\newline
+Außerdem sollen wir ein Pythonskript schreiben, dass nun die Unerbilder aus dem Bild des Grauwertkeils ausliest und in externe Dateien speichert.
+Dabei sollen die Unterbilder möglichst viele Pixel der jeweiligen Stufe umfassen ohne die Stufenränder zu berühren, da diese sonst die Standartabweichung erhöhen und den Durchschnitt des Grauwertes verfälschen.
+\newline
+Zudem soll der Mittelwert und die Standartabweichung der einzelnen Unterbilder gemacht werden.
+\newpage
+Hier kann man einige von den Gegenstände sehen, welche man im Versuch benötigt:~\par
+\begin{itemize}
+	\item Kamerahalterung
+	\item Webcam
+	\item Grauwertkeil
+	\item PyCharm
+	\item Papier
+	
+\end{itemize}
 \begin{figure}[hbt!]
 	\centering\small
-	\includegraphics[width=0.7\textwidth]{media/aufbau.jpg}
+	\includegraphics[width=0.6\textwidth]{media/aufbau.jpg}
 	\caption{Aufbau im Labor}
 	\label{fig:Aufbau im Labor}
 \end{figure}
 \newpage
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
-Tabelle [\ref{chap:VERSUCH_1_MESSWERTE}] zeigt die von Hand notierten, sowie die in Python programmierten Werte.
+
+Durch die Kalibrierung im Skript und die Justierung der Geräte und des Grauwertkeils haben wir ein Bild dessen gemacht.
+
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.5\textwidth]{../data/Versuch1a.png}
+	\caption{Das Bild des Grauwertkeiles}
+	\label{fig:Das Bild des Grauwertkeiles}
+\end{figure}
+\label{chap:VERSUCH_2_MESSWERTE_TABELLE}
+Tabelle [\ref{chap:VERSUCH_2_MESSWERTE_TABELLE}] zeigt die Kalibrierungen, die wir vorgenommen haben, dass die Kamera stets die selben Werte hat.
+Dies wurde mit \textit{.set(3, 640)}. Dabei wird im ersten Teil, hier als 3 definiert die Einstellung gesucht. In diesem Fall die Frame Breite. Im zweiten Teil wird die Frame Breite definiert. Hier als 640 Pixel.
 
 \begin{table}[H]
 	\centering\small
-	\begin{tabular}{|c|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|}
 		\hline
-		Stufe & Blau, Rot und Grün & Hex-Value & Standartabweichung \\
+		\textbf{Beschreibung} & \textbf{Wert} & \textbf{Wertebereich} \\
 		\hline
-		Stufe 1 & 86.39761904761905 &  \#161616 & 2.082341260388545 \\
+		Frame Width & 640 & Je nach Bedarf  \\
 		\hline
-		Stufe 2 & 112.00498456790123 &  \#1d1d1d & 2.6116529874626044 \\
+		Frame Height & 480 & Je nach Bedarf  \\
 		\hline
-		Stufe 3 & 161.2048205596107 &  \#292929 & 2.2861194924984116 \\
+		Brightness & 133 & 0 - 255  \\
 		\hline
-		Stufe 4 & 199.60105744949496 &  \#333333 & 2.968662423351764 \\
+		Contrast & 32 & 0 - 255  \\
 		\hline
-		Stufe 5 & 235.58106563421828 &  \#3c3c3c & 2.582844019720398 \\
+		Saturation & 32 & 0 - 255 \\
+		\hline
+		Gain & 20 & 0 - 255  \\
+		\hline
+		Exposure & -4 & -1 - -7 \\
+		\hline
+		White Balance & 10000 & 0 - 10000  \\
 		\hline
 	\end{tabular}
 	\caption{Messwerte Kalibrierung}
@@ -309,357 +338,376 @@ Tabelle [\ref{chap:VERSUCH_1_MESSWERTE}] zeigt die von Hand notierten, sowie die
 \newpage
 \section{Auswertung}
 \label{chap:VERSUCH_1_AUSWERTUNG}
-In der folgenden Abbildung sind die Messergebnisse der durchschnittlichen Spannung nochmals visuell dargestellt. Die Messergebnisse wurden mit matplotlib in Python visualisiert.
-
-Zuerst wurden die Werte von der .csv Datei mit \textit{genfromtxt()} in das Programm eingelesen.
-Nachdem für die einzelnen Dateien mit der numpy Funktion \textit{np.mean()} der Durchschnitt der von dem Oszilloskop gemessen Ausgangsspannung in Volt ausgerechnet wurde, haben wir diese mit der y-Achse initialisiert.
-
-Die x-Achse wurde mit dem Abstand in cm definiert. Durch eine For-Schleife kann nun jedem Abstandswert eine durchschnittliche Spannung zugewiesen werden.
-\begin{figure}[H]
-	\centering\small
-	\includegraphics[width=\textwidth]{media/myplot.png}
-	\caption{Durchschnittliche Spannung}
-	\label{fig:VERSUCH_1_PLOT_DURCHSCNITTLICHE_SAPNNUNG}
+Da das Bild einen starken Blaustich hat, haben wir die Datei im Nachhinein mit 
+\newline 
+\textit{cv2.IMREAD\_GRAYSCALE} in Schwarz Weiß gefärbt.
+In den folgenden Abbildung sind die einzelnen Aufteilungen vom Bild des Grauwertkeils dargestellt.
+Hierfür wurde zuerst in der Python Datei \textit{task1.2} mit der Pythonbibliothek \textit{cv2} das Bild des Grauwertkeils mit manuellen Grenzwerten in ihre einzelnen Grauwerte aufgeteilt.
+Die Dateien (a) bis (e) sind die einzelnen Grauwerte. (f) ist das gesamte Bild des Grauwertkeils.
+\begin{figure}[hbt!]
+  	\centering
+  	\subfloat[Grauwert1]{
+		\includegraphics[width=0.08\textwidth]{../data/bild1.png}\label{fig:f1}}
+  	\subfloat[Grauwert2]{
+		\includegraphics[width=0.08\textwidth]{../data/bild2.png}\label{fig:f2}}
+  	\subfloat[Grauwert3]{
+		\includegraphics[width=0.08\textwidth]{../data/bild3.png}\label{fig:f3}}
+  	\subfloat[Grauwert4]{
+		\includegraphics[width=0.08\textwidth]{../data/bild4.png}\label{fig:f4}}
+  	\subfloat[Grauwert5]{
+		\includegraphics[width=0.08\textwidth]{../data/bild5.png}\label{fig:f5}}
+		\hfill
+	\subfloat[Grauwertkeil]{
+		\includegraphics[width=0.4 \textwidth]{../data/Versuch1b.png}\label{fig:f6}}
+	\caption{Die einzelnen Grauwerte und das zusätzliche Gesamtbild}
 \end{figure}
-
 \newpage
-In der folgenden Abbildung sind die Messergebnisse der Standardabweichung visuell dargestellt. Die Messergebnisse wurden mit matplotlib in Python visualisiert.
-Hierfür wurde mit der numpy Funktion \textit{np.std()} die Standardabweichung in Volt berechnet und mit der y-Achse initialisiert.
+Mittels \textit{cv2.mean()} haben wir nun den den durchschnittlichen Grauwert der einzelnen Graustufen berechnet und mit \textit{np.std()} die Standartabweichung.
+Zudem haben wir den Hexwert mit matplotlib berechnet. Das Ganze haben wir so in die Konsole ausgegeben, dass wir direkt den Konsolenoutput in LaTeX einfügen konnten.
+Die Tabelle ist bei den Messergebnissen Tabelle 2.2 einsehbar.
 
-Die x-Achse wurde wieder mit dem Abstand in cm deklariert. Wieder wurden durch die For-Schleife jedem Abstand ein Standardabweichung der Spannung zugewiesen werden.
+Tabelle [\ref{chap:VERSUCH_3_MESSWERTE}] zeigt die in Python berechneten Werte für die einzelnen Graustufen die einzelnen Grauwerte, den Hexwert, sowie die Standardabweichung 
 
-\begin{figure}[H]
+\begin{table}[H]
 	\centering\small
-	\includegraphics[width=\textwidth]{media/myplot2.png}
-	\caption{Standartabweichung der Spannung}
-	\label{fig:VERSUCH_1_PLOT_STANDARTABWEICHUNG}
-\end{figure}
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		Graustufe & Grauwert & Hex-Value & Standartabweichung \\
+		\hline
+		Graustufe 1 & 86.39761904761905 &  \#161616 & 2.082341260388545 \\
+		\hline
+		Graustufe 2 & 112.00498456790123 &  \#1d1d1d & 2.6116529874626044 \\
+		\hline
+		Graustufe 3 & 161.2048205596107 &  \#292929 & 2.2861194924984116 \\
+		\hline
+		Graustufe 4 & 199.60105744949496 &  \#333333 & 2.968662423351764 \\
+		\hline
+		Graustufe 5 & 235.58106563421828 &  \#3c3c3c & 2.582844019720398 \\
+		\hline
+	\end{tabular}
+	\caption{Grauwert, Hexwert und Standardabweichung für die einzelnen Grauwerte}
+	\label{fig:VERSUCH_3_MESSWERTE}
+\end{table}
+
+
 
 \newpage
 \section{Interpretation}
 \label{chap:VERSUCH_1_INTERPRETATION}
-Wie man gut in der Tabelle und der Abbildung 2.2 ablesen kann, wird die Spannung stets niedriger. Dies liegt an der Anti-proportionalität, dass mit der zunehmenden Entfernung zwischen Holzbrett und Abstandssensor die vom Signalprozessor übertragene Spannung geringer wird. 
+Durch einen Messfehler ist der Grauwertkeil in farbig statt in Schwarz Weiß aufgenommen worden. 
+Dies haben wir durch die Funktion \textit{cv2.IMREAD\_GRAYSCALE} behoben. Die einzelnen Abschnitte der Grauwerte sind ungleich hoch, da die einzelnen Grauwerte nicht alle parallel nach unten verlaufen und sonst noch Pixel von anderen Grauwerten beinhalten würden.
 \newline
-Leider haben wir bei der Generierung der Dateien einen Fehler gemacht und bei 22cm und 25cm zu spät die Single Sequenz aktualisiert, weshalb eine Gerade in dem Plot zwischen 22cm und 25cm genau gleich ist.
-Zudem geht bei Messung zwischen 64cm und 67cm Abstand die Spannung nach oben. An dem Tag der Messung war das Wetter sehr wechselhaft, was zu einer Erhöhung der Werte führen könnte.
+Die Werte auf der y-Achse sind die Grauwerte in RGB, während die x-Achse den Grauwertkeil von 1 bis 5 darstellt.
+Der Grauwert könnte von 0 für schwarz bis 255 für weiß gehen.
 \newline
+Die Ausschwenkung des zweiten Grauwertes könnte daran liegen, dass dunkle Farben durch Sensorrauschen und seitlichen Lichteinfluss dunkler wirken, als sie tatsächlich sind.
+Eine andere Theorie ist, dass die Grauwerte auf dem Keil nicht linear dunkel sind, sondern der Grauwert einfach dunkler ist als im Schnitt.
+So hat der zweite Wert die zweitgröte Standartabweichung sämtlicher Grauwerte.
 \newline
-Bei der Messung 55cm ist eine sehr hohe Standardabweichung im Vergleich zu den anderen Werten. Dies liegt daran, dass das Oszilloskop durch andere Störfaktoren gestört wurde und so eine ungleiche Single Sequenz ergeben hat.
-In dem rechten Bild der Abbildung 2.4 ist im Vergleich nochmals gut zu sehen, wie die hohe Standartabweichung zu stande kommt.
-
+Im Gesamten kann man aber sagen, dass die Farben eine relativ geringe Standardabweichung haben die in RGB-Werten zwischen 2,08 und 2,96 liegt.
 \begin{figure}[hbt!]
   	\centering
-  	\subfloat[Messung bei 52cm]{
-		\includegraphics[width=0.4\textwidth]{media/52.png}\label{fig:f1}}
-  	\hfill
-  	\subfloat[Messung bei 55cm]{
-		\includegraphics[width=0.4\textwidth]{media/55.png}\label{fig:f2}}
-	\caption{Unterschiede durch Störfaktoren}
+  	\subfloat[Durchschnittlicher Grauwert]{
+		\includegraphics[width=0.45\textwidth]{media/myplot.png}\label{fig:f1}}
+	\hfill
+  	\subfloat[Standardabweichung des Grauwerts]{
+		\includegraphics[width=0.45\textwidth]{media/myplot2.png}\label{fig:f2}}
+	\caption{Standardabweichung und Durchschnitt der jewiligen Grauwerte}
 \end{figure}
 
 %
 % CHAPTER Versuch 2
 %
-\chapter{Versuch 2: Modellierung der Kennlinie durch lineare Regression}
+\chapter{Versuch 2: Aufnahme eines Dunkelbildes}
 \label{chap:VERSUCH_2}
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_2_FRAGESTELLUNG}
-In Versuch Nummer 2 war es die Aufgabe die Ein- und Ausgangswerte, also die Distanz und die durchschnittliche Spannung in der Tabelle zu logarithmieren.
+Im Versuch 2 sollten wir die Kamera so abdecken, dass das Bild komplett schwarz erscheint. Dies haben wir mit einem schwarzen Mousepad gemacht.
+Mit den selben Kameraeinstellungen wie bei der Aufnahme des Grauwertkeils sollten wir nun 10 Bilder machen. 
 \newline
-Zudem soll man so eine Kennlinie, logarithmierte Werte sowie die lineare Regression darstellen.
+Dies haben wir in Python mit einer simplen for-Schleife verwirklicht.
+Danach sollten wir wieder in Python die 10 Bilder einlesen, in \textit{double} umwandeln und den pixelweisen Mittelwert berechnen.
 \newline
-So soll man die bereits erlernten Formeln aus den Vorlesungen in System, Signale und Sensoren anwenden und für die Daten des Sharp-Sensors umwandeln um so die Prinzipien der linearen Regression praktisch zu verwenden.
 \newline
-Durch die Errechnung und Darstellung der Kennlinie, soll man auch prüfen ob ein systematischer Fehler geschehen ist. Falls dies nicht der Falls ist, sollte die Kennlinie einer typischen Kennliniensteigung entsprechen.
+Da die Webcam standartmäßig nur Farbbilder liefert, müssen wir noch die Bilder in Grauwertbilder umwandeln.
+Da man nun 307200 Mittelwerte für den Durchschnitt der 10 Bilder erhält, speichern wir diese in einem Vektor um die for-Schleife effizienter zu machen.
 \newline
-Für den Versuch benötigt man lediglich die bereits gemessenen Daten, eine Python IDE, sowie die nützlichen Formeln aus den Vorlesungs- und Aufgabenblättern.
+Aus den sämtlichen Mittelwerten wiederrum, haben wir uns ein Bild erstellen lassen und dieses kontrastmaximiert dargestellt.
+Danach haben wir von jedem Pixel im Grauwertkeil den entsprechenden Mittelwertspixel abgezogen. Dieses korrigierte Bild wurde daraufhin gespeichert.
+
+
 \newpage
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
-Tabelle [\ref{chap:VERSUCH_2_MESSWERTE}] zeigt die in Python logarithmierten Werte.
-\begin{table}[H]
+Hier ist eines der 10 aufgenommenen Dunkelbilder, die durch das Pythonskript gecaptured wurden.
+\begin{figure}[hbt!]
 	\centering\small
-	\begin{tabular}{|c|c|c|}
-		\hline
-		Distanz & log cm & log Durchschnitt \\
-		\hline
-		10cm & 2.302585092994046 & 0.28658251236288684 \\
-		\hline
-		13cm & 2.5649493574615367 & 0.13950997769809692 \\
-		\hline
-		16cm & 2.772588722239781 & 0.04584587706574458 \\
-		\hline
-		19cm & 2.9444389791664403 & -0.0717653956802384 \\
-		\hline
-		22cm & 3.091042453358316 & -0.18091598142798918 \\
-		\hline
-		25cm & 3.2188758248682006 & -0.18091598142798918 \\
-		\hline
-		28cm & 3.332204510175204 & -0.3688220785875914 \\
-		\hline
-		31cm & 3.4339872044851463 & -0.42460823943365683 \\
-		\hline
-		34cm & 3.5263605246161616 & -0.48755538925392977 \\
-		\hline
-		37cm & 3.6109179126442243 & -0.5504620343701235 \\
-		\hline
-		40cm & 3.6888794541139363 & -0.579426134298413 \\
-		\hline
-		43cm & 3.7612001156935624 & -0.659127119920277 \\
-		\hline
-		46cm & 3.828641396489095 & -0.7003660010868976 \\
-		\hline
-		49cm & 3.8918202981106265 & -0.7438412790564594 \\
-		\hline
-		52cm & 3.9512437185814275 & -0.792597814482305 \\
-		\hline
-		55cm & 4.007333185232471 & -0.8607681589957209 \\
-		\hline
-		58cm & 4.060443010546419 & -0.8726037472131969 \\
-		\hline
-		61cm & 4.110873864173311 & -0.9348943146021321 \\
-		\hline
-		64cm & 4.1588830833596715 & -0.9865867500420398 \\
-		\hline
-		67cm & 4.204692619390966 & -0.9389225676676274 \\
-		\hline
-		70cm & 4.248495242049359 & -0.9965499402651674 \\
-		\hline
-	\end{tabular}
-	\caption{Logarithmus von der Distanz und der Durchschnittsspannung}
-	\label{fig:VERSUCH_2_LOGARITHMUS_TABELLE}
-\end{table}
+	\includegraphics[width=0.9\textwidth]{../data/black1.png}
+	\caption{Eines der 10 aufgenommenen Dunkelbilder}
+	\label{fig:Eines der 10 aufgenommenen Dunkelbilder}
+\end{figure}
 \newpage
 \section{Auswertung}
 \label{chap:VERSUCH_2_AUSWERTUNG}
-In der folgenden Abbildung wurden die Messergebnisse logarithmiert und daraufhin mit matplotlib in Python visualisiert.
-Die Werte wurden mit der Funktion \textit{genfromtxt()} aus der .csv Datei in das Programm eingelesen.
-Die Distanz in cm wurde mit der numpy Funktion \textit{np.log()} logarithmiert. Die durchschnittlichen Spannung in Volt wurde ebenfalls mit \textit{np.log(np.mean())} logarithmiert. 
-Während die x-Achse mit dem logarithmierten Wert von dem Abstand belegt wird, initialisiert man die y-Achse mit dem logarithmierten Durchschnitt der Spannung in Volt.
+Um die Webcam abzudecken, haben wir das im Labor für die PC's verwendete Mousepad genommen.
+Mit der Funktion \textit{cv2.equalizeHist(image)} erhalten wir ein kontrastmaximiertes Bild. Dieses ist in der Abbildung 3.2 einsehbar.
+Das Bild hat einen konstanten Grauwert von 71.
+\begin{figure}[hbt!]
+	\centering
+  	\subfloat[Aufnahme des Grauwertkeils]{
+		\includegraphics[width=0.45\textwidth]{../data/blackaverage.png}\label{fig:f1}}
+	\hfill
+	\subfloat[kontrastmaximiertes Bild]{
+		\includegraphics[width=0.45\textwidth]{../data/contrastblackaverage.png}\label{fig:f2}}
+	\caption{Grauwertkeil und kontrastmaximiertes Bild}
+\end{figure}
+
+Nachdem wir das Bild des pixelweisen Durchschnittes und das Bild des Grauwertkeils eingelesen haben und in ein Schwarz-Weiß Bild umgewandelt haben, subtrahieren wir vom Bild des Grauwertkeiles das Bild des pixelweisen Durchschnittes.
+Dabei erhalten wir die Abbildung in 3.2.b.
+
 
 \begin{figure}[hbt!]
-	\centering\small
-	\includegraphics[width=\textwidth]{media/myplot4.png}
-	\caption{Logarithmus der Ein- und Ausgangswerte}
-	\label{fig:Logarithmus der Ein- und Ausgangswerter}
+  	\centering
+  	\subfloat[Aufnahme des Grauwertkeils]{
+		\includegraphics[width=0.45\textwidth]{../data/Versuch1b.png}\label{fig:f1}}
+	\hfill
+  	\subfloat[Korrigiertes Bild]{
+		\includegraphics[width=0.45\textwidth]{../data/korrigiertes_bild.png}\label{fig:f2}}
+	\caption{Unterschied zwischen dem richtigen und dem korrigerten Bild}
 \end{figure}
-\newpage
-In der folgenden Abbildung wurde die Kennlinie visualisiert mit matplotlib in Python.
-\newline
-Da die Werte bereits eingelesen wurden in der vorherigen Darstellung müssen wir dies nicht erneut machen.
-Hier werden erneut die logarithmierten Abstände in cm verwendet, sowie der logarithmierte Durchschnitt der Spannung in Volt. Ebenfalls brauchen wir die Steigung.
-Wir benötigen die folgende Formel, welche auf dem Aufgabenblatt auf Seite 3 vorzufinden ist:
-\textit{y\textsuperscript{'} = ln y = ln(x\textsuperscript{a}) = a * ln(x) = a * ln(e\textsuperscript{x\textsuperscript{'}}) = a * x\textsuperscript{'}}
-\newline
-\newline
 
-\begin{figure}[hbt!]
-	\centering\small
-	\includegraphics[width=\textwidth]{media/myplot5.png}
-	\caption{Kennlinie}
-	\label{fig:Kennlinie}
-\end{figure}
-\newpage
-In der folgenden Abbildung wurde die Lineare Regression realisiert mit matplotlib in Python.
-Auch hier wurden die Werte die Werte bereits eingelesen, weshalb dieser Schritt entfällt.
-\newline
-Hier werden erneut die logarithmierten Abstände in cm verwendet, sowie der logarithmierte Durchschnitt der Spannung in Volt. 
-Sämtliche logarithmierten Abstände in cm wurden in ein Array gemacht, was später für die x-Achse verwendet wird.
-Die Werte für die logarithmierten Durchschnitte der Spannung in Volt wurden ebenfalls in ein seperates Array gepackt, welche später wiederrum für die y-Achse verwendet werden.
-\newline
-\newline
-Danach wurde stats.lingress() in folgender Darstellung verwendet:
-\newline
-\textit{gradient, intercept, r\_value, p\_value, std\_err = stats.linregress(x, y)}
-\newline
-Danach wird noch die folgende Formel angewendet: 
-\textit{y\textsuperscript{'} = a *  x\textsuperscript{'} + b}
-\newline
-In Python sieht diese Formel folgendermaßen aus: \textit{y1 = gradient * x1 + intercept} \& \textit{x1 = np.linspace(mn, mx, 500)}
-\textit{y1} wird mit \textit{x1} als Ausgleichsgerade der linearen Regression angezeigt.
-x und y wurden bereits vorher in ein Array gespeichert und nun als Punkte angezeigt.
-\newline
-Die Ausgleichsgerade macht den Abstand zu den Punkten im Gesamten minimal.
-\begin{figure}[hbt!]
-	\centering\small
-	\includegraphics[width=0.9\textwidth]{media/myplot3.png}
-	\caption{Lineare Regression}
-	\label{fig:Lineare Regression}
-\end{figure}
 \newpage
 \section{Interpretation}
 \label{chap:VERSUCH_2_INTERPRETATION}
-In Abbildung 3.1 sieht man nur wenige Unstimmigkeiten.
-Bei der x-Achse an der Stelle 3.25cm liegt der Fehler an der Messung, für die unsere Messung verantwortlich ist.
-Leider haben wir denselben Wert zweimal eingelesen, ohne die Single Sequenz zu aktualisieren, was zu diesem Ausschlag führt.
-
-Kurz vor dem Ende der Visualisierung geht der Wert nach oben, was an einer Erhöhung der Spannung liegt. Dies ist auch sichtbar in der Tabelle 2.1.
-Vermutlich ist dies passiert durch veränderte Wetterverhältnisse, die die Lichtverhältnisse im Raum veränderten.
+Da das kontrastmaximierte Bild keine Veränderungen aufweist im Vergleich zum normalen Durchschnittsbild wissen wir, dass es keine Kontraste gibt und das Bild überall dieselbe Farbe besitzt.
+Das Bild hat nicht den Grauwert 0 sondern 71, da wir die Belichtungseinstellungen von dem Bild des Grauwertkeiles verwendet haben.
+\newline
+Aufgrunddessen haben wir die Gewissheit, dass wir die Kamera vollständig abgedeckt haben, ohne dass es einen externen Lichteinfluss gab.
+Schlichtweg würde das kontrastmaximierte Bild darstellen,  dass es keine Störfaktoren in der Webcam gibt und alle denselben Nullpunkt haben.
 \newline
 \newline
-Die Kennlinie in Abbildung 3.2 weißt auch keine systematischen Fehler auf, da sie einer Kennliniensteigung beziehungsweise der Sensitivät eines Sensors entspricht.
-
-Das heißt, dass bei einem doppelten Eingangswert auch der doppelte Ausgangswert ausgegeben wird.
-\newline
-\newline
-In Abbildung 3.3 zieht sich die Ausgleichsgerade durch die einzelnen Punkte um den Abstand minimal werden zu lassen. Abgesehen von einzelnen Ausreißern wie zum Beispiel dem Wert bei 3.25cm, der durch einen Messfehler entstanden ist wie schon weiter oben berichtet, liegen die Punkte sehr nah an der Ausgleichsgeraden.
-
-Dies lässt darauf deuten, dass die meisten Punkte durch den Abstandssensor richtig gemessen wurden.
+Durch die Subtraktion des durchschnittlichen Dunkelbildes, erhalten wir den Nullpunkt jedes einzelnen Pixels. Durch diesen Vorgang könnten wir theoretisch das thermische Rauschen entfernen.
+Da unser durchschnittliches Dunkelbild keine Unterschiede aufweist, wissen wir jedoch, dass es kein thermisches Rauschen gibt.
 %
 % CHAPTER Versuch 3
 %
-\chapter{Versuch 3: Flächenmessung mit Fehlerrechnung}
+\chapter{Versuch 3: Aufnahme eines Weißbildes}
 \label{chap:VERSUCH_3}
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_3_FRAGESTELLUNG}
-Im dritten Versuch ist eine Aufgabe die Ermittlung des Messfehlers des Abstandsmessers. Zuerst müssen wir die lange Seite eines DinA4 Blattes vom Sensor müssen und danach das Resultat als  .csv Datei speichern. 
+Im dritten Versuch nehmen wir ein weißes Blatt Papier und legen dieses auf den Grauwertkeil. Dadurch haben wir den selben Abstand wie zum Grauwertkeil.
+Dabei wird die Belichtung auf 30-50\% der Hellsättigung eingestellt.
 \newline
-So müssen wir zur Ermittlung des Messfehlers die Fehlerfortpflanzung durch die folgende Kennlinie berechnen: 
+Hierbei sollten keine Schatten oder andere Störfaktoren auftreten.
+Auch hier nehmen wir mit unserem Programm 10 Bilder auf.
 \newline
-\textit{e\textsuperscript{b} *  x\textsuperscript{a}}
-Zudem muss man berechnen wie groß der Vertrauensbereich für eine Sicherheit von 68\% und für eine Sicherheit von 95\% berechnen. Danach sollten wir die Fehlerfortpflanzung dazu benutzen um das Ergebnis der Abstandsmessung in cm angeben zu können.
+Mittels einem Pythonskript berechnen wir daraufhin den Mittelwert jedes einzelnen Pixels. Durch den Mittelwert elimieren wir das thermische Rauschen.
+Von den Mittelwerten des weißen Bildes werden wir das Dunkelbild abziehen und erhalten daraus das resultierende Weißbild.
+Das Bild geben wir zudem kontrastmaximiert dar.
 \newline
 \newline
-Im zweiten Teil des dritten Versuchs müssen wir nun die breite Seite eines DinA4 Blattes messen. Daraufhin sollen wir mit der selben Methode die Breite des Blattes berechnen und die Fläche des Blattes berechnen. Dies geschieht mithilfe dem Gaußschen Fehlerfortpflanzungsgesetz.
+Das berechnete Weißbild wird nun normiert mit dem Mittelwert 1.
+\newline
+Der Grauwertkeil wird mit dem Dunkelbild subtrahiert und danach mit dem normierten Weißbild dividiert.
+\newline
+Durch das kontrastmaximierte Bild können wir nun so die Intensität des einfallenden Lichts betrachten.
 \newpage
 \section{Messwerte}
 \label{chap:VERSUCH_3_MESSWERTE}
-Tabelle [\ref{chap:VERSUCH_3_MESSWERTE}] zeigt die durchschnittliche Spannung in Volt für die breite und die lange Seite eines DinA4 Blattes.
-\begin{table}[H]
+Hier ist eines der aufgenommen Bilder vom weißen Blatt Papier.
+Leider ist durch einen Aufnahmefehler das Bild blau geworden. Dieses Problem haben wir durch das einlesen im Python Programm durch folgenden Code behoben:
+\newline
+\newline
+\lstinputlisting[style=PYTHON, frame=single, label=lst:APPENDIX_SOURCECODE_AREA5]{../grayscale.py}
+\newline
+\newline 
+Durch \textit{cv2.IMREAD\_GRAYSCALE} wird das Bild in ein Schwarz-Weiß Bild umgewandelt.
+\newline
+\newline
+\begin{figure}[hbt!]
 	\centering\small
-	\begin{tabular}{|c|c|}
-		\hline
-		Distanz &  durchschnittliche Spannung in Volt \\
-		\hline
-		29,7cm & 0.6583416425026114V \\
-		\hline
-		21cm & 0.8572027683256641V \\
-		\hline
-	\end{tabular}
-	\caption{Messwerte DinA4}
-	\label{fig:VERSUCH_3_MESSWERTE_DINA4}
-\end{table}
+	\includegraphics[width=0.9\textwidth]{../data/white1.png}
+	\caption{Eines der 10 aufgenommenen Weißbilder}
+	\label{fig:Eines der 10 aufgenommenen Weißbilder}
+\end{figure}
+\newpage
 \section{Auswertung}
 \label{chap:VERSUCH_3_AUSWERTUNG}
-Tabelle [\ref{chap:VERSUCH_3_MESSWERTE}] zeigt die berechneten Messfehler im Vertrauensbereich bei einer Distanz von 29,7cm.
-Für die Berechnung des Messfehlers bei den entsprechenden Vertrauensbereichen der Gaußverteilung benötigt man die folgende Formel:
-\newline
-\textit{x = Durchschnitt der Spannung in Volt + Korrekturfaktor * Standardabweichung + (2sx oder 4sx, je nach Vertrauensbereich)}
-\newline 
-\newline 
-In Python wird die Formel folgendermaßen ausgeführt:
-\newline 
-\textit{result1 = np.mean(data2) + 1,95 * (np.std(data2) / np.sqrt(1000)) * 4}
-Der Vertrauensbereich bei 68\% hat einen Korrekturfaktor von 1 und  ist +-1sx groß  , während der der Vetrauensbereich bei 95\% einen Korrekturfaktor von 1,96 hat und +-2sx groß ist.
-\newline 
-\textit{np.mean} ist hier eine numpy Funktion welche den Durchschnitt berechnet, wie hier die durchschnittliche Spannung in Volt für die lange Seite der DinA4 Seite.
-\newline 
-\newline 
-\textit{np.std} ist ebenfalls eine numpy Funktion und berechnet die Standardabweichung in cm für die lange Seite der DinA4 Seite.
-\newline 
-\textit
-Diese wird durch die numpy Funktion { np.sqrt(1000)} ist ebenfalls eine numpy Funktion und berechnet die Wurzel. In diesem Fall soll die Funktion die Anzahl der verwendeten Spannungen pro Messung die Wurzel ziehen. 
-\begin{table}[H]
-	\centering\small
-	\begin{tabular}{|c|c|}
-		\hline
-		 Formel &  Ergebnis \\
-		\hline
-		68\% = 0.6583416425026114V + 1 * 0.0006520905314570869V * 2sx & 0.6596458235655256cm \\
-		\hline
-		95\% = 0.6583416425026114V + 1,96 * 0.0006520905314570869V * 4sx & 0.6634540322692349cm \\
-		\hline
-	\end{tabular}
-	\caption{Messfehler in Gaußverteilung}
-	\label{fig:VERSUCH_3_MESSFEHLER_TABELLE}
-\end{table}
+Nun haben wir in zwei for-Schleifen für jeden Pixel den Durchschnitt aller 10 Bilder ausgewertet und in ein neues Bild geschrieben.
+Das untenstehende linke Bild zeigt den Pixelweisen Durchschnitt. 
+Das rechte der beiden Bilder ist das linke Bild kontrastmaximiert.
 
-Tabelle [\ref{chap:VERSUCH_3_MESSWERTE}] zeigt die Ergebnisse der Abstandsmessung mittels der Fehlerfortpflanzung an.
-Verglichen werden die Gaußverteilungen von 68\% und 95\% mit den Distanzen eines DinA4 Blattes.
-Um diese Formel zu berechnen benötigen wir noch \textit{a} und \textit{b}. 
-\newline \textit{a} erhält man durch den Logarithmus aus der Länge bzw. der Breite des Blattes geteilt durch die Logarithmierung der durchschnittlichen Spannung:
-\newline 
-\textit{a1 = np.log(29.7) / np.log(np.mean(data2))}
-\newline
-\newline
-\textit{b} wiederrum erhält man aus dem Logarithmus der Distanz subtrahiert von der Multiplikation von dem Logarithmus der durchschnittlichen Spannung in Volt und a:
-\newline
-\textit{b1 = np.log(29.7) - (a1 * np.log(np.mean(data2)))}
-\newline
-Um die Abstandsmessung mit der Fehlerfortpflanzung zu berechnen benötigt man zuerst die folgende Formel:
-\newline 
-\textit{e\textsuperscript{b} *  x\textsuperscript{a}}.
-\newline 
-Bzw. deren Ableitung:
-\textit{e\textsuperscript{b} * a * x\textsuperscript{a-1}}. Nun nur noch  die errechneten Werte einfügen.
-\newline 
-\newline 
-Wenn man ein Vertrauensintervall von 68\% verwendet, muss man nur noch die abgeleitete Funktion mit der Standardabweichung geteilt durch die Wurzel mit der Anzahl der Messungen multiplizieren und schon hat man den Vertrauensintervall.
-Für den Vertrauensintervall von 95\% hingegen muss man noch zusätzlich den Vertrauensfaktor von 1,96 mulitplizieren.
-\newline 
-\begin{table}[H]
+\begin{figure}[hbt!]
+	\centering
+  	\subfloat[Pixelweiser Mittelwert der einzelnen Bilder]{
+		\includegraphics[width=0.45\textwidth]{../data/whiteaverage.png}\label{fig:f1}}
+	\hfill
+	\subfloat[kontrastmaximiertes Bild der Weißbilder]{
+		\includegraphics[width=0.45\textwidth]{../data/contrastwhiteaverage1.png}\label{fig:f2}}
+	\caption{Mittelwert der Weißbilder und kontrastmaximiertes Bild}
+\end{figure}
+
+Um die tatsächliche Intensität des Lichtes zu bestimmen und die Sensitivitäten der einzelnen Pixel, mussten wir zuerst das das Weißbild mit dem Dunkelbild subtrahieren.
+
+\begin{figure}[hbt!]
 	\centering\small
-	\begin{tabular}{|c|c|c|}
-		\hline
-		Sicherheit & Distanz &  Abstandsmessung \\
-		\hline
-		68\% & 21cm & 0.31835908731736245cm \\
-		\hline
-		68\% & 29,7cm & 0.23864419265666054cm \\
-		\hline
-		95\% & 21cm & 0.6239838111420121cm \\
-		\hline
-		95\%  & 29,7cm & 0.4677426176070423cm \\
-		\hline
-	\end{tabular}
-	\caption{Abstandsmessung mit Fehlerfortpflanzung}
-	\label{fig:VERSUCH_3_FEHLERFORTPFLANZUNG_ABSTANDSMESSUNG_TABELLE}
-\end{table}
+	\includegraphics[width=0.7\textwidth]{../data/whiteminusblack.png}
+	\caption{Dunkelbild subtrahiert vom Weißbild}
+	\label{fig:Dunkelbild subtrahiert vom Weißbild}
+\end{figure}
+
 \newpage
-Wenn man die Länge und die Breite eines DinA4 Blattes multipliziert, erhält man den 
-\newline
-Flächeninhalt. 
-\newline
-29,7cm Länge * 21cm Breite = 623,7cm\textsuperscript{2}.
-\newline
-Damit hat ein DinA4 Blatt einen Flächeninhalt von 623.7 cm\textsuperscript{2}.
-\newline
-\newline
-Um den Messfehler in einem Vertrauensbereich von 68\% mit 623.7cm\textsuperscript{2} Flächeninhalt zu berechnen muss man nur die Werte von 68\% addieren: 
-\newline
-0.557003279974023cm.
-\newline
-Um den Messfehler in einem Vertrauensbereich von 95\% hat mit 623.7cm\textsuperscript{2}zu berechnen muss man nur die Werte von 95\% addieren: 
-\newline
-1.0917264287490545cm.
+Danach war es die Aufgabe das Weißbild zu normieren, dass der Mittelwert 1 ist. Das durch Abzug des Dunkelbildes korrigierte Eingangsbild wird anschliessend durch das normierte Weißbild dividiert.
+
+\begin{figure}[hbt!]
+  	\centering
+  	\subfloat[Grauwertkeil]{
+		\includegraphics[width=0.45\textwidth]{../data/Versuch1b.png}\label{fig:f1}}
+	\hfill
+  	\subfloat[Bild mit der Intensität des Lichteinfalles]{
+		\includegraphics[width=0.45\textwidth]{../data/korrigiertes_bild2.png}\label{fig:f2}}
+	\caption{Unterschied zwischen dem Grauwertkeil und dem Bild mit der Intensität des Lichteinfalles}
+\end{figure}
+\newpage
 \section{Interpretation}
 \label{chap:VERSUCH_3_INTERPRETATION}
-Die Messfehler auf den Flächeninhalt eines DinA4 Blattes bezogen
+Das Bild hat ebenfalls wie die Aufnahme des Grauwertkeils einen starken Blautstich.
+Dies haben wir gelöst durch eine Konvertierung ins Blaue. 
 \newline
+Bei der Auswertung haben wir das kontrastmaximierte Bild neben dem des durchschnittlichen Weißbildes, 
+sieht man schön die Verstärkung.
+Hier sieht man eine Vignettierung des Bildes d.h. die Optik der Kamera
+übeträgt die Helligkeit nicht gleichmäßig auf den Sensor.
+\newline
+\newline
+Dies wird sichtbar durch eine Abdunkelung des Bildes zu den Rändern hin.
+Nachdem man Weißbild minus Dunkelbild berechnet hat, bekommt man ein dunkleres Weißbild, bei dem man immer noch leicht die Vignettierung beobachten kann.
+\newline
+\newline
+In dem letzten Experiment wurde die Intensität des einfallenden Lichtes berechnet.
+In schwarz kann man nun gut betrachten, wie das Licht eingefallen ist.
+\newline
+Die Kamera war auf ihrer Halterung so zum Fenster gerichtet, dass das Licht von oben eingefallen ist.
+\newline
+Auch hier ist wieder eine Art Vignettierung zu sehen in weiß.
+Der Lichteinfall stimmt auch mit dem kontrastmaximierten Bild von vorher überin, da am oberen Teil des Bildes die Vignettierung nicht so stark ist bzw. das Licht von oben einfällt.
+
+
+%
+% CHAPTER Versuch 4
+%
+\chapter{Versuch 4: Aufnahme eines Weißbildes}
+\label{chap:VERSUCH_4}
+
+\section{Fragestellung, Messprinzip, Aufbau, Messmittel}
+\label{chap:VERSUCH_4_FRAGESTELLUNG}
+Im vierten Versuch war es die Aufgabe funktionsuntüchtige Pixel, wie zum Beispiel Hot, Stuck und Deadpixel zu entdecken und zu markieren.
+Deadpixels sind Pixel die immer auf ihrem niedrigsten Wert steckenbleiben.
+\newline 
+Stuck Pixels bleiben immer auf ihrem höchsten Wert, während Hot Pixels in die Sättigung gehen bei längeren Belichtungszeiten.
+Zudem sollen wir mithilfe des Programmes aus Aufgabe 3 das Bild des Grauwertkeiles korrigieren und es speichern.
+\newline
+\newline
+Dies haben wir jedoch bereits schon in Aufgabe 3 gelöst. 
+Danach sollten wir mit dem korrigierten Bild so verfahren wie in Aufgabe 1, indem wir das Bild mit den selben Einstellungen wie in Aufgabe 1 das Bild in 5 Unterbilder aufteilen und den durchschnittlichen Grauwert, den Hexwert und die Standartabweichung berechnen.
+\newline
+Diesen werden wir im späteren Verlauf noch mit den Messungen aus Aufgabe 1 vergleichen.
+
+\newpage
+\section{Messwerte}
+\label{chap:VERSUCH_4_MESSWERTE}
+
+In der unteren Abbildung untersuchen wir ein Weißbild auf funktionsuntüchtige Pixel.
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.7\textwidth]{../data/zzz.png}
+	\caption{Weißbild mit Dead- und Stuckpixel}
+	\label{fig:Weißbild mit Dead- und Stuckpixel}
+\end{figure}
+
+In der unteren Abbildung untersuchen wir ein Dunkelbild auf funktionsuntüchtige Pixel.
+
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.7\textwidth]{../data/zzz2.png}
+	\caption{Dunkelbild mit Dead- und Stuckpixel}
+	\label{fig:Dunkelbild mit Dead- und Stuckpixel}
+\end{figure}
+\newpage
+\section{Auswertung}
+\label{chap:VERSUCH_4_AUSWERTUNG}
+
+Mittels der OpenCV Bibliothek und der damit verbundenen Funktion \textit{cv2.circle} haben wir einen Kreis gezeichnet.
+Mittels einer For-Schleife werden alle 307200 Pixel untersucht auf den dunkelsten und den hellsten Punkt. 
+\begin{figure}[hbt!]
+  	\centering
+  	\subfloat[Weißbild mit dem dunkelsten Punkt]{
+		\includegraphics[width=0.45\textwidth]{../data/proof1.png}\label{fig:f1}}
+	\hfill
+  	\subfloat[Weißbild mit dem hellsten Punkt]{
+		\includegraphics[width=0.45\textwidth]{../data/proof2.png}\label{fig:f2}}
+	\caption{Unterschied zwischen dem hellsten und dem dunkelsten Bild}
+\end{figure}
+Das Dunkelbild wurde ebenfalls mit der Funktion \textit{cv2.circle} bearbeitet. Das Ergebnis sehen sie in der Abbildung 5.4.
+\begin{figure}[hbt!]
+	\centering\small
+	\includegraphics[width=0.5\textwidth]{../data/proof3.png}
+	\caption{Dunkelbild mit Dead- und Stuckpixel}
+	\label{fig:Dunkelbild mit Dead- und Stuckpixel}
+\end{figure}
+\newpage
+Der mit dem normierten Weißbild korrigierte Graukeil, wird nochmal mit dem Skript aus der ersten Aufgabe berechnet.
+In dieser Tabelle ist der Mittelwert, der HexValue und die Standardabweichung für die Intensität des Lichteinfalls.
 \begin{table}[H]
 	\centering\small
-	\begin{tabular}{|c|c|}
-		\hline
-		Vertrauensintervall &  Messfehler \\
-		\hline
-		68\% & 0.557003279974023cm \\
-		\hline
-		95\%  & 1.0917264287490545cm \\
-		\hline
+	\begin{tabular}{|c|c|c|c|}
+	\hline
+	Stufe & Mittelwert & Hex-Value & Standartabweichung \\
+	\hline
+	Stufe 1 & 241.67111111111112 & \#3e3e3e & 36.794374014010515 \\
+	\hline
+	Stufe 2 & 123.12765432098767 & \#1f1f1f & 101.62025094391961 \\
+	\hline
+	Stufe 3 & 60.187013381995136 & \#0f0f0f & 73.25401533025126 \\
+	\hline
+	Stufe 4 & 93.80972222222222 & \#181818 & 83.6389175516743 \\
+	\hline
+	Stufe 5 & 160.29564564564564 & \#292929 & 78.10787025296499 \\
+	\hline
 	\end{tabular}
-	\caption{Messfehler im Gaußsche Intervall}
-	\label{fig:VERSUCH_3_FLACHENINHALT_VERTRAUENSINTERVALL}
+	\caption{Mittelwert, Hexwert und Standardabweichung für die Intensivität des Lichteinfalls}
+	\label{fig:VERSUCH_4_MESSWERTE}
 \end{table}
-Die Höhe der Messunsicherheit hängt mit der Anzahl der Messungen zusammen: Zum Beispiel bei einem Vertrauensintervall von 95\%, aber nur 2 Messungen gibt es einen Korrekturfaktor von 12,71.
-\newline
-Zudem gilt: Desto höher der Vertrauensintervall, desto höher sind auch die Werte.
-Dies trifft hier, als auch in Tabelle 4.3 zu, da die Messunsicherheit hier bei 95\% doppelt so hoch ist, wie die bei 68\%.
-\newline
-Diese erhöhten Werte kommen durch einen erhöhten Korrekturfaktor.
 
+\newpage
+\section{Interpretation}
+\label{chap:VERSUCH_4_INTERPRETATION}
+Um die beiden Extrempunkte wurde ein roter Kreis um den dunkelsten Punkt gezeichnet und ein grüner Kreis um den hellsten Punkt.
+Da weder ein sehr dunkler Punkt noch ein extrem weißer außergewöhnlicher Punkt vorkommt im Bild, gibt es im Weißbild weder Stuck-, noch Deadpixels.
+Auch das Dunkelbild weißt keine Dead- oder Stuckpixels auf.
+Das gesamte Bild hat einen durchgehenden Grauwert von 71.
+So ist sowohl der höchste als auch der kleinste Farbwert bei 71.
 \newline
+\newline
+Das korrigierte Bild mit dem Programm aus Aufgabe 3 wurde bereits in dem dritten Versuch gelöst und ausgewertet.
+\newline
+\newline
+Da das Licht von oben in den Sensor der Kamera eingetreten ist, ist wie zu erwarten eine 'U' Form zu sehen.
+Der Wert im dritten Graukeil ist am niedrigsten in der Abbildung 5.5.a, da dieser auch am meisten Schwarz Anteil hat.
+Links und rechts davon steigt der Wert wieder an, durch die Vignettierung und den unterschiedlichen Lichteinfall. 
+Die Standartabweichung ist wie zu erwarten beim zweiten und vierten Wert am höchsten, da diese wie in der Abbildung 4.4.b einen hohen Lichteinfall haben, aber trotzdem durch die Vignettierung eine nicht gleichmäßige Verteilung auf den Kamerasensor geschieht.
+Der erste Wert hat die geringste Standartabweichung da dieser am meisten von dem Lichteinfall entfernt ist. 
+\begin{figure}[hbt!]
+  	\centering
+  	\subfloat[Durchschnitt der Intensität des Lichteinfalls]{
+		\includegraphics[width=0.45\textwidth]{../data/table1.png}\label{fig:f1}}
+	\hfill
+  	\subfloat[Standartabweichung der Intensität des Lichteinfalls]{
+		\includegraphics[width=0.45\textwidth]{../data/table2.png}\label{fig:f2}}
+	\caption{Unterschied zwischen dem [Durchschnitt und der Standartabweichung der Intensität des Lichteinfalls}
+\end{figure}
 
 %
 % CHAPTER Anhang
@@ -677,34 +725,40 @@ Diese erhöhten Werte kommen durch einen erhöhten Korrekturfaktor.
 \section{Quellcode}
 \label{chap:APPENDIX_SOURCECODE}
 
-\subsection{Quellcode Versuch 1: Messung Kalibrierung}
+\subsection{Quellcode Versuch 1}
 \label{chap:APPENDIX_SOURCECODE_V1}
-\lstinputlisting[style=PYTHON, frame=single, caption=Ermittlung der Kennlinie des Abstandssensors, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../task1.1.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Ermittlung der Kennlinie des Abstandssensors, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../task1.2.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Ermittlung der Kennlinie des Abstandssensors, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../task1.3.py}
+\lstinputlisting[style=PYTHON, frame=single, caption=Bild einlesen von der Webcam und Bildeinstellungen, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../task1.1.py}
+\lstinputlisting[style=PYTHON, frame=single, caption=Bild in Grauwerte aufteilen, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../task1.2.py}
+\newpage
+\lstinputlisting[style=PYTHON, frame=single, caption=LaTeX Tabelle mit Mittelwert\, Hexwert und Standartabweichung, captionpos=b, label=lst:APPENDIX_SOURCECODE_MEASURE]{../task1.3.py}
 \newpage
 \subsection{Quellcode Versuch 2}
 \label{chap:APPENDIX_SOURCECODE_V2}
-\lstinputlisting[style=PYTHON, frame=single, caption=Lineare Regression, captionpos=b, label=lst:APPENDIX_SOURCECODE_REGRESSION]{../task2.1.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Lineare Regression, captionpos=b, label=lst:APPENDIX_SOURCECODE_REGRESSION]{../task2.2.py}
+\lstinputlisting[style=PYTHON, frame=single, caption=Pixelweisen Mittelwert der 10 Dunkelbilder berechnen und Bild ausgeben, captionpos=b, label=lst:APPENDIX_SOURCECODE_REGRESSION]{../task2.1.py}
+\newpage
+\lstinputlisting[style=PYTHON, frame=single, caption=Bild vom Grauwertkeil vom Dunkelbild abziehen, captionpos=b, label=lst:APPENDIX_SOURCECODE_REGRESSION]{../task2.2.py}
 \newpage
 \subsection{Quellcode Versuch 3}
 \label{chap:APPENDIX_SOURCECODE_V3}
-\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA1]{../task3.1.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA2]{../task3.2.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA3]{../task3.3.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA4]{../task3.4.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA5]{../task3.4b.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA5]{..dead.py}
-\lstinputlisting[style=PYTHON, frame=single, caption=Flächenmessung mit Fehlerrechnung, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA5]{../dead2.py}
+\lstinputlisting[style=PYTHON, frame=single, caption=Pixelweisen Mittelwert der 10 Weißbilder berechnen und Bild ausgeben, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA1]{../task3.1.py}
 \newpage
-\section{Messergebnisse}
+\lstinputlisting[style=PYTHON, frame=single, caption=Das berechnete Weißbild minus das Dunkelbild, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA2]{../task3.2.py}
+\lstinputlisting[style=PYTHON, frame=single, caption=Bild normieren, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA3]{../task3.3.py}
+\lstinputlisting[style=PYTHON, frame=single, caption=korrigiertes Bild erneut aufteilen in die einzelnen Grauwerte, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA4]{../task3.4.py}
+\lstinputlisting[style=PYTHON, frame=single, caption=Mittelwert\, Hexwert und Standartabweichung berechnen, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA5]{../task3.4b.py}
+\subsection{Quellcode Versuch 4}
+\label{chap:APPENDIX_SOURCECODE_V4}
+\lstinputlisting[style=PYTHON, frame=single, caption=Deadpixels berechnen, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA6]{../dead.py}
+\newpage
+\lstinputlisting[style=PYTHON, frame=single, caption=Stuckpixels berechnen, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA7]{../dead2.py}
+\newpage
+\section{Kameraeinstellungen für OpenCV}
 \label{chap:APPENDIX_MEASUREMENT_SOURCE}
 \begin{figure}[hbt!]
 	\centering\small
 	\includegraphics[width=0.8\textwidth]{media/scan.png}
-	\caption{Messungen aus dem Labor}
-	\label{fig:Messungen aus dem Labor}
+	\caption{Kameraeinstellungen für OpenCV}
+	\label{fig:Kameraeinstellungen für OpenCV}
 \end{figure}
 
 %

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  23 APR 2019 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  29 APR 2019 02:59
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -1754,8 +1754,8 @@ File: tikzlibraryplotmarks.code.tex 2019/04/04 v3.1.2 (3.1.2)
 aries\pgflibraryplotmarks.code.tex"
 File: pgflibraryplotmarks.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )))
-Package hyperref Info: Option `colorlinks' set `false' on input line 182.
-Package hyperref Info: Option `unicode' set `true' on input line 182.
+Package hyperref Info: Option `colorlinks' set `false' on input line 190.
+Package hyperref Info: Option `unicode' set `true' on input line 190.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\p
 uenc.def"
@@ -1763,18 +1763,122 @@ File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 182.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 182.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 182.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 182.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 190.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 190.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 190.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 190.
  (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
 
-LaTeX Warning: Label `chap:VERSUCH_1_MESSWERTE' multiply defined.
+LaTeX Warning: Label `fig:f1' multiply defined.
 
 
-LaTeX Warning: Label `fig:VERSUCH_1_MESSWERTE_TABELLE' multiply defined.
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.120 ...}{Weißbild\relax }{figure.caption.17}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.120 ...}{Weißbild\relax }{figure.caption.17}{}}
+                                                  
+? 
+
+LaTeX Warning: Label `fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.131 ...m Weißbild\relax }{figure.caption.19}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.131 ...m Weißbild\relax }{figure.caption.19}{}}
+                                                  
+? 
+
+LaTeX Warning: Label `fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Dunkelbild mit Dead- und Stuckpixel' multiply defined
+.
+
+
+LaTeX Warning: Label `fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Dunkelbild mit Dead- und Stuckpixel' multiply defined
+.
+
+
+LaTeX Warning: Label `fig:VERSUCH_1_MESSWERTE' multiply defined.
+
+
+LaTeX Warning: Label `fig:VERSUCH_1_MESSWERTE' multiply defined.
 
 
 LaTeX Warning: Label `fig:f1' multiply defined.
@@ -1800,47 +1904,44 @@ LaTeX Warning: Label `lst:APPENDIX_SOURCECODE_REGRESSION' multiply defined.
 
 LaTeX Warning: Label `lst:APPENDIX_SOURCECODE_AREA5' multiply defined.
 
-
-LaTeX Warning: Label `lst:APPENDIX_SOURCECODE_AREA5' multiply defined.
-
 (appendix/bibliography.aux))
 \openout1 = `SSS_Laborbericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 190.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 190.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 198.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 198.
 
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cbfonts-fd
 \lgrcmr.fd"
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 190.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 190.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 198.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 198.
 
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cm
 r.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 190.
-LaTeX Font Info:    ... okay on input line 190.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 190.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 198.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1p
 tm.fd"
@@ -1881,7 +1982,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 190.
+Package hyperref Info: Link coloring OFF on input line 198.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -1893,9 +1994,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count175
 )
-LaTeX Info: Redefining \ref on input line 190.
-LaTeX Info: Redefining \pageref on input line 190.
-LaTeX Info: Redefining \nameref on input line 190.
+LaTeX Info: Redefining \ref on input line 198.
+LaTeX Info: Redefining \pageref on input line 198.
+LaTeX Info: Redefining \nameref on input line 198.
  (SSS_Laborbericht.out) (SSS_Laborbericht.out)
 \@outlinefile=\write4
 \openout4 = `SSS_Laborbericht.out'.
@@ -1931,7 +2032,7 @@ i\supp-pdf.mkii"
 \c@lstlisting=\count182
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 190.
+(lastpage)             ! on input line 198.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1941,12 +2042,12 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 190.
+ on input line 198.
 
 \openout2 = `preface/cover.aux'.
 
 (preface/cover.tex
-<preface/htwg-logo.png, id=106, 298.716pt x 119.4864pt>
+<preface/htwg-logo.png, id=130, 298.716pt x 119.4864pt>
 File: preface/htwg-logo.png Graphic file (type png)
 <use preface/htwg-logo.png>
 Package pdftex.def Info: preface/htwg-logo.png  used on input line 7.
@@ -2024,7 +2125,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.196 \include{preface/abstract}
+l.204 \include{preface/abstract}
                                  [1
 
 
@@ -2084,29 +2185,12 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ])
  1.
 
-Overfull \hbox (34.35768pt too wide) in paragraph at lines 234--252
-\T1/ptm/m/n/12 In dem ers-ten Ver-such geht es um die "Ka-li-brie-rung und Ein-
-satz ei-nes Infrarot-Entfernungsmessers".
- []
-
-
-Overfull \hbox (3.78206pt too wide) in paragraph at lines 234--252
-\T1/ptm/m/n/12 Mit-tels ei-nes ak-ti-ven Ab-stands-sen-sors der Mar-ke 'Sharp' 
-mit dem Na-men 'GP2Y0A21YK0F'
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--252
+Underfull \hbox (badness 10000) in paragraph at lines 242--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--252
+Underfull \hbox (badness 10000) in paragraph at lines 242--261
 
  []
 
@@ -2116,244 +2200,152 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--252
 
 ]
  2.
-<media/aufbau.jpg, id=235, 3468.96pt x 4625.28pt>
-File: media/aufbau.jpg Graphic file (type jpg)
-<use media/aufbau.jpg>
-Package pdftex.def Info: media/aufbau.jpg  used on input line 268.
-(pdftex.def)             Requested size: 308.71106pt x 411.59923pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--279
+
+ []
+
 [2
 
 ]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 282.
 
-LaTeX Warning: Reference `chap:VERSUCH_2_MESSWERTE_TABELLE' on page 3 undefined
- on input line 275.
 
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1
+ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<media/aufbau.jpg, id=282, 3468.96pt x 4625.28pt>
+File: media/aufbau.jpg Graphic file (type jpg)
+<use media/aufbau.jpg>
+Package pdftex.def Info: media/aufbau.jpg  used on input line 291.
+(pdftex.def)             Requested size: 264.61333pt x 352.80942pt.
+ [3 <./media/aufbau.jpg>]
+<../data/Versuch1a.png, id=287, 642.4pt x 481.8pt>
+File: ../data/Versuch1a.png Graphic file (type png)
+<use ../data/Versuch1a.png>
+Package pdftex.def Info: ../data/Versuch1a.png  used on input line 303.
+(pdftex.def)             Requested size: 220.50887pt x 165.38309pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 279.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 279.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 279.
-[3 <./media/aufbau.jpg>]
-
-LaTeX Warning: Reference `chap:VERSUCH_1_MESSWERTE_TABELLE' on page 4 undefined
- on input line 299.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 305.
-[4]
-<../data/bild1.png, id=248, 105.39375pt x 481.8pt>
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 315.
+ [4 <../data/Versuch1a.png (PNG copy)>]
+<../data/bild1.png, id=293, 105.39375pt x 481.8pt>
 File: ../data/bild1.png Graphic file (type png)
 <use ../data/bild1.png>
-Package pdftex.def Info: ../data/bild1.png  used on input line 337.
-(pdftex.def)             Requested size: 44.10446pt x 201.61945pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
-[]\T1/ptm/m/n/10 (a) |Grau-
- []
-
-<../data/bild2.png, id=249, 135.50626pt x 481.8pt>
+Package pdftex.def Info: ../data/bild1.png  used on input line 350.
+(pdftex.def)             Requested size: 35.28221pt x 161.28821pt.
+<../data/bild2.png, id=294, 135.50626pt x 481.8pt>
 File: ../data/bild2.png Graphic file (type png)
 <use ../data/bild2.png>
-Package pdftex.def Info: ../data/bild2.png  used on input line 339.
-(pdftex.def)             Requested size: 44.10446pt x 156.81104pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
-[]\T1/ptm/m/n/10 (b) |Grau-
- []
-
-<../data/bild3.png, id=250, 137.51375pt x 481.8pt>
+Package pdftex.def Info: ../data/bild2.png  used on input line 352.
+(pdftex.def)             Requested size: 35.28221pt x 125.44882pt.
+<../data/bild3.png, id=295, 137.51375pt x 481.8pt>
 File: ../data/bild3.png Graphic file (type png)
 <use ../data/bild3.png>
-Package pdftex.def Info: ../data/bild3.png  used on input line 341.
-(pdftex.def)             Requested size: 44.10446pt x 154.52467pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-[]\T1/ptm/m/n/10 (c) |Grau-
- []
-
-<../data/bild4.png, id=251, 132.495pt x 481.8pt>
+Package pdftex.def Info: ../data/bild3.png  used on input line 354.
+(pdftex.def)             Requested size: 35.28221pt x 123.61092pt.
+<../data/bild4.png, id=296, 132.495pt x 481.8pt>
 File: ../data/bild4.png Graphic file (type png)
 <use ../data/bild4.png>
-Package pdftex.def Info: ../data/bild4.png  used on input line 343.
-(pdftex.def)             Requested size: 44.10446pt x 160.3766pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
-[]\T1/ptm/m/n/10 (d) |Grau-
- []
-
-<../data/bild5.png, id=252, 111.41624pt x 481.8pt>
+Package pdftex.def Info: ../data/bild4.png  used on input line 356.
+(pdftex.def)             Requested size: 35.28221pt x 128.30127pt.
+<../data/bild5.png, id=297, 111.41624pt x 481.8pt>
 File: ../data/bild5.png Graphic file (type png)
 <use ../data/bild5.png>
-Package pdftex.def Info: ../data/bild5.png  used on input line 345.
-(pdftex.def)             Requested size: 44.10446pt x 190.72427pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]\T1/ptm/m/n/10 (e) |Grau-
- []
-
-<../data/Versuch1b.png, id=253, 642.4pt x 481.8pt>
+Package pdftex.def Info: ../data/bild5.png  used on input line 358.
+(pdftex.def)             Requested size: 35.28221pt x 152.56912pt.
+<../data/Versuch1b.png, id=298, 642.4pt x 481.8pt>
 File: ../data/Versuch1b.png Graphic file (type png)
 <use ../data/Versuch1b.png>
-Package pdftex.def Info: ../data/Versuch1b.png  used on input line 347.
-(pdftex.def)             Requested size: 220.50887pt x 165.38309pt.
+Package pdftex.def Info: ../data/Versuch1b.png  used on input line 361.
+(pdftex.def)             Requested size: 176.40439pt x 132.30058pt.
 
-Overfull \hbox (18.01344pt too wide) in paragraph at lines 337--348
- [][][][][][][][][][][][] 
- []
-
-<media/myplot.png, id=254, 642.4pt x 481.8pt>
-File: media/myplot.png Graphic file (type png)
-<use media/myplot.png>
-Package pdftex.def Info: media/myplot.png  used on input line 359.
-(pdftex.def)             Requested size: 441.01773pt x 330.77351pt.
 [5 <../data/bild1.png (PNG copy)> <../data/bild2.png (PNG copy)> <../data/bild3
 .png (PNG copy)> <../data/bild4.png (PNG copy)> <../data/bild5.png (PNG copy)> 
-<../data/Versuch1b.png (PNG copy)>] [6 <./media/myplot.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 367--375
+<../data/Versuch1b.png (PNG copy)>] [6]
+<media/myplot.png, id=315, 642.4pt x 481.8pt>
+File: media/myplot.png Graphic file (type png)
+<use media/myplot.png>
+Package pdftex.def Info: media/myplot.png  used on input line 411.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+<media/myplot2.png, id=316, 642.4pt x 481.8pt>
+File: media/myplot2.png Graphic file (type png)
+<use media/myplot2.png>
+Package pdftex.def Info: media/myplot2.png  used on input line 414.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+ [7 <./media/myplot.png (PNG copy)> <./media/myplot2.png (PNG copy)>]
+ 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--438
 
  []
 
-<media/52.png, id=271, 240.9pt x 225.84375pt>
-File: media/52.png Graphic file (type png)
-<use media/52.png>
-Package pdftex.def Info: media/52.png  used on input line 379.
-(pdftex.def)             Requested size: 176.40439pt x 165.38492pt.
-<media/55.png, id=272, 240.9pt x 225.84375pt>
-File: media/55.png Graphic file (type png)
-<use media/55.png>
-Package pdftex.def Info: media/55.png  used on input line 382.
-(pdftex.def)             Requested size: 176.40439pt x 165.38492pt.
-[7 <./media/52.png> <./media/55.png>]
- 3.
 [8
 
-] [9]
+]
+<../data/black1.png, id=327, 642.4pt x 481.8pt>
+File: ../data/black1.png Graphic file (type png)
+<use ../data/black1.png>
+Package pdftex.def Info: ../data/black1.png  used on input line 446.
+(pdftex.def)             Requested size: 396.91325pt x 297.69102pt.
+ [9 <../data/black1.png (PNG copy)>]
+<../data/blackaverage.png, id=332, 642.4pt x 481.8pt>
+File: ../data/blackaverage.png Graphic file (type png)
+<use ../data/blackaverage.png>
+Package pdftex.def Info: ../data/blackaverage.png  used on input line 459.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+<../data/contrastblackaverage.png, id=333, 642.4pt x 481.8pt>
+File: ../data/contrastblackaverage.png Graphic file (type png)
+<use ../data/contrastblackaverage.png>
+Package pdftex.def Info: ../data/contrastblackaverage.png  used on input line 4
+62.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+File: ../data/Versuch1b.png Graphic file (type png)
+<use ../data/Versuch1b.png>
+Package pdftex.def Info: ../data/Versuch1b.png  used on input line 473.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+<../data/korrigiertes_bild.png, id=334, 642.4pt x 481.8pt>
+File: ../data/korrigiertes_bild.png Graphic file (type png)
+<use ../data/korrigiertes_bild.png>
+Package pdftex.def Info: ../data/korrigiertes_bild.png  used on input line 476.
 
-LaTeX Warning: File `media/myplot4.png' not found on input line 469.
-
-
-! Package pdftex.def Error: File `media/myplot4.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.469 ...hics[width=\textwidth]{media/myplot4.png}
-                                                  
-? 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 469.
-
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1p
-cr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [10]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 479.
-
-Underfull \hbox (badness 10000) in paragraph at lines 474--482
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+ [10 <../data/blackaverage.png (PNG copy)> <../data/contrastblackaverage.png (P
+NG copy)> <../data/korrigiertes_bild.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 483--495
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 474--482
-
- []
-
-
-LaTeX Warning: File `media/myplot5.png' not found on input line 485.
-
-
-! Package pdftex.def Error: File `media/myplot5.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.485 ...hics[width=\textwidth]{media/myplot5.png}
-                                                  
-? 
 [11]
-
-LaTeX Warning: File `media/myplot3.png' not found on input line 512.
-
-
-! Package pdftex.def Error: File `media/myplot3.png' not found: using draft set
-ting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 ...s[width=0.9\textwidth]{media/myplot3.png}
-                                                  
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--516
-
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 523--528
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 529--533
-
- []
-
-[14]
  4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--552
+Underfull \hbox (badness 10000) in paragraph at lines 500--516
 
  []
 
-[15
+[12
 
 ]
-Overfull \hbox (16.88103pt too wide) in paragraph at lines 592--601
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--603
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--603
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
+stlang1.sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+Underfull \hbox (badness 10000) in paragraph at lines 519--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--645
+Underfull \hbox (badness 10000) in paragraph at lines 519--523
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 605--645
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 605--645
-
- []
-
-[16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 647--663
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 665--680
-
- []
-
+(../grayscale.py)
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2361,43 +2353,154 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.688 \newline
+l.524 \newline
               
 ? 
-[18]
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
-stlang1.sty"
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.525 \newline
+              
+? 
+<../data/white1.png, id=352, 642.4pt x 481.8pt>
+File: ../data/white1.png Graphic file (type png)
+<use ../data/white1.png>
+Package pdftex.def Info: ../data/white1.png  used on input line 531.
+(pdftex.def)             Requested size: 396.91325pt x 297.69102pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
+
+ []
+
+[13 <../data/white1.png (PNG copy)>]
+<../data/whiteaverage.png, id=359, 642.4pt x 481.8pt>
+File: ../data/whiteaverage.png Graphic file (type png)
+<use ../data/whiteaverage.png>
+Package pdftex.def Info: ../data/whiteaverage.png  used on input line 545.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+<../data/contrastwhiteaverage1.png, id=360, 642.4pt x 481.8pt>
+File: ../data/contrastwhiteaverage1.png Graphic file (type png)
+<use ../data/contrastwhiteaverage1.png>
+Package pdftex.def Info: ../data/contrastwhiteaverage1.png  used on input line 
+548.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+<../data/whiteminusblack.png, id=361, 642.4pt x 481.8pt>
+File: ../data/whiteminusblack.png Graphic file (type png)
+<use ../data/whiteminusblack.png>
+Package pdftex.def Info: ../data/whiteminusblack.png  used on input line 556.
+(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
+ [14 <../data/whiteaverage.png (PNG copy)> <../data/contrastwhiteaverage1.png (
+PNG copy)> <../data/whiteminusblack.png (PNG copy)>]
+File: ../data/Versuch1b.png Graphic file (type png)
+<use ../data/Versuch1b.png>
+Package pdftex.def Info: ../data/Versuch1b.png  used on input line 567.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+<../data/korrigiertes_bild2.png, id=368, 642.4pt x 481.8pt>
+File: ../data/korrigiertes_bild2.png Graphic file (type png)
+<use ../data/korrigiertes_bild2.png>
+Package pdftex.def Info: ../data/korrigiertes_bild2.png  used on input line 570
+.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+ [15 <../data/korrigiertes_bild2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 576--596
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--596
+
+ []
+
+
+Overfull \hbox (3.65402pt too wide) in paragraph at lines 576--596
+\T1/ptm/m/n/12 In dem letz-ten Ex-pe-ri-ment wur-de die In-ten-si-t�t des ein-f
+al-len-den Lich-tes be-rech-net. In schwarz
+ []
+
+[16]
+ 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--617
+
+ []
+
+[17
+
+]
+<../data/zzz.png, id=383, 642.4pt x 481.8pt>
+File: ../data/zzz.png Graphic file (type png)
+<use ../data/zzz.png>
+Package pdftex.def Info: ../data/zzz.png  used on input line 625.
+(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
+<../data/zzz2.png, id=384, 642.4pt x 481.8pt>
+File: ../data/zzz2.png Graphic file (type png)
+<use ../data/zzz2.png>
+Package pdftex.def Info: ../data/zzz2.png  used on input line 634.
+(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
+ [18 <../data/zzz.png (PNG copy)> <../data/zzz2.png (PNG copy)>]
+<../data/proof1.png, id=390, 493.0922pt x 393.72093pt>
+File: ../data/proof1.png Graphic file (type png)
+<use ../data/proof1.png>
+Package pdftex.def Info: ../data/proof1.png  used on input line 647.
+(pdftex.def)             Requested size: 198.45662pt x 158.46483pt.
+<../data/proof2.png, id=391, 493.0922pt x 393.72093pt>
+File: ../data/proof2.png Graphic file (type png)
+<use ../data/proof2.png>
+Package pdftex.def Info: ../data/proof2.png  used on input line 650.
+(pdftex.def)             Requested size: 198.45662pt x 158.46483pt.
+<../data/proof3.png, id=392, 534.49687pt x 342.5297pt>
+File: ../data/proof3.png Graphic file (type png)
+<use ../data/proof3.png>
+Package pdftex.def Info: ../data/proof3.png  used on input line 656.
+(pdftex.def)             Requested size: 220.50887pt x 141.31091pt.
+ [19 <../data/proof1.png> <../data/proof2.png> <../data/proof3.png>] [20]
+<../data/table1.png, id=404, 642.4pt x 481.8pt>
+File: ../data/table1.png Graphic file (type png)
+<use ../data/table1.png>
+Package pdftex.def Info: ../data/table1.png  used on input line 705.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+<../data/table2.png, id=405, 642.4pt x 481.8pt>
+File: ../data/table2.png Graphic file (type png)
+<use ../data/table2.png>
+Package pdftex.def Info: ../data/table2.png  used on input line 708.
+(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--711
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--711
+
+ []
+
+[21 <../data/table1.png (PNG copy)> <../data/table2.png (PNG copy)>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 708.
- (../task1.1.py
+nput line 730.
+
+(../task1.1.py
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
- [19
+ [22
 
-]) (../task1.2.py [20]) [21] (../task1.3.py
-[22]) [23] (../task2.1.py [24]) [25] (../task2.2.py) [26] (../task3.1.py
-[27]) [28] (../task3.2.py) [29] (../task3.3.py) [30] (../task3.4.py [31])
-(../task3.4b.py
-Overfull \hbox (1.39711pt too wide) in paragraph at lines 28--30
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) [32] (../dead.py [33]) [34] (../dead2.py [35]) [36]
-<media/scan.png, id=987, 614.7768pt x 845.559pt>
+]) (../task1.2.py [23]) [24] (../task1.3.py [25]) [26]
+(../task2.1.py [27]) [28] (../task2.2.py) [29] (../task3.1.py [30]) [31]
+(../task3.2.py) [32] (../task3.3.py) [33] (../task3.4.py [34]) (../task3.4b.py
+[35]) (../dead.py [36]) [37] (../dead2.py [38]) [39]
+<media/scan.png, id=1091, 614.7768pt x 845.559pt>
 File: media/scan.png Graphic file (type png)
 <use media/scan.png>
-Package pdftex.def Info: media/scan.png  used on input line 737.
+Package pdftex.def Info: media/scan.png  used on input line 759.
 (pdftex.def)             Requested size: 352.81552pt x 485.2766pt.
- [37 <./media/scan.png>]
+ [40 <./media/scan.png>]
 \openout2 = `appendix/bibliography.aux'.
 
 
@@ -2405,14 +2508,68 @@ Package pdftex.def Info: media/scan.png  used on input line 737.
 No file SSS_Laborbericht.bbl.
 ) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 773.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 773.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.120 ...Weißbilder\relax }{figure.caption.17}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.120 ...Weißbilder\relax }{figure.caption.17}{}}
+                                                  
+? 
+! Extra \endcsname.
+\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.120 ...Weißbilder\relax }{figure.caption.17}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.131 ...m Weißbild\relax }{figure.caption.19}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.131 ...m Weißbild\relax }{figure.caption.19}{}}
+                                                  
+? 
+! Extra \endcsname.
+\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.131 ...m Weißbild\relax }{figure.caption.19}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T1\ss 
+l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
+                                                  
+? 
+! Extra \endcsname.
+\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
+                                                  
+? 
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 773.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 773.
 
 
 Package rerunfilecheck Warning: File `SSS_Laborbericht.out' has changed.
@@ -2420,35 +2577,49 @@ Package rerunfilecheck Warning: File `SSS_Laborbericht.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `SSS_Laborbericht.out':
-(rerunfilecheck)             Before: C08214670ABC4966A45D22ECC19835C5;4397
-(rerunfilecheck)             After:  B6B2F85DA4DDF1FBA623B87E03828299;4445.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Before: 70C3ACBB213C467C9EEBEEDF447151E9;5129
+(rerunfilecheck)             After:  3B74FEB5BFB1CE3DEE66469FCA7A0EDD;5129.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 751.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 773.
+
+Overfull \hbox (13.82822pt too wide) in paragraph at lines 120--773
+[]\T1/ptm/m/n/12 �bilder           �bild                   �bild mit Dead- und 
+Stuck-pi-xel                                                                   
+     
+ []
+
  ) 
 Here is how much of TeX's memory you used:
- 39474 strings out of 492945
- 849698 string characters out of 3122700
- 1186692 words of memory out of 3000000
- 41858 multiletter control sequences out of 15000+200000
- 83942 words of font info for 135 fonts, out of 3000000 for 9000
+ 39586 strings out of 492945
+ 852355 string characters out of 3122700
+ 1188262 words of memory out of 3000000
+ 41905 multiletter control sequences out of 15000+200000
+ 71816 words of font info for 119 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,98p,715b,2356s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
-e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Tobias.Schoch/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/T
-obias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on SSS_Laborbericht.pdf (44 pages, 10041927 bytes).
+ 64i,12n,98p,715b,2236s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{table.caption.26} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.28} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/
+8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SSS_Laborbericht.pdf (47 pages, 12296122 bytes).
 PDF statistics:
- 1154 PDF objects out of 1200 (max. 8388607)
- 687 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1266 PDF objects out of 1440 (max. 8388607)
+ 741 named destinations out of 1000 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
