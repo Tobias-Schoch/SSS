@@ -1,14 +1,28 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Grundperiode:     10ms
+# Grundfrequenz:    100Hz
+# Signaldauer:      25ms
+# Abtastintervall:  10μs
+# Signallänge:      2500
+# Abtastfrequenz:   1MH
+
+period = 10
+frequence = 100
+singaltime = 25
+keyintervall = 10
+singallength = 2500
+keyfrequence = 1
+
 x, y = np.loadtxt('data/großerLautsprecher/100.csv', delimiter=',', unpack=True)
-x1, y1 = np.loadtxt('data/großerLautsprecher/100_2.csv', delimiter=',', unpack=True)
 
 plt.plot(x, y)
-plt.plot(x1, y1)
 plt.grid(True)
-plt.ylabel('logarithmierter Durchschnitt der Spannung in V')
-plt.xlabel('logarithmierter Abstand in cm')
+plt.figure()
+plt.ylabel('Spannung in V')
+plt.xlabel('Zeit t')
 plt.show()
+
 
 
