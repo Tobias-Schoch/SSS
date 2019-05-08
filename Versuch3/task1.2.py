@@ -10,6 +10,7 @@ plt.ylabel('Spannung in V')
 plt.xlabel('Zeit t')
 plt.grid(True)
 plt.show()
+plt.savefig('data/signal.png')
 
 # Grundperiode:     1,586 ms
 # Grundfrequenz:    630,52 Hz
@@ -26,6 +27,7 @@ plt.ylabel('Spannung in V')
 plt.xlabel('Zeit t')
 plt.grid(True)
 plt.show()
+plt.savefig('data/amplitude.png')
 
 qq = int(len(fft) / 2 + 1)
 
@@ -35,3 +37,4 @@ plt.ylabel('Spannung in V')
 plt.xlabel('Zeit t')
 plt.grid(True)
 plt.show()
+plt.savefig('data/amplitude2.png')
