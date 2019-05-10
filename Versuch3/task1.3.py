@@ -14,6 +14,8 @@ spektrum = np.abs(fourier)
 # Formel um die Anzahl der Schwingungen in die Freuquenz umzurechnen - f = n / (M * Δt)
 freq = range(0, 2500, 1) / (difference * 2500)
 
+
+
 # Darstellung des Amplitudenspektrums
 plt.plot(freq, spektrum)
 plt.grid()
@@ -28,7 +30,8 @@ signallaenge = len(file.readlines())
 sek = 1000000
 abtastintervall = round((difference * sek), 2)
 
-x = int(len(fourier / 2 + 1))
+x = len(fourier / 2 + 1)
+freq2 = freq[:x]
 
 # Berechnung der größten Amplitude
 print("Grundperiode: 0.001275 s", )
@@ -39,5 +42,5 @@ print("Abtastfrequenz: ", 1 / abtastintervall * sek, " Hz")
 print("Signallänge M: ", signallaenge)
 print("Abtastintervall ∆t:", abtastintervall, " μs")
 print()
-print("Maximalster Amplitudenausschlag",round((np.max(freq[:x]) / 100), 1))
+print("Maximalster Amplitudenausschlag", round(np.max(freq2), 1))
 print("Frequenz mit der größten Amplitude", np.max(spektrum))
