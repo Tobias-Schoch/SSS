@@ -1,35 +1,23 @@
 <h1 align="left">
-  Uno in Scala
+  Signale, Systeme und Sensoren
 </h1>
 <br>
 
-[![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno) 
-[![Coverage Status](https://coveralls.io/repos/github/Tobias-Schoch/Uno/badge.svg?branch=master)](https://coveralls.io/github/Tobias-Schoch/Uno?branch=master)
-
+Aufgabe1 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno)
+Aufgabe2 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno) 
+Aufgabe3 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno) 
+Aufgabe4 : Not finished
+Aufgabe5 : Not finished
 <br>
 
 ## 📦 The Project
 
-This is a project created at the University of Applied Science HTWG Konstanz in the class Software Engineering. 
-<br>Its the common game Uno.
-
-Do not copy or clone this project, please use the htwg-scala-seed project for that. 
-<br> 
-You can find it at https://github.com/markoboger/htwg-scala-seed.git
-
+This is a project created at the University of Applied Science HTWG Konstanz in the class Signals, Systems and Sensors. 
 <br>
 
 ## 🐧 Contributors:
 
 * [Tobias Schoch](https://github.com/tobias-schoch)
-* [Philipp Sturm](https://github.com/legophil)
+* [Luca Stratmann](https://github.com/m1negam3)
 
 <br>
-
-## 💾 Features
-
-- Game asks the gamer how many players participate.
-- Afterwards the user can give back a number from 2-6.
-- The game gives every player 7 random cards
-- Additonally there is a starting card
-- Simple UI
