@@ -14,32 +14,28 @@ Aufgabe2 :
 <br>
 ✔️ Programmieren
 <br>
-✔️ Bericht    
-<br>
+✔️ Bericht  
 ✔️ Bewertung  7/7  
 <br>
 Aufgabe3 : 
 <br>
 ✔️ Programmieren
 <br>
-❌ Bericht     
-<br>
+❌ Bericht  
 ❌ Bewertung   
 <br>
 Aufgabe4 : 
 <br>
 ❌ Programmieren
 <br>
-❌ Bericht       
-<br>
+❌ Bericht  
 ❌ Bewertung
-<br>
+<br><br>
 Aufgabe5 : 
 <br>
 ❌ Programmieren
 <br>
-❌ Bericht        
-<br>
+❌ Bericht   
 ❌ Bewertung
 <br>
 
