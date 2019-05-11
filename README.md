@@ -4,9 +4,13 @@
 <br>
 
 Aufgabe1 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno)
+<br>
 Aufgabe2 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno) 
+<br>
 Aufgabe3 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno) 
+<br>
 Aufgabe4 : Not finished
+<br>
 Aufgabe5 : Not finished
 <br>
 
