@@ -244,10 +244,39 @@ Dabei werden die Techniken der Fouriertransformation und des Bode Diagramms.
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_1_FRAGESTELLUNG}
-asd
-
-asd
-
+Im ersten Versuch der Versuchsreihe "Fourieranalyse und Akustik" werden wir die Fourieranalyse auf akustische Signale und Systeme anwenden.
+Dazu werden wir mittels einer Mundharmonika in ein Mikrofon blasen, dass wiederum an ein Oszillskop angeschlossen ist und die Spannungen anzeigt.
+Dabei ist es wichtig zu beachten, dass auf dem Oszilloskop mehrere Perioden abgegebildet werden. Das Triggerlevel soll so im Oszilloskop eingestellt werden, dass das Signal nur bei genügend hoher Amplitude eingestellt wird.
+Die Triggerung sollte dabei auch im Single Sequence Modus eingestellt werden um statische Daten zu erhalten die auch dem tatsächlichen Spannungswert entsprechen.
+Nachdem dies erledigt ist, haben wir ein Pythonskript geschrieben task1.1.py um das Signal aus dem Oszilloskop bei der Einstellung der Triggerung "Single Sequenz" auszulesen.
+Dies wird mittels der Toolbox TekTDS2000 von M. Miller in eine .csv Datei gespeichert welche zum Beispiel mit Excel geöffnet werden kann.
+\newpage
+So sieht der Versuchsaufbau des ersten Versuches aus. Dabei wird das Mikrofon an den Channel 1 des Oszilloskopes angeschlossen. Nach der Kalibrierung und der Einstellung der künstlichen Sinuskurve haben wir mit dem Pythonskript das ausgegebene Signal des Oszilloskopes in eine .csv Datei eingelesen.
+Danach hatten wir die Aufgabe folgende Werte zu berechnen.~\par
+\begin{itemize}
+	\item Grundperiode (in ms)
+	\item Grundfrequenz (in Hz)
+	\item Signaldauer (in s)
+	\item Abtastfrequenz (in Hz)
+	\item Signallänge M (Anzahl der Abtastzeitpunkte)
+	\item Abtastintervall $\Delta$t (in s)
+\end{itemize}
+\begin{figure}[H]
+	\centering\small
+	\includegraphics[width=0.8\textwidth]{media/aufbau2.jpg}
+	\caption{Versuchsaufbau Teil 1}
+	\label{img:Versuchsaufbau Teil 1}
+\end{figure}
+\newpage
+Folgende Materialien wurden benötigt: ~\par
+\begin{itemize}
+	\item Oszilloskop
+	\item Mikrofon
+	\item Mundharmonika
+	\item Signalkabel
+	\item Python auf einem Computer
+\end{itemize}
+\newpage
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
 
@@ -265,12 +294,7 @@ asd
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_2_FRAGESTELLUNG}
-\begin{figure}[hbt!]
-	\centering\small
-	\includegraphics[width=0.8\textwidth]{media/aufbau.jpg}
-	\caption{Versuchsaufbau Teil 1}
-	\label{img:Versuchsaufbau Teil 1}
-\end{figure}
+
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
 

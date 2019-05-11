@@ -5,9 +5,8 @@ import numpy as np
 x, y = np.loadtxt('data/eins.csv', delimiter=',', unpack=True)
 
 # Darstellung des Signals unserer Mundharmonikaaufnahme
-plt.plot(x*1000, y*1000, 'b')
+plt.plot(x * 1000, y * 1000, 'b')
 plt.ylabel('Spannung in mV')
 plt.xlabel('Zeit in ms')
 plt.grid(True)
 plt.show()
-

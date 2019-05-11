@@ -14,8 +14,6 @@ spektrum = np.abs(fourier)
 # Formel um die Anzahl der Schwingungen in die Freuquenz umzurechnen - f = n / (M * Δt)
 freq = range(0, 2500, 1) / (difference * 2500)
 
-
-
 # Darstellung des Amplitudenspektrums
 plt.plot(freq, spektrum)
 plt.grid()
@@ -27,12 +25,13 @@ plt.show()
 # Einlesen der Signallänge
 file = open("data/eins.csv")
 signallaenge = len(file.readlines())
+# Sekundenumwandlung so wird 0,000001s zu 1µs
 sek = 1000000
+# Das Abtastintervall in µs anzeigen und runden
 abtastintervall = round((difference * sek), 2)
 
-vec = np.zeros((2,1250))
-
-for x in range(0,1250):
+# For-Schleife um den passenden Frequenzwert zu erlangen der zu der maximalen Amplitude gehört
+for x in range(0, 1250):
     if round(spektrum[x], 4) == 4.5675:
         frequency = freq[x]
 
