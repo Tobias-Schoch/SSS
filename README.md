@@ -3,11 +3,11 @@
 </h1>
 <br>
 
-Aufgabe1 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno)
+Aufgabe1 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)]
 <br>
-Aufgabe2 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno) 
+Aufgabe2 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)]
 <br>
-Aufgabe3 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)](https://travis-ci.org/Tobias-Schoch/Uno) 
+Aufgabe3 : [![Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)] 
 <br>
 Aufgabe4 : Not finished
 <br>
