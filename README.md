@@ -4,28 +4,43 @@
 <br>
 
 Aufgabe1 : 
+<br>
 ✔️ Programmieren
+<br>
 ✔️ Bericht        
+<br>
 ✔️ Bewertung  7/7      
 <br>
 Aufgabe2 : 
+<br>
 ✔️ Programmieren
-✔️ Bericht        
+<br>
+✔️ Bericht    
+<br>
 ✔️ Bewertung  7/7  
 <br>
 Aufgabe3 : 
+<br>
 ✔️ Programmieren
-❌ Bericht        
+<br>
+❌ Bericht     
+<br>
 ❌ Bewertung   
 <br>
 Aufgabe4 : 
+<br>
 ❌ Programmieren
-❌ Bericht        
+<br>
+❌ Bericht       
+<br>
 ❌ Bewertung
 <br>
 Aufgabe5 : 
+<br>
 ❌ Programmieren
+<br>
 ❌ Bericht        
+<br>
 ❌ Bewertung
 <br>
 
