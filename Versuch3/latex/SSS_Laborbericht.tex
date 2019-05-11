@@ -268,6 +268,13 @@ Danach hatten wir die Aufgabe folgende Werte zu berechnen.~\par
 	\label{img:Versuchsaufbau Teil 1}
 \end{figure}
 \newpage
+Im Anschluss mussten wir mithilfe der Funktion numpy.fft.fft() die Fouriertransformation des Signals berechnen. Daraus sollten wir das Amplitudenspektrum bestimmen und graphisch darstellen.
+Dabei ist zu beachten, dass die x-Achse mit der Frequenz nicht in Hertz sondern in der Anzahl Schwingungen innerhlab der gesamten Signaldauer definiert ist..
+Die Frequenz f in Hertz lässt sich jedoch folgendermaße berechnen.
+\\~\\
+f = $\dfrac{n}{M * \Delta t}$
+\\~\\
+Als letzten Teil der ersten Aufgabe sollen wir die Grundfrequenz im Spektrum berechnen und damit die Frequenz in Hertz identifizieren.
 Folgende Materialien wurden benötigt: ~\par
 \begin{itemize}
 	\item Oszilloskop
@@ -279,8 +286,55 @@ Folgende Materialien wurden benötigt: ~\par
 \newpage
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
+Auf dem linken Bild sieht man die Darstellung auf dem Oszilloskop. Diese wurde durch ein Programm auf dem Labor Computer eingelesen.
+Durch einen Pythoncode den wir aus der Toolbox TekTDS2000 erhalten haben, konnten wir den Spannungsverlauf aus dem Oszilloskop einlesen und in eine .csv Datei schreiben. Dieses Format wird auch häufig für Excel Dateien verwendet.
+Diese Datei haben wir mittels Numpy und der Funktion np.loadfromtxt ausgelesen.
+Die Ergebnisse wurden in die 2 verschiedene Funktionen x und y geschrieben.
+Danach wurden diese mittels matplotlib graphisch dargestellt.
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/100.png}
+  \caption{Die Ausgabe des Oszilloskopes}
+  \label{fig:Die Ausgabe des Oszilloskopes}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/gross100.png}
+  \caption{Die Auswertung der .csv Datei durch Python}
+  \label{fig:Die Auswertung der .csv Datei durch Python}
+\end{subfigure}
+\caption{Einlesen des Signals in .csv und duch das Oszilloskop}
+\label{fig:Einlesen des Signals in .csv und duch das Oszilloskop}
+\end{figure}
+
+Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|}
+	\hline
+	Plot & Wert \\
+	\hline
+	Grundperiode & 0.001275s \\
+	\hline
+	Grundfrequenz & 784.31Hz \\
+	\hline
+	Signaldauer &  \\
+	\hline
+	Abtastfrequenz &  \\
+	\hline
+	Signallänge &  \\
+	\hline
+	Abtastintervall & 
+	\hline
+	\end{tabular}
+	\caption{Mittelwert, Hexwert und Standardabweichung für die Intensivität des Lichteinfalls}
+	\label{fig:VERSUCH_4_MESSWERTE}
+\end{table}
 
 \section{Auswertung}
+
 \label{chap:VERSUCH_1_AUSWERTUNG}
 
 \section{Interpretation}
