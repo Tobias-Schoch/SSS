@@ -3,15 +3,30 @@
 </h1>
 <br>
 
-Aufgabe1 : Build finished
+Aufgabe1 : 
+✔️ Programmieren
+✔️ Bericht        
+✔️ Bewertung  7/7      
 <br>
-Aufgabe2 : Build finished
+Aufgabe2 : 
+✔️ Programmieren
+✔️ Bericht        
+✔️ Bewertung  7/7  
 <br>
-Aufgabe3 : Build finished
+Aufgabe3 : 
+✔️ Programmieren
+❌ Bericht        
+❌ Bewertung   
 <br>
-Aufgabe4 : Not finished
+Aufgabe4 : 
+❌ Programmieren
+❌ Bericht        
+❌ Bewertung
 <br>
-Aufgabe5 : Not finished
+Aufgabe5 : 
+❌ Programmieren
+❌ Bericht        
+❌ Bewertung
 <br>
 
 ## 📦 The Project
