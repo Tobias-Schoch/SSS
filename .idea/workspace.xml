@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="" />
+    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.tex" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,16 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Versuch2/task2.1.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Versuch2/task3.1.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Versuch2/task3.2.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -45,11 +38,34 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Versuch3/task2.2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1699">
+            <state relative-caret-position="17">
               <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch3/task1.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -158,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,20 +403,7 @@
       <workItem from="1555947316997" duration="869000" />
       <workItem from="1557593807757" duration="4655000" />
       <workItem from="1557601027790" duration="978000" />
-    </task>
-    <task id="LOCAL-00038" summary="splicing pictures">
-      <created>1555425114570</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1555425114570</updated>
-    </task>
-    <task id="LOCAL-00039" summary="adding pictures">
-      <created>1555425140248</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1555425140248</updated>
+      <workItem from="1557608277447" duration="1453000" />
     </task>
     <task id="LOCAL-00040" summary="saving cropped pictures">
       <created>1555425769416</created>
@@ -731,11 +734,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557601959751</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Starting with LaTeX Documentation">
+      <created>1557608394889</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1557608394897</updated>
+    </task>
+    <task id="LOCAL-00088" summary="LaTeX Documentation 1.2">
+      <created>1557609616611</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1557609616611</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150125000" />
+    <option name="totallyTimeSpent" value="151578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,8 +765,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3260212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33131617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -801,8 +819,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="last format changes" />
-    <MESSAGE value="latex changed" />
     <MESSAGE value="added data" />
     <MESSAGE value="capture pictures" />
     <MESSAGE value="splicing pictures" />
@@ -826,7 +842,9 @@
     <MESSAGE value="added highest and lowest colorvalue" />
     <MESSAGE value="editing file structur" />
     <MESSAGE value="adding comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding comments" />
+    <MESSAGE value="Starting with LaTeX Documentation" />
+    <MESSAGE value="LaTeX Documentation 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="LaTeX Documentation 1.2" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -837,8 +855,6 @@
     <SUITE FILE_PATH="coverage/SSS$Task2.coverage" NAME="Task2 Coverage Results" MODIFIED="1554896038555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1432979551/numpy/core/multiarray.py" />
-    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/subimage_extractor.py" />
     <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/set_contrast.py" />
     <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/medimg_white.py" />
     <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master (1)/AIN3-SSS-master/Aufgabe2/Code/medimg_black.py" />
@@ -909,8 +925,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch3/task2.2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1699">
+        <state relative-caret-position="17">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch3/task1.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
