@@ -3,11 +3,11 @@
 </h1>
 <br>
 
-Aufgabe1 : [Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)
+Aufgabe1 : Build finished
 <br>
-Aufgabe2 : [Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master)
+Aufgabe2 : Build finished
 <br>
-Aufgabe3 : [Build Status](https://travis-ci.org/Tobias-Schoch/Uno.svg?branch=master) 
+Aufgabe3 : Build finished
 <br>
 Aufgabe4 : Not finished
 <br>
