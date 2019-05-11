@@ -30,8 +30,11 @@ signallaenge = len(file.readlines())
 sek = 1000000
 abtastintervall = round((difference * sek), 2)
 
-x = len(fourier / 2 + 1)
-freq2 = freq[:x]
+vec = np.zeros((2,1250))
+
+for x in range(0,1250):
+    if round(spektrum[x], 4) == 4.5675:
+        frequency = freq[x]
 
 # Berechnung der größten Amplitude
 print("Grundperiode: 0.001275 s", )
@@ -42,5 +45,5 @@ print("Abtastfrequenz: ", 1 / abtastintervall * sek, " Hz")
 print("Signallänge M: ", signallaenge)
 print("Abtastintervall ∆t:", abtastintervall, " μs")
 print()
-print("Maximalster Amplitudenausschlag", round(np.max(freq2), 1))
+print("Maximalster Amplitudenausschlag", round(frequency, 1))
 print("Frequenz mit der größten Amplitude", np.max(spektrum))

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fd2d1f0-e395-4ba7-b76e-20b7b6e183db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task2.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Mundharmonika/eins.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amplitude.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/amplitude2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/10000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/10000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/100_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1200_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1500.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1500_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1700.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1700_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/2000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/2000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/200_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/3000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/3000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/300_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/400.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/4000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/4000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/400_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/500.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/5000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/5000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/500_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/6000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/6000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/700.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/700_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/850.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/850_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/100.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/10000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/10000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/100_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1200_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1500.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1500_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1700.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1700_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/200.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/2000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/2000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/200_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/300.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/3000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/3000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/300_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/400.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/4000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/4000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/400_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/500.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/5000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/5000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/500_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/600.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/6000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/6000_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/600_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/700.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/700_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/850.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/850_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/hundert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/signal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.2.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1.1.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1.2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor>
+                <caret selection-end-line="44" />
+                <folding>
+                  <element signature="e#0#31#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task2.1.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="357">
+                <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+                <folding>
+                  <element signature="e#0#31#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/abc/harmonica_plot.py" />
+        <option value="$PROJECT_DIR$/abc/harmonica_fft.py" />
+        <option value="$PROJECT_DIR$/2.py" />
+        <option value="$PROJECT_DIR$/task1.2.py" />
+        <option value="$PROJECT_DIR$/task2.1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="728" />
+    <option name="y" value="7" />
+    <option name="width" value="659" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Versuch3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Versuch3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch3" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch3\abc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.task2.1">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="harmonica_fft (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/harmonica_fft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="harmonica_plot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/harmonica_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task1.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task2.1" />
+        <item itemvalue="Python.harmonica_fft (1)" />
+        <item itemvalue="Python.harmonica_plot (1)" />
+        <item itemvalue="Python.task1.2" />
+        <item itemvalue="Python.2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fd2d1f0-e395-4ba7-b76e-20b7b6e183db" name="Default Changelist" comment="" />
+      <created>1557169371878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557169371878</updated>
+      <workItem from="1557169372935" duration="1676000" />
+      <workItem from="1557171062879" duration="3445000" />
+      <workItem from="1557227025494" duration="5532000" />
+      <workItem from="1557251955206" duration="241000" />
+      <workItem from="1557314463924" duration="11586000" />
+      <workItem from="1557351189082" duration="2080000" />
+      <workItem from="1557387587047" duration="5983000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added files for the third task">
+      <created>1557173846294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557173846294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CSV visualized in plot and calculating for the first task">
+      <created>1557231329912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557231329912</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CSV visualized in plot and calculating for the first task">
+      <created>1557318882997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557318882997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fouriertransformation and Amplitude">
+      <created>1557349590541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557349590541</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fouriertransformation and Amplitude">
+      <created>1557352036026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557352036026</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished Fouriertransformation and Amplitude. Still need to fix amplitude.">
+      <created>1557352917370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557352917370</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished Fouriertransformation and Amplitude. Still need to fix amplitude.">
+      <created>1557353126141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557353126141</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finished Fouriertransformation and Amplitude. Still need to fix amplitude.">
+      <created>1557353187489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557353187489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30543000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added files for the third task" />
+    <MESSAGE value="CSV visualized in plot and calculating for the first task" />
+    <MESSAGE value="Fouriertransformation and Amplitude" />
+    <MESSAGE value="Finished Fouriertransformation and Amplitude. Still need to fix amplitude." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Fouriertransformation and Amplitude. Still need to fix amplitude." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Versuch3$task2_1.coverage" NAME="task2.1 Coverage Results" MODIFIED="1557393720362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Versuch3$harmonica_fft__1_.coverage" NAME="harmonica_fft (1) Coverage Results" MODIFIED="1557392716555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
+    <SUITE FILE_PATH="coverage/Versuch3$harmonica_fft.coverage" NAME="harmonica_fft Coverage Results" MODIFIED="1557349062006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abc" />
+    <SUITE FILE_PATH="coverage/Versuch3$harmonica_plot__1_.coverage" NAME="harmonica_plot (1) Coverage Results" MODIFIED="1557392114645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
+    <SUITE FILE_PATH="coverage/Versuch3$2.coverage" NAME="2 Coverage Results" MODIFIED="1557352714669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Versuch3$harmonica_plot.coverage" NAME="harmonica_plot Coverage Results" MODIFIED="1557348785677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abc" />
+    <SUITE FILE_PATH="coverage/Versuch3$task1_2.coverage" NAME="task1.2 Coverage Results" MODIFIED="1557390824383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TekTDS2000.py" />
+    <entry file="file://$PROJECT_DIR$/abc/speaker_measure.py" />
+    <entry file="file://$PROJECT_DIR$/abc/harmonica_measure.py" />
+    <entry file="file://$PROJECT_DIR$/abc/frequency_response.py" />
+    <entry file="file://$PROJECT_DIR$/abc/bode.py" />
+    <entry file="file://$PROJECT_DIR$/abc/mundharmonika.csv" />
+    <entry file="file://$PROJECT_DIR$/abc/harmonica_plot.py" />
+    <entry file="file://$PROJECT_DIR$/abc/harmonica_fft.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="198">
+            <caret line="500" selection-start-line="500" selection-end-line="500" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.py" />
+    <entry file="file://$PROJECT_DIR$/task1.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/frequency_response.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/harmonica_fft.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="102">
+            <caret line="6" selection-start-line="6" selection-end-line="21" />
+            <folding>
+              <element signature="e#24#55#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/harmonica_plot.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="306">
+            <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <caret selection-end-line="44" />
+            <folding>
+              <element signature="e#0#31#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <folding>
+              <element signature="e#0#31#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
