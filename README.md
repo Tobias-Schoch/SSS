@@ -6,7 +6,6 @@
 ## 📦 The Project
 
 This is a project created at the University of Applied Science HTWG Konstanz in the class Signals, Systems and Sensors. 
-<br>
 
 ## 🐧 Contributors:
 
