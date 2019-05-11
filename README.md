@@ -7,8 +7,7 @@ Aufgabe1 :
 <br>
 ✔️ Programmieren
 <br>
-✔️ Bericht        
-<br>
+✔️ Bericht    
 ✔️ Bewertung  7/7      
 <br>
 Aufgabe2 : 
