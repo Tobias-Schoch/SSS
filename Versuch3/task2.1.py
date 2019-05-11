@@ -10,23 +10,34 @@ gross = ["gross100", "gross200", "gross300", "gross400", "gross500", "gross700",
 
 for a in range(0, 17):
     x, y = np.loadtxt('data/' + klein[a] + '.csv', delimiter=',', unpack=True)
-    #u, v = np.loadtxt('data/' + gross[a] + '.csv', delimiter=',', unpack=True)
+    u, v = np.loadtxt('data/' + gross[a] + '.csv', delimiter=',', unpack=True)
 
     plt.plot(x, y, 'b')
     plt.title(klein[a])
     plt.ylabel('Spannung in V')
     plt.xlabel('Zeit t')
     plt.grid(True)
-    plt.show()
-
-    #plt.plot(u, v, 'g')
-    #plt.title(gross[a])
-    #plt.ylabel('Spannung in V')
-    #plt.xlabel('Zeit t')
-    #plt.grid(True)
+    #plt.savefig(str(klein[a]) + '.png')
     #plt.show()
+
+    plt.plot(u, v, 'g')
+    plt.title(gross[a])
+    plt.ylabel('Spannung in V')
+    plt.xlabel('Zeit t')
+    plt.grid(True)
+    #plt.savefig(str(gross[a]) + '.png')
+    #plt.show()
+
+    time1 = x[:2,]
+    time2 = u[:2,]
+
+    timing1 = round((time1[1] - time1[0]) * 100000, 5)
+    timing2 = round((time2[1] - time2[0]) * 100000, 5)
+
     print("/hline")
-    print(klein[a], np.max(np.abs(y)))
-    #print(gross[a], np.max(np.abs(v)))
+    #print("Amplitude:", klein[a], np.max(np.abs(y)))
+    #print("Amplitude:", gross[a], np.max(np.abs(v)))
+    print("ms", klein[a], timing1)
+    print("ms", gross[a], timing2)
 
 print("/hline")
