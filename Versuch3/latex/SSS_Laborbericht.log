@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.11)  11 MAY 2019 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.11)  11 MAY 2019 23:03
 entering extended mode
 **C:/Users/Tobi/PycharmProjects/SSS/Versuch3/latex/SSS_Laborbericht.tex
 (C:/Users/Tobi/PycharmProjects/SSS/Versuch3/latex/SSS_Laborbericht.tex
@@ -2017,40 +2017,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--278
  []
 
 [4]
-! Undefined control sequence.
-l.290   	\subfloat
-                  [Aufnahme des Oszilloskopes]{
-? 
 <../data/img/100.png, id=176, 240.9pt x 225.84375pt>
 File: ../data/img/100.png Graphic file (type png)
 <use ../data/img/100.png>
-Package pdftex.def Info: ../data/img/100.png  used on input line 291.
+Package pdftex.def Info: ../data/img/100.png  used on input line 298.
 (pdftex.def)             Requested size: 198.45662pt x 186.05803pt.
-! Undefined control sequence.
-l.293   	\subfloat
-                  [Auswertung der csv Datei durch Python]{
-? 
-<../data/img/gross100.png, id=177, 462.528pt x 346.896pt>
+<../data/img/gross100.png, id=177, 481.8pt x 451.6875pt>
 File: ../data/img/gross100.png Graphic file (type png)
 <use ../data/img/gross100.png>
-Package pdftex.def Info: ../data/img/gross100.png  used on input line 294.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+Package pdftex.def Info: ../data/img/gross100.png  used on input line 304.
+(pdftex.def)             Requested size: 198.45662pt x 186.0477pt.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
+put line 308.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 315.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 315.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 315.
 
-! Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing $ inserted.
+<inserted text> 
+                $
+l.329 	Abtastintervall & 4\mu
+                             
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \let \hskip \vskip \let \vrule \hrule \let...
+l.330 	\hline
+             
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.330 	\hline
+             
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.330 	\hline
+             
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.330 	\hline
+             
+? 
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.330 	\hline
+             
+? 
+! Extra }, or forgotten \endgroup.
+\@xhline ...i \doublerulesep }\fi \ifnum 0=`{\fi }
                                                   
-l.295 	\caption
-               {Ausgabe des Oszilloskopes und Inhalt der .csv Datei}
+l.331 	\end
+           {tabular}
 ? 
 [5 <C:/Users/Tobi/PycharmProjects/SSS/Versuch3/data/img/100.png> <C:/Users/Tobi
-/PycharmProjects/SSS/Versuch3/data/img/gross100.png>]
+/PycharmProjects/SSS/Versuch3/data/img/gross100.png>] [6]
  3.
-[6
+[7
 
-] [7
+] [8
 
 ]
 \openout2 = `appendix/bibliography.aux'.
@@ -2064,40 +2097,50 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 398.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 398.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
-Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 6E4E3FC2590F33F4CCA30038B3EF55BD;2917.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 398.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 398.
 
+
+Package rerunfilecheck Warning: File `SSS_Laborbericht.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SSS_Laborbericht.out':
+(rerunfilecheck)             Before: 6E4E3FC2590F33F4CCA30038B3EF55BD;2917
+(rerunfilecheck)             After:  0452E07DA1B593FEA334728E7B187690;2920.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 398.
  ) 
 Here is how much of TeX's memory you used:
- 38065 strings out of 492945
- 826792 string characters out of 3126696
+ 38115 strings out of 492945
+ 827721 string characters out of 3126696
  1022172 words of memory out of 3000000
- 41156 multiletter control sequences out of 15000+200000
- 39408 words of font info for 66 fonts, out of 3000000 for 9000
+ 41198 multiletter control sequences out of 15000+200000
+ 52553 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,98p,762b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
-<C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/sy
+ 64i,13n,98p,762b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{chapter*.9} has been referenced but does not exis
+t, replaced by a fixed one
+
+{C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C
+:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/symb
+ol/usyr.pfb><C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/sy
 mbol/usyr.pfb><C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
 times/utmb8a.pfb><C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/times/utmr8a.pfb><C:/Users/Tobi/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (13 pages, 1861248 bytes).
+Output written on SSS_Laborbericht.pdf (14 pages, 1866554 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

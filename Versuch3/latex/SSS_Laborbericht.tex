@@ -288,6 +288,7 @@ Folgende Materialien wurden benötigt: ~\par
 \label{chap:VERSUCH_1_MESSWERTE}
 Auf dem linken Bild sieht man die Darstellung auf dem Oszilloskop. Diese wurde durch ein Programm auf dem Labor Computer eingelesen.
 Durch einen Pythoncode den wir aus der Toolbox TekTDS2000 erhalten haben, konnten wir den Spannungsverlauf aus dem Oszilloskop einlesen und in eine .csv Datei schreiben. Dieses Format wird auch häufig für Excel Dateien verwendet.
+Durch das Drücken des Knopfes Single Sequence haben wir auf dem Oszilloskop ein Standbild erhalten.
 Diese Datei haben wir mittels Numpy und der Funktion np.loadfromtxt ausgelesen.
 Die Ergebnisse wurden in die 2 verschiedene Funktionen x und y geschrieben.
 Danach wurden diese mittels matplotlib graphisch dargestellt.
@@ -316,25 +317,47 @@ Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 	\hline
 	Plot & Wert \\
 	\hline
-	Grundperiode & 0.001275s \\
+	Grundperiode (in ms) & 1.275ms \\
 	\hline
-	Grundfrequenz & 784.31Hz \\
+	Grundfrequenz (in Hertz) & 784.31Hz \\
 	\hline
-	Signaldauer &  \\
+	Signaldauer &  0,01s\\
 	\hline
-	Abtastfrequenz &  \\
+	Abtastfrequenz (in Kilohertz) &  250KHz\\
 	\hline
-	Signallänge &  \\
+	Signallänge M (Anzahl der Abtastzeitpunkte) & 2500 \\
 	\hline
-	Abtastintervall & 
+	Abtastintervall $\Delta$t (in µs) & 4µs \\
 	\hline
 	\end{tabular}
-	\caption{Mittelwert, Hexwert und Standardabweichung für die Intensivität des Lichteinfalls}
-	\label{fig:VERSUCH_4_MESSWERTE}
+	\caption{Zu berechnende Werte}
+	\label{fig:VERSUCH_1_MESSWERTE}
+\end{table}
+\newpage
+\begin{figure}[H]
+	\centering\small
+	\includegraphics[width=0.8\textwidth]{../data/img/mundharmonika2.png}
+	\caption{Das Amplitudenspekktrum von der Fourieranalyse}
+	\label{img:Das Amplitudenspekktrum von der Fourieranalyse}
+\end{figure}
+
+Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|}
+	\hline
+	Plot & Wert \\
+	\hline
+	Maximaler Amplitudenwert & 1.275ms \\
+	\hline
+	Frequenz des Maxima & 784.31Hz \\
+	\hline
+	\end{tabular}
+	\caption{Zu berechnende Werte}
+	\label{fig:VERSUCH_1_MESSWERTE}
 \end{table}
 
 \section{Auswertung}
-
 \label{chap:VERSUCH_1_AUSWERTUNG}
 
 \section{Interpretation}
