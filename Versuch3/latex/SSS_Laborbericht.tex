@@ -157,9 +157,9 @@
 \newcommand{\strTopic}{Fourieranalyse und Akustik}
 \newcommand{\strAbstract}{In dem dritten Versuch der Versuchsreihe werden wir die Fourieranalyse auf akustische Signale und Systeme in Form von Musik durch eine Mundharmonika und Rückkopplung anwenden. Die Signale werden auf einem Oszilloskop angezeigt.
 \newline
-In den beiden Teilen des Versuchs werden wir akustische Signale mittels der Python Bibliothek TekTDS2000 aufnemmen und abspeichern. Im Anschluss erfolgt mittels Python die Auswertung der Messdaten. 
+In den beiden Teilen des Versuchs werden wir akustische Signale mittels der Python Bibliothek TekTDS2000 aufnehmen und abspeichern. Im Anschluss erfolgt mittels Python die Auswertung der Messdaten. 
 \newline 
-Dabei werden die Techniken der Fouriertransformation und des Bode Diagramms.
+Dabei werden die Techniken der Fouriertransformation und des Bode Diagramms angewendet.
 }
 % hyperref customization
 \hypersetup{
@@ -237,12 +237,12 @@ In dem dritten Versuch der Versuchsreihe werden wir die Fourieranalyse auf akust
 In den beiden Teilen des Versuchs werden wir akustische Signale mittels der Python Bibliothek TekTDS2000 aufnemmen und abspeichern. Im Anschluss erfolgt mittels Python die Auswertung der Messdaten. 
 \newline 
 Im ersten Versuch wird die Fouriertransformation und einige Komplementaritäten behandelt bezüglich eines Tons einer Mundharmonika den wir aufnehmen.
-So müssen wir unter Anderem die Grundperiode, die Grundfrequenz, die Signaldauer, die Abtastfrequenz, die Signallänge und das Abtastintervall berechnet für die Aufnahme berechnen.
+So müssen wir unter Anderem die Grundperiode, die Grundfrequenz, die Signaldauer, die Abtastfrequenz, die Signallänge und das Abtastintervall für die Aufnahme berechnen.
 \newline 
-Dabei werden wir Fouriertransformation und Amplitudenspektren berechnet und graphisch wiedergegeben.
+Dabei werden wir die Fouriertransformation und das Amplitudenspektren berechnene und graphisch wiedergegeben.
 Im zweiten Versuch müssen wir mit einem Mikrofon und zwei unterschiedlichen Lautsprechern eine Rückkopplung verursachen und mit verschiedenen Frequenzen wieder Aufnahmen machen.
 \newline 
-Die einzelnen Aufnahmen werden ausgewertet und daraus die Phasenverschiebung und ide Amplitude berechnet.
+Die einzelnen Aufnahmen werden ausgewertet und daraus die Phasenverschiebung und die Amplitude berechnet.
 Auf die Ergebnisse der Berechnung wenden wir das Bode-Diagramm an um die Leistung der Lautsprecher zu analysieren.
 \newline 
 Das und vieles mehr erwartet euch auf den folgenden Seiten unseres Protokolles.
@@ -257,10 +257,10 @@ Das und vieles mehr erwartet euch auf den folgenden Seiten unseres Protokolles.
 Im ersten Versuch der Versuchsreihe "Fourieranalyse und Akustik" werden wir die Fourieranalyse auf akustische Signale und Systeme anwenden.
 Dazu werden wir mittels einer Mundharmonika in ein Mikrofon blasen, dass wiederum an ein Oszillskop angeschlossen ist und die Spannungen anzeigt.
 \newline 
-Dabei ist es wichtig zu beachten, dass auf dem Oszilloskop mehrere Perioden abgegebildet werden. Das Triggerlevel soll so im Oszilloskop eingestellt werden, dass das Signal nur bei genügend hoher Amplitude eingestellt wird.
+Dabei ist es wichtig zu beachten, dass auf dem Oszilloskop mehrere Perioden abgegebildet werden. Das Triggerlevel soll so im Oszilloskop eingestellt werden, dass das Signal nur bei genügend hoher Amplitude angezeigt wird.
 \newline 
 Die Triggerung sollte dabei auch im Single Sequence Modus eingestellt werden um statische Daten zu erhalten die auch dem tatsächlichen Spannungswert entsprechen.
-Nachdem dies erledigt ist, haben wir ein Pythonskript geschrieben task1.1.py um das Signal aus dem Oszilloskop bei der Einstellung der Triggerung "Single Sequenz" auszulesen.
+Nachdem dies erledigt ist, haben wir das Pythonskript task1.1.py geschrieben, um das Signal aus dem Oszilloskop bei der Einstellung der Triggerung "Single Sequenz" auszulesen.
 \newline 
 Dies wird mittels der Toolbox TekTDS2000 von M. Miller in eine .csv Datei gespeichert welche zum Beispiel mit Excel geöffnet werden kann.
 \newpage
@@ -286,7 +286,7 @@ Danach hatten wir die Aufgabe folgende Werte zu berechnen.~\par
 \newpage
 Im Anschluss mussten wir mithilfe der Funktion numpy.fft.fft() die Fouriertransformation des Signals berechnen. Daraus sollten wir das Amplitudenspektrum bestimmen und graphisch darstellen.
 \newline 
-Dabei ist zu beachten, dass die x-Achse mit der Frequenz nicht in Hertz sondern in der Anzahl Schwingungen innerhlab der gesamten Signaldauer definiert ist.
+Dabei ist zu beachten, dass die x-Achse mit der Frequenz nicht in Hertz sondern in der Anzahl Schwingungen innerhalb der gesamten Signaldauer definiert ist.
 Die Frequenz f in Hertz lässt sich jedoch folgendermaße berechnen.
 \\~\\
 f = $\dfrac{n}{M * \Delta t}$
@@ -415,7 +415,7 @@ Für die Tabelle 2.1 kann man folgende Schlussfolgerungen ziehen: ~\par
 	\item Frequenz und Zeit sind komplementär zueinander
 \end{itemize}
 \\~\\
-Bei der Abbildung 2.3 ist eine schöne Amplitude zu erkennen, die sich von den anderen Amplituden durch ihre Höhe absetzt.
+Bei der Abbildung 2.3 ist eine schöne Maximalamplitude zu erkennen, die sich von den anderen Amplituden durch ihre Höhe absetzt.
 Dieser maximale Amplitudenausschlag mit der Höhe 4.5675V ist der Ton.
 \newline 
 Der Ton den wir produziert haben liegt also demnach bei 800Hz. Da wir bis auf eine Öffnung die Anderen zugeklebt haben, wissen wir dass wir einen Ton mit der Frequenz von 800Hz gespielt haben. 
@@ -598,7 +598,7 @@ Das Abtastintervall erhalten wir durch die Subtraktion zweier benachbarter Werte
 \\~\\
 \textit{187 Signallänge *  1 µs  = 187 µs} 
 \\~\\
-Nun haben wir die Phasenverschiebung berechnet. An dem Beispiel für den kleinen Lautsprecher mit einer Frequenz von 200Hz beträgt die Phasenverschiebung also 187Hz.
+Nun haben wir die Phasenverschiebung berechnet. An dem Beispiel für den kleinen Lautsprecher mit einer Frequenz von 200Hz beträgt die Phasenverschiebung also 187µs.
 \newline 
 Nachdem wir sämtliche Phasenverschiebungen berechnet haben, geben wir diese graphisch in einem Plot wieder.
 \newline 
@@ -685,10 +685,14 @@ In dem linken Schaubild in der Abbildung 3.7 divergiert die Phasenverschiebung m
 \newline
 Da das Mikrofon Frequenzen von 70Hz bis 13KHz aufnehmen kann, stellen die von uns gemessenen Frequenzen keine Probleme dar in unseren Abbildungen.
 \newline
-Während es bei der Amplitude den Betrag der Übetragungsfunktion liefern kann, so kann es bei der Phasenverschiebung den Winkel der Übetragungsfunktion berechnen.
+Während das Bode-Daigramm bei der Amplitude den Betrag der Übetragungsfunktion liefern kann, so kann es bei der Phasenverschiebung den Winkel der Übetragungsfunktion berechnen.
 \newline
 Der große Lautsprecher hat eine größere Leistung bei den meisten der Frequenzen. Vor allem bei den niedrigen und basshaltigen Frequenzen wird dieser Unterschied sichtbar.
 Bei den mittleren bis hohen Frequenzen hat oft der kleine Lautsprecher eine bessere Leistung.
+\newline
+So kann man durch das Bode-Phasen Diagramm gut erkennen, dass der große Lautsprecher vorallem bei basslastigen und niedrigen Frequenzen sehr gut funktioniert.
+Der kleine Lautsprecher hingegen ist gut bei mittleren Frequenzen und hohen Frequenzen im Vergleich zu den großen Lautsprechern.
+
 %
 % CHAPTER Anhang
 %

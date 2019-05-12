@@ -17,9 +17,10 @@ freq = range(0, 2500, 1) / (difference * 2500)
 # Darstellung des Amplitudenspektrums
 plt.plot(freq, spektrum)
 plt.grid()
-plt.xlabel('frequency')
-plt.ylabel('amplitude')
+plt.xlabel('Frequency in Hz')
+plt.ylabel('Amplitude in V')
 plt.xlim(0, 20000)
+plt.savefig('data/img/mundharmonika2.png')
 plt.show()
 
 # Einlesen der Signallänge

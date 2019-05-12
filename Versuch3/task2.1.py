@@ -21,18 +21,18 @@ for a in range(0, 17):
     plt.plot(x, y, 'b')
     plt.title(klein[a])
     plt.ylabel('Spannung in V')
-    plt.xlabel('Zeit t')
+    plt.xlabel('Zeit t in s')
     plt.grid(True)
-    plt.savefig(str(klein[a]) + '.png')
+    plt.savefig('data/img/' + str(klein[a]) + '.png')
     plt.show()
 
     # Die einzelnen .csv Dateien des großen Lautsprechers werden in jeweils einem Plot dargestellt
     plt.plot(u, v, 'g')
     plt.title(gross[a])
     plt.ylabel('Spannung in V')
-    plt.xlabel('Zeit t')
+    plt.xlabel('Zeit t in s')
     plt.grid(True)
-    plt.savefig(str(gross[a]) + '.png')
+    plt.savefig('data/img/' + str(gross[a]) + '.png')
     plt.show()
 
     # Die ersten beiden Zeiten für den kleinen Lautsprecher werden in time1 geschrieben
