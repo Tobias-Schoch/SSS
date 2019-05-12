@@ -573,7 +573,7 @@ Der Achsenschnittpunkt liegt bei der Zeile 1250. Deshalb müssen wir nun tiefer 
 Hier haben wir den Nullpunkt in der Zeile 1437. Deshalb rechnen wir nun 1437 - 1250 = 187 Signallänge
 Die Singallänge von 87 multiplizieren wir nun mit dem Abtastintervall. Das Abtastintervall erhalten wir durch die Subtraktion zweier benachbarter Werte, die daraufhin auf 5 Nachkommastellen gerundet werden.
 \\~\\
-187 Signallänge *  1 µs  = 187 µs 
+\textit{187 Signallänge *  1 µs  = 187 µs} 
 \\~\\
 Nun haben wir die Phasenverschiebung berechnet. An dem Beispiel für den kleinen Lautsprecher mit einer Frequenz von 200Hz beträgt die Phasenverschiebung also 187Hz.
 Nachdem wir sämtliche Phasenverschiebungen berechnet haben, geben wir diese graphisch in einem Plot wieder.
@@ -597,7 +597,13 @@ Im linken Bild ist der Phasengang in Abhängigkeit zur Dateinummer und im rechte
 \label{fig:Phasengang mit der zugehörigen Frequenz}
 \end{figure}
 \newpage
-asd----------------------------------------------------
+Das Bode Diagramm für die Amplitude wird folgendermaßen berechnet:
+\\~\\
+\textit{amplitude = 1 / amplitude} 
+\newline
+\textit{amplitude = 20 * $\log_{10} amplitude$} 
+\\~\\
+Nun muss man nur noch bei sämtlichen plots die Numpy Funktion np.semilogx() anwenden um die Diagramme halblogarithmisch dazustellen.
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -615,18 +621,23 @@ asd----------------------------------------------------
 \caption{Bode Diagramm für die Frequenz}
 \label{fig:Bode Diagramm für die Frequenz}
 \end{figure}
-asd----------------------------------------------------
+\newpage
+Das Bode Diagramm für die Phasenverschiebung wird folgendermaßen berechnet:
+\\~\\
+\textit{Phasenwinkel = -$\Delta$t * f * 360} 
+\\~\\
+Nun muss man nur noch bei sämtlichen plots die Numpy Funktion np.semilogx() anwenden um die Diagramme halblogarithmisch dazustellen.
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=0.9\linewidth]{../data/img/phasenanzahl.png}
+  \includegraphics[width=0.9\linewidth]{../data/img/bodephasenanzahl.png}
   \caption{Bode-Diagramm für den Phasengang mit Dateinummer}
   \label{fig:Bode-Diagramm fürden Phasengang mit Dateinummer}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=0.9\linewidth]{../data/img/phasenfrequenz.png}
+  \includegraphics[width=0.9\linewidth]{../data/img/bodephasenfrequenz.png}
   \caption{Bode-Diagramm für den Phasengang mit Frequenz}
   \label{fig:Bode-Diagramm für den Phasengang mit Frequenz}
 \end{subfigure}
@@ -637,6 +648,18 @@ asd----------------------------------------------------
 \newpage
 \section{Interpretation}
 \label{chap:VERSUCH_2_INTERPRETATION}
+In der Abbildung 3.3 kann man die gut die Unterschiede zwischen dem kleinen und dem großen Lautsprecher erkennen.
+Der kleine Lautsprecher hat ein sehr ungenaues und unfeines Signal. 
+\newline
+Der große Lautsprecher hingegen hat klare Linien und Kurven.
+Das lässt darauf deuten, dass der große Lautsprecher mehr Watt hat und seinen Output klarer an das Mikrofon weitergeben konnte.
+\newline
+Damit lässt sich beweisen, dass der große Lautsprecher qualitativ besser ist.
+\\~\\
+In dem linken Schaubild in der Abbildung 3.7 divergiert die Phasenverschiebung mit zunehmender Frequenz immer mehr Richtung 0.
+\newline
+Da das Mikrofon Frequenzen von 70Hz bis 13KHz aufnehmen kann, stellen die von uns gemessenen Frequenzen keine Probleme dar in unseren Abbildungen.
+\\~\\
 
 %
 % CHAPTER Anhang

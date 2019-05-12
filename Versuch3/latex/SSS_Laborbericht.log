@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  12 MAY 2019 04:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  12 MAY 2019 04:38
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -2031,23 +2031,23 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ])
 \openout2 = `preface/listoffigures.aux'.
 
- (preface/listoffigures.tex (SSS_Laborbericht.lof)
-\tf@lof=\write6
-\openout6 = `SSS_Laborbericht.lof'.
-
-
+ (preface/listoffigures.tex (SSS_Laborbericht.lof
 [3
 
 
 
 ])
+\tf@lof=\write6
+\openout6 = `SSS_Laborbericht.lof'.
+
+ [4])
 \openout2 = `preface/listoftables.aux'.
 
  (preface/listoftables.tex (SSS_Laborbericht.lot)
 \tf@lot=\write7
 \openout7 = `SSS_Laborbericht.lot'.
 
- [4
+ [5
 
 
 
@@ -2060,7 +2060,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \tf@lol=\write8
 \openout8 = `SSS_Laborbericht.lol'.
 
- [5
+ [6
 
 
 
@@ -2091,7 +2091,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 257.
 ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<media/aufbau2.jpg, id=215, 3276.24pt x 2360.82pt>
+<media/aufbau2.jpg, id=227, 3276.24pt x 2360.82pt>
 File: media/aufbau2.jpg Graphic file (type jpg)
 <use media/aufbau2.jpg>
 Package pdftex.def Info: media/aufbau2.jpg  used on input line 266.
@@ -2107,7 +2107,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--278
  []
 
 [4]
-<../data/img/mundharmonika.png, id=227, 642.4pt x 481.8pt>
+<../data/img/mundharmonika.png, id=239, 642.4pt x 481.8pt>
 File: ../data/img/mundharmonika.png Graphic file (type png)
 <use ../data/img/mundharmonika.png>
 Package pdftex.def Info: ../data/img/mundharmonika.png  used on input line 299.
@@ -2126,7 +2126,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--346
  []
 
 [6]
-<../data/img/mundharmonika2.png, id=236, 642.4pt x 481.8pt>
+<../data/img/mundharmonika2.png, id=249, 642.4pt x 481.8pt>
 File: ../data/img/mundharmonika2.png Graphic file (type png)
 <use ../data/img/mundharmonika2.png>
 Package pdftex.def Info: ../data/img/mundharmonika2.png  used on input line 360
@@ -2306,7 +2306,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--436
 [10
 
 ]
-<media/aufbau.jpg, id=254, 4625.28pt x 3468.96pt>
+<media/aufbau.jpg, id=266, 4625.28pt x 3468.96pt>
 File: media/aufbau.jpg Graphic file (type jpg)
 <use media/aufbau.jpg>
 Package pdftex.def Info: media/aufbau.jpg  used on input line 447.
@@ -2337,12 +2337,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 452--460
  []
 
 [12]
-<../data/img/100.png, id=263, 240.9pt x 225.84375pt>
+<../data/img/100.png, id=276, 240.9pt x 225.84375pt>
 File: ../data/img/100.png Graphic file (type png)
 <use ../data/img/100.png>
 Package pdftex.def Info: ../data/img/100.png  used on input line 483.
 (pdftex.def)             Requested size: 198.45662pt x 186.05803pt.
-<../data/img/gross100.png, id=264, 462.528pt x 346.896pt>
+<../data/img/gross100.png, id=277, 462.528pt x 346.896pt>
 File: ../data/img/gross100.png Graphic file (type png)
 <use ../data/img/gross100.png>
 Package pdftex.def Info: ../data/img/gross100.png  used on input line 489.
@@ -2350,24 +2350,24 @@ Package pdftex.def Info: ../data/img/gross100.png  used on input line 489.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 493.
  [13 <../data/img/100.png> <../data/img/gross100.png>]
-<../data/img/klein200.png, id=272, 462.528pt x 346.896pt>
+<../data/img/klein200.png, id=284, 462.528pt x 346.896pt>
 File: ../data/img/klein200.png Graphic file (type png)
 <use ../data/img/klein200.png>
 Package pdftex.def Info: ../data/img/klein200.png  used on input line 505.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/gross200.png, id=273, 462.528pt x 346.896pt>
+<../data/img/gross200.png, id=285, 462.528pt x 346.896pt>
 File: ../data/img/gross200.png Graphic file (type png)
 <use ../data/img/gross200.png>
 Package pdftex.def Info: ../data/img/gross200.png  used on input line 511.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
  [14 <../data/img/klein200.png> <../data/img/gross200.png>]
-<../data/img/amplitudeanzahl.png, id=280, 462.528pt x 346.896pt>
+<../data/img/amplitudeanzahl.png, id=292, 462.528pt x 346.896pt>
 File: ../data/img/amplitudeanzahl.png Graphic file (type png)
 <use ../data/img/amplitudeanzahl.png>
 Package pdftex.def Info: ../data/img/amplitudeanzahl.png  used on input line 53
 6.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/amplitudefrequenz.png, id=281, 462.528pt x 346.896pt>
+<../data/img/amplitudefrequenz.png, id=293, 462.528pt x 346.896pt>
 File: ../data/img/amplitudefrequenz.png Graphic file (type png)
 <use ../data/img/amplitudefrequenz.png>
 Package pdftex.def Info: ../data/img/amplitudefrequenz.png  used on input line 
@@ -2379,24 +2379,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 521--548
  []
 
 [15 <../data/img/amplitudeanzahl.png> <../data/img/amplitudefrequenz.png>]
-<media/phase.png, id=288, 240.14719pt x 248.42813pt>
+<media/phase.png, id=300, 240.14719pt x 248.42813pt>
 File: media/phase.png Graphic file (type png)
 <use media/phase.png>
 Package pdftex.def Info: media/phase.png  used on input line 558.
 (pdftex.def)             Requested size: 176.40439pt x 182.48824pt.
-<media/excel.png, id=289, 271.76532pt x 125.71968pt>
+<media/excel.png, id=301, 271.76532pt x 125.71968pt>
 File: media/excel.png Graphic file (type png)
 <use media/excel.png>
 Package pdftex.def Info: media/excel.png  used on input line 568.
 (pdftex.def)             Requested size: 308.71106pt x 142.81738pt.
 
 [16 <./media/phase.png> <./media/excel.png>]
-<../data/img/phasenanzahl.png, id=294, 462.528pt x 346.896pt>
+<../data/img/phasenanzahl.png, id=306, 462.528pt x 346.896pt>
 File: ../data/img/phasenanzahl.png Graphic file (type png)
 <use ../data/img/phasenanzahl.png>
 Package pdftex.def Info: ../data/img/phasenanzahl.png  used on input line 586.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/phasenfrequenz.png, id=295, 462.528pt x 346.896pt>
+<../data/img/phasenfrequenz.png, id=307, 462.528pt x 346.896pt>
 File: ../data/img/phasenfrequenz.png Graphic file (type png)
 <use ../data/img/phasenfrequenz.png>
 Package pdftex.def Info: ../data/img/phasenfrequenz.png  used on input line 592
@@ -2412,41 +2412,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 573--598
 
  []
 
-<../data/img/bodeamplitudeanzahl.png, id=296, 462.528pt x 346.896pt>
+[17 <../data/img/phasenanzahl.png> <../data/img/phasenfrequenz.png>]
+<../data/img/bodeamplitudeanzahl.png, id=314, 462.528pt x 346.896pt>
 File: ../data/img/bodeamplitudeanzahl.png Graphic file (type png)
 <use ../data/img/bodeamplitudeanzahl.png>
 Package pdftex.def Info: ../data/img/bodeamplitudeanzahl.png  used on input lin
-e 604.
+e 611.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/bodeamplitudefrequenz.png, id=297, 462.528pt x 346.896pt>
+<../data/img/bodeamplitudefrequenz.png, id=315, 462.528pt x 346.896pt>
 File: ../data/img/bodeamplitudefrequenz.png Graphic file (type png)
 <use ../data/img/bodeamplitudefrequenz.png>
 Package pdftex.def Info: ../data/img/bodeamplitudefrequenz.png  used on input l
-ine 610.
+ine 617.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-[17 <../data/img/phasenanzahl.png> <../data/img/phasenfrequenz.png>]
-File: ../data/img/phasenanzahl.png Graphic file (type png)
-<use ../data/img/phasenanzahl.png>
-Package pdftex.def Info: ../data/img/phasenanzahl.png  used on input line 622.
+
+Underfull \hbox (badness 10000) in paragraph at lines 600--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 600--623
+
+ []
+
+[18 <../data/img/bodeamplitudeanzahl.png> <../data/img/bodeamplitudefrequenz.pn
+g>]
+<../data/img/bodephasenanzahl.png, id=323, 462.528pt x 346.896pt>
+File: ../data/img/bodephasenanzahl.png Graphic file (type png)
+<use ../data/img/bodephasenanzahl.png>
+Package pdftex.def Info: ../data/img/bodephasenanzahl.png  used on input line 6
+34.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-File: ../data/img/phasenfrequenz.png Graphic file (type png)
-<use ../data/img/phasenfrequenz.png>
-Package pdftex.def Info: ../data/img/phasenfrequenz.png  used on input line 628
-.
+<../data/img/bodephasenfrequenz.png, id=324, 462.528pt x 346.896pt>
+File: ../data/img/bodephasenfrequenz.png Graphic file (type png)
+<use ../data/img/bodephasenfrequenz.png>
+Package pdftex.def Info: ../data/img/bodephasenfrequenz.png  used on input line
+ 640.
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
- [18 <../data/img/bodeamplitudeanzahl.png> <../data/img/bodeamplitudefrequenz.p
-ng>]
-[19]
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--646
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--646
+
+ []
+
+[19 <../data/img/bodephasenanzahl.png> <../data/img/bodephasenfrequenz.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 651--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--659
+
+ []
+
+[20]
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
 stlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 658.
+nput line 678.
  (../task1.1.py
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-) [20
+) [21
 
 ] (../task1.2.py) (../task1.3.py
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -2464,7 +2502,7 @@ Type  H <return>  for immediate help.
 l.14 ... Freuquenz umzurechnen - f = n / (M * Δt)
                                                   
 ? 
-[21]
+[22]
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2505,7 +2543,7 @@ Type  H <return>  for immediate help.
 l.45 ...intervall ∆t:", abtastintervall, " μs")
                                                   
 ? 
-) [22] (../task2.1.py [23]) [24] (../task2.2.py
+) [23] (../task2.1.py [24]) [25] (../task2.2.py
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2526,7 +2564,7 @@ Type  H <return>  for immediate help.
 l.17 ...nd berechneten Phasenverschiebungen in µs
                                                   
 ? 
-[25] [26]
+[26] [27]
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2571,13 +2609,13 @@ l.90 ... Berechnung des Phasenwinkels mit −∆t
                                                   * f * 360 für den kleinen...
 
 ? 
-[27]) [28]
-<media/mess.png, id=623, 614.7768pt x 845.559pt>
+[28]) [29]
+<media/mess.png, id=641, 614.7768pt x 845.559pt>
 File: media/mess.png Graphic file (type png)
 <use media/mess.png>
-Package pdftex.def Info: media/mess.png  used on input line 679.
+Package pdftex.def Info: media/mess.png  used on input line 699.
 (pdftex.def)             Requested size: 396.91325pt x 545.92973pt.
- [29 <./media/mess.png>]
+ [30 <./media/mess.png>]
 \openout2 = `appendix/bibliography.aux'.
 
  (appendix/bibliography.tex
@@ -2588,8 +2626,8 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 708.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 708.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
@@ -2648,49 +2686,40 @@ l.84 ...nz von 200Hz\relax }{figure.caption.15}{}}
                                                   
 ? 
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 688.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 688.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 708.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 708.
+Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
+(rerunfilecheck)             Checksum: 4A2397D1854E21F8ED4CD2E7D2BE9A74;3134.
 
-
-Package rerunfilecheck Warning: File `SSS_Laborbericht.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SSS_Laborbericht.out':
-(rerunfilecheck)             Before: A35D1BB13D1F62DD8886C4E86A69C415;3134
-(rerunfilecheck)             After:  4A2397D1854E21F8ED4CD2E7D2BE9A74;3134.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 688.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 708.
 
-Overfull \hbox (17.8391pt too wide) in paragraph at lines 79--688
+Overfull \hbox (17.8391pt too wide) in paragraph at lines 79--708
 \T1/ptm/m/n/12 von 200Hz    �en Laut-spre-cher bei ei-ner Fre-quenz von 200Hz  
                                                                           
  []
 
  ) 
 Here is how much of TeX's memory you used:
- 39011 strings out of 492945
- 843714 string characters out of 3122700
- 1197276 words of memory out of 3000000
- 41747 multiletter control sequences out of 15000+200000
- 74092 words of font info for 131 fonts, out of 3000000 for 9000
+ 39023 strings out of 492945
+ 844076 string characters out of 3122700
+ 1198170 words of memory out of 3000000
+ 41756 multiletter control sequences out of 15000+200000
+ 74425 words of font info for 132 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,98p,715b,2232s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.20} has been referenced but does not exi
-st, replaced by a fixed one
-
-{C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/
-8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Tobias.Schoch/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias
-.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (35 pages, 8799145 bytes).
+{C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
+e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Tobias.Schoch/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobi
+as.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SSS_Laborbericht.pdf (37 pages, 8866522 bytes).
 PDF statistics:
- 721 PDF objects out of 1000 (max. 8388607)
- 351 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 741 PDF objects out of 1000 (max. 8388607)
+ 352 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 
