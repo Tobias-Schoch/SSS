@@ -232,10 +232,20 @@ Dabei werden die Techniken der Fouriertransformation und des Bode Diagramms.
 %
 \chapter{Einleitung}
 \label{chap:EINL}
-
-\cite{Franz2016n}
-\cite{Franz2016e}
-
+In dem dritten Versuch der Versuchsreihe werden wir die Fourieranalyse auf akustische Signale und Systeme in Form von Musik durch eine Mundharmonika und Rückkopplung anwenden. Die Signale werden auf einem Oszilloskop angezeigt.
+\newline
+In den beiden Teilen des Versuchs werden wir akustische Signale mittels der Python Bibliothek TekTDS2000 aufnemmen und abspeichern. Im Anschluss erfolgt mittels Python die Auswertung der Messdaten. 
+\newline 
+Im ersten Versuch wird die Fouriertransformation und einige Komplementaritäten behandelt bezüglich eines Tons einer Mundharmonika den wir aufnehmen.
+So müssen wir unter Anderem die Grundperiode, die Grundfrequenz, die Signaldauer, die Abtastfrequenz, die Signallänge und das Abtastintervall berechnet für die Aufnahme berechnen.
+\newline 
+Dabei werden wir Fouriertransformation und Amplitudenspektren berechnet und graphisch wiedergegeben.
+Im zweiten Versuch müssen wir mit einem Mikrofon und zwei unterschiedlichen Lautsprechern eine Rückkopplung verursachen und mit verschiedenen Frequenzen wieder Aufnahmen machen.
+\newline 
+Die einzelnen Aufnahmen werden ausgewertet und daraus die Phasenverschiebung und ide Amplitude berechnet.
+Auf die Ergebnisse der Berechnung wenden wir das Bode-Diagramm an um die Leistung der Lautsprecher zu analysieren.
+\newline 
+Das und vieles mehr erwartet euch auf den folgenden Seiten unseres Protokolles.
 %
 % CHAPTER Versuch 1
 %
@@ -246,12 +256,18 @@ Dabei werden die Techniken der Fouriertransformation und des Bode Diagramms.
 \label{chap:VERSUCH_1_FRAGESTELLUNG}
 Im ersten Versuch der Versuchsreihe "Fourieranalyse und Akustik" werden wir die Fourieranalyse auf akustische Signale und Systeme anwenden.
 Dazu werden wir mittels einer Mundharmonika in ein Mikrofon blasen, dass wiederum an ein Oszillskop angeschlossen ist und die Spannungen anzeigt.
+\newline 
 Dabei ist es wichtig zu beachten, dass auf dem Oszilloskop mehrere Perioden abgegebildet werden. Das Triggerlevel soll so im Oszilloskop eingestellt werden, dass das Signal nur bei genügend hoher Amplitude eingestellt wird.
+\newline 
 Die Triggerung sollte dabei auch im Single Sequence Modus eingestellt werden um statische Daten zu erhalten die auch dem tatsächlichen Spannungswert entsprechen.
 Nachdem dies erledigt ist, haben wir ein Pythonskript geschrieben task1.1.py um das Signal aus dem Oszilloskop bei der Einstellung der Triggerung "Single Sequenz" auszulesen.
+\newline 
 Dies wird mittels der Toolbox TekTDS2000 von M. Miller in eine .csv Datei gespeichert welche zum Beispiel mit Excel geöffnet werden kann.
 \newpage
-So sieht der Versuchsaufbau des ersten Versuches aus. Dabei wird das Mikrofon an den Channel 1 des Oszilloskopes angeschlossen. Nach der Kalibrierung und der Einstellung der künstlichen Sinuskurve haben wir mit dem Pythonskript das ausgegebene Signal des Oszilloskopes in eine .csv Datei eingelesen.
+So sieht der Versuchsaufbau des ersten Versuches aus. Dabei wird das Mikrofon an den Channel 1 des Oszilloskopes angeschlossen. 
+\newline 
+Nach der Kalibrierung und der Einstellung der beiden Sinuskurven haben wir mit dem Pythonskript das ausgegebene Signal des Oszilloskopes in eine .csv Datei eingelesen.
+\newline 
 Danach hatten wir die Aufgabe folgende Werte zu berechnen.~\par
 \begin{itemize}
 	\item Grundperiode (in ms)
@@ -269,7 +285,8 @@ Danach hatten wir die Aufgabe folgende Werte zu berechnen.~\par
 \end{figure}
 \newpage
 Im Anschluss mussten wir mithilfe der Funktion numpy.fft.fft() die Fouriertransformation des Signals berechnen. Daraus sollten wir das Amplitudenspektrum bestimmen und graphisch darstellen.
-Dabei ist zu beachten, dass die x-Achse mit der Frequenz nicht in Hertz sondern in der Anzahl Schwingungen innerhlab der gesamten Signaldauer definiert ist..
+\newline 
+Dabei ist zu beachten, dass die x-Achse mit der Frequenz nicht in Hertz sondern in der Anzahl Schwingungen innerhlab der gesamten Signaldauer definiert ist.
 Die Frequenz f in Hertz lässt sich jedoch folgendermaße berechnen.
 \\~\\
 f = $\dfrac{n}{M * \Delta t}$
@@ -380,7 +397,7 @@ Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 	Frequenz des Maxima & 800Hz \\
 	\hline
 	\end{tabular}
-	\caption{Zu berechnende Werte}
+	\caption{Amplitude und Frequenz}
 	\label{fig:VERSUCH_1_MESSWERTE}
 \end{table}
 \newpage
@@ -475,7 +492,10 @@ Folgende Materialien wurden benötigt: ~\par
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
 Auf der linken Seite ist die Single Sequence des Oszilloskopes bei einer Frequenz von 100Hz. Dabei stellt das gelbe Signal den Input beziehungsweise das Mikrofon dar, während das blaue Signal vom Channel 2 stammt und der Output für den Lautsprecher ist.
-Bei beiden Signalen sehen wir eine gleichmäßige Sinuskurve. Die beiden Signale wurden in .csv Dateien gespeichert. Der Input von Channel 1 wurde dabei nochmals von uns eingelesen in einem Pythonskript und wurde daraufhin graphisch ausgegeben.
+\newline 
+Bei beiden Signalen sehen wir eine gleichmäßige Sinuskurve. Die beiden Signale wurden in .csv Dateien gespeichert. 
+\newline 
+Der Input von Channel 1 wurde dabei nochmals von uns eingelesen in einem Pythonskript und wurde daraufhin graphisch ausgegeben.
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -561,6 +581,7 @@ Zuerst schauen wir uns den Plot an der uns für die jeweiligen Frequenzen ausgeg
 \end{figure}
 
 Der Achsenschnittpunkt befindet sich in der Mitte. Dort sollte also auch der Anfang der Sinuskurve sein. Da der Abstand zum nächsten Nullpunkt auf der rechten Seite des Achsenschnittpunktes ist, müssen wir nun in der .csv Tabelle den nächsten Nullpunkt finden.
+\newline 
 Der Achsenschnittpunkt liegt bei der Zeile 1250. Deshalb müssen wir nun tiefer suchen nach einem Nullpunkt.
 
 \begin{figure}[H]
@@ -571,12 +592,16 @@ Der Achsenschnittpunkt liegt bei der Zeile 1250. Deshalb müssen wir nun tiefer 
 \end{figure}
 \newpage
 Hier haben wir den Nullpunkt in der Zeile 1437. Deshalb rechnen wir nun 1437 - 1250 = 187 Signallänge
-Die Singallänge von 87 multiplizieren wir nun mit dem Abtastintervall. Das Abtastintervall erhalten wir durch die Subtraktion zweier benachbarter Werte, die daraufhin auf 5 Nachkommastellen gerundet werden.
+\newline 
+Die Singallänge von 87 multiplizieren wir nun mit dem Abtastintervall. 
+Das Abtastintervall erhalten wir durch die Subtraktion zweier benachbarter Werte, die daraufhin auf 5 Nachkommastellen gerundet werden.
 \\~\\
 \textit{187 Signallänge *  1 µs  = 187 µs} 
 \\~\\
 Nun haben wir die Phasenverschiebung berechnet. An dem Beispiel für den kleinen Lautsprecher mit einer Frequenz von 200Hz beträgt die Phasenverschiebung also 187Hz.
+\newline 
 Nachdem wir sämtliche Phasenverschiebungen berechnet haben, geben wir diese graphisch in einem Plot wieder.
+\newline 
 Das gelbe Signal ist erneut der große Lautsprecher, während das blaue Signal der kleine Lautsprecher ist.
 Im linken Bild ist der Phasengang in Abhängigkeit zur Dateinummer und im rechten Bild ist der Phasengang in der Abhängigkeit zur Frequenz.
 \begin{figure}[H]
@@ -652,16 +677,18 @@ In der Abbildung 3.3 kann man die gut die Unterschiede zwischen dem kleinen und 
 Der kleine Lautsprecher hat ein sehr ungenaues und unfeines Signal. 
 \newline
 Der große Lautsprecher hingegen hat klare Linien und Kurven.
-Das lässt darauf deuten, dass der große Lautsprecher mehr Watt hat.
+Das lässt darauf deuten, dass der große Lautsprecher mehr Watt hat und bei den meisten Frequenzen eine bessere Leistung besitzt.
 \newline
 Damit lässt sich beweisen, dass der große Lautsprecher qualitativ besser ist.
 \\~\\
 In dem linken Schaubild in der Abbildung 3.7 divergiert die Phasenverschiebung mit zunehmender Frequenz immer mehr Richtung 0.
 \newline
 Da das Mikrofon Frequenzen von 70Hz bis 13KHz aufnehmen kann, stellen die von uns gemessenen Frequenzen keine Probleme dar in unseren Abbildungen.
-Das Bode Diagramm kann einem sehr informative Details liefern.
 \newline
 Während es bei der Amplitude den Betrag der Übetragungsfunktion liefern kann, so kann es bei der Phasenverschiebung den Winkel der Übetragungsfunktion berechnen.
+\newline
+Der große Lautsprecher hat eine größere Leistung bei den meisten der Frequenzen. Vor allem bei den niedrigen und basshaltigen Frequenzen wird dieser Unterschied sichtbar.
+Bei den mittleren bis hohen Frequenzen hat oft der kleine Lautsprecher eine bessere Leistung.
 %
 % CHAPTER Anhang
 %
