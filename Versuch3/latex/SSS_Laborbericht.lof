@@ -5,7 +5,25 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Signal einer Mundharmonika\relax }}{5}{figure.caption.9}% 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Das Amplitudenspekktrum von der Fourieranalyse\relax }}{7}{figure.caption.11}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Einlesen des Signals in .csv und duch das Oszilloskop\relax }}{10}{figure.caption.13}% 
-\contentsline {subfigure}{\numberline {3.1a}{\ignorespaces Die Ausgabe des Oszilloskopes\relax }}{10}{figure.caption.13}% 
-\contentsline {subfigure}{\numberline {3.1b}{\ignorespaces Die Auswertung der .csv Datei durch Python\relax }}{10}{figure.caption.13}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Messergebnisse f\IeC {\"u}r Task 2\relax }}{20}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Signal einer Mundharmonika\relax }}{11}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Einlesen des Signals durch das Oszilloskop und in die .csv Datei\relax }}{13}{figure.caption.14}% 
+\contentsline {subfigure}{\numberline {3.2a}{\ignorespaces Die Ausgabe des Oszilloskopes\relax }}{13}{figure.caption.14}% 
+\contentsline {subfigure}{\numberline {3.2b}{\ignorespaces Die Auswertung der .csv Datei durch Python\relax }}{13}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Vergleich zwischen dem kleinen und dem gro\IeC {\ss }en Lautsprecher bei einer Frequenz von 200Hz\relax }}{14}{figure.caption.15}% 
+\contentsline {subfigure}{\numberline {3.3a}{\ignorespaces Die Spannung bei dem kleinen Lautsprecher und einer Frequenz von 200Hz\relax }}{14}{figure.caption.15}% 
+\contentsline {subfigure}{\numberline {3.3b}{\ignorespaces Die Spannung bei dem gro\IeC {\ss }en Lautsprecher und einer Frequenz von 200Hz\relax }}{14}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Amplitude mit Dateinummmer und zugeh\IeC {\"o}riger Frequenz\relax }}{15}{figure.caption.16}% 
+\contentsline {subfigure}{\numberline {3.4a}{\ignorespaces Amplitude mit der zugeh\IeC {\"o}rigen Dateinummer\relax }}{15}{figure.caption.16}% 
+\contentsline {subfigure}{\numberline {3.4b}{\ignorespaces Amplitude mit der zugeh\IeC {\"o}rigen Frequenz\relax }}{15}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Beispiel einer Phasenverschiebung\relax }}{16}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Phasenverschiebung in einer .csv Datei\relax }}{16}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Phasengang mit der zugeh\IeC {\"o}rigen Frequenz\relax }}{17}{figure.caption.19}% 
+\contentsline {subfigure}{\numberline {3.7a}{\ignorespaces Phasengang mit der zugeh\IeC {\"o}rigen Dateinummer\relax }}{17}{figure.caption.19}% 
+\contentsline {subfigure}{\numberline {3.7b}{\ignorespaces Phasengang mit der zugeh\IeC {\"o}rigen Dateinummer\relax }}{17}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Bode Diagramm f\IeC {\"u}r die Frequenz\relax }}{18}{figure.caption.20}% 
+\contentsline {subfigure}{\numberline {3.8a}{\ignorespaces Bode-Diagramm f\IeC {\"u}r die Amplitude mit Dateinummer\relax }}{18}{figure.caption.20}% 
+\contentsline {subfigure}{\numberline {3.8b}{\ignorespaces Bode-Diagramm f\IeC {\"u}r die Amplitude mit Frequenz\relax }}{18}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Bode-Diagramm f\IeC {\"u}r den Phasengang\relax }}{18}{figure.caption.21}% 
+\contentsline {subfigure}{\numberline {3.9a}{\ignorespaces Bode-Diagramm f\IeC {\"u}r den Phasengang mit Dateinummer\relax }}{18}{figure.caption.21}% 
+\contentsline {subfigure}{\numberline {3.9b}{\ignorespaces Bode-Diagramm f\IeC {\"u}r den Phasengang mit Frequenz\relax }}{18}{figure.caption.21}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Messergebnisse f\IeC {\"u}r Task 2\relax }}{29}{figure.caption.23}% 

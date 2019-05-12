@@ -413,12 +413,69 @@ Da wir jedoch keine Achsenspiegelung wollen sondern ledigliche bis Frequenzen vo
 %
 \chapter{Versuch 2}
 \label{chap:VERSUCH_2}
-
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_2_FRAGESTELLUNG}
-
+In dem zweiten Versuch war es die Aufgabe für jeden der beiden Lautsprecher die Amplitude und die Phasenverschiebung des akustischen Ausgangssignales zu ermitteln, indem man sowohl die Eingangs- als auch das Mikrofonsignal auf dem Oszilloskop darstellt.
+\newline 
+Eines der beiden Diagramme haben wir abgespeichert welches in der Abbildung 3.1 einsehbar ist.
+Zudem berechnen wir jeden der 17 verschiedenen Frequenzen für jeweils den großen und den kleinen Lautsprecher die Amplitude und die Phasenverschiebung.
+Die 17 verschiedenen Frequenzen sind folgende:
+\newline
+100Hz, 200Hz, 300Hz, 400Hz, 500Hz, 700Hz, 850Hz, 1000Hz, 1200Hz, 1500Hz, 1700Hz, 2000Hz, 3000Hz, 4000Hz, 5000Hz, 6000Hz, 10000Hz
+\end{itemize}
+\\~\\
+Diese geben wir im Laufe des Versuches in einer Tabelle aus.
+Wichtig ist es hierbei bei beiden Lautsprechern den selben Abstand zu haben. Zudem sollten beide Kanäle auf AC Coupling gestellt sein, da wir den Gleichanteil nicht benötigen.
+\newline
+Wie bei dem ersten Versuch verwenden wir wieder den Single Sequence Mode um ein Standbild des Signals zu erhalten um dieses besser zu capturen.
+\newline
+Nach der Aufnahme des Signals ist es wichtig für die nächste Frequenz wieder den Single Sequence Mode zu deaktivieren um ein neues Bild zu erhalten.
+\\~\\
+Das Eingangssignal soll konstant auf 1.5V eingestellt sein. Mit jeder Veränderung der Frequenz muss die Amplitude wieder angepasst werden.
+Danach sollen wir die Daten der Amplitude und der Phasenverschiebung in Arrays transferieren und graphisch darstellen.
+\newpage
+Für beide Lautsprecher werden wir mit matplotlib ein Bode-Diagramm darstellen, indem wir beide Diagramme mit der Funktion semilogx() halblogarithmisch darstellen und den Phasenwinkel dazu berechnen mit der Formel:
+\\~\\
+Amplitude = 1 / Amplitude
+\newline
+Amplitude = 20$\log _{10}$ * Amplitude
+\\~\\
+Phasenwinkel = -$\Delta$t * f * 360
+\\~\\
+\begin{figure}[H]
+	\centering\small
+	\includegraphics[width=0.9\textwidth]{media/aufbau.jpg}
+	\caption{Signal einer Mundharmonika}
+	\label{img:Signal einer Mundharmonika}
+\end{figure}
+\newpage
+In dem zweiten Versuch schließen wir das Mikrofon erneut an den Channel 1 des Oszilloskopes. Der Lautsprecher wird mit dem Pluspol an den An- und Ausschalter angeschlossen.
+Der Schalter wiederrum wird wiederrum mit dem Negativkabel verbunden und in den Verstärker geleitet. 
+\newline
+Den Schalter benötigen wir, um den nervtötenden Ton direkt wieder zu eliminieren, sobald man eine Single Sequence besitzt. Der Verstärker wiederrum geht in den Channel 2 des Oszilloskopes. 
+Der Verstärker wird wiederrum an den Output des Oszilloskopes angehängt.
+\newline
+Der Abstand vom Mikrofon zum Lautsprecher soll bei beiden Lautsprechern gleich sein.
+\\~\\
+Folgende Materialien wurden benötigt: ~\par
+\begin{itemize}
+	\item Oszilloskop
+	\item Verstärker
+	\item 2 verschiedene Lautsprecher
+	\item Schalter 
+	\item Mikrofon
+	\item Mundharmonika
+	\item Signalkabel Schwarz
+	\item Signalkabel Rot
+	\item Signalkabel, dass Plus mit Minus verbindet und beide weiterleitet
+	\item Adapter für Verstärker
+	\item Python auf einem Computer
+\end{itemize}
+\newpage
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
+Auf der linken Seite ist die Single Sequence des Oszilloskopes bei einer Frequenz von 100Hz. Dabei stellt das gelbe Signal den Input beziehungsweise das Mikrofon dar, während das blaue Signal vom Channel 2 stammt und der Output für den Lautsprecher ist.
+Bei beiden Signalen sehen wir eine gleichmäßige Sinuskurve. Die beiden Signale wurden in .csv Dateien gespeichert. Der Input von Channel 1 wurde dabei nochmals von uns eingelesen in einem Pythonskript und wurde daraufhin graphisch ausgegeben.
 \begin{figure}[H]
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -433,13 +490,151 @@ Da wir jedoch keine Achsenspiegelung wollen sondern ledigliche bis Frequenzen vo
   \caption{Die Auswertung der .csv Datei durch Python}
   \label{fig:Die Auswertung der .csv Datei durch Python}
 \end{subfigure}
-\caption{Einlesen des Signals in .csv und duch das Oszilloskop}
-\label{fig:Einlesen des Signals in .csv und duch das Oszilloskop}
+\caption{Einlesen des Signals durch das Oszilloskop und in die .csv Datei}
+\label{fig:Einlesen des Signals durch das Oszilloskop und in die .csv Datei}
 \end{figure}
-
+Wir haben für jede Frequenz und sowohl für Input als auch Output jeweils eine graphische Darstellung.
+Da diese jedoch den Rahmen sprengen würde und zudem das Dokument viel zu unübersichtlich wäre, reduziere ich die Darstellung auf die Frequenz von 200Hz.
+\newpage
+In der Abbildung 3.3 haben wir die abgebildete Rückkopplung für den kleinen und den großen Lautsprecher bei jeweils 200Hz.
+Links ist der kleine Lautsprecher abgebildet und rechts der große Lautsprecher.
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/klein200.png}
+  \caption{Die Spannung bei dem kleinen Lautsprecher und einer Frequenz von 200Hz}
+  \label{fig:Die Spannung bei dem kleinen Lautsprecher und einer Frequenz von 200Hz}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/gross200.png}
+  \caption{Die Spannung bei dem großen Lautsprecher und einer Frequenz von 200Hz}
+  \label{fig:Die Spannung bei dem großen Lautsprecher und einer Frequenz von 200Hz}
+\end{subfigure}
+\caption{Vergleich zwischen dem kleinen und dem großen Lautsprecher bei einer Frequenz von 200Hz}
+\label{fig:Vergleich zwischen dem kleinen und dem großen Lautsprecher bei einer Frequenz von 200Hz}
+\end{figure}
+\newpage
 \section{Auswertung}
 \label{chap:VERSUCH_2_AUSWERTUNG}
+Auf dem Spannungsverlauf beziehungsweise den Spannungsverläufen sieht man die Spannung die bei einer Rückkopplung entsteht bei bestimmten Frequenzen. Diese wurden auf dem Oszilloskop angezeigt und durch ein von uns mithilfe der Toolbox TekTDS2000 erstelltes Pythonskript in eine .csv Datei geschrieben.
+\newline 
+Dabei haben wir jeweils eine .csv Datei erstellt für Channel 1 (Mikrofon als Input) und für Channel 2 (Lautsprecher als Output).
+Die .csv Dateien werden von uns in einem Pythonskript wieder eingelesen und die Werte in Arrays gespeichert. 
+\newline 
+Aus den Daten stellen wir wiederrum die Amplitude und den Phasengang graphisch dar.
+\\~\\
+Mit der Numpy Funktion \textit{np.max(np.abs())} erhalten wir den maximalen absoluten Wert des Signals beziehungsweise die Amplitude.
+Dies machen wir mit sämtlichen 17 unterschiedlichen Frequenzen.
+Das Signal das gelb abgebildet ist, beschreibt die Amplitude des großen Lautsprechers, während das blaue Signal die Amplitude des kleinen Lautsprechers darstellt.
+Daraus erhalten wir die folgenden graphischen Darstellungen.
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/amplitudeanzahl.png}
+  \caption{Amplitude mit der zugehörigen Dateinummer}
+  \label{fig:Amplitude mit der zugehörigen Dateinummer}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/amplitudefrequenz.png}
+  \caption{Amplitude mit der zugehörigen Frequenz}
+  \label{fig:Amplitude mit der zugehörigen Frequenz}
+\end{subfigure}
+\caption{Amplitude mit Dateinummmer und zugehöriger Frequenz}
+\label{fig:Amplitude mit Dateinummmer und zugehöriger Frequenz}
+\end{figure}
 
+\newpage
+
+Die Phasenverschiebung zu berechnen ist etwas komplizierter als erst gedacht.
+Zuerst schauen wir uns den Plot an der uns für die jeweiligen Frequenzen ausgegeben wird.
+
+
+\begin{figure}[H]
+	\centering\small
+	\includegraphics[width=0.4\textwidth]{media/phase.png}
+	\caption{Beispiel einer Phasenverschiebung}
+	\label{img:Beispiel einer Phasenverschiebung}
+\end{figure}
+
+Der Achsenschnittpunkt befindet sich in der Mitte. Dort sollte also auch der Anfang der Sinuskurve sein. Da der Abstand zum nächsten Nullpunkt auf der rechten Seite des Achsenschnittpunktes ist, müssen wir nun in der .csv Tabelle den nächsten Nullpunkt finden.
+Der Achsenschnittpunkt liegt bei der Zeile 1250. Deshalb müssen wir nun tiefer suchen nach einem Nullpunkt.
+
+\begin{figure}[H]
+	\centering\small
+	\includegraphics[width=0.7\textwidth]{media/excel.png}
+	\caption{Phasenverschiebung in einer .csv Datei}
+	\label{img:Phasenverschiebung in einer .csv Datei}
+\end{figure}
+\newpage
+Hier haben wir den Nullpunkt in der Zeile 1437. Deshalb rechnen wir nun 1437 - 1250 = 187 Signallänge
+Die Singallänge von 87 multiplizieren wir nun mit dem Abtastintervall. Das Abtastintervall erhalten wir durch die Subtraktion zweier benachbarter Werte, die daraufhin auf 5 Nachkommastellen gerundet werden.
+\\~\\
+187 Signallänge *  1 µs  = 187 µs 
+\\~\\
+Nun haben wir die Phasenverschiebung berechnet. An dem Beispiel für den kleinen Lautsprecher mit einer Frequenz von 200Hz beträgt die Phasenverschiebung also 187Hz.
+Nachdem wir sämtliche Phasenverschiebungen berechnet haben, geben wir diese graphisch in einem Plot wieder.
+Das gelbe Signal ist erneut der große Lautsprecher, während das blaue Signal der kleine Lautsprecher ist.
+Im linken Bild ist der Phasengang in Abhängigkeit zur Dateinummer und im rechten Bild ist der Phasengang in der Abhängigkeit zur Frequenz.
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/phasenanzahl.png}
+  \caption{Phasengang mit der zugehörigen Dateinummer}
+  \label{fig:Phasengang mit der zugehörigen Dateinummer}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/phasenfrequenz.png}
+  \caption{Phasengang mit der zugehörigen Dateinummer}
+  \label{fig:Phasengang mit der zugehörigen Dateinummer}
+\end{subfigure}
+\caption{Phasengang mit der zugehörigen Frequenz}
+\label{fig:Phasengang mit der zugehörigen Frequenz}
+\end{figure}
+\newpage
+asd----------------------------------------------------
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/bodeamplitudeanzahl.png}
+  \caption{Bode-Diagramm für die Amplitude mit Dateinummer}
+  \label{fig:Bode-Diagramm für die Amplitude mit Dateinummer}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/bodeamplitudefrequenz.png}
+  \caption{Bode-Diagramm für die Amplitude mit Frequenz}
+  \label{fig:Bode-Diagramm für die Amplitude mit Frequenz}
+\end{subfigure}
+\caption{Bode Diagramm für die Frequenz}
+\label{fig:Bode Diagramm für die Frequenz}
+\end{figure}
+asd----------------------------------------------------
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/phasenanzahl.png}
+  \caption{Bode-Diagramm für den Phasengang mit Dateinummer}
+  \label{fig:Bode-Diagramm fürden Phasengang mit Dateinummer}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/phasenfrequenz.png}
+  \caption{Bode-Diagramm für den Phasengang mit Frequenz}
+  \label{fig:Bode-Diagramm für den Phasengang mit Frequenz}
+\end{subfigure}
+\caption{Bode-Diagramm für den Phasengang}
+\label{fig:Bode-Diagramm für den Phasengang}
+\end{figure}
+
+\newpage
 \section{Interpretation}
 \label{chap:VERSUCH_2_INTERPRETATION}
 
