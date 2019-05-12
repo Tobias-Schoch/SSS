@@ -2,4 +2,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Versuchsaufbau Teil 1\relax }}{3}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Signal einer Mundharmonika\relax }}{5}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Das Amplitudenspekktrum von der Fourieranalyse\relax }}{7}{figure.caption.11}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Einlesen des Signals in .csv und duch das Oszilloskop\relax }}{10}{figure.caption.13}% 
+\contentsline {subfigure}{\numberline {3.1a}{\ignorespaces Die Ausgabe des Oszilloskopes\relax }}{10}{figure.caption.13}% 
+\contentsline {subfigure}{\numberline {3.1b}{\ignorespaces Die Auswertung der .csv Datei durch Python\relax }}{10}{figure.caption.13}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Messergebnisse f\IeC {\"u}r Task 2\relax }}{20}{figure.caption.15}% 

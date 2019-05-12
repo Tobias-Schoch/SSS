@@ -286,30 +286,41 @@ Folgende Materialien wurden benötigt: ~\par
 \newpage
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
-Auf dem linken Bild sieht man die Darstellung auf dem Oszilloskop. Diese wurde durch ein Programm auf dem Labor Computer eingelesen.
-Durch einen Pythoncode den wir aus der Toolbox TekTDS2000 erhalten haben, konnten wir den Spannungsverlauf aus dem Oszilloskop einlesen und in eine .csv Datei schreiben. Dieses Format wird auch häufig für Excel Dateien verwendet.
-Durch das Drücken des Knopfes Single Sequence haben wir auf dem Oszilloskop ein Standbild erhalten.
-Diese Datei haben wir mittels Numpy und der Funktion np.loadfromtxt ausgelesen.
+Auf dem Bild ist das Signal abgebildet, dass wir mittels einer Mundharmonika in das Mikrofon geblasen haben.
+\newline
+Durch die Toolbox TekTDS2000 können wir das Signal nun in eine .csv Datei umwandeln und abspeichern.
+\newline
+Diese Datei haben wir mittels Numpy und der Funktion \textit{np.loadfromtxt} ausgelesen.
 Die Ergebnisse wurden in die 2 verschiedene Funktionen x und y geschrieben.
+\newline
 Danach wurden diese mittels matplotlib graphisch dargestellt.
 \begin{figure}[H]
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=0.9\linewidth]{../data/img/100.png}
-  \caption{Die Ausgabe des Oszilloskopes}
-  \label{fig:Die Ausgabe des Oszilloskopes}
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=0.9\linewidth]{../data/img/gross100.png}
-  \caption{Die Auswertung der .csv Datei durch Python}
-  \label{fig:Die Auswertung der .csv Datei durch Python}
-\end{subfigure}
-\caption{Einlesen des Signals in .csv und duch das Oszilloskop}
-\label{fig:Einlesen des Signals in .csv und duch das Oszilloskop}
+	\centering\small
+	\includegraphics[width=0.9\textwidth]{../data/img/mundharmonika.png}
+	\caption{Signal einer Mundharmonika}
+	\label{img:Signal einer Mundharmonika}
 \end{figure}
-
+\newpage
+\section{Auswertung}
+\label{chap:VERSUCH_1_AUSWERTUNG}
+Auf dem Spannungsverlauf sieht man das aufgenommene Signal der Mundharmonika.
+Durch einen Pythonfunktion die wir aus der Toolbox TekTDS2000 erhalten haben, konnten wir den Spannungsverlauf aus dem Oszilloskop einlesen und in eine .csv Datei schreiben.
+\newline
+Dieses Format wird auch häufig für Excel Dateien verwendet.
+Durch das Drücken des Knopfes Single Sequence haben wir auf dem Oszilloskop ein Standbild erhalten.
+\newline
+Diese Datei haben wir mittels Numpy und der Funktion \textit{np.loadfromtxt} ausgelesen.
+Die Ergebnisse wurden in die 2 verschiedene Funktionen x und y geschrieben.
+\newline
+Danach wurden diese mittels matplotlib graphisch dargestellt.
+\\~\\
+Die Grundperiode und die Grundfrequenz haben wir uns mittels der Toolbox TekTDS2000 durch getFreq(1) und getPeriod(1) ausgeben lassen.
+Die Signallänge M haben wir durch \textit{len(file.readlines())} erfahren.
+\newline 
+Durch die absolute Addition von den beiden Maxima- und Minimawerten erhalten wir gerundet die Signaldauer.
+Wenn man nun die Signaldauer dividiert durch die Signallänge erhält man das Abtastintervall $\Delta$t mit dem Wert 4µs.
+\newline
+Mit dem Abtastintervall erhält man auch die Abtastfrequenz. Diese entspricht 250000  Hertz.
 Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 \begin{table}[H]
 	\centering\small
@@ -334,13 +345,29 @@ Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 	\label{fig:VERSUCH_1_MESSWERTE}
 \end{table}
 \newpage
+Das Amplitudenspektrum erhält man indem man die Spannung absolut fouriertransformiert mit der Numpy Funktion \textit{np.fft.fft()} und als Amplitude auf der y Achse ausgibt. 
+\newline
+Doch bisher wird die x-Achse in der Einheit \textit{Anzahl Schwingungen innerhalb der gesamten Signaldauer} und nicht in Hertz angegeben. 
+\newline
+Um dies jedoch zu tun müssen wir die Frequenz in f folgendermaßen berechnen:
+\\~\\
+f = $\dfrac{n}{M * \Delta t}$
+\\~\\
+Die jeweilige Schwingung n wird geteilt durch die Signallänge und das Abtastintervall.
+Dadurch erhält man folgenden Graphen, welcher bis zu dem von uns festgelegten Frequenzwert von 20000 geplotet wird.
 \begin{figure}[H]
 	\centering\small
 	\includegraphics[width=0.8\textwidth]{../data/img/mundharmonika2.png}
 	\caption{Das Amplitudenspekktrum von der Fourieranalyse}
 	\label{img:Das Amplitudenspekktrum von der Fourieranalyse}
 \end{figure}
-
+\newpage
+Mittels der Numpy Funktion \textit{np.max(spektrum)} können wir den maximalen Amplitudenwert abfragen.
+Mittels einer for-Schleife fragen wir nun den Wert bis zum 1250sten Signal ab der das Maxima hat.
+\newline 
+Dadurch erhalten wir die Frequenz des maximalen Amplitudenwerts.
+Wir fragen genau bis zur Hälfte der Werte ab, da der Graph sich spiegelt und es so 2 Maxima gibt. Da wir nur den ersten Wert wollen müssen wir dies festlegen.
+\newline
 Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 \begin{table}[H]
 	\centering\small
@@ -348,7 +375,7 @@ Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 	\hline
 	Plot & Wert \\
 	\hline
-	Maximaler Amplitudenwert & 1.275ms \\
+	Maximaler Amplitudenwert & 4.5675 \\
 	\hline
 	Frequenz des Maxima & 800Hz \\
 	\hline
@@ -356,13 +383,31 @@ Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 	\caption{Zu berechnende Werte}
 	\label{fig:VERSUCH_1_MESSWERTE}
 \end{table}
-
-\section{Auswertung}
-\label{chap:VERSUCH_1_AUSWERTUNG}
-
+\newpage
 \section{Interpretation}
 \label{chap:VERSUCH_1_INTERPRETATION}
-
+Da das Signal der Mundharmonika schön gleichmäßig ist, kann man feststellen, dass der Ton sehr gleichmäßig gespielt wurde. 
+\newline 
+Durch die Beschaffenheit des Funktionsweise und die laute Gegebenheiten zum Zeitpunkt der Messung, kann man gut beobachten, dass die Amplitude nach so gut wie jeder periodischen Wiederholung zunimmt und damit die Spannung auch höher wird.
+Im großen Ganzen jedoch gibt es keine Unstimmigkeiten.
+\\~\\
+Für die Tabelle 2.1 kann man folgende Schlussfolgerungen ziehen: ~\par
+\begin{itemize}
+	\item Die Signaldauer ist komplementär mit der Signallänge und der dem Abtastintervall
+	\item Das Abtastintervall ist komplementär zur Abtastfrequenz
+	\item Frequenz und Zeit sind komplementär zueinander
+\end{itemize}
+\\~\\
+Bei der Abbildung 2.3 ist eine schöne Amplitude zu erkennen, die sich von den anderen Amplituden durch ihre Höhe absetzt.
+Dieser maximale Amplitudenausschlag mit der Höhe 4.5675V ist der Ton.
+\newline 
+Der Ton den wir produziert haben liegt also demnach bei 800Hz. Da wir bis auf eine Öffnung die Anderen zugeklebt haben, wissen wir dass wir einen Ton mit der Frequenz von 800Hz gespielt haben. 
+\newline
+Die anderen kleinen Harmonischen sind die Obertöne.
+Wir wissen durch das Amplitudenspektrum auch, dass wir keinen Klang gespielt haben und die Mundharmonika richtig zugeklebt haben.
+\\~\\
+Wenn man die Fouriertransformierte für alle 2500 Abtastungen graphisch darstellt, dann stellt sich eine y-Achsenspiegelung dar.
+Da wir jedoch keine Achsenspiegelung wollen sondern ledigliche bis Frequenzen von 20000Hz kürzen wir die x-Achse um nur die wichtigen Werte zu erlangen.
 %
 % CHAPTER Versuch 2
 %
@@ -374,6 +419,23 @@ Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/100.png}
+  \caption{Die Ausgabe des Oszilloskopes}
+  \label{fig:Die Ausgabe des Oszilloskopes}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{../data/img/gross100.png}
+  \caption{Die Auswertung der .csv Datei durch Python}
+  \label{fig:Die Auswertung der .csv Datei durch Python}
+\end{subfigure}
+\caption{Einlesen des Signals in .csv und duch das Oszilloskop}
+\label{fig:Einlesen des Signals in .csv und duch das Oszilloskop}
+\end{figure}
 
 \section{Auswertung}
 \label{chap:VERSUCH_2_AUSWERTUNG}
@@ -397,22 +459,33 @@ Im folgenden sind die Ergebnisse der Berechnungen aufzufinden:
 \section{Quellcode}
 \label{chap:APPENDIX_SOURCECODE}
 
-\subsection{Quellcode Versuch 1}
-\label{chap:APPENDIX_SOURCECODE_V1}
-
-\subsection{Quellcode Versuch 2}
-\label{chap:APPENDIX_SOURCECODE_V2}
-
-\subsection{Quellcode Versuch 3}
-\label{chap:APPENDIX_SOURCECODE_V3}
-
-\subsection{Quellcode Versuch 4}
-\label{chap:APPENDIX_SOURCECODE_V4}
-
-
+\subsection{Quellcode Versuch 1.1}
+\label{chap:APPENDIX_SOURCECODE_V1.1}
+\lstinputlisting[style=PYTHON, frame=single, caption=Das Bild des Oszilloskopes einlesen und abspeichern, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA1]{../task1.1.py}
+\newpage
+\subsection{Quellcode Versuch 1.2}
+\label{chap:APPENDIX_SOURCECODE_V1.2}
+\lstinputlisting[style=PYTHON, frame=single, caption=.csv Datei einlesen und in einem Plot graphisch wiedergeben, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA1]{../task1.2.py}
+\subsection{Quellcode Versuch 1.3}
+\label{chap:APPENDIX_SOURCECODE_V1.3}
+\lstinputlisting[style=PYTHON, frame=single, caption=Fouriertransformation anwenden und ein Amplitudenspektrum ausgeben  sowie Berechnung einiger Werte, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA1]{../task1.3.py}
+\newpage
+\subsection{Quellcode Versuch 2.1}
+\label{chap:APPENDIX_SOURCECODE_V2.1}
+\lstinputlisting[style=PYTHON, frame=single, caption=Lautsprecherdaten graphisch ausgeben und einige Werte berechnen, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA1]{../task2.1.py}
+\newpage
+\subsection{Quellcode Versuch 2.2}
+\label{chap:APPENDIX_SOURCECODE_V2.2}
+\lstinputlisting[style=PYTHON, frame=single, caption=Amplitude\, Phasenverschiebung und Bode-Diagramm berechnen, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA1]{../task2.2.py}
+\newpage
 \section{Messergebnisse}
 \label{chap:APPENDIX_MEASUREMENT_SOURCE}
-
+\begin{figure}[H]
+	\centering\small
+	\includegraphics[width=0.9\textwidth]{media/mess.png}
+	\caption{Messergebnisse für Task 2}
+	\label{img:Messergebnisse für Task 2}
+\end{figure}
 %
 % Literaturverzeichnis
 %
