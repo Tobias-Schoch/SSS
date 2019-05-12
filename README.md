@@ -32,7 +32,7 @@ Aufgabe3 :
 <br>
 ✔️ Programmieren
 <br>
-❌ Bericht  
+✔️ Bericht  
 ❌ Bewertung   
 <br>
 Aufgabe4 : 
