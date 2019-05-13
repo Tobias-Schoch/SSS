@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/amplitudeanzahl.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/amplitudeanzahl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/amplitudefrequenz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/amplitudefrequenz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/bodeamplitudeanzahl.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/bodeamplitudeanzahl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/bodeamplitudefrequenz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/bodeamplitudefrequenz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/bodephasenanzahl.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/bodephasenanzahl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/bodephasenfrequenz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/bodephasenfrequenz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/phasenanzahl.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/phasenanzahl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/data/img/phasenfrequenz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/data/img/phasenfrequenz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.lof" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.lof" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.log" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.lol" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.lol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.lot" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.lot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.out" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.toc" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/SSS_Laborbericht.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/latex/appendix/bibliography.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/latex/appendix/bibliography.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch3/task2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch3/task2.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/task1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task1.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/task1.2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/task2.1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/Versuch3/task2.2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="272">
+              <first_editor relative-caret-position="-34">
                 <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
@@ -321,6 +297,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -340,6 +319,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -359,6 +341,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -378,6 +363,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -444,14 +432,7 @@
       <workItem from="1557660796602" duration="187000" />
       <workItem from="1557661017241" duration="456000" />
       <workItem from="1557661588306" duration="1482000" />
-      <workItem from="1557767081290" duration="6448000" />
-    </task>
-    <task id="LOCAL-00042" summary="cropped pictures">
-      <created>1555425880836</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1555425880836</updated>
+      <workItem from="1557767081290" duration="6595000" />
     </task>
     <task id="LOCAL-00043" summary="calculating hex, rgb and standard deviation">
       <created>1555428715737</created>
@@ -789,11 +770,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557661321504</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Finished">
+      <created>1557775345917</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1557775345918</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160151000" />
+    <option name="totallyTimeSpent" value="160298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1091,7 +1079,7 @@
       </provider>
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="272">
+          <first_editor relative-caret-position="-34">
             <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
             <folding>
               <element signature="e#0#31#0" expanded="true" />
