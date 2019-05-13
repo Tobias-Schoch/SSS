@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  12 MAY 2019 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  13 MAY 2019 21:17
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -1764,6 +1764,9 @@ l.82 ...nz von 200Hz\relax }{figure.caption.15}{}}
                                                   
 ? 
 
+LaTeX Warning: Label `fig:VERSUCH_1_MESSWERTE' multiply defined.
+
+
 LaTeX Warning: Label `fig:Phasengang mit der zugeh\IeC {\"o}rigen Dateinummer' 
 multiply defined.
 
@@ -2083,7 +2086,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 273.
 ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<media/aufbau2.jpg, id=227, 3276.24pt x 2360.82pt>
+<media/aufbau2.jpg, id=229, 3276.24pt x 2360.82pt>
 File: media/aufbau2.jpg Graphic file (type jpg)
 <use media/aufbau2.jpg>
 Package pdftex.def Info: media/aufbau2.jpg  used on input line 282.
@@ -2099,7 +2102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--295
  []
 
 [4]
-<../data/img/mundharmonika.png, id=239, 462.528pt x 346.896pt>
+<../data/img/mundharmonika.png, id=241, 462.528pt x 346.896pt>
 File: ../data/img/mundharmonika.png Graphic file (type png)
 <use ../data/img/mundharmonika.png>
 Package pdftex.def Info: ../data/img/mundharmonika.png  used on input line 316.
@@ -2118,7 +2121,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--363
  []
 
 [6]
-<../data/img/mundharmonika2.png, id=250, 462.528pt x 346.896pt>
+<../data/img/mundharmonika2.png, id=252, 462.528pt x 346.896pt>
 File: ../data/img/mundharmonika2.png Graphic file (type png)
 <use ../data/img/mundharmonika2.png>
 Package pdftex.def Info: ../data/img/mundharmonika2.png  used on input line 377
@@ -2156,130 +2159,178 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--431
 
 [9]
  3.
-! Undefined control sequence.
-\enit@enditemize ->\enit@after 
-                               \endlist \ifx \enit@series \relax \else \ifnu...
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@enditemize ...x \else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.442 \end{itemize}
-                   
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.442 \end{itemize}
-                   
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.442 \end{itemize}
-                   
-? 
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@enditemize ...ist \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.442 \end{itemize}
-                   
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.442 \end{itemize}
-                   
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.442 \end{itemize}
-                   
-? 
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.442 \end{itemize}
-                   
-? 
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.442 \end{itemize}
-                   
-? 
 
-! LaTeX Error: \begin{document} ended by \end{itemize}.
+Underfull \hbox (badness 10000) in paragraph at lines 435--452
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.442 \end{itemize}
-                   
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.442 \end{itemize}
-                   
-? 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--452
+
+ []
+
+[10
+
+]
+<media/aufbau.jpg, id=270, 4625.28pt x 3468.96pt>
+File: media/aufbau.jpg Graphic file (type jpg)
+<use media/aufbau.jpg>
+Package pdftex.def Info: media/aufbau.jpg  used on input line 463.
+(pdftex.def)             Requested size: 396.91325pt x 297.63663pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--466
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--466
+
+ []
+
+[11 <./media/aufbau.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 468--476
+
+ []
+
+[12]
+<../data/img/100.png, id=280, 240.9pt x 225.84375pt>
+File: ../data/img/100.png Graphic file (type png)
+<use ../data/img/100.png>
+Package pdftex.def Info: ../data/img/100.png  used on input line 502.
+(pdftex.def)             Requested size: 198.45662pt x 186.05803pt.
+<../data/img/gross100.png, id=281, 462.528pt x 346.896pt>
+File: ../data/img/gross100.png Graphic file (type png)
+<use ../data/img/gross100.png>
+Package pdftex.def Info: ../data/img/gross100.png  used on input line 508.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
+put line 512.
+ [13 <../data/img/100.png> <../data/img/gross100.png>]
+<../data/img/klein200.png, id=288, 462.528pt x 346.896pt>
+File: ../data/img/klein200.png Graphic file (type png)
+<use ../data/img/klein200.png>
+Package pdftex.def Info: ../data/img/klein200.png  used on input line 524.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+<../data/img/gross200.png, id=289, 462.528pt x 346.896pt>
+File: ../data/img/gross200.png Graphic file (type png)
+<use ../data/img/gross200.png>
+Package pdftex.def Info: ../data/img/gross200.png  used on input line 530.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+ [14 <../data/img/klein200.png> <../data/img/gross200.png>]
+<../data/img/amplitudeanzahl.png, id=296, 462.528pt x 346.896pt>
+File: ../data/img/amplitudeanzahl.png Graphic file (type png)
+<use ../data/img/amplitudeanzahl.png>
+Package pdftex.def Info: ../data/img/amplitudeanzahl.png  used on input line 55
+5.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+<../data/img/amplitudefrequenz.png, id=297, 462.528pt x 346.896pt>
+File: ../data/img/amplitudefrequenz.png Graphic file (type png)
+<use ../data/img/amplitudefrequenz.png>
+Package pdftex.def Info: ../data/img/amplitudefrequenz.png  used on input line 
+561.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--567
+
+ []
+
+[15 <../data/img/amplitudeanzahl.png> <../data/img/amplitudefrequenz.png>]
+<media/phase.png, id=304, 240.14719pt x 248.42813pt>
+File: media/phase.png Graphic file (type png)
+<use media/phase.png>
+Package pdftex.def Info: media/phase.png  used on input line 577.
+(pdftex.def)             Requested size: 176.40439pt x 182.48824pt.
+<media/excel.png, id=305, 271.76532pt x 125.71968pt>
+File: media/excel.png Graphic file (type png)
+<use media/excel.png>
+Package pdftex.def Info: media/excel.png  used on input line 588.
+(pdftex.def)             Requested size: 308.71106pt x 142.81738pt.
+
+[16 <./media/phase.png> <./media/excel.png>]
+Overfull \hbox (5.9647pt too wide) in paragraph at lines 597--636
+ [][] 
+ []
+
+[17]
+<../data/img/phasenanzahl.png, id=314, 462.528pt x 346.896pt>
+File: ../data/img/phasenanzahl.png Graphic file (type png)
+<use ../data/img/phasenanzahl.png>
+Package pdftex.def Info: ../data/img/phasenanzahl.png  used on input line 657.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+<../data/img/phasenfrequenz.png, id=315, 462.528pt x 346.896pt>
+File: ../data/img/phasenfrequenz.png Graphic file (type png)
+<use ../data/img/phasenfrequenz.png>
+Package pdftex.def Info: ../data/img/phasenfrequenz.png  used on input line 663
+.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--669
+
+ []
+
+[18 <../data/img/phasenanzahl.png> <../data/img/phasenfrequenz.png>]
+<../data/img/bodeamplitudeanzahl.png, id=323, 462.528pt x 346.896pt>
+File: ../data/img/bodeamplitudeanzahl.png Graphic file (type png)
+<use ../data/img/bodeamplitudeanzahl.png>
+Package pdftex.def Info: ../data/img/bodeamplitudeanzahl.png  used on input lin
+e 682.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+<../data/img/bodeamplitudefrequenz.png, id=324, 462.528pt x 346.896pt>
+File: ../data/img/bodeamplitudefrequenz.png Graphic file (type png)
+<use ../data/img/bodeamplitudefrequenz.png>
+Package pdftex.def Info: ../data/img/bodeamplitudefrequenz.png  used on input l
+ine 688.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--694
+
+ []
+
+[19 <../data/img/bodeamplitudeanzahl.png> <../data/img/bodeamplitudefrequenz.pn
+g>]
+<../data/img/bodephasenanzahl.png, id=331, 462.528pt x 346.896pt>
+File: ../data/img/bodephasenanzahl.png Graphic file (type png)
+<use ../data/img/bodephasenanzahl.png>
+Package pdftex.def Info: ../data/img/bodephasenanzahl.png  used on input line 7
+05.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+<../data/img/bodephasenfrequenz.png, id=332, 462.528pt x 346.896pt>
+File: ../data/img/bodephasenfrequenz.png Graphic file (type png)
+<use ../data/img/bodephasenfrequenz.png>
+Package pdftex.def Info: ../data/img/bodephasenfrequenz.png  used on input line
+ 711.
+(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--717
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--717
+
+ []
+
+[20 <../data/img/bodephasenanzahl.png> <../data/img/bodephasenfrequenz.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2287,186 +2338,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.443 \\~
+l.722 \\~
          \\
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--453
+Underfull \hbox (badness 10000) in paragraph at lines 722--743
 
  []
 
-[10
-
-]
-<media/aufbau.jpg, id=268, 4625.28pt x 3468.96pt>
-File: media/aufbau.jpg Graphic file (type jpg)
-<use media/aufbau.jpg>
-Package pdftex.def Info: media/aufbau.jpg  used on input line 464.
-(pdftex.def)             Requested size: 396.91325pt x 297.63663pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--467
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--467
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--467
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--467
-
- []
-
-[11 <./media/aufbau.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 469--477
-
- []
-
-[12]
-<../data/img/100.png, id=278, 240.9pt x 225.84375pt>
-File: ../data/img/100.png Graphic file (type png)
-<use ../data/img/100.png>
-Package pdftex.def Info: ../data/img/100.png  used on input line 503.
-(pdftex.def)             Requested size: 198.45662pt x 186.05803pt.
-<../data/img/gross100.png, id=279, 462.528pt x 346.896pt>
-File: ../data/img/gross100.png Graphic file (type png)
-<use ../data/img/gross100.png>
-Package pdftex.def Info: ../data/img/gross100.png  used on input line 509.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
-put line 513.
- [13 <../data/img/100.png> <../data/img/gross100.png>]
-<../data/img/klein200.png, id=286, 462.528pt x 346.896pt>
-File: ../data/img/klein200.png Graphic file (type png)
-<use ../data/img/klein200.png>
-Package pdftex.def Info: ../data/img/klein200.png  used on input line 525.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/gross200.png, id=287, 462.528pt x 346.896pt>
-File: ../data/img/gross200.png Graphic file (type png)
-<use ../data/img/gross200.png>
-Package pdftex.def Info: ../data/img/gross200.png  used on input line 531.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
- [14 <../data/img/klein200.png> <../data/img/gross200.png>]
-<../data/img/amplitudeanzahl.png, id=294, 462.528pt x 346.896pt>
-File: ../data/img/amplitudeanzahl.png Graphic file (type png)
-<use ../data/img/amplitudeanzahl.png>
-Package pdftex.def Info: ../data/img/amplitudeanzahl.png  used on input line 55
-6.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/amplitudefrequenz.png, id=295, 462.528pt x 346.896pt>
-File: ../data/img/amplitudefrequenz.png Graphic file (type png)
-<use ../data/img/amplitudefrequenz.png>
-Package pdftex.def Info: ../data/img/amplitudefrequenz.png  used on input line 
-562.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--568
-
- []
-
-[15 <../data/img/amplitudeanzahl.png> <../data/img/amplitudefrequenz.png>]
-<media/phase.png, id=302, 240.14719pt x 248.42813pt>
-File: media/phase.png Graphic file (type png)
-<use media/phase.png>
-Package pdftex.def Info: media/phase.png  used on input line 578.
-(pdftex.def)             Requested size: 176.40439pt x 182.48824pt.
-<media/excel.png, id=303, 271.76532pt x 125.71968pt>
-File: media/excel.png Graphic file (type png)
-<use media/excel.png>
-Package pdftex.def Info: media/excel.png  used on input line 589.
-(pdftex.def)             Requested size: 308.71106pt x 142.81738pt.
-
-[16 <./media/phase.png> <./media/excel.png>]
-<../data/img/phasenanzahl.png, id=308, 462.528pt x 346.896pt>
-File: ../data/img/phasenanzahl.png Graphic file (type png)
-<use ../data/img/phasenanzahl.png>
-Package pdftex.def Info: ../data/img/phasenanzahl.png  used on input line 611.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/phasenfrequenz.png, id=309, 462.528pt x 346.896pt>
-File: ../data/img/phasenfrequenz.png Graphic file (type png)
-<use ../data/img/phasenfrequenz.png>
-Package pdftex.def Info: ../data/img/phasenfrequenz.png  used on input line 617
-.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--623
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--623
-
- []
-
-[17 <../data/img/phasenanzahl.png> <../data/img/phasenfrequenz.png>]
-<../data/img/bodeamplitudeanzahl.png, id=316, 462.528pt x 346.896pt>
-File: ../data/img/bodeamplitudeanzahl.png Graphic file (type png)
-<use ../data/img/bodeamplitudeanzahl.png>
-Package pdftex.def Info: ../data/img/bodeamplitudeanzahl.png  used on input lin
-e 636.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/bodeamplitudefrequenz.png, id=317, 462.528pt x 346.896pt>
-File: ../data/img/bodeamplitudefrequenz.png Graphic file (type png)
-<use ../data/img/bodeamplitudefrequenz.png>
-Package pdftex.def Info: ../data/img/bodeamplitudefrequenz.png  used on input l
-ine 642.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--648
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--648
-
- []
-
-[18 <../data/img/bodeamplitudeanzahl.png> <../data/img/bodeamplitudefrequenz.pn
-g>]
-<../data/img/bodephasenanzahl.png, id=325, 462.528pt x 346.896pt>
-File: ../data/img/bodephasenanzahl.png Graphic file (type png)
-<use ../data/img/bodephasenanzahl.png>
-Package pdftex.def Info: ../data/img/bodephasenanzahl.png  used on input line 6
-59.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<../data/img/bodephasenfrequenz.png, id=326, 462.528pt x 346.896pt>
-File: ../data/img/bodephasenfrequenz.png Graphic file (type png)
-<use ../data/img/bodephasenfrequenz.png>
-Package pdftex.def Info: ../data/img/bodephasenfrequenz.png  used on input line
- 665.
-(pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--671
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 650--671
-
- []
-
-[19 <../data/img/bodephasenanzahl.png> <../data/img/bodephasenfrequenz.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 676--695
-
- []
-
-[20]
+[21]
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
 stlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 714.
+nput line 763.
  (../task1.1.py
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-) [21
+) [22
 
 ] (../task1.2.py) (../task1.3.py
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -2484,7 +2374,7 @@ Type  H <return>  for immediate help.
 l.14 ... Freuquenz umzurechnen - f = n / (M * Δt)
                                                   
 ? 
-[22]
+[23]
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2525,7 +2415,7 @@ Type  H <return>  for immediate help.
 l.46 ...intervall ∆t:", abtastintervall, " μs")
                                                   
 ? 
-) [23] (../task2.1.py [24]) [25] (../task2.2.py
+) [24] (../task2.1.py [25]) [26] (../task2.2.py
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2546,27 +2436,6 @@ Type  H <return>  for immediate help.
 l.17 ...nd berechneten Phasenverschiebungen in µs
                                                   
 ? 
-[26]
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 plt.ylabel('Phasenverschiebung in µs')
-                                            
-? 
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 plt.ylabel('Phasenverschiebung in µs')
-                                            
-? 
 [27]
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
@@ -2575,9 +2444,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 ... Berechnung des Phasenwinkels mit −∆t 
-                                                  * f * 360 für den großen...
-
+l.66 plt.ylabel('Phasenverschiebung in µs')
+                                            
 ? 
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
@@ -2586,41 +2454,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 ... Berechnung des Phasenwinkels mit −∆t 
-                                                  * f * 360 für den großen...
-
-? 
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ... Berechnung des Phasenwinkels mit −∆t 
-                                                  * f * 360 für den kleinen...
-
-? 
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ... Berechnung des Phasenwinkels mit −∆t 
-                                                  * f * 360 für den kleinen...
-
-? 
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.119 plt.ylabel('Phasenverschiebung in µs')
-                                             
+l.77 plt.ylabel('Phasenverschiebung in µs')
+                                            
 ? 
 [28]
 
@@ -2630,24 +2465,79 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 plt.ylabel('Phasenverschiebung in µs')
+l.92 ... Berechnung des Phasenwinkels mit −∆t 
+                                                  * f * 360 für den großen...
+
+? 
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ... Berechnung des Phasenwinkels mit −∆t 
+                                                  * f * 360 für den großen...
+
+? 
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ... Berechnung des Phasenwinkels mit −∆t 
+                                                  * f * 360 für den kleinen...
+
+? 
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ... Berechnung des Phasenwinkels mit −∆t 
+                                                  * f * 360 für den kleinen...
+
+? 
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 plt.ylabel('Phasenverschiebung in µs')
                                              
 ? 
-) [29]
-<media/mess.png, id=646, 614.7768pt x 845.559pt>
+[29]
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 plt.ylabel('Phasenverschiebung in µs')
+                                             
+? 
+) [30]
+<media/mess.png, id=661, 614.7768pt x 845.559pt>
 File: media/mess.png Graphic file (type png)
 <use media/mess.png>
-Package pdftex.def Info: media/mess.png  used on input line 735.
+Package pdftex.def Info: media/mess.png  used on input line 784.
 (pdftex.def)             Requested size: 396.91325pt x 545.92973pt.
- [30 <./media/mess.png>]
+ [31 <./media/mess.png>]
 \openout2 = `appendix/bibliography.aux'.
 
  (appendix/bibliography.tex
 No file SSS_Laborbericht.bbl.
 ) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 744.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 744.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 793.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 793.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
@@ -2706,27 +2596,27 @@ l.82 ...nz von 200Hz\relax }{figure.caption.15}{}}
                                                   
 ? 
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 744.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 744.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 793.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 793.
 Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 4A2397D1854E21F8ED4CD2E7D2BE9A74;3134.
+(rerunfilecheck)             Checksum: 28E1641E6079CE0DF3632B9B668AB4B4;3134.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 744.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 793.
 
-Overfull \hbox (17.8391pt too wide) in paragraph at lines 77--744
+Overfull \hbox (22.39915pt too wide) in paragraph at lines 77--793
 \T1/ptm/m/n/12 von 200Hz    �en Laut-spre-cher bei ei-ner Fre-quenz von 200Hz  
-                                                                          
+                                                                            
  []
 
  ) 
 Here is how much of TeX's memory you used:
- 39026 strings out of 492945
- 844124 string characters out of 3122700
- 1198149 words of memory out of 3000000
- 41756 multiletter control sequences out of 15000+200000
+ 39034 strings out of 492945
+ 844239 string characters out of 3122700
+ 1198209 words of memory out of 3000000
+ 41754 multiletter control sequences out of 15000+200000
  74425 words of font info for 132 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,98p,715b,2232s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2737,9 +2627,9 @@ KTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Tobias.Schoch/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobi
 as.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (37 pages, 8849251 bytes).
+Output written on SSS_Laborbericht.pdf (38 pages, 8881927 bytes).
 PDF statistics:
- 747 PDF objects out of 1000 (max. 8388607)
- 355 named destinations out of 1000 (max. 500000)
+ 763 PDF objects out of 1000 (max. 8388607)
+ 365 named destinations out of 1000 (max. 500000)
  289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

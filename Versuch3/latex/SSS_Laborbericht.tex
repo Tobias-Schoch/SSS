@@ -439,7 +439,6 @@ Zudem berechnen wir jeden der 17 verschiedenen Frequenzen für jeweils den groß
 Die 17 verschiedenen Frequenzen sind folgende:
 \newline
 100Hz, 200Hz, 300Hz, 400Hz, 500Hz, 700Hz, 850Hz, 1000Hz, 1200Hz, 1500Hz, 1700Hz, 2000Hz, 3000Hz, 4000Hz, 5000Hz, 6000Hz, 10000Hz
-\end{itemize}
 \\~\\
 Diese geben wir im Laufe des Versuches in einer Tabelle aus.
 Wichtig ist es hierbei bei beiden Lautsprechern den selben Abstand zu haben. Zudem sollten beide Kanäle auf AC Coupling gestellt sein, da wir den Gleichanteil nicht benötigen.
@@ -591,6 +590,53 @@ Der Achsenschnittpunkt liegt bei der Zeile 1250. Deshalb müssen wir nun tiefer 
 	\label{img:Phasenverschiebung in einer .csv Datei}
 \end{figure}
 \newpage
+In der Tabelle 3.1 stehen die Werte die wir berechnet haben. Die Amplitude haben wir in Python mit np.max() berechnet. Die Phasenverschiebung haben wir von Hand berechnet.
+Diese Tabelle ist im Anhang nochmals verfügbar.
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{|c|c|c|c|c|}
+	\hline
+	 Hertz & Kleinamplitude & Kleinphasenverschiebung & Großamplitude & Großphasenverschiebung \\
+	\hline
+	100 & 0.00392V & 228µs & 0.02V & 505µs \\
+	\hline
+	200 & 0.0044V & 195µs & 0.0488V & 82µs \\
+	\hline
+	300 & 0.0056V & 113.2µs & 0.03V & 1µs \\
+	\hline
+	400 & 0.00352V & 105.2µs & 0.022V & 10µs \\
+	\hline
+	500 & 0.00424V & 70.6µs & 0.018V & 17µs \\
+	\hline
+	700 & 0.0082V & 64.8µs & 0.0152V & 12.4µs \\
+	\hline
+	850 & 0.0114V & 34µs & 0.0152V & 15.2µs \\
+	\hline
+	1000 & 0.046V & 4.2µs & 0.0144V & 14.8µs \\
+	\hline
+	1200 & 0.0336V & 1.8µs & 0.0144V & 15.6µs \\
+	\hline
+	1500 & 0.0164V & 12.2µs & 0.0128V & 12.8µs \\
+	\hline
+	1700 & 0.012V & 12.1µs & 0.0136V & 13.2µs \\
+	\hline
+	2000 & 0.0088V & 14.7µs & 0.012V & 14.4µs \\
+	\hline
+	3000 & 0.0192V & 8.88µs & 0.0106V & 19.7µs \\
+	\hline
+	4000 & 0.0228V & 11.6µs & 0.0176V & 12.52µs \\
+	\hline
+	5000 & 0.0092V & 5.92µs &0.0108V & 5.32µs \\
+	\hline
+	6000 & 0.00384V & 6.92µs  & 0.0116V & 3.32µs \\
+	\hline
+	10000 & 0.0094V & 3.67µs & 0.0108V & 4.74µs \\
+	\hline
+	\end{tabular}
+	\caption{Frequenz, Amplitude und Phasenverschiebung}
+	\label{fig:VERSUCH_1_MESSWERTE}
+\end{table}
+\newpage
 Hier haben wir den Nullpunkt in der Zeile 1437. Deshalb rechnen wir nun 1437 - 1250 = 187 Signallänge
 \newline 
 Die Singallänge von 87 multiplizieren wir nun mit dem Abtastintervall. 
@@ -673,25 +719,28 @@ Nun muss man nur noch bei sämtlichen plots die Numpy Funktion np.semilogx() anw
 \newpage
 \section{Interpretation}
 \label{chap:VERSUCH_2_INTERPRETATION}
-In der Abbildung 3.3 kann man die gut die Unterschiede zwischen dem kleinen und dem großen Lautsprecher erkennen.
-Der kleine Lautsprecher hat ein sehr ungenaues und unfeines Signal. 
-\newline
-Der große Lautsprecher hingegen hat klare Linien und Kurven.
-Das lässt darauf deuten, dass der große Lautsprecher mehr Watt hat und bei den meisten Frequenzen eine bessere Leistung besitzt.
-\newline
-Damit lässt sich beweisen, dass der große Lautsprecher qualitativ besser ist.
 \\~\\
 In dem linken Schaubild in der Abbildung 3.7 divergiert die Phasenverschiebung mit zunehmender Frequenz immer mehr Richtung 0.
 \newline
 Da das Mikrofon Frequenzen von 70Hz bis 13KHz aufnehmen kann, stellen die von uns gemessenen Frequenzen keine Probleme dar in unseren Abbildungen.
 \newline
-Während das Bode-Daigramm bei der Amplitude den Betrag der Übetragungsfunktion liefern kann, so kann es bei der Phasenverschiebung den Winkel der Übetragungsfunktion berechnen.
+Während das Bode-Diagramm bei der Amplitude den Betrag der Übetragungsfunktion liefern kann, so kann es bei der Phasenverschiebung den Winkel der Übetragungsfunktion berechnen.
 \newline
-Der große Lautsprecher hat eine größere Leistung bei den meisten der Frequenzen. Vor allem bei den niedrigen und basshaltigen Frequenzen wird dieser Unterschied sichtbar.
-Bei den mittleren bis hohen Frequenzen hat oft der kleine Lautsprecher eine bessere Leistung.
+Der große Lautsprecher hat eine größere Leistung bei den höheren Frequenzen. Der kleine Lautsprecher ist bei kleinen und mittleren Frequenzen besser und gibt die Frequenz lauter aus als der große.
 \newline
-So kann man durch das Bode-Phasen Diagramm gut erkennen, dass der große Lautsprecher vorallem bei basslastigen und niedrigen Frequenzen sehr gut funktioniert.
-Der kleine Lautsprecher hingegen ist gut bei mittleren Frequenzen und hohen Frequenzen im Vergleich zu den großen Lautsprechern.
+Dieser Unterschied wird vor allem sichtbar bei den niedrigen und basshaltigen Frequenzen.
+Der kleine Lautsprecher erreicht zu einem der Spitzenmesszeiten 45 Dezibel.
+\newline
+Der große hat zur selben Zeit lediglich 26 Dezibel.
+Bei den höheren Frequenzen hat der kleine Lautsprecher nur noch 27 Dezibel während der große Lautsprecher 37 hat.
+\newline
+\newline
+Der kleine Lautsprecher geht zum Schluss im Amplitudenverlauf erneut nach oben. Diese Unstetigkeiten sollten eigentlich nicht sein, wurden aber vermutlich durch einen Messfehler ausgelöst.
+\newline 
+Eigentlich sollte dieser nach unten gehen indem man ein Vergleich mit der Phase der nächsttieferen Frequenz vornimmt.
+So kann man durch das Bode-Phasen Diagramm gut erkennen, dass der kleine Lautsprecher vorallem bei niedrigen und mittleren Frequenzen sehr gut funktioniert.
+Der große Lautsprecher hingegen ist gut bei hohen Frequenzen im Vergleich zu dem kleinen Lautsprecher.
+
 
 %
 % CHAPTER Anhang
