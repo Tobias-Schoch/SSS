@@ -38,10 +38,8 @@ end = start + 44100
 triggered = decoded[start:end]
 triggered = np.concatenate((triggered, [0]*(44100 - end - start)))
 
-np.savetxt("aufgabe4/tief_5_" + str(int(time.time())) + ".csv", triggered)
+np.savetxt("aufgabe4/tief_5_" + str(int(time.time())) + ".npy", triggered)
 
 plt.savefig('aufgabe4/tief5.png')
 plot(decoded)
 plot(triggered)
-
-#plot(decoded)
