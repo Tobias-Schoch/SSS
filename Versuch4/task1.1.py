@@ -9,8 +9,7 @@ NOFFRAMES = 220
 p = pyaudio.PyAudio()
 print('running')
 
-stream = p.open(format=FORMAT,
-                channels=1,
+stream = p.open(format=FORMAT,channels=1,
                 rate=SAMPLEFREQ,
                 input=True,
                 frames_per_buffer=FRAMESIZE)

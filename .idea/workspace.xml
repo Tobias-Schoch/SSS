@@ -5,6 +5,71 @@
       <change beforePath="$PROJECT_DIR$/.idea/SSS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_hoch_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_hoch_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_hoch_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_hoch_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_hoch_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_links_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_links_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_links_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_links_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_links_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_rechts_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_rechts_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_rechts_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_rechts_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_rechts_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_tief_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_tief_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_tief_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_tief_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record1/person1_tief_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_hoch_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_hoch_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_hoch_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_hoch_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_hoch_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_links_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_links_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_links_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_links_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_links_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_rechts_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_rechts_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_rechts_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_rechts_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_rechts_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_tief_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_tief_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_tief_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_tief_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person1_record2/person1_tief_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_hoch_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_hoch_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_hoch_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_hoch_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_hoch_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_links_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_links_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_links_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_links_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_links_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_rechts_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_rechts_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_rechts_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_rechts_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_rechts_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_tief_sample1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_tief_sample2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_tief_sample3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_tief_sample4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/person2_record1/person2_tief_sample5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/plot_person1_hoch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/plot_person1_links.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/plot_person1_rechts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/plot_person1_tief.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/task1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task1.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Versuch4/task1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task1.3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +79,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Versuch4/task1.3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="221">
+                <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="221">
+                <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="34">
+                <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+                <folding>
+                  <element signature="e#0#14#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-119" />
             </state>
           </provider>
         </entry>
@@ -104,18 +199,18 @@
         <option value="$PROJECT_DIR$/Versuch3/task1.1.py" />
         <option value="$PROJECT_DIR$/Versuch3/task1.2.py" />
         <option value="$PROJECT_DIR$/Versuch3/task1.3.py" />
-        <option value="$PROJECT_DIR$/Versuch4/task1.1.py" />
         <option value="$PROJECT_DIR$/Versuch3/task2.1.py" />
         <option value="$PROJECT_DIR$/Versuch3/task2.2.py" />
         <option value="$PROJECT_DIR$/Versuch4/1.3.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.2.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.3.py" />
+        <option value="$PROJECT_DIR$/Versuch4/task1.1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
-    <option name="y" value="-11" />
+    <option name="x" value="-1322" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -124,36 +219,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SSStask4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSStask4" type="462c0819:PsiDirectoryNode" />
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SSStask4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSStask4" type="462c0819:PsiDirectoryNode" />
-              <item name="Versuch4" type="462c0819:PsiDirectoryNode" />
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Versuch3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SSStask4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSStask4" type="462c0819:PsiDirectoryNode" />
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
               <item name="Versuch4" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSStask4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSStask4" type="462c0819:PsiDirectoryNode" />
-              <item name="Versuch4" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="Failure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,6 +461,7 @@
       <workItem from="1557661588306" duration="1482000" />
       <workItem from="1557767081290" duration="6595000" />
       <workItem from="1558432560178" duration="3157000" />
+      <workItem from="1558440880131" duration="1397000" />
     </task>
     <task id="LOCAL-00047" summary="added for loop for cropping">
       <created>1555431190214</created>
@@ -722,7 +810,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164088000" />
+    <option name="totallyTimeSpent" value="165485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,9 +822,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -900,22 +989,47 @@
     <entry file="file://D:/data/Tobias.Schoch/Downloads/de.htwg.sss.efforts4-master (1)/de.htwg.sss.efforts4-master/effort4/midding.py" />
     <entry file="file://D:/data/Tobias.Schoch/Downloads/de.htwg.sss.efforts4-master (1)/de.htwg.sss.efforts4-master/effort4/recorder.py" />
     <entry file="file://D:/data/Tobias.Schoch/Downloads/de.htwg.sss.efforts4-master (1)/de.htwg.sss.efforts4-master/effort4/speech_reco.py" />
-    <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.2.py" />
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="34">
+            <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <folding>
+              <element signature="e#0#14#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py" />
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.2.py" />
     <entry file="file://$PROJECT_DIR$/Versuch4/task1.3.py">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="221">
+            <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="221">
+            <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>

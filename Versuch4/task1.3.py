@@ -12,7 +12,7 @@ data = np.load('data/Failure/Trial1/test.npy')
 # Die Fouriertransformierte Frequenz wird absolutiert, so dass kein negativer Wert mehr vorzufinden ist
 #spektrum = np.abs(fourier)
 # Formel um die Anzahl der Schwingungen in die Freuquenz umzurechnen - f = n / (M * Δt)
-#freq = range(0, 44100, 1) / (difference * 2500)
+freq = range(0, 44100, 1) / (difference * 2500)
 
 # Darstellung des Amplitudenspektrums
 #plt.plot(freq, spektrum)
