@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/task1.1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,32 +12,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="323">
-                <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-                <folding>
-                  <element signature="e#0#14#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Versuch3/task2.2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="-34">
-                <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+              <first_editor relative-caret-position="969">
+                <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor relative-caret-position="-119" />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -58,13 +43,13 @@
         <entry file="file://$PROJECT_DIR$/Versuch3/task1.2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="187">
+              <first_editor relative-caret-position="170">
                 <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor />
+              <second_editor relative-caret-position="-17" />
             </state>
           </provider>
         </entry>
@@ -73,13 +58,13 @@
         <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="177">
+              <first_editor relative-caret-position="357">
                 <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor relative-caret-position="-119" />
+              <second_editor relative-caret-position="-17" />
             </state>
           </provider>
         </entry>
@@ -88,13 +73,13 @@
         <entry file="file://$PROJECT_DIR$/Versuch3/task2.1.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="340">
+              <first_editor relative-caret-position="323">
                 <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor />
+              <second_editor relative-caret-position="-17" />
             </state>
           </provider>
         </entry>
@@ -206,7 +191,20 @@
             <path>
               <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSS" type="462c0819:PsiDirectoryNode" />
-              <item name="Versuch3" type="462c0819:PsiDirectoryNode" />
+              <item name="Versuch4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Versuch4" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Versuch4" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Trial2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,14 +223,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch4\data\Trial2" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch4\data\Trial1" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch4\data" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch4" />
+      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch2\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS" />
       <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\data\old" />
-      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\Versuch2\data" />
-      <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS" />
       <recent name="C:\Users\Tobias.Schoch\PycharmProjects\SSS\data" />
     </key>
   </component>
@@ -433,6 +433,7 @@
       <workItem from="1557661017241" duration="456000" />
       <workItem from="1557661588306" duration="1482000" />
       <workItem from="1557767081290" duration="6595000" />
+      <workItem from="1558432560178" duration="757000" />
     </task>
     <task id="LOCAL-00043" summary="calculating hex, rgb and standard deviation">
       <created>1555428715737</created>
@@ -781,7 +782,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160298000" />
+    <option name="totallyTimeSpent" value="161055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,8 +795,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24520256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24786781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -814,7 +816,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.9505814" visible="true" weight="0.31183368" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9505814" visible="true" weight="0.31183368" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.049418606" side_tool="true" visible="true" weight="0.3379531" />
     </layout>
@@ -929,78 +931,78 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch2/task3.2.py">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch2/task3.3.py">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch2/task3.4.py">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch2/task3.4b.py">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch2/dead.py">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch2/task2.2.py">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch2/dead2.py">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="323">
+          <first_editor relative-caret-position="289">
             <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
             </folding>
           </first_editor>
-          <second_editor />
+          <second_editor relative-caret-position="-34" />
         </state>
       </provider>
     </entry>
@@ -1015,6 +1017,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch3/task1.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="170">
+            <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <folding>
+              <element signature="e#0#31#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-17" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state>
           <folding>
@@ -1022,19 +1035,19 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <first_editor relative-caret-position="357">
+            <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             <folding>
               <element signature="e#0#31#0" expanded="true" />
             </folding>
           </first_editor>
-          <second_editor />
+          <second_editor relative-caret-position="-17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch3/task1.3.py">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
@@ -1043,23 +1056,25 @@
           </folding>
         </state>
       </provider>
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="177">
-            <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            <folding>
-              <element signature="e#0#31#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch3/task2.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="340">
+          <first_editor relative-caret-position="323">
             <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <folding>
+              <element signature="e#0#31#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch3/task2.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="969">
+            <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
             <folding>
               <element signature="e#0#31#0" expanded="true" />
             </folding>
@@ -1067,25 +1082,12 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch3/task2.2.py">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="-34">
-            <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-            <folding>
-              <element signature="e#0#31#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
