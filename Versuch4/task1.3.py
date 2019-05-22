@@ -1,51 +1,25 @@
-from scipy import signal
-
 import matplotlib.pyplot as plt
 import numpy as np
 
 # Einlesen der .csv Datei
 data = np.load('data/test.npy')
-window = np.zeros((881, 513))
-z = 511
-gaussianwindow = signal.windows.gaussian(512, std=4)
-for y in range(0, 878):
-    z = z - 256
-    for x in range(0, 512):
-        z = z + 1
-        window[y, x] = np.mean(np.abs(np.fft.fft(data[z]*gaussianwindow)))
+freq = np.zeros(225280)
 
+# Der zweite Wert wird absolut minus den ersten absoluten wert gerechnet um später den Wert
+difference = 2 / 225280
+# Die zweite Spalte der .csv Datei wird Fouriertransformiert
+fourier = np.fft.fft(data[:225280])
+# Die Fouriertransformierte Frequenz wird absolutiert, so dass kein negativer Wert mehr vorzufinden ist
+spektrum = np.abs(fourier)
+# Formel um die Anzahl der Schwingungen in die Freuquenz umzurechnen - f = n / (M * Δt)
+for x in range(0, 225280, 1):
+    freq[x] = (x / (difference * 225280))
 
 # Darstellung des Amplitudenspektrums
-plt.plot(window)
+plt.plot(freq, spektrum)
 plt.grid()
 plt.xlabel('Frequency in Hz')
 plt.ylabel('Amplitude in V')
-plt.savefig('data/img/14_1.png')
-plt.xlim(0, 880)
-plt.show()
-window2 = np.zeros((879, 512))
-window3 = np.zeros((879, 512))
-window4 = np.zeros((879, 512))
-window5 = np.zeros((879, 512))
-
-for x in range(0, 879):
-    y = 256*x
-    window2[x] = data[0 +y:512 + y]
-
-for y in range(0, 879):
-    for x in range(0, 512):
-        window3[y][x] = window2[y][x] * gaussianwindow[x]
-
-for x in range(0, 879):
-    window4[x] = np.abs(np.fft.fft(window3[x]))
-
-for x in range(0, 879):
-    window5[x] = np.mean(window4[x])
-
-plt.plot(window5)
-plt.grid()
-plt.xlabel('Frequency in Hz')
-plt.ylabel('Amplitude in V')
-plt.savefig('data/img/14_2.png')
-plt.xlim(0, 880)
-plt.show()
+plt.savefig('data/img/testspektrum.png')
+plt.xlim(0, 40000)
+plt.show() 
