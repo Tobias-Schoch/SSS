@@ -5,8 +5,6 @@ import numpy as np
 data = np.load('data/test.npy')
 freq = np.zeros(225280)
 
-window = np.zeros(900,512)
-
 # Darstellung des Amplitudenspektrums
 plt.plot(data)
 plt.grid()
