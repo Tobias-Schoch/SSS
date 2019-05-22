@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Versuch4/task1.4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/testamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/testamp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Versuch4/task1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task1.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/task1.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task1.4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Versuch4/task1.3.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="255">
-                <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <first_editor relative-caret-position="391">
+                <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch4/task1.2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="697">
+                <caret line="41" selection-start-line="41" selection-end-line="41" />
+                <folding>
+                  <element signature="e#0#14#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -31,16 +45,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor>
+                <caret column="14" selection-start-column="14" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="391">
-                <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <first_editor>
                 <folding>
-                  <element signature="e#0#31#0" expanded="true" />
+                  <element signature="e#1#25#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor relative-caret-position="-119" />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -147,8 +172,8 @@
         <option value="$PROJECT_DIR$/Versuch3/task1.3.py" />
         <option value="D:/data/Tobias.Schoch/Downloads/de.htwg.sss.efforts4-master (1)/de.htwg.sss.efforts4-master/effort4/correction.py" />
         <option value="D:/data/Tobias.Schoch/Downloads/de.htwg.sss.efforts4-master (1)/de.htwg.sss.efforts4-master/effort4/midding.py" />
-        <option value="$PROJECT_DIR$/Versuch4/task1.4.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.3.py" />
+        <option value="$PROJECT_DIR$/Versuch4/task1.4.py" />
       </list>
     </option>
   </component>
@@ -330,20 +355,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task2.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task1.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch3/task2.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch4/task1.4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,10 +377,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.task1.3 (1)" />
+        <item itemvalue="Python.task1.4" />
         <item itemvalue="Python.midding" />
         <item itemvalue="Python.correction" />
         <item itemvalue="Python.task1.3" />
-        <item itemvalue="Python.task2.2" />
       </list>
     </recent_temporary>
   </component>
@@ -406,21 +428,7 @@
       <workItem from="1557767081290" duration="6595000" />
       <workItem from="1558432560178" duration="3157000" />
       <workItem from="1558449474739" duration="4359000" />
-      <workItem from="1558528149844" duration="2950000" />
-    </task>
-    <task id="LOCAL-00049" summary="deleting old files">
-      <created>1555431425849</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1555431425849</updated>
-    </task>
-    <task id="LOCAL-00050" summary="changing names for black and white pictures">
-      <created>1555431715336</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1555431715337</updated>
+      <workItem from="1558528149844" duration="3588000" />
     </task>
     <task id="LOCAL-00051" summary="changing names for black and white pictures">
       <created>1555431733061</created>
@@ -751,11 +759,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558528260881</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Working on Windowing method">
+      <created>1558531126438</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1558531126438</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Working on Windowing method">
+      <created>1558531594991</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1558531594991</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170764000" />
+    <option name="totallyTimeSpent" value="171402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,7 +844,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="making a for loop instead of splicing every greyscale single" />
     <MESSAGE value="calculate all values" />
     <MESSAGE value="added for loop for cropping" />
     <MESSAGE value="deleting old files" />
@@ -847,7 +868,8 @@
     <MESSAGE value="Second voice records" />
     <MESSAGE value="Added Amplitudenspektrum" />
     <MESSAGE value="Added data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added data" />
+    <MESSAGE value="Working on Windowing method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Windowing method" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -1018,16 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <caret column="14" selection-start-column="14" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Versuch3/task2.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -1038,19 +1050,6 @@
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.2.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="255">
-            <caret line="41" selection-start-line="41" selection-end-line="41" />
-            <folding>
-              <element signature="e#0#14#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
@@ -1110,11 +1109,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <caret column="14" selection-start-column="14" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="697">
+            <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <folding>
+              <element signature="e#0#14#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="391">
-            <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
             <folding>
               <element signature="e#0#31#0" expanded="true" />
             </folding>
@@ -1123,13 +1145,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.3.py">
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="255">
-            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <first_editor>
             <folding>
-              <element signature="e#0#31#0" expanded="true" />
+              <element signature="e#1#25#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
