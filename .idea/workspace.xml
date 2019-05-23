@@ -2,959 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Versuch4/task2.3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testhoch1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testhoch2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testhoch3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testhoch4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testhoch5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesthochL1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesthochL2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesthochL3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesthochL4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesthochL5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testlinks1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testlinks2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testlinks3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testlinks4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testlinks5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestlinksL1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestlinksL2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestlinksL3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestlinksL4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestlinksL5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testrechts1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testrechts2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testrechts3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testrechts4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testrechts5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestrechtsL1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestrechtsL2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestrechtsL3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestrechtsL4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TestrechtsL5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testtief1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testtief2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testtief3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testtief4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/Testtief5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesttiefL1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesttiefL2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesttiefL3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesttiefL4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/TesttiefL5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Averagehoch.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Averagehoch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Averagelinks.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Averagelinks.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Averagerechts.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Averagerechts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Averagetief.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Averagetief.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch1AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch1AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch2AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch2AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch3AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch3AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch4AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch4AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch5AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch5AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links1AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links1AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links2AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links2AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links3AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links3AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links4AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links4AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links5AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links5AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts1AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts1AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts2AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts2AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts3AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts3AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts4AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts4AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts5AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts5AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief1AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief1AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief2AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief2AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief3AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief3AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief4AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief4AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief5AlleRichtig.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief5AlleRichtig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/14_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/14_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/171.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/172.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/173.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/174.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/175.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/176.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/178.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/179.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/181.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/182.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/183.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/184.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/185.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/186.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/187.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/188.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/190.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/191.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/193.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/194.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/195.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/196.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/197.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/198.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/199.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/201.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/202.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/203.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/204.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/205.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/206.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/207.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/210.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/211.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/212.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/213.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/214.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/215.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/216.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/217.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/218.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/219.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/220.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/221.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/222.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/223.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/224.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/225.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/226.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/227.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/228.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/229.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/230.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/231.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/233.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/235.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/236.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/237.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/238.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/239.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/241.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/243.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/244.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/245.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/246.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/247.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/248.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/249.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/250.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/251.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/252.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/253.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/254.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/255.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/257.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/258.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/259.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/260.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/261.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/262.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/263.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/264.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/265.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/266.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/267.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/268.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/269.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/270.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/271.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/272.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/273.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/274.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/275.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/276.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/277.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/278.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/279.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/280.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/281.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/282.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/283.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/284.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/285.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/286.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/287.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/288.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/289.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/290.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/291.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/292.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/293.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/294.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/295.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/296.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/297.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/298.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/299.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/301.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/302.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/303.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/304.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/305.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/306.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/307.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/308.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/309.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/311.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/312.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/313.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/314.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/315.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/316.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/317.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/318.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/319.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/321.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/322.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/323.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/324.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/325.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/326.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/327.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/328.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/329.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/330.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/331.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/332.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/333.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/334.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/335.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/336.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/337.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/338.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/339.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/340.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/341.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/342.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/343.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/344.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/345.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/346.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/347.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/348.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/349.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/350.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/351.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/352.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/353.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/354.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/355.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/356.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/357.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/358.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/359.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/360.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/361.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/362.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/363.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/364.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/365.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/366.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/367.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/368.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/369.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/370.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/371.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/372.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/373.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/374.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/375.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/376.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/377.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/378.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/379.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/380.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/381.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/382.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/383.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/385.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/386.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/387.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/388.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/389.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/390.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/391.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/392.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/393.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/394.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/395.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/396.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/397.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/398.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/399.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/401.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/402.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/405.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/406.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/407.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/408.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/409.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/410.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/411.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/412.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/413.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/414.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/415.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/416.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/417.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/418.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/419.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/420.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/421.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/422.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/423.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/424.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/425.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/426.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/427.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/428.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/429.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/430.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/431.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/432.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/433.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/434.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/435.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/436.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/437.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/439.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/440.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/441.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/442.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/443.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/444.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/445.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/446.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/447.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/448.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/449.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/450.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/451.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/452.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/454.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/455.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/456.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/457.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/458.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/459.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/460.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/461.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/462.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/463.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/464.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/465.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/466.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/467.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/468.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/469.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/470.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/471.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/472.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/473.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/474.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/475.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/476.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/477.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/478.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/479.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/480.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/481.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/482.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/483.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/484.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/485.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/486.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/487.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/488.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/489.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/490.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/491.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/492.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/493.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/494.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/495.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/496.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/497.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/498.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/499.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/502.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/503.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/504.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/505.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/506.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/507.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/508.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/509.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/510.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/511.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/513.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/514.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/515.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/516.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/517.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/518.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/519.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/520.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/521.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/522.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/523.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/524.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/525.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/526.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/527.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/528.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/529.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/530.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/531.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/532.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/533.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/534.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/535.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/536.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/537.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/538.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/539.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/540.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/541.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/542.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/543.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/544.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/545.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/546.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/547.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/548.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/549.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/551.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/552.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/553.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/554.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/555.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/556.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/557.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/558.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/559.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/560.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/561.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/562.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/563.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/564.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/565.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/566.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/567.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/568.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/569.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/570.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/571.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/572.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/573.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/574.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/575.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/576.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/577.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/578.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/579.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/580.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/581.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/582.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/583.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/584.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/585.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/586.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/587.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/588.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/589.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/590.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/591.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/592.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/593.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/594.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/595.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/596.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/597.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/598.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/599.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/601.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/602.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/603.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/604.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/605.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/606.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/607.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/608.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/609.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/610.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/611.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/612.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/613.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/614.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/615.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/616.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/617.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/618.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/619.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/620.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/621.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/622.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/623.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/624.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/625.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/626.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/627.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/628.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/629.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/630.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/631.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/632.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/633.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/634.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/635.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/636.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/637.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/638.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/639.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/641.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/642.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/643.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/644.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/646.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/647.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/648.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/649.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/650.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/651.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/652.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/653.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/654.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/655.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/656.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/657.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/658.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/659.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/660.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/661.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/662.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/663.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/664.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/665.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/666.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/667.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/668.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/669.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/670.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/671.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/672.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/673.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/674.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/675.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/676.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/677.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/678.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/679.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/680.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/681.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/682.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/683.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/684.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/685.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/686.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/687.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/688.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/689.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/690.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/691.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/692.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/693.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/694.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/695.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/696.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/697.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/698.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/699.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/701.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/702.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/703.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/704.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/705.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/706.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/707.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/708.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/709.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/710.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/711.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/712.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/713.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/714.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/715.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/716.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/717.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/718.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/719.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/720.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/721.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/722.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/723.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/724.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/725.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/726.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/727.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/728.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/729.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/730.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/731.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/732.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/733.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/734.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/735.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/736.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/737.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/738.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/739.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/740.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/741.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/742.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/743.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/745.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/746.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/747.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/748.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/749.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/751.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/752.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/753.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/754.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/755.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/756.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/757.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/758.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/759.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/760.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/761.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/762.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/763.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/764.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/765.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/766.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/767.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/768.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/769.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/770.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/771.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/772.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/773.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/774.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/775.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/776.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/777.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/778.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/779.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/780.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/781.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/782.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/783.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/784.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/785.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/786.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/787.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/788.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/789.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/790.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/791.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/792.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/793.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/794.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/795.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/796.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/797.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/798.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/799.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/801.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/802.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/803.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/804.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/805.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/806.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/807.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/808.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/809.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/810.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/811.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/812.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/813.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/814.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/815.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/816.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/817.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/818.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/819.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/820.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/821.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/822.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/823.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/824.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/825.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/826.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/827.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/828.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/829.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/830.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/831.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/832.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/833.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/834.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/835.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/836.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/837.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/838.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/839.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/840.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/841.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/842.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/843.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/844.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/845.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/846.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/847.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/848.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/849.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/850.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/851.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/852.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/853.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/854.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/855.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/856.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/857.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/858.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/859.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/860.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/861.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/862.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/863.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/864.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/865.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/866.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/867.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/868.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/869.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/870.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/871.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/872.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/873.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/874.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/875.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/876.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/877.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/878.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Windows/99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/hochAverage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/linksAverage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/rechtsAverage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/tiefAverage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/task2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task2.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/task2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task2.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/task2.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task2.3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -994,12 +43,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Versuch4/task2.2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="484">
-                <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <first_editor relative-caret-position="387">
+                <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
@@ -1009,12 +58,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Versuch4/task2.3.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="172">
-                <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <first_editor relative-caret-position="336">
+                <caret line="67" column="23" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="23" />
               </first_editor>
               <second_editor relative-caret-position="-119" />
             </state>
@@ -1110,8 +159,8 @@
         <option value="$PROJECT_DIR$/Versuch4/task1.4.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.3.py" />
         <option value="$PROJECT_DIR$/Versuch4/task2.1.py" />
-        <option value="$PROJECT_DIR$/Versuch4/task2.2.py" />
         <option value="$PROJECT_DIR$/Versuch4/task2.3.py" />
+        <option value="$PROJECT_DIR$/Versuch4/task2.2.py" />
       </list>
     </option>
   </component>
@@ -1369,21 +418,7 @@
       <workItem from="1558610470648" duration="13564000" />
       <workItem from="1558625425392" duration="517000" />
       <workItem from="1558625959025" duration="484000" />
-      <workItem from="1558626459452" duration="1486000" />
-    </task>
-    <task id="LOCAL-00067" summary="normierung">
-      <created>1555458283209</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1555458283210</updated>
-    </task>
-    <task id="LOCAL-00068" summary="normierung">
-      <created>1555496612171</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1555496612172</updated>
+      <workItem from="1558626459452" duration="2095000" />
     </task>
     <task id="LOCAL-00069" summary="normierung">
       <created>1555496994117</created>
@@ -1714,11 +749,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558621997946</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Finished task 2.1 and 2.2. Also started with Bravais Pearson">
+      <created>1558628022056</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1558628022056</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Comparing Pearson Bravais.">
+      <created>1558628472263</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1558628472263</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185328000" />
+    <option name="totallyTimeSpent" value="185937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1744,11 +793,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.2524377" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" visible="true" weight="0.38678223" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.38678223" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1785,7 +834,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="normierung" />
     <MESSAGE value="added highest and lowest colorvalue" />
     <MESSAGE value="editing file structur" />
     <MESSAGE value="adding comments" />
@@ -1810,7 +858,8 @@
     <MESSAGE value="Giving back the average spectrum" />
     <MESSAGE value="Average plots" />
     <MESSAGE value="Finished task 2.1 and 2.2. Also started with Bravais Pearson" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished task 2.1 and 2.2. Also started with Bravais Pearson" />
+    <MESSAGE value="Comparing Pearson Bravais." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparing Pearson Bravais." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -2016,24 +1065,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task2.2.py">
+    <entry file="file://$PROJECT_DIR$/Versuch4/task2.3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="484">
-            <caret line="53" selection-start-line="53" selection-end-line="53" />
-            <folding>
-              <element signature="e#0#24#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="336">
+            <caret line="67" column="23" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="23" />
           </first_editor>
           <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task2.3.py">
+    <entry file="file://$PROJECT_DIR$/Versuch4/task2.2.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="172">
-            <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <first_editor relative-caret-position="387">
+            <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor relative-caret-position="-119" />
         </state>

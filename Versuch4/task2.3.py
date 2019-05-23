@@ -64,6 +64,7 @@ for x in range(0, 20):
     moi[x] = moi[x].ravel()
     anderer[x] = anderer[x].ravel()
 
+
 r, p = scipy.stats.pearsonr(num[0], capital[0])
 print("r:", r, "p:", p)
 
