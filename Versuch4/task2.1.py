@@ -14,7 +14,7 @@ plt.plot(gaussianwindow)
 plt.grid(True)
 plt.xlabel('Signalnr.')
 plt.ylabel('Frequenz')
-plt.savefig('data/img/' + num[a] + 'gauss.png')
+plt.savefig('data/img/gauss.png')
 plt.show()
 
 for a in range(0, 20):
