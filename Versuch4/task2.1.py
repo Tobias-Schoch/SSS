@@ -10,9 +10,10 @@ num = ["hoch1", "hoch2", "hoch3", "hoch4", "hoch5", "tief1", "tief2", "tief3", "
        "links3", "links4", "links5", "rechts1", "rechts2", "rechts3", "rechts4", "rechts5"]
 numm = ["hoch1", "hoch2", "hoch3", "hoch4", "hoch5", "tief1", "tief2", "tief3", "tief4", "tief5", "links1", "links2",
         "links3", "links4", "links5", "rechts1", "rechts2", "rechts3", "rechts4", "rechts5"]
+nummm = ["hoch1", "hoch2", "hoch3", "hoch4", "hoch5", "tief1", "tief2", "tief3", "tief4", "tief5", "links1", "links2",
+        "links3", "links4", "links5", "rechts1", "rechts2", "rechts3", "rechts4", "rechts5"]
 capital = ["hoch", "tief", "links", "rechts"]
 capital2 = ["hoch", "tief", "links", "rechts"]
-
 gaussianwindow = signal.windows.gaussian(512, std=4)
 
 # Darstellung des Amplitudenspektrums
@@ -25,38 +26,39 @@ plt.show()
 
 for a in range(0, 20):
     data = np.load('data/' + str(num[a]) + '.npy')
-    num[a] = np.zeros((86, 512))
+    num[a] = np.zeros((171, 512))
     z = 256
 
-    for y in range(0, 86):
+    for y in range(0, 171):
         z = z - 256
         for x in range(0, 512):
             num[a][y, x] = np.mean(np.abs(np.fft.fft(data[z] * gaussianwindow)))
             z = z + 1
-        # plt.plot(window[y])
-        # plt.title('Windownr' + str(y+1))
+        # plt.plot(num[a][y])
+        # plt.title('Windownr' + str(y+1+(a*171)))
         # plt.xlabel('Signalnr.')
         # plt.ylabel('Frequenz')
         # plt.grid(True)
-        # plt.savefig('data/img/' + str(y) + '.png')
+        # plt.savefig('data/img/' + str(y+1+(a*171)) + '.png')
         # plt.show()
 
-    for y in range(0, 86):
+    for y in range(0, 171):
         for x in range(0, 512):
             num[a][y, x] = num[a][y, x] * gaussianwindow[x]
         num[a][y] = np.abs(np.fft.fft(num[a][y]))
         num[a][y] = np.mean(num[a][y])
 
-    # plt.plot(num[a], 'r')
-    # plt.grid(True)
-    # plt.xlabel('Signalnr.')
-    # plt.ylabel('Frequenz')
-    # plt.savefig('data/img/' + numm[a] + 'AlleRichtig.png')
-    # plt.show()
+    plt.plot(num[a], 'r')
+    plt.title(str(nummm[a]))
+    plt.grid(True)
+    plt.xlabel('Signalnr.')
+    plt.ylabel('Frequenz')
+    plt.savefig('data/img/' + numm[a] + 'AlleRichtig.png')
+    plt.show()
 
 for z in range(0, 4):
-    capital[z] = np.zeros((86, 512))
-    for y in range(0, 86):
+    capital[z] = np.zeros((171, 512))
+    for y in range(0, 171):
         for x in range(0, 512):
             if (z == 0):
                 capital[z][y, x] = (num[0][y, x] + num[1][y, x] + num[2][y, x] + num[3][y, x] + num[4][y, x]) / 4
