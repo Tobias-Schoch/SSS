@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/hoch1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/testamp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/testamp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/testspektrum.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Versuch4/task1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task1.3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/task1.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task1.4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +40,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Versuch4/task1.3.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="385">
-                <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <first_editor relative-caret-position="450">
+                <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
                 </folding>
@@ -59,12 +55,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="297">
-                <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+              <first_editor relative-caret-position="161">
+                <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               </first_editor>
               <second_editor relative-caret-position="-119" />
             </state>
@@ -203,8 +199,8 @@
         <option value="$PROJECT_DIR$/Versuch4/task1.2.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.1.py" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/Versuch4/task1.3.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.4.py" />
+        <option value="$PROJECT_DIR$/Versuch4/task1.3.py" />
       </list>
     </option>
   </component>
@@ -273,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task1.4">
+  <component name="RunManager" selected="Python.task1.3 (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -402,8 +398,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task1.4" />
         <item itemvalue="Python.task1.3 (1)" />
+        <item itemvalue="Python.task1.4" />
         <item itemvalue="Python.task2.2" />
         <item itemvalue="Python.task2.1" />
         <item itemvalue="Python.task1.3" />
@@ -461,28 +457,7 @@
       <workItem from="1558609100853" duration="303000" />
       <workItem from="1558609502055" duration="748000" />
       <workItem from="1558610265482" duration="191000" />
-      <workItem from="1558610470648" duration="1112000" />
-    </task>
-    <task id="LOCAL-00049" summary="deleting old files">
-      <created>1555431425849</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1555431425849</updated>
-    </task>
-    <task id="LOCAL-00050" summary="changing names for black and white pictures">
-      <created>1555431715336</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1555431715337</updated>
-    </task>
-    <task id="LOCAL-00051" summary="changing names for black and white pictures">
-      <created>1555431733061</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1555431733061</updated>
+      <workItem from="1558610470648" duration="1446000" />
     </task>
     <task id="LOCAL-00052" summary="starting with second task: reading the 10 black pictures">
       <created>1555432503727</created>
@@ -806,11 +781,32 @@
       <option name="project" value="LOCAL" />
       <updated>1558604954098</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Added calculations for Gaussianwindows and plots">
+      <created>1558611680548</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1558611680549</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Added the printed plots with the gaussian windows">
+      <created>1558611719351</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1558611719351</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Added the printed plots with the gaussian windows">
+      <created>1558611812871</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1558611812871</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170389000" />
+    <option name="totallyTimeSpent" value="170723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -877,8 +873,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="calculating hex, rgb and standard deviation" />
-    <MESSAGE value="making a for loop instead of splicing every greyscale single" />
     <MESSAGE value="calculate all values" />
     <MESSAGE value="added for loop for cropping" />
     <MESSAGE value="deleting old files" />
@@ -902,7 +896,9 @@
     <MESSAGE value="First voice records" />
     <MESSAGE value="Second voice records" />
     <MESSAGE value="Added plot for better visualization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added plot for better visualization" />
+    <MESSAGE value="Added calculations for Gaussianwindows and plots" />
+    <MESSAGE value="Added the printed plots with the gaussian windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the printed plots with the gaussian windows" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1044,6 +1040,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="161">
+            <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Versuch4/task1.2.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -1060,8 +1066,8 @@
     <entry file="file://$PROJECT_DIR$/Versuch4/task1.3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="385">
-            <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <first_editor relative-caret-position="450">
+            <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
             <folding>
               <element signature="e#0#31#0" expanded="true" />
             </folding>
@@ -1072,16 +1078,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="297">
-            <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>

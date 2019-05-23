@@ -40,3 +40,12 @@ plt.ylabel('Amplitude in V')
 plt.xlim(0, 35000)
 plt.savefig('data/img/testspektrum2.png')
 plt.show()
+
+# Darstellung des Amplitudenspektrums
+plt.plot(freq, spektrum)
+plt.grid()
+plt.xlabel('Frequency in Hz')
+plt.ylabel('Amplitude in V')
+plt.xlim(0, 1000)
+plt.savefig('data/img/testspektrum3.png')
+plt.show()
