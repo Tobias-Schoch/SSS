@@ -35,14 +35,6 @@ for a in range(0, 20):
         # plt.savefig('data/img/' + str(y) + '.png')
         # plt.show()
 
-    # Darstellung des Amplitudenspektrums
-    plt.plot(window)
-    plt.grid(True)
-    plt.xlabel('Signalnr.')
-    plt.ylabel('Frequenz')
-    plt.savefig('data/img/' + num[a] + 'Alle.png')
-    plt.show()
-
     for y in range(0, 86):
         for x in range(0, 512):
             window[y][x] = window[y][x] * gaussianwindow[x]
