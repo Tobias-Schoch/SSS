@@ -1,5 +1,4 @@
 from scipy import signal
-
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats
@@ -15,14 +14,6 @@ capital2 = ["hoch", "tief", "links", "rechts"]
 
 gaussianwindow = signal.windows.gaussian(512, std=4)
 
-# Darstellung des Amplitudenspektrums
-plt.plot(gaussianwindow)
-plt.grid(True)
-plt.xlabel('Signalnr.')
-plt.ylabel('Frequenz')
-plt.savefig('data/img/gauss.png')
-plt.show()
-
 for a in range(0, 20):
     data = np.load('data/' + str(num[a]) + '.npy')
     num[a] = np.zeros((86, 512))
@@ -33,26 +24,12 @@ for a in range(0, 20):
         for x in range(0, 512):
             num[a][y, x] = np.mean(np.abs(np.fft.fft(data[z] * gaussianwindow)))
             z = z + 1
-        # plt.plot(window[y])
-        # plt.title('Windownr' + str(y+1))
-        # plt.xlabel('Signalnr.')
-        # plt.ylabel('Frequenz')
-        # plt.grid(True)
-        # plt.savefig('data/img/' + str(y) + '.png')
-        # plt.show()
 
     for y in range(0, 86):
         for x in range(0, 512):
             num[a][y, x] = num[a][y, x] * gaussianwindow[x]
         num[a][y] = np.abs(np.fft.fft(num[a][y]))
         num[a][y] = np.mean(num[a][y])
-
-    # plt.plot(num[a], 'r')
-    # plt.grid(True)
-    # plt.xlabel('Signalnr.')
-    # plt.ylabel('Frequenz')
-    # plt.savefig('data/img/' + numm[a] + 'AlleRichtig.png')
-    # plt.show()
 
 for z in range(0, 4):
     capital[z] = np.zeros((86, 512))
@@ -67,10 +44,12 @@ for z in range(0, 4):
             elif (z == 3):
                 capital[z][y, x] = (num[15][y, x] + num[16][y, x] + num[17][y, x] + num[18][y, x] + num[19][y, x]) / 4
 
-    plt.plot(capital[z], 'r')
-    plt.grid(True)
-    plt.xlabel('Signalnr.')
-    plt.ylabel('Frequenz')
-    plt.savefig('data/img/' + capital2[z] + 'Average.png')
-    plt.show()
-
+for x in range(0, 20):
+    if(x < 5):
+        capital[0] = scipy.stats.pearsonr(capital[0], num[x])
+    elif(x < 10):
+        capital[1] = scipy.stats.pearsonr(num[x], capital[1])
+    elif (x < 15):
+        capital[2] = scipy.stats.pearsonr(num[x], capital[2])
+    elif (x < 20):
+        capital[3] = scipy.stats.pearsonr(num[x], capital[3])

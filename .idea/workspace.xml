@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="Plots, plots and plots">
+    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="Making">
+      <change afterPath="$PROJECT_DIR$/Versuch4/task2.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Alle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch1AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch2AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch3AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch4AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch5AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links1AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links2AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links3AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links4AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links5AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts1AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts2AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts3AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts4AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts5AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief1AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief2AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief3AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief4AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief5AlleRichtig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/linksAverage.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/linksAverage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/rechtsAverage.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/rechtsAverage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/tiefAverage.png" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/data/img/tiefAverage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Versuch4/task2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task2.1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,17 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Versuch4/task2.1.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="334">
-                <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <first_editor relative-caret-position="657">
+                <caret line="76" selection-start-line="76" selection-end-line="76" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor relative-caret-position="-119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Versuch4/task2.2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor>
+                <caret column="24" selection-start-column="24" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -133,6 +168,7 @@
         <option value="$PROJECT_DIR$/Versuch4/task1.4.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.3.py" />
         <option value="$PROJECT_DIR$/Versuch4/task2.1.py" />
+        <option value="$PROJECT_DIR$/Versuch4/task2.2.py" />
       </list>
     </option>
   </component>
@@ -153,11 +189,6 @@
             <path>
               <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSS" type="462c0819:PsiDirectoryNode" />
-              <item name="Versuch3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSS" type="b2602c69:ProjectViewProjectNode" />
@@ -207,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task2.1 (1)">
+  <component name="RunManager" selected="Python.task2.2 (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,20 +318,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="task2.2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch3/task2.1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Versuch4/task2.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task2.2 (1)" />
         <item itemvalue="Python.task2.1 (1)" />
         <item itemvalue="Python.task1.3 (1)" />
         <item itemvalue="Python.task1.4" />
         <item itemvalue="Python.task2.2" />
-        <item itemvalue="Python.task2.1" />
       </list>
     </recent_temporary>
   </component>
@@ -392,28 +420,7 @@
       <workItem from="1558609100853" duration="303000" />
       <workItem from="1558609502055" duration="748000" />
       <workItem from="1558610265482" duration="191000" />
-      <workItem from="1558610470648" duration="7499000" />
-    </task>
-    <task id="LOCAL-00062" summary="deleting bugs">
-      <created>1555455718430</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1555455718430</updated>
-    </task>
-    <task id="LOCAL-00063" summary="deleting bugs">
-      <created>1555456341296</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1555456341296</updated>
-    </task>
-    <task id="LOCAL-00064" summary="deleting bugs">
-      <created>1555456393978</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1555456393978</updated>
+      <workItem from="1558610470648" duration="10041000" />
     </task>
     <task id="LOCAL-00065" summary="deleting bugs">
       <created>1555456567725</created>
@@ -737,11 +744,32 @@
       <option name="project" value="LOCAL" />
       <updated>1558616168601</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Giving back the average spectrum">
+      <created>1558618188219</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1558618188219</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Average plots">
+      <created>1558618216624</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1558618216624</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Average plots">
+      <created>1558618223228</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1558618223228</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176776000" />
+    <option name="totallyTimeSpent" value="179318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -808,8 +836,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="white - black = whitepicture" />
-    <MESSAGE value="added the calcualtion picture - black = correct picture" />
     <MESSAGE value="deleting bugs" />
     <MESSAGE value="normierung" />
     <MESSAGE value="added highest and lowest colorvalue" />
@@ -833,11 +859,15 @@
     <MESSAGE value="Added missing data" />
     <MESSAGE value="Added the function to save all values in different values which dont overwrite" />
     <MESSAGE value="Plots, plots and plots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plots, plots and plots" />
+    <MESSAGE value="Giving back the average spectrum" />
+    <MESSAGE value="Average plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Average plots" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SSS$task2_2__1_.coverage" NAME="task2.2 (1) Coverage Results" MODIFIED="1558621494566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Versuch4" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/bild4.png" />
     <entry file="file://$PROJECT_DIR$/data/bild5.png" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/IPython/core/interactiveshell.py" />
     <entry file="file://$PROJECT_DIR$/data/blacked.png" />
@@ -1028,13 +1058,23 @@
     <entry file="file://$PROJECT_DIR$/Versuch4/task2.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="334">
-            <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <first_editor relative-caret-position="657">
+            <caret line="76" selection-start-line="76" selection-end-line="76" />
             <folding>
               <element signature="e#0#24#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch4/task2.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <caret column="24" selection-start-column="24" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
