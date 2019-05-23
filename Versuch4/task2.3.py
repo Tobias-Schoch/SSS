@@ -65,6 +65,9 @@ for x in range(0, 20):
     anderer[x] = anderer[x].ravel()
 
 
+r, p = scipy.stats.pearsonr(num[0], num[0])
+print("num-num r:", r, "p:", p)
+
 r, p = scipy.stats.pearsonr(capital[0], num[0])
 print("capital-num r:", r, "p:", p)
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
+    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="Comparing Pearson Bravais.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/task2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task2.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/task2.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task2.3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +47,13 @@
         <entry file="file://$PROJECT_DIR$/Versuch4/task2.2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="629">
-                <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <first_editor relative-caret-position="200">
+                <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor />
+              <second_editor relative-caret-position="-119" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,11 @@
         <entry file="file://$PROJECT_DIR$/Versuch4/task2.3.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="166">
-                <caret line="58" column="81" selection-start-line="58" selection-start-column="81" selection-end-line="58" selection-end-column="81" />
+              <first_editor relative-caret-position="385">
+                <caret line="67" column="43" lean-forward="true" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+                <folding>
+                  <element signature="e#0#24#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor relative-caret-position="-119" />
             </state>
@@ -159,8 +162,8 @@
         <option value="$PROJECT_DIR$/Versuch4/task1.4.py" />
         <option value="$PROJECT_DIR$/Versuch4/task1.3.py" />
         <option value="$PROJECT_DIR$/Versuch4/task2.1.py" />
-        <option value="$PROJECT_DIR$/Versuch4/task2.3.py" />
         <option value="$PROJECT_DIR$/Versuch4/task2.2.py" />
+        <option value="$PROJECT_DIR$/Versuch4/task2.3.py" />
       </list>
     </option>
   </component>
@@ -175,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,6 +304,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -320,6 +326,9 @@
       <module name="SSS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Versuch4" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -418,21 +427,8 @@
       <workItem from="1558610470648" duration="13564000" />
       <workItem from="1558625425392" duration="517000" />
       <workItem from="1558625959025" duration="484000" />
-      <workItem from="1558626459452" duration="3357000" />
-    </task>
-    <task id="LOCAL-00070" summary="normierung">
-      <created>1555497271631</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1555497271631</updated>
-    </task>
-    <task id="LOCAL-00071" summary="added highest and lowest colorvalue">
-      <created>1555503866875</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1555503866875</updated>
+      <workItem from="1558626459452" duration="3540000" />
+      <workItem from="1558652076972" duration="1891000" />
     </task>
     <task id="LOCAL-00072" summary="added highest and lowest colorvalue">
       <created>1555504650641</created>
@@ -763,11 +759,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558628561441</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Comparing Pearson Bravais.">
+      <created>1558632309457</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1558632309457</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Comparing Pearson Bravais with our recorded data.">
+      <created>1558653296018</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1558653296019</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187199000" />
+    <option name="totallyTimeSpent" value="189273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,8 +790,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -792,15 +803,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.2524377" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.38678223" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" visible="true" weight="0.38678223" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.9505814" visible="true" weight="0.31183368" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9505814" visible="true" weight="0.31183368" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.049418606" side_tool="true" visible="true" weight="0.3379531" />
     </layout>
@@ -833,7 +844,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added highest and lowest colorvalue" />
     <MESSAGE value="editing file structur" />
     <MESSAGE value="adding comments" />
     <MESSAGE value="Starting with LaTeX Documentation" />
@@ -858,7 +868,8 @@
     <MESSAGE value="Average plots" />
     <MESSAGE value="Finished task 2.1 and 2.2. Also started with Bravais Pearson" />
     <MESSAGE value="Comparing Pearson Bravais." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparing Pearson Bravais." />
+    <MESSAGE value="Comparing Pearson Bravais with our recorded data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparing Pearson Bravais with our recorded data." />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -1028,6 +1039,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="484">
+            <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Versuch4/task1.2.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -1038,16 +1059,6 @@
             </folding>
           </first_editor>
           <second_editor relative-caret-position="-51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Versuch4/task1.4.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="484">
-            <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
@@ -1067,21 +1078,24 @@
     <entry file="file://$PROJECT_DIR$/Versuch4/task2.2.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="629">
-            <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <first_editor relative-caret-position="200">
+            <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             <folding>
               <element signature="e#0#24#0" expanded="true" />
             </folding>
           </first_editor>
-          <second_editor />
+          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Versuch4/task2.3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="166">
-            <caret line="58" column="81" selection-start-line="58" selection-start-column="81" selection-end-line="58" selection-end-column="81" />
+          <first_editor relative-caret-position="385">
+            <caret line="67" column="43" lean-forward="true" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor relative-caret-position="-119" />
         </state>
