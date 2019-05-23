@@ -7,6 +7,8 @@ import numpy as np
 
 num = ["hoch1", "hoch2", "hoch3", "hoch4", "hoch5", "tief1", "tief2", "tief3", "tief4", "tief5", "links1", "links2",
        "links3", "links4", "links5", "rechts1", "rechts2", "rechts3", "rechts4", "rechts5"]
+numm = ["hoch1", "hoch2", "hoch3", "hoch4", "hoch5", "tief1", "tief2", "tief3", "tief4", "tief5", "links1", "links2",
+       "links3", "links4", "links5", "rechts1", "rechts2", "rechts3", "rechts4", "rechts5"]
 gaussianwindow = signal.windows.gaussian(512, std=4)
 
 # Darstellung des Amplitudenspektrums
@@ -19,13 +21,13 @@ plt.show()
 
 for a in range(0, 20):
     data = np.load('data/' + str(num[a]) + '.npy')
-    window = np.zeros((86, 512))
+    num[a] = np.zeros((86, 512))
     z = 256
 
     for y in range(0, 86):
         z = z - 256
         for x in range(0, 512):
-            window[y, x] = np.mean(np.abs(np.fft.fft(data[z] * gaussianwindow)))
+            num[a][y, x] = np.mean(np.abs(np.fft.fft(data[z] * gaussianwindow)))
             z = z + 1
         # plt.plot(window[y])
         # plt.title('Windownr' + str(y+1))
@@ -37,13 +39,13 @@ for a in range(0, 20):
 
     for y in range(0, 86):
         for x in range(0, 512):
-            window[y][x] = window[y][x] * gaussianwindow[x]
-        window[y] = np.abs(np.fft.fft(window[y]))
-        window[y] = np.mean(window[y])
+            num[a][y, x] = num[a][y, x] * gaussianwindow[x]
+        num[a][y] = np.abs(np.fft.fft(num[a][y]))
+        num[a][y] = np.mean(num[a][y])
 
-    plt.plot(window, 'r')
+    plt.plot(num[a], 'r')
     plt.grid(True)
     plt.xlabel('Signalnr.')
     plt.ylabel('Frequenz')
-    plt.savefig('data/img/' + num[a] + 'AlleRichtig.png')
+    plt.savefig('data/img/' + numm[a] + 'AlleRichtig.png')
     plt.show()
