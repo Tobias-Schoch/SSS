@@ -21,6 +21,8 @@ for a in range(0, 20):
     data2 = np.load('data/' + str(anderer[a]) + '.npy')
     data3 = np.load('data/' + str(moi[a]) + '.npy')
     num[a] = np.zeros((171, 512))
+    moi[a] = np.zeros((171, 512))
+    anderer[a] = np.zeros((171, 512))
     z = 256
 
     for y in range(0, 171):
@@ -61,7 +63,6 @@ for x in range(0, 20):
     num[x] = num[x].ravel()
     moi[x] = moi[x].ravel()
     anderer[x] = anderer[x].ravel()
-
 
 r, p = scipy.stats.pearsonr(num[0], capital[0])
 print("r:", r, "p:", p)
