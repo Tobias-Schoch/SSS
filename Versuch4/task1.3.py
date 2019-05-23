@@ -13,6 +13,15 @@ plt.ylabel('Amplitude in V')
 plt.savefig('data/img/testamp.png')
 plt.show()
 
+# Darstellung des Amplitudenspektrums
+plt.plot(data)
+plt.grid()
+plt.xlabel('Frequency in Hz')
+plt.ylabel('Amplitude in V')
+plt.xlim(50000, 75000)
+plt.savefig('data/img/testamp.png')
+plt.show()
+
 # Der zweite Wert wird absolut minus den ersten absoluten wert gerechnet um später den Wert
 difference = 2 / 225280
 # Die zweite Spalte der .csv Datei wird Fouriertransformiert
