@@ -65,11 +65,26 @@ for x in range(0, 20):
     anderer[x] = anderer[x].ravel()
 
 
-r, p = scipy.stats.pearsonr(num[0], capital[0])
-print("r:", r, "p:", p)
+r, p = scipy.stats.pearsonr(capital[0], num[0])
+print("capital-num r:", r, "p:", p)
 
-r, p = scipy.stats.pearsonr(moi[0], capital[0])
-print("r:", r, "p:", p)
+r, p = scipy.stats.pearsonr(capital[0], moi[0])
+print("capital-moi r:", r, "p:", p)
 
-r, p = scipy.stats.pearsonr(anderer[0], capital[0])
-print("r:", r, "p:", p)
+r, p = scipy.stats.pearsonr(capital[0], anderer[0])
+print("capital-anderer r:", r, "p:", p)
+
+r, p = scipy.stats.pearsonr(num[0], moi[0])
+print("num-moi1 r:", r, "p:", p)
+r, p = scipy.stats.pearsonr(num[1], moi[1])
+print("num-moi2 r:", r, "p:", p)
+r, p = scipy.stats.pearsonr(num[2], moi[2])
+print("num-moi3 r:", r, "p:", p)
+
+
+r, p = scipy.stats.pearsonr(num[0], anderer[0])
+print("num-anderer1 r:", r, "p:", p)
+r, p = scipy.stats.pearsonr(num[1], anderer[1])
+print("num-anderer2 r:", r, "p:", p)
+r, p = scipy.stats.pearsonr(num[2], anderer[2])
+print("num-anderer3 r:", r, "p:", p)
