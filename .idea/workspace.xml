@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="">
+    <list default="true" id="6bb1d3e6-ba38-4230-9551-ed0642932fa2" name="Default Changelist" comment="Plots, plots and plots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch1Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch2Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch3Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch4Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/hoch/hoch5Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links1Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links2Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links3Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links4Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/links/links5Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts1Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts2Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts3Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts4Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/rechts/rechts5Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief1Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief2Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief3Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief4Alle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Versuch2/tief/tief5Alle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versuch4/data/img/Alle.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Versuch4/task2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Versuch4/task2.1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +33,11 @@
         <entry file="file://$PROJECT_DIR$/Versuch4/task2.1.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="164">
-                <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              <first_editor relative-caret-position="334">
+                <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+                <folding>
+                  <element signature="e#0#24#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor relative-caret-position="-119" />
             </state>
@@ -408,28 +392,7 @@
       <workItem from="1558609100853" duration="303000" />
       <workItem from="1558609502055" duration="748000" />
       <workItem from="1558610265482" duration="191000" />
-      <workItem from="1558610470648" duration="4843000" />
-    </task>
-    <task id="LOCAL-00059" summary="getting contrast pictures">
-      <created>1555448752781</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1555448752781</updated>
-    </task>
-    <task id="LOCAL-00060" summary="white - black = whitepicture">
-      <created>1555451278224</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1555451278224</updated>
-    </task>
-    <task id="LOCAL-00061" summary="added the calcualtion picture - black = correct picture">
-      <created>1555451656945</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1555451656945</updated>
+      <workItem from="1558610470648" duration="7499000" />
     </task>
     <task id="LOCAL-00062" summary="deleting bugs">
       <created>1555455718430</created>
@@ -753,11 +716,32 @@
       <option name="project" value="LOCAL" />
       <updated>1558615272562</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Added missing data">
+      <created>1558615439509</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1558615439509</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Added the function to save all values in different values which dont overwrite">
+      <created>1558616142551</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1558616142551</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Plots, plots and plots">
+      <created>1558616168601</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1558616168601</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174120000" />
+    <option name="totallyTimeSpent" value="176776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,9 +808,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getting for every pixel in every 10 pictures a value - for black and white pictures" />
-    <MESSAGE value="getting average from every pixel in task 2" />
-    <MESSAGE value="getting contrast pictures" />
     <MESSAGE value="white - black = whitepicture" />
     <MESSAGE value="added the calcualtion picture - black = correct picture" />
     <MESSAGE value="deleting bugs" />
@@ -849,7 +830,10 @@
     <MESSAGE value="Added apmlitudenspektrum in a smaller window" />
     <MESSAGE value="Added function to read all files and give out plots" />
     <MESSAGE value="Fixed error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error" />
+    <MESSAGE value="Added missing data" />
+    <MESSAGE value="Added the function to save all values in different values which dont overwrite" />
+    <MESSAGE value="Plots, plots and plots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plots, plots and plots" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -1044,8 +1028,11 @@
     <entry file="file://$PROJECT_DIR$/Versuch4/task2.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="164">
-            <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <first_editor relative-caret-position="334">
+            <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor relative-caret-position="-119" />
         </state>
