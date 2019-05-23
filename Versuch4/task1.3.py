@@ -19,7 +19,7 @@ plt.grid()
 plt.xlabel('Frequency in Hz')
 plt.ylabel('Amplitude in V')
 plt.xlim(50000, 75000)
-plt.savefig('data/img/testamp.png')
+plt.savefig('data/img/testamp2.png')
 plt.show()
 
 # Der zweite Wert wird absolut minus den ersten absoluten wert gerechnet um später den Wert
