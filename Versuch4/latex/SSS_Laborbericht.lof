@@ -1,43 +1,8 @@
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Aufbau im Labor\relax }}{3}{figure.caption.8}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Das Bild des Grauwertkeiles\relax }}{4}{figure.caption.9}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Die einzelnen Grauwerte und das zus\IeC {\"a}tzliche Gesamtbild\relax }}{5}{figure.caption.11}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Grauwert1}}}{5}{subfigure.3.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Grauwert2}}}{5}{subfigure.3.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Grauwert3}}}{5}{subfigure.3.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Grauwert4}}}{5}{subfigure.3.4}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Grauwert5}}}{5}{subfigure.3.5}% 
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Grauwertkeil}}}{5}{subfigure.3.6}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Standardabweichung und Durchschnitt der jewiligen Grauwerte\relax }}{7}{figure.caption.13}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Durchschnittlicher Grauwert}}}{7}{subfigure.4.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Standardabweichung des Grauwerts}}}{7}{subfigure.4.2}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Die aufgenommene Sprachaufnahme visualisiert mit Python\relax }}{2}{figure.caption.8}% 
+\contentsline {subfigure}{\numberline {2.1a}{\ignorespaces Sprachaufnahme des Wortes Test\relax }}{2}{figure.caption.8}% 
+\contentsline {subfigure}{\numberline {2.1b}{\ignorespaces Dieselbe Sprachaufnahme mit kurzer Zeitachse\relax }}{2}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{3}{figure.caption.9}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Eines der 10 aufgenommenen Dunkelbilder\relax }}{9}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Grauwertkeil und kontrastmaximiertes Bild\relax }}{10}{figure.caption.15}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aufnahme des Grauwertkeils}}}{10}{subfigure.2.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {kontrastmaximiertes Bild}}}{10}{subfigure.2.2}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Unterschied zwischen dem richtigen und dem korrigerten Bild\relax }}{10}{figure.caption.16}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Aufnahme des Grauwertkeils}}}{10}{subfigure.3.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Korrigiertes Bild}}}{10}{subfigure.3.2}% 
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Eines der 10 aufgenommenen Wei\IeC {\ss }bilder\relax }}{13}{figure.caption.17}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Mittelwert der Wei\IeC {\ss }bilder und kontrastmaximiertes Bild\relax }}{14}{figure.caption.18}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pixelweiser Mittelwert der einzelnen Bilder}}}{14}{subfigure.2.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {kontrastmaximiertes Bild der Wei\IeC {\ss }bilder}}}{14}{subfigure.2.2}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Dunkelbild subtrahiert vom Wei\IeC {\ss }bild\relax }}{14}{figure.caption.19}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Unterschied zwischen dem Grauwertkeil und dem Bild mit der Intensit\IeC {\"a}t des Lichteinfalles\relax }}{15}{figure.caption.20}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Grauwertkeil}}}{15}{subfigure.4.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bild mit der Intensit\IeC {\"a}t des Lichteinfalles}}}{15}{subfigure.4.2}% 
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Wei\IeC {\ss }bild mit Dead- und Stuckpixel\relax }}{18}{figure.caption.21}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Dunkelbild mit Dead- und Stuckpixel\relax }}{18}{figure.caption.22}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Unterschied zwischen dem hellsten und dem dunkelsten Bild\relax }}{19}{figure.caption.23}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wei\IeC {\ss }bild mit dem dunkelsten Punkt}}}{19}{subfigure.3.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wei\IeC {\ss }bild mit dem hellsten Punkt}}}{19}{subfigure.3.2}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Dunkelbild mit Dead- und Stuckpixel\relax }}{19}{figure.caption.24}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Unterschied zwischen dem [Durchschnitt und der Standartabweichung der Intensit\IeC {\"a}t des Lichteinfalls\relax }}{21}{figure.caption.26}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Durchschnitt der Intensit\IeC {\"a}t des Lichteinfalls}}}{21}{subfigure.5.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Standartabweichung der Intensit\IeC {\"a}t des Lichteinfalls}}}{21}{subfigure.5.2}% 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Kameraeinstellungen f\IeC {\"u}r OpenCV\relax }}{40}{figure.caption.28}% 

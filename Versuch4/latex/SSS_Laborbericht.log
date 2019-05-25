@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  29 APR 2019 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  25 MAY 2019 13:25
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -1111,10 +1111,25 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen137
 \Gin@req@width=\dimen138
 )
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\sub
-fig.sty"
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
+pstopdf.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
+pstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\g
+rfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+))
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\ca
 ption.sty"
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
@@ -1136,80 +1151,16 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-\c@KVtest=\count134
-\sf@farskip=\skip68
-\sf@captopadj=\dimen146
-\sf@capskip=\skip69
-\sf@nearskip=\skip70
-\c@subfigure=\count135
-\c@subfigure@save=\count136
-\c@lofdepth=\count137
-\c@subtable=\count138
-\c@subtable@save=\count139
-\c@lotdepth=\count140
-\sf@top=\skip71
-\sf@bottom=\skip72
-)
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
-pstopdf.sty"
-Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
-
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\e
-pstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\g
-rfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-))
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\su
 bcaption.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-
-
-! Package subcaption Error: This package can't be used in cooperation
-(subcaption)                with the subfig package.
-
-See the subcaption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 \subcaption@CheckCompatibility
-                                   
-? 
+\c@subfigure=\count134
+\c@subtable=\count135
 )
-
-! LaTeX Error: Unknown option `list=true' for package `subcaption'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 \usepackage
-                 {float}    % used with [H] positioning parameter
-? 
-
-! LaTeX Error: Unknown option `listformat=simple' for package `subcaption'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 \usepackage
-                 {float}    % used with [H] positioning parameter
-? 
-
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\floa
 t.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count141
+\c@float@type=\count136
 \float@exts=\toks37
 \float@box=\box34
 \@float@everytoks=\toks38
@@ -1228,8 +1179,8 @@ ies\pgfrcs.sty"
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/util
 ities\pgfutil-common.tex"
 \pgfutil@everybye=\toks39
-\pgfutil@tempdima=\dimen147
-\pgfutil@tempdimb=\dimen148
+\pgfutil@tempdima=\dimen146
+\pgfutil@tempdimb=\dimen147
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/util
 ities\pgfutil-common-lists.tex"))
@@ -1266,24 +1217,24 @@ ities\pgfkeys.code.tex"
 ities\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks42
 ))
-\pgf@x=\dimen149
-\pgf@y=\dimen150
-\pgf@xa=\dimen151
-\pgf@ya=\dimen152
-\pgf@xb=\dimen153
-\pgf@yb=\dimen154
-\pgf@xc=\dimen155
-\pgf@yc=\dimen156
+\pgf@x=\dimen148
+\pgf@y=\dimen149
+\pgf@xa=\dimen150
+\pgf@ya=\dimen151
+\pgf@xb=\dimen152
+\pgf@yb=\dimen153
+\pgf@xc=\dimen154
+\pgf@yc=\dimen155
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count142
-\c@pgf@countb=\count143
-\c@pgf@countc=\count144
-\c@pgf@countd=\count145
+\c@pgf@counta=\count137
+\c@pgf@countb=\count138
+\c@pgf@countc=\count139
+\c@pgf@countd=\count140
 \t@pgf@toka=\toks43
 \t@pgf@tokb=\toks44
 \t@pgf@tokc=\toks45
-\pgf@sys@id@count=\count146
+\pgf@sys@id@count=\count141
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syst
 emlayer\pgf.cfg"
@@ -1302,8 +1253,8 @@ File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syst
 emlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfsyssoftpath@smallbuffer@items=\count147
-\pgfsyssoftpath@bigbuffer@items=\count148
+\pgfsyssoftpath@smallbuffer@items=\count142
+\pgfsyssoftpath@bigbuffer@items=\count143
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/syst
 emlayer\pgfsysprotocol.code.tex"
@@ -1321,8 +1272,8 @@ Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
 \pgfmathutil.code.tex")
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math
 \pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen157
-\pgfmath@count=\count149
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count144
 \pgfmath@box=\box37
 \pgfmath@toks=\toks46
 \pgfmath@stack@operand=\toks47
@@ -1348,37 +1299,37 @@ Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
 \pgfmathfunctions.integerarithmetics.code.tex")))
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math
 \pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count150
+\c@pgfmathroundto@lastzeros=\count145
 ))
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@picminx=\dimen158
-\pgf@picmaxx=\dimen159
-\pgf@picminy=\dimen160
-\pgf@picmaxy=\dimen161
-\pgf@pathminx=\dimen162
-\pgf@pathmaxx=\dimen163
-\pgf@pathminy=\dimen164
-\pgf@pathmaxy=\dimen165
-\pgf@xx=\dimen166
-\pgf@xy=\dimen167
-\pgf@yx=\dimen168
-\pgf@yy=\dimen169
-\pgf@zx=\dimen170
-\pgf@zy=\dimen171
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@path@lastx=\dimen172
-\pgf@path@lasty=\dimen173
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@shorten@end@additional=\dimen174
-\pgf@shorten@start@additional=\dimen175
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcorescopes.code.tex"
@@ -1386,19 +1337,19 @@ File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
 \pgfpic=\box38
 \pgf@hbox=\box39
 \pgf@layerbox@main=\box40
-\pgf@picture@serial@count=\count151
+\pgf@picture@serial@count=\count146
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgflinewidth=\dimen176
+\pgflinewidth=\dimen175
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@pt@x=\dimen177
-\pgf@pt@y=\dimen178
-\pgf@pt@temp=\dimen179
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcorequick.code.tex"
@@ -1415,14 +1366,14 @@ File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfarrowsep=\dimen180
+\pgfarrowsep=\dimen179
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@max=\dimen181
-\pgf@sys@shading@range@num=\count152
-\pgf@shadingcount=\count153
+\pgf@max=\dimen180
+\pgf@sys@shading@range@num=\count147
+\pgf@shadingcount=\count148
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basi
 clayer\pgfcoreimage.code.tex"
@@ -1461,8 +1412,8 @@ File: pgfmoduleplot.code.tex 2019/04/04 v3.1.2 (3.1.2)
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compat
 ibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/04/04 v3.1.2 (3.1.2)
-\pgf@nodesepstart=\dimen182
-\pgf@nodesepend=\dimen183
+\pgf@nodesepstart=\dimen181
+\pgf@nodesepend=\dimen182
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compat
 ibility\pgfcomp-version-1-18.sty"
@@ -1484,8 +1435,8 @@ Package: pgffor 2019/04/04 v3.1.2 (3.1.2)
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math
 \pgfmath.code.tex")
-\pgffor@iter=\dimen184
-\pgffor@skip=\dimen185
+\pgffor@iter=\dimen183
+\pgffor@skip=\dimen184
 \pgffor@stack=\toks49
 \pgffor@toks=\toks50
 ))
@@ -1496,32 +1447,32 @@ Package: tikz 2019/04/04 v3.1.2 (3.1.2)
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libr
 aries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgf@plot@mark@count=\count154
-\pgfplotmarksize=\dimen186
+\pgf@plot@mark@count=\count149
+\pgfplotmarksize=\dimen185
 )
-\tikz@lastx=\dimen187
-\tikz@lasty=\dimen188
-\tikz@lastxsaved=\dimen189
-\tikz@lastysaved=\dimen190
-\tikzleveldistance=\dimen191
-\tikzsiblingdistance=\dimen192
+\tikz@lastx=\dimen186
+\tikz@lasty=\dimen187
+\tikz@lastxsaved=\dimen188
+\tikz@lastysaved=\dimen189
+\tikzleveldistance=\dimen190
+\tikzsiblingdistance=\dimen191
 \tikz@figbox=\box43
 \tikz@figbox@bg=\box44
 \tikz@tempbox=\box45
 \tikz@tempbox@bg=\box46
-\tikztreelevel=\count155
-\tikznumberofchildren=\count156
-\tikznumberofcurrentchild=\count157
-\tikz@fig@count=\count158
+\tikztreelevel=\count150
+\tikznumberofchildren=\count151
+\tikznumberofcurrentchild=\count152
+\tikz@fig@count=\count153
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modu
 les\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
-\pgfmatrixcurrentrow=\count159
-\pgfmatrixcurrentcolumn=\count160
-\pgf@matrix@numberofcolumns=\count161
+\pgfmatrixcurrentrow=\count154
+\pgfmatrixcurrentcolumn=\count155
+\pgf@matrix@numberofcolumns=\count156
 )
-\tikz@expandcount=\count162
+\tikz@expandcount=\count157
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/fron
 tendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
@@ -1548,7 +1499,7 @@ xkvutils.tex"
 \XKV@toks=\toks51
 \XKV@tempa@toks=\toks52
 )
-\XKV@depth=\count163
+\XKV@depth=\count158
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/currfile\c
@@ -1560,7 +1511,7 @@ nt input file
 ilehook.sty"
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )
-\c@currfiledepth=\count164
+\c@currfiledepth=\count159
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/gincltex\g
 incltex.sty"
@@ -1588,37 +1539,37 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box47
 )
-\tc@llx=\dimen193
-\tc@lly=\dimen194
-\tc@urx=\dimen195
-\tc@ury=\dimen196
+\tc@llx=\dimen192
+\tc@lly=\dimen193
+\tc@urx=\dimen194
+\tc@ury=\dimen195
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\
 tc-pdftex.def"
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen197
-\adjbox@Height=\dimen198
-\adjbox@Depth=\dimen199
-\adjbox@Totalheight=\dimen256
-\adjbox@pwidth=\dimen257
-\adjbox@pheight=\dimen258
-\adjbox@pdepth=\dimen259
-\adjbox@ptotalheight=\dimen260
+\adjbox@Width=\dimen196
+\adjbox@Height=\dimen197
+\adjbox@Depth=\dimen198
+\adjbox@Totalheight=\dimen199
+\adjbox@pwidth=\dimen256
+\adjbox@pheight=\dimen257
+\adjbox@pdepth=\dimen258
+\adjbox@ptotalheight=\dimen259
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\
 ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count165
+\c@checkoddpage=\count160
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\v
 arwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box48
-\sift@deathcycles=\count166
-\@vwid@loff=\dimen261
-\@vwid@roff=\dimen262
+\sift@deathcycles=\count161
+\@vwid@loff=\dimen260
+\@vwid@roff=\dimen261
 ))
 \gincltex@box=\box49
 )
@@ -1640,9 +1591,9 @@ Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 \t@pgfplots@toka=\toks53
 \t@pgfplots@tokb=\toks54
 \t@pgfplots@tokc=\toks55
-\pgfplots@tmpa=\dimen263
-\c@pgfplots@coordindex=\count167
-\c@pgfplots@scanlineindex=\count168
+\pgfplots@tmpa=\dimen262
+\c@pgfplots@coordindex=\count162
+\c@pgfplots@scanlineindex=\count163
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /sys\pgfplotssysgeneric.code.tex"))
@@ -1658,7 +1609,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 /oldpgfcompatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /oldpgfcompatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count169
+\c@pgfmathroundto@lastzeros=\count164
 ))
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /util\pgfplotsutil.code.tex"
@@ -1668,13 +1619,13 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 /liststructure\pgfplotsliststructureext.code.tex")
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /liststructure\pgfplotsarray.code.tex"
-\c@pgfplotsarray@tmp=\count170
+\c@pgfplotsarray@tmp=\count165
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /liststructure\pgfplotsmatrix.code.tex")
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /numtable\pgfplotstableshared.code.tex"
-\c@pgfplotstable@counta=\count171
+\c@pgfplotstable@counta=\count166
 \t@pgfplotstable@a=\toks56
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
@@ -1687,7 +1638,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 /util\pgfplotsutil.verb.code.tex")
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /libs\pgflibrarypgfplots.surfshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count172
+\c@pgfplotslibrarysurf@no=\count167
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgfplots
 /sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
@@ -1719,14 +1670,14 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 tendlayer/tikz/libraries\tikzlibrarydecorations.code.tex"
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modu
 les\pgfmoduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen264
-\pgfdecoratedremainingdistance=\dimen265
-\pgfdecoratedinputsegmentcompleteddistance=\dimen266
-\pgfdecoratedinputsegmentremainingdistance=\dimen267
-\pgf@decorate@distancetomove=\dimen268
-\pgf@decorate@repeatstate=\count173
-\pgfdecorationsegmentamplitude=\dimen269
-\pgfdecorationsegmentlength=\dimen270
+\pgfdecoratedcompleteddistance=\dimen263
+\pgfdecoratedremainingdistance=\dimen264
+\pgfdecoratedinputsegmentcompleteddistance=\dimen265
+\pgfdecoratedinputsegmentremainingdistance=\dimen266
+\pgf@decorate@distancetomove=\dimen267
+\pgf@decorate@repeatstate=\count168
+\pgfdecorationsegmentamplitude=\dimen268
+\pgfdecorationsegmentlength=\dimen269
 )
 \tikz@lib@dec@box=\box50
 )
@@ -1738,13 +1689,13 @@ aries/decorations\pgflibrarydecorations.pathmorphing.code.tex"))
 tendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libr
 aries/decorations\pgflibrarydecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count174
-\pgfplots@xmin@reg=\dimen271
-\pgfplots@xmax@reg=\dimen272
-\pgfplots@ymin@reg=\dimen273
-\pgfplots@ymax@reg=\dimen274
-\pgfplots@zmin@reg=\dimen275
-\pgfplots@zmax@reg=\dimen276
+\pgfplots@numplots=\count169
+\pgfplots@xmin@reg=\dimen270
+\pgfplots@xmax@reg=\dimen271
+\pgfplots@ymin@reg=\dimen272
+\pgfplots@ymax@reg=\dimen273
+\pgfplots@zmin@reg=\dimen274
+\pgfplots@zmax@reg=\dimen275
 )
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/fron
 tendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex"
@@ -1754,8 +1705,8 @@ File: tikzlibraryplotmarks.code.tex 2019/04/04 v3.1.2 (3.1.2)
 aries\pgflibraryplotmarks.code.tex"
 File: pgflibraryplotmarks.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )))
-Package hyperref Info: Option `colorlinks' set `false' on input line 190.
-Package hyperref Info: Option `unicode' set `true' on input line 190.
+Package hyperref Info: Option `colorlinks' set `false' on input line 178.
+Package hyperref Info: Option `unicode' set `true' on input line 178.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\p
 uenc.def"
@@ -1763,187 +1714,51 @@ File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 190.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 190.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 190.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 190.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 178.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 178.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
  (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
-
-LaTeX Warning: Label `fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f2' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.120 ...Weißbilder\relax }{figure.caption.17}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.120 ...Weißbilder\relax }{figure.caption.17}{}}
-                                                  
-? 
-
-LaTeX Warning: Label `fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f2' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.131 ...m Weißbild\relax }{figure.caption.19}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.131 ...m Weißbild\relax }{figure.caption.19}{}}
-                                                  
-? 
-
-LaTeX Warning: Label `fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f2' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
-                                                  
-? 
-
-LaTeX Warning: Label `fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `fig:Dunkelbild mit Dead- und Stuckpixel' multiply defined
-.
-
-
-LaTeX Warning: Label `fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f1' multiply defined.
-
-
-LaTeX Warning: Label `fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:f2' multiply defined.
-
-
-LaTeX Warning: Label `lst:APPENDIX_SOURCECODE_MEASURE' multiply defined.
-
-
-LaTeX Warning: Label `lst:APPENDIX_SOURCECODE_MEASURE' multiply defined.
-
-
-LaTeX Warning: Label `lst:APPENDIX_SOURCECODE_REGRESSION' multiply defined.
-
-
-LaTeX Warning: Label `lst:APPENDIX_SOURCECODE_AREA5' multiply defined.
-
 (appendix/bibliography.aux))
 \openout1 = `SSS_Laborbericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 198.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 198.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 186.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 186.
 
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cbfonts-fd
 \lgrcmr.fd"
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 198.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 198.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 186.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 186.
 
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cm
 r.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 198.
-LaTeX Font Info:    ... okay on input line 198.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 198.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
+LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 186.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1p
 tm.fd"
@@ -1984,7 +1799,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 198.
+Package hyperref Info: Link coloring OFF on input line 186.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -1994,11 +1809,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 \gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count175
+\c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 198.
-LaTeX Info: Redefining \pageref on input line 198.
-LaTeX Info: Redefining \nameref on input line 198.
+LaTeX Info: Redefining \ref on input line 186.
+LaTeX Info: Redefining \pageref on input line 186.
+LaTeX Info: Redefining \nameref on input line 186.
  (SSS_Laborbericht.out) (SSS_Laborbericht.out)
 \@outlinefile=\write4
 \openout4 = `SSS_Laborbericht.out'.
@@ -2019,24 +1834,23 @@ babelbib: Set language for keywords in the bibliography fixed to ngerman
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mki
 i\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
-\scratchdimen=\dimen277
+\scratchcounter=\count171
+\scratchdimen=\dimen276
 \scratchbox=\box52
-\nofMPsegments=\count177
-\nofMParguments=\count178
+\nofMPsegments=\count172
+\nofMParguments=\count173
 \everyMPshowfont=\toks57
-\MPscratchCnt=\count179
-\MPscratchDim=\dimen278
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
+\MPscratchCnt=\count174
+\MPscratchDim=\dimen277
+\MPnumerator=\count175
+\makeMPintoPDFobject=\count176
 \everyMPtoPDFconversion=\toks58
 )
-\c@lstlisting=\count182
+\c@lstlisting=\count177
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 198.
+(lastpage)             ! on input line 186.
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
@@ -2044,12 +1858,12 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 198.
+ on input line 186.
 
 \openout2 = `preface/cover.aux'.
 
 (preface/cover.tex
-<preface/htwg-logo.png, id=130, 298.716pt x 119.4864pt>
+<preface/htwg-logo.png, id=90, 298.716pt x 119.4864pt>
 File: preface/htwg-logo.png Graphic file (type png)
 <use preface/htwg-logo.png>
 Package pdftex.def Info: preface/htwg-logo.png  used on input line 7.
@@ -2115,7 +1929,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--15
-[]|[]\T1/ptm/m/n/12 luca.stratmann@htwg-
+[]|[]\T1/ptm/m/n/12 luca.strattmann@htwg-
  []
 
 
@@ -2127,7 +1941,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \include{preface/abstract}
+l.192 \include{preface/abstract}
                                  [1
 
 
@@ -2138,24 +1952,24 @@ l.204 \include{preface/abstract}
 (SSS_Laborbericht.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+)
+\tf@toc=\write5
+\openout5 = `SSS_Laborbericht.toc'.
+
  [2
 
 
 
 
 ])
-\tf@toc=\write5
-\openout5 = `SSS_Laborbericht.toc'.
-
- [3])
 \openout2 = `preface/listoffigures.aux'.
 
- (preface/listoffigures.tex
-(SSS_Laborbericht.lof)
+ (preface/listoffigures.tex (SSS_Laborbericht.lof)
 \tf@lof=\write6
 \openout6 = `SSS_Laborbericht.lof'.
 
- [4
+
+[3
 
 
 
@@ -2166,8 +1980,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \tf@lot=\write7
 \openout7 = `SSS_Laborbericht.lot'.
 
-
-[5
+ [4
 
 
 
@@ -2175,11 +1988,12 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ])
 \openout2 = `preface/lstlistoflistings.aux'.
 
- (preface/lstlistoflistings.tex (SSS_Laborbericht.lol)
+
+(preface/lstlistoflistings.tex (SSS_Laborbericht.lol)
 \tf@lol=\write8
 \openout8 = `SSS_Laborbericht.lol'.
 
- [6
+ [5
 
 
 
@@ -2187,14 +2001,12 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ])
  1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--261
+Package natbib Warning: Citation `Franz2016n' on page 1 undefined on input line
+ 231.
 
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--261
-
- []
+Package natbib Warning: Citation `Franz2016e' on page 1 undefined on input line
+ 232.
 
 [1
 
@@ -2202,408 +2014,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--261
 
 ]
  2.
+<../data/img/testamp.png, id=163, 462.528pt x 346.896pt>
+File: ../data/img/testamp.png Graphic file (type png)
+<use ../data/img/testamp.png>
+Package pdftex.def Info: ../data/img/testamp.png  used on input line 253.
+(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
+<../data/img/testamp2.png, id=164, 462.528pt x 346.896pt>
+File: ../data/img/testamp2.png Graphic file (type png)
+<use ../data/img/testamp2.png>
+Package pdftex.def Info: ../data/img/testamp2.png  used on input line 259.
+(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
+put line 263.
+<../data/img/rechtsamp.png, id=165, 462.528pt x 346.896pt>
+File: ../data/img/rechtsamp.png Graphic file (type png)
+<use ../data/img/rechtsamp.png>
+Package pdftex.def Info: ../data/img/rechtsamp.png  used on input line 269.
+(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--279
-
+Overfull \hbox (21.50912pt too wide) in paragraph at lines 269--270
+ [][] 
  []
 
 [2
 
-]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 282.
-
-
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1
-ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<media/aufbau.jpg, id=283, 3468.96pt x 4625.28pt>
-File: media/aufbau.jpg Graphic file (type jpg)
-<use media/aufbau.jpg>
-Package pdftex.def Info: media/aufbau.jpg  used on input line 291.
-(pdftex.def)             Requested size: 264.61333pt x 352.80942pt.
- [3 <./media/aufbau.jpg>]
-<../data/Versuch1a.png, id=288, 642.4pt x 481.8pt>
-File: ../data/Versuch1a.png Graphic file (type png)
-<use ../data/Versuch1a.png>
-Package pdftex.def Info: ../data/Versuch1a.png  used on input line 303.
-(pdftex.def)             Requested size: 220.50887pt x 165.38309pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 315.
- [4 <../data/Versuch1a.png (PNG copy)>]
-<../data/bild1.png, id=294, 105.39375pt x 481.8pt>
-File: ../data/bild1.png Graphic file (type png)
-<use ../data/bild1.png>
-Package pdftex.def Info: ../data/bild1.png  used on input line 350.
-(pdftex.def)             Requested size: 35.28221pt x 161.28821pt.
-<../data/bild2.png, id=295, 135.50626pt x 481.8pt>
-File: ../data/bild2.png Graphic file (type png)
-<use ../data/bild2.png>
-Package pdftex.def Info: ../data/bild2.png  used on input line 352.
-(pdftex.def)             Requested size: 35.28221pt x 125.44882pt.
-<../data/bild3.png, id=296, 137.51375pt x 481.8pt>
-File: ../data/bild3.png Graphic file (type png)
-<use ../data/bild3.png>
-Package pdftex.def Info: ../data/bild3.png  used on input line 354.
-(pdftex.def)             Requested size: 35.28221pt x 123.61092pt.
-<../data/bild4.png, id=297, 132.495pt x 481.8pt>
-File: ../data/bild4.png Graphic file (type png)
-<use ../data/bild4.png>
-Package pdftex.def Info: ../data/bild4.png  used on input line 356.
-(pdftex.def)             Requested size: 35.28221pt x 128.30127pt.
-<../data/bild5.png, id=298, 111.41624pt x 481.8pt>
-File: ../data/bild5.png Graphic file (type png)
-<use ../data/bild5.png>
-Package pdftex.def Info: ../data/bild5.png  used on input line 358.
-(pdftex.def)             Requested size: 35.28221pt x 152.56912pt.
-<../data/Versuch1b.png, id=299, 642.4pt x 481.8pt>
-File: ../data/Versuch1b.png Graphic file (type png)
-<use ../data/Versuch1b.png>
-Package pdftex.def Info: ../data/Versuch1b.png  used on input line 361.
-(pdftex.def)             Requested size: 176.40439pt x 132.30058pt.
-
-[5 <../data/bild1.png (PNG copy)> <../data/bild2.png (PNG copy)> <../data/bild3
-.png (PNG copy)> <../data/bild4.png (PNG copy)> <../data/bild5.png (PNG copy)> 
-<../data/Versuch1b.png (PNG copy)>] [6]
-<media/myplot.png, id=316, 642.4pt x 481.8pt>
-File: media/myplot.png Graphic file (type png)
-<use media/myplot.png>
-Package pdftex.def Info: media/myplot.png  used on input line 411.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<media/myplot2.png, id=317, 642.4pt x 481.8pt>
-File: media/myplot2.png Graphic file (type png)
-<use media/myplot2.png>
-Package pdftex.def Info: media/myplot2.png  used on input line 414.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
- [7 <./media/myplot.png (PNG copy)> <./media/myplot2.png (PNG copy)>]
+ <../data/img/testamp.png> <../data/img/testamp2.png>] [3 <../data/img/rechtsam
+p.png>]
  3.
+[4
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--438
-
- []
-
-[8
+] [5
 
 ]
-<../data/black1.png, id=328, 642.4pt x 481.8pt>
-File: ../data/black1.png Graphic file (type png)
-<use ../data/black1.png>
-Package pdftex.def Info: ../data/black1.png  used on input line 446.
-(pdftex.def)             Requested size: 396.91325pt x 297.69102pt.
- [9 <../data/black1.png (PNG copy)>]
-<../data/blackaverage.png, id=333, 642.4pt x 481.8pt>
-File: ../data/blackaverage.png Graphic file (type png)
-<use ../data/blackaverage.png>
-Package pdftex.def Info: ../data/blackaverage.png  used on input line 459.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/contrastblackaverage.png, id=334, 642.4pt x 481.8pt>
-File: ../data/contrastblackaverage.png Graphic file (type png)
-<use ../data/contrastblackaverage.png>
-Package pdftex.def Info: ../data/contrastblackaverage.png  used on input line 4
-62.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-File: ../data/Versuch1b.png Graphic file (type png)
-<use ../data/Versuch1b.png>
-Package pdftex.def Info: ../data/Versuch1b.png  used on input line 473.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/korrigiertes_bild.png, id=335, 642.4pt x 481.8pt>
-File: ../data/korrigiertes_bild.png Graphic file (type png)
-<use ../data/korrigiertes_bild.png>
-Package pdftex.def Info: ../data/korrigiertes_bild.png  used on input line 476.
-
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
- [10 <../data/blackaverage.png (PNG copy)> <../data/contrastblackaverage.png (P
-NG copy)> <../data/korrigiertes_bild.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 483--495
-
- []
-
-[11]
- 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--516
-
- []
-
-[12
-
-]
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
-stlang1.sty"
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-Underfull \hbox (badness 10000) in paragraph at lines 519--523
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--523
-
- []
-
-(../grayscale.py)
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.524 \newline
-              
-? 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.525 \newline
-              
-? 
-<../data/white1.png, id=353, 642.4pt x 481.8pt>
-File: ../data/white1.png Graphic file (type png)
-<use ../data/white1.png>
-Package pdftex.def Info: ../data/white1.png  used on input line 531.
-(pdftex.def)             Requested size: 396.91325pt x 297.69102pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--535
-
- []
-
-[13 <../data/white1.png (PNG copy)>]
-<../data/whiteaverage.png, id=360, 642.4pt x 481.8pt>
-File: ../data/whiteaverage.png Graphic file (type png)
-<use ../data/whiteaverage.png>
-Package pdftex.def Info: ../data/whiteaverage.png  used on input line 545.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/contrastwhiteaverage1.png, id=361, 642.4pt x 481.8pt>
-File: ../data/contrastwhiteaverage1.png Graphic file (type png)
-<use ../data/contrastwhiteaverage1.png>
-Package pdftex.def Info: ../data/contrastwhiteaverage1.png  used on input line 
-548.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/whiteminusblack.png, id=362, 642.4pt x 481.8pt>
-File: ../data/whiteminusblack.png Graphic file (type png)
-<use ../data/whiteminusblack.png>
-Package pdftex.def Info: ../data/whiteminusblack.png  used on input line 556.
-(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
- [14 <../data/whiteaverage.png (PNG copy)> <../data/contrastwhiteaverage1.png (
-PNG copy)> <../data/whiteminusblack.png (PNG copy)>]
-File: ../data/Versuch1b.png Graphic file (type png)
-<use ../data/Versuch1b.png>
-Package pdftex.def Info: ../data/Versuch1b.png  used on input line 567.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/korrigiertes_bild2.png, id=369, 642.4pt x 481.8pt>
-File: ../data/korrigiertes_bild2.png Graphic file (type png)
-<use ../data/korrigiertes_bild2.png>
-Package pdftex.def Info: ../data/korrigiertes_bild2.png  used on input line 570
-.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
- [15 <../data/korrigiertes_bild2.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 576--596
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--596
-
- []
-
-
-Overfull \hbox (3.65402pt too wide) in paragraph at lines 576--596
-\T1/ptm/m/n/12 In dem letz-ten Ex-pe-ri-ment wur-de die In-ten-si-t�t des ein-f
-al-len-den Lich-tes be-rech-net. In schwarz
- []
-
-[16]
- 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 606--617
-
- []
-
-[17
-
-]
-<../data/zzz.png, id=384, 642.4pt x 481.8pt>
-File: ../data/zzz.png Graphic file (type png)
-<use ../data/zzz.png>
-Package pdftex.def Info: ../data/zzz.png  used on input line 625.
-(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
-<../data/zzz2.png, id=385, 642.4pt x 481.8pt>
-File: ../data/zzz2.png Graphic file (type png)
-<use ../data/zzz2.png>
-Package pdftex.def Info: ../data/zzz2.png  used on input line 634.
-(pdftex.def)             Requested size: 308.71106pt x 231.54073pt.
- [18 <../data/zzz.png (PNG copy)> <../data/zzz2.png (PNG copy)>]
-<../data/proof1.png, id=391, 493.0922pt x 393.72093pt>
-File: ../data/proof1.png Graphic file (type png)
-<use ../data/proof1.png>
-Package pdftex.def Info: ../data/proof1.png  used on input line 647.
-(pdftex.def)             Requested size: 198.45662pt x 158.46483pt.
-<../data/proof2.png, id=392, 493.0922pt x 393.72093pt>
-File: ../data/proof2.png Graphic file (type png)
-<use ../data/proof2.png>
-Package pdftex.def Info: ../data/proof2.png  used on input line 650.
-(pdftex.def)             Requested size: 198.45662pt x 158.46483pt.
-<../data/proof3.png, id=393, 534.49687pt x 342.5297pt>
-File: ../data/proof3.png Graphic file (type png)
-<use ../data/proof3.png>
-Package pdftex.def Info: ../data/proof3.png  used on input line 656.
-(pdftex.def)             Requested size: 220.50887pt x 141.31091pt.
- [19 <../data/proof1.png> <../data/proof2.png> <../data/proof3.png>] [20]
-<../data/table1.png, id=405, 642.4pt x 481.8pt>
-File: ../data/table1.png Graphic file (type png)
-<use ../data/table1.png>
-Package pdftex.def Info: ../data/table1.png  used on input line 705.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-<../data/table2.png, id=406, 642.4pt x 481.8pt>
-File: ../data/table2.png Graphic file (type png)
-<use ../data/table2.png>
-Package pdftex.def Info: ../data/table2.png  used on input line 708.
-(pdftex.def)             Requested size: 198.45662pt x 148.84183pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 687--711
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 687--711
-
- []
-
-[21 <../data/table1.png (PNG copy)> <../data/table2.png (PNG copy)>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 730.
-
-(../task1.1.py
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
- [22
-
-]) (../task1.2.py [23]) [24] (../task1.3.py [25]) [26]
-(../task2.1.py [27]) [28] (../task2.2.py) [29] (../task3.1.py [30]) [31]
-(../task3.2.py) [32] (../task3.3.py) [33] (../task3.4.py [34]) (../task3.4b.py
-[35]) (../dead.py [36]) [37] (../dead2.py [38]) [39]
-<media/scan.png, id=1090, 614.7768pt x 845.559pt>
-File: media/scan.png Graphic file (type png)
-<use media/scan.png>
-Package pdftex.def Info: media/scan.png  used on input line 759.
-(pdftex.def)             Requested size: 352.81552pt x 485.2766pt.
- [40 <./media/scan.png>]
 \openout2 = `appendix/bibliography.aux'.
 
-
-(appendix/bibliography.tex
+ (appendix/bibliography.tex
 No file SSS_Laborbericht.bbl.
-) 
+)
+
+Package natbib Warning: There were undefined citations.
+
+
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 773.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 773.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.120 ...Weißbilder\relax }{figure.caption.17}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.120 ...Weißbilder\relax }{figure.caption.17}{}}
-                                                  
-? 
-! Extra \endcsname.
-\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.120 ...Weißbilder\relax }{figure.caption.17}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.131 ...m Weißbild\relax }{figure.caption.19}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.131 ...m Weißbild\relax }{figure.caption.19}{}}
-                                                  
-? 
-! Extra \endcsname.
-\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.131 ...m Weißbild\relax }{figure.caption.19}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \T1\ss 
-l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
-                                                  
-? 
-! Extra \endcsname.
-\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.150 ... Stuckpixel\relax }{figure.caption.21}{}}
-                                                  
-? 
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 773.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 773.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 3B74FEB5BFB1CE3DEE66469FCA7A0EDD;5129.
+(rerunfilecheck)             Checksum: F807807E37B3B902149369E34E046DC4;2920.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 773.
-
-Overfull \hbox (13.82822pt too wide) in paragraph at lines 120--773
-[]\T1/ptm/m/n/12 �bilder           �bild                   �bild mit Dead- und 
-Stuck-pi-xel                                                                   
-     
- []
-
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 39581 strings out of 492945
- 852269 string characters out of 3122700
- 1188767 words of memory out of 3000000
- 41904 multiletter control sequences out of 15000+200000
- 71816 words of font info for 119 fonts, out of 3000000 for 9000
+ 37952 strings out of 492945
+ 828612 string characters out of 3122700
+ 1018615 words of memory out of 3000000
+ 41063 multiletter control sequences out of 15000+200000
+ 37256 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,98p,715b,2236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,11n,98p,715b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
 e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (47 pages, 12296375 bytes).
+urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/times/utmr8a.pfb>
+Output written on SSS_Laborbericht.pdf (11 pages, 156460 bytes).
 PDF statistics:
- 1263 PDF objects out of 1440 (max. 8388607)
- 737 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,16 +8,27 @@ freq = np.zeros(225280)
 # Darstellung des Amplitudenspektrums
 plt.plot(data)
 plt.grid()
-plt.xlabel('Frequency in Hz')
-plt.ylabel('Amplitude in V')
+plt.xlabel('Zeit')
+plt.ylabel('Amplitude')
 plt.savefig('data/img/testamp.png')
+plt.show()
+
+# Einlesen der .csv Datei
+data2 = np.load('data/rechts2.npy')
+
+# Darstellung des Amplitudenspektrums
+plt.plot(data2)
+plt.grid()
+plt.xlabel('Zeit')
+plt.ylabel('Amplitude')
+plt.savefig('data/img/rechtsamp.png')
 plt.show()
 
 # Darstellung des Amplitudenspektrums
 plt.plot(data)
 plt.grid()
-plt.xlabel('Frequency in Hz')
-plt.ylabel('Amplitude in V')
+plt.xlabel('Zeit')
+plt.ylabel('Amplitude')
 plt.xlim(50000, 75000)
 plt.savefig('data/img/testamp2.png')
 plt.show()
