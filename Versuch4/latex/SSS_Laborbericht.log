@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  25 MAY 2019 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  25 MAY 2019 16:12
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -1721,6 +1721,37 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
  (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
+
+LaTeX Warning: Label `img:Aufnahme mit Triggerfunktion des Wortes rechts' multi
+ply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sub2' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
+
+LaTeX Warning: Label `img:Aufnahme mit Triggerfunktion des Wortes rechts' multi
+ply defined.
+
+
+LaTeX Warning: Label `img:Aufnahme mit Triggerfunktion des Wortes rechts' multi
+ply defined.
+
+
+LaTeX Warning: Label `img:Aufnahme mit Triggerfunktion des Wortes rechts' multi
+ply defined.
+
 (appendix/bibliography.aux))
 \openout1 = `SSS_Laborbericht.aux'.
 
@@ -2014,34 +2045,120 @@ Package natbib Warning: Citation `Franz2016e' on page 1 undefined on input line
 
 ]
  2.
-<../data/img/testamp.png, id=162, 462.528pt x 346.896pt>
-File: ../data/img/testamp.png Graphic file (type png)
-<use ../data/img/testamp.png>
-Package pdftex.def Info: ../data/img/testamp.png  used on input line 253.
-(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/testamp2.png, id=163, 462.528pt x 346.896pt>
-File: ../data/img/testamp2.png Graphic file (type png)
-<use ../data/img/testamp2.png>
-Package pdftex.def Info: ../data/img/testamp2.png  used on input line 259.
-(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
-put line 263.
-<../data/img/rechtsamp.png, id=164, 462.528pt x 346.896pt>
-File: ../data/img/rechtsamp.png Graphic file (type png)
-<use ../data/img/rechtsamp.png>
-Package pdftex.def Info: ../data/img/rechtsamp.png  used on input line 269.
-(pdftex.def)             Requested size: 462.52686pt x 346.89514pt.
 
-Overfull \hbox (21.50912pt too wide) in paragraph at lines 269--270
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 243--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--270
+
  []
 
 [2
 
- <../data/img/testamp.png> <../data/img/testamp2.png>] [3 <../data/img/rechtsam
-p.png>]
+]
+<media/aufbau.jpg, id=178, 813.0375pt x 1084.05pt>
+File: media/aufbau.jpg Graphic file (type jpg)
+<use media/aufbau.jpg>
+Package pdftex.def Info: media/aufbau.jpg  used on input line 290.
+(pdftex.def)             Requested size: 220.50887pt x 294.00417pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--293
+
+ []
+
+[3 <./media/aufbau.jpg>]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296 \item[NichtnummerierteAufzahlung]
+                                       ~\par
+? 
+
+Underfull \hbox (badness 10000) detected at line 296
+[][]
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 298.
+
+
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1
+ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [4]
+<../data/img/testamp.png, id=187, 462.528pt x 346.896pt>
+File: ../data/img/testamp.png Graphic file (type png)
+<use ../data/img/testamp.png>
+Package pdftex.def Info: ../data/img/testamp.png  used on input line 311.
+(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
+<../data/img/testamp2.png, id=188, 462.528pt x 346.896pt>
+File: ../data/img/testamp2.png Graphic file (type png)
+<use ../data/img/testamp2.png>
+Package pdftex.def Info: ../data/img/testamp2.png  used on input line 317.
+(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
+put line 321.
+<../data/img/rechtsamp.png, id=189, 462.528pt x 346.896pt>
+File: ../data/img/rechtsamp.png Graphic file (type png)
+<use ../data/img/rechtsamp.png>
+Package pdftex.def Info: ../data/img/rechtsamp.png  used on input line 328.
+(pdftex.def)             Requested size: 264.61333pt x 198.46852pt.
+<../data/img/testspektrum1.png, id=190, 462.528pt x 346.896pt>
+File: ../data/img/testspektrum1.png Graphic file (type png)
+<use ../data/img/testspektrum1.png>
+Package pdftex.def Info: ../data/img/testspektrum1.png  used on input line 340.
+
+(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
+<../data/img/testspektrum3.png, id=191, 462.528pt x 346.896pt>
+File: ../data/img/testspektrum3.png Graphic file (type png)
+<use ../data/img/testspektrum3.png>
+Package pdftex.def Info: ../data/img/testspektrum3.png  used on input line 346.
+
+(pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.353 \newline
+              
+? 
+[5 <../data/img/testamp.png> <../data/img/testamp2.png> <../data/img/rechtsamp.
+png>]
+<../data/img/gauss.png, id=199, 462.528pt x 346.896pt>
+File: ../data/img/gauss.png Graphic file (type png)
+<use ../data/img/gauss.png>
+Package pdftex.def Info: ../data/img/gauss.png  used on input line 357.
+(pdftex.def)             Requested size: 352.81552pt x 264.62292pt.
+<../data/img/AlleRichtig.png, id=200, 462.528pt x 346.896pt>
+File: ../data/img/AlleRichtig.png Graphic file (type png)
+<use ../data/img/AlleRichtig.png>
+Package pdftex.def Info: ../data/img/AlleRichtig.png  used on input line 364.
+(pdftex.def)             Requested size: 352.81552pt x 264.62292pt.
+ [6 <../data/img/testspektrum1.png> <../data/img/testspektrum3.png> <../data/im
+g/gauss.png>]
+<../data/img/window.png, id=208, 1447.65843pt x 812.28468pt>
+File: ../data/img/window.png Graphic file (type png)
+<use ../data/img/window.png>
+Package pdftex.def Info: ../data/img/window.png  used on input line 371.
+(pdftex.def)             Requested size: 352.81552pt x 197.96416pt.
+ [7 <../data/img/AlleRichtig.png> <../data/img/window.png>]
+[8]
  3.
-[4
+[9
 
 ]
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
@@ -2049,16 +2166,11 @@ stlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 317.
+nput line 415.
  (../task1.1.py
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 17.
-
-("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1
-ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) [5
+) [10
 
 ] (../task1.2.py
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
@@ -2067,8 +2179,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
-) [6] (../task1.3.py [7]) [8] (../task1.4.py
-[9]) [10] (../task2.1.py
+) [11] (../task1.3.py [12])
+[13] (../task1.4.py [14]) [15] (../task2.1.py
 Overfull \hbox (8.89842pt too wide) in paragraph at lines 9--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -2092,7 +2204,7 @@ Overfull \hbox (24.4582pt too wide) in paragraph at lines 13--14
 ][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[11]
+[16]
 Overfull \hbox (11.53938pt too wide) in paragraph at lines 68--69
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -2106,7 +2218,7 @@ Overfull \hbox (11.53938pt too wide) in paragraph at lines 70--72
 [][][][][][] 
  []
 
-) [12] (../task2.2.py
+) [17] (../task2.2.py
 Overfull \hbox (8.89842pt too wide) in paragraph at lines 8--9
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -2122,7 +2234,7 @@ Overfull \hbox (16.67831pt too wide) in paragraph at lines 10--11
 ][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[13]
+[18]
 Overfull \hbox (11.53938pt too wide) in paragraph at lines 43--44
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -2136,7 +2248,7 @@ Overfull \hbox (11.53938pt too wide) in paragraph at lines 45--46
 [][][][][][] 
  []
 
-) [14] (../task2.3.py
+) [19] (../task2.3.py
 Overfull \hbox (8.89842pt too wide) in paragraph at lines 8--9
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -2160,7 +2272,7 @@ Overfull \hbox (100.03702pt too wide) in paragraph at lines 12--13
 ][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[15]
+[20]
 Overfull \hbox (11.53938pt too wide) in paragraph at lines 57--58
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
@@ -2174,7 +2286,7 @@ Overfull \hbox (11.53938pt too wide) in paragraph at lines 59--60
 [][][][][][] 
  []
 
-[16]) [17]
+[21]) [22]
 \openout2 = `appendix/bibliography.aux'.
 
  (appendix/bibliography.tex
@@ -2185,24 +2297,28 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 436.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 436.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 436.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 436.
 Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 1BA8E9B72AEFE60F22D9875941655A9C;2464.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
+(rerunfilecheck)             Checksum: 301AF8CAE9E67B393E35C65C77A77B60;2464.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 436.
  ) 
 Here is how much of TeX's memory you used:
- 38972 strings out of 492945
- 841470 string characters out of 3122700
- 1192433 words of memory out of 3000000
- 41631 multiletter control sequences out of 15000+200000
- 59696 words of font info for 98 fonts, out of 3000000 for 9000
+ 39017 strings out of 492945
+ 842418 string characters out of 3122700
+ 1192894 words of memory out of 3000000
+ 41658 multiletter control sequences out of 15000+200000
+ 60010 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,98p,715b,2232s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
@@ -2211,9 +2327,9 @@ public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (23 pages, 269265 bytes).
+Output written on SSS_Laborbericht.pdf (28 pages, 1185717 bytes).
 PDF statistics:
- 741 PDF objects out of 1000 (max. 8388607)
- 450 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 460 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -239,14 +239,72 @@
 
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_1_FRAGESTELLUNG}
+
+\textbf{Fragestellung:}
+\newline
 In dem ersten Teil des Versuchs 'Aufbau eines einfachen Spracherkenners' werden wir einen Spracherkenner bauen.
-Die Beispiel die wir verwenden, könnten zur Steuerung eines Gabelstaplers  in einem Hochregallager beispielsweise dienen.
-
-
+Zudem erweitern wir den Spracherkenner mit einer Triggerfunktion.
+Mit der Aufnahme bestimmen wir dessen Amplitudenspektrum.
+Im Anschluss werden die Methode des Windowing anwenden.
+\newline
+So werden wir eine Testaufnahme machen um diese anschließend auszuwerten. 
+\newline
+Auf die entstandenen Numpy-Dateien wenden wir Windowing und das Amplitudenspektrum an.
+\newline
+\newline
+\textbf{Messprinzip:}
+\newline
+Im ersten Versuch starten wir mit einem Pythonskript. Das Mikrofon wird mit einem Klinkenstecker direkt an die Soundkarte des Computers verbunden.
+Auf den Computern im Labor, ist das Paket PyAudio bereits in den IDE's integriert.
+\newline
+Mit dem geschriebenen Pythonskript können wir nun akustische Signale aufnehmen. 
+Über das Objekt audiorecorder haben wir Zugriff auf die Aufnahmefunktion der Soundkarte.
+\newline
+Das Signal speichern wir anschließend mittels numpy.save().
+Im Anschluss sollen wir eine beliebige Spracheingabe aufnehmen und diese in einem Diagramm darstellen.
+\newline
+\newline
+Im Anschluss sollen wir das Aufnahmeprogramm um eine Triggerfunktion erweitern, welche die Aufnahme erst ab einem gewissen Lautstärkepegel starten lässt.
+\newline
+So können wir sicher stellen, dass alle Aufnahmen den selben Startpunkt besitzen.
+\newpage
+Das Signal soll eine Dauer von einer Sekunde haben und die fehlenden Samples mit Nullen augefüllt werden.
+\newline
+\newline
+Mit dem Code Aus dem dritten Versuch können wir mit der Aufnahme das Amplitudenspektrum bestimmen.
+Dies stellen wir grapisch dar.
+Danach implementieren die Methode des Windowing. 
+\newline
+Diese werden wir jeweils in einer Länge von 512 Samples darstellen.
+Die einzelnen Windows werden wir mit der Gaußschen Fensterfunktion multiplizieren  die eine Fensterbreite von der Standartabweichung 4 hat.
+\newline
+Den ersten Versuch werden wir mit dem Amplitudenspektrum erneut überprüfen und so das Spektrum aus der letzten Aufgabe auf Korrektheit überprüfen.
+\newline
+\newline
+\textbf{Aufbau:}
+\newline
+Das Mikrofon wird durch einen Klinkenstecker direkt an die Soundkarte des Computers verbunden.
+Durch ein Pythonskript können wir nun Sprachaufnahmen machen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.5\linewidth]{media/aufbau.jpg}
+	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
+	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
+\end{figure}
+\newpage
+\textbf{Messmittel:}
+\item[NichtnummerierteAufzahlung]~\par
+   \begin{itemize}
+      \item Ein Mikrofon
+      \item Ein Computer mit einer Python IDE
+   \end{itemize}
+\newpage
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
-Mit einem Mikrofon das an den Computer angeschlossen ist, sehen wir die mit dem Pythonskript aufgenommene Sprachaufnahme, welche mit Python visualisiert wurde.
-\begin{figure}[H]
+Mit einem Mikrofon das an den Computer angeschlossen ist, sehen wir die mit dem Pythonskript aufgenommene Sprachaufnahme des Wortes 'Test', welche mit Python visualisiert wurde.
+In der linken Darstellung ist die gesamte Dauer des empfangenen Signals.
+Im rechten Bild ist eine verkürzte Darstellung der Sprachaufnahme um das Signal besser zu erkennen.
+\begin{figure}[hbt!]
 \centering
 	\begin{subfigure}{.5\textwidth}
   		\centering
@@ -263,10 +321,11 @@ Mit einem Mikrofon das an den Computer angeschlossen ist, sehen wir die mit dem 
 	\caption{Die aufgenommene Sprachaufnahme visualisiert mit Python}
 	\label{fig:test}
 \end{figure}
+\newline
 Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
 \begin{figure}[H]
 	\centering
-	\includegraphics{../data/img/rechtsamp.png}
+	\includegraphics[width=.6\linewidth]{../data/img/rechtsamp.png}
 	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
 	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
 \end{figure}
@@ -274,7 +333,46 @@ Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfun
 
 \section{Auswertung}
 \label{chap:VERSUCH_1_AUSWERTUNG}
-
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/testspektrum1.png}
+  		\caption{Amplitudenspektrum der Sprachaufnahme}
+ 		 \label{fig:sub1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/testspektrum3.png}
+  		\caption{Amplitudenspektrum mit geringerer Frequenz}
+  		\label{fig:sub2}
+	\end{subfigure}
+	\caption{Das Amplitudenspektrum mit der dazugehörigen Frequenz}
+	\label{fig:test}
+\end{figure}
+\newline
+Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{../data/img/gauss.png}
+	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
+	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
+\end{figure}
+Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{../data/img/AlleRichtig.png}
+	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
+	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
+\end{figure}
+Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\linewidth]{../data/img/window.png}
+	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
+	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
+\end{figure}
+\newpage
 \section{Interpretation}
 \label{chap:VERSUCH_1_INTERPRETATION}
 
