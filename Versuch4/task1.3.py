@@ -39,7 +39,7 @@ difference = 2 / 225280
 fourier = np.fft.fft(data[:225280])
 # Die Fouriertransformierte Frequenz wird absolutiert, so dass kein negativer Wert mehr vorzufinden ist
 spektrum = np.abs(fourier)
-# Formel um die Anzahl der Schwingungen in die Freuquenz umzurechnen - f = n / (M * Δt)
+# Formel um die Anzahl der Schwingungen in die Freuquenz umzurechnen - f = n / (M * t)
 for x in range(0, 225280, 1):
     freq[x] = (x / (difference * 225280))
 

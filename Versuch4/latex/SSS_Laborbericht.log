@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  25 MAY 2019 13:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  25 MAY 2019 13:51
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -1863,7 +1863,7 @@ your preamble.
 \openout2 = `preface/cover.aux'.
 
 (preface/cover.tex
-<preface/htwg-logo.png, id=90, 298.716pt x 119.4864pt>
+<preface/htwg-logo.png, id=78, 298.716pt x 119.4864pt>
 File: preface/htwg-logo.png Graphic file (type png)
 <use preface/htwg-logo.png>
 Package pdftex.def Info: preface/htwg-logo.png  used on input line 7.
@@ -2014,19 +2014,19 @@ Package natbib Warning: Citation `Franz2016e' on page 1 undefined on input line
 
 ]
  2.
-<../data/img/testamp.png, id=163, 462.528pt x 346.896pt>
+<../data/img/testamp.png, id=162, 462.528pt x 346.896pt>
 File: ../data/img/testamp.png Graphic file (type png)
 <use ../data/img/testamp.png>
 Package pdftex.def Info: ../data/img/testamp.png  used on input line 253.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/testamp2.png, id=164, 462.528pt x 346.896pt>
+<../data/img/testamp2.png, id=163, 462.528pt x 346.896pt>
 File: ../data/img/testamp2.png Graphic file (type png)
 <use ../data/img/testamp2.png>
 Package pdftex.def Info: ../data/img/testamp2.png  used on input line 259.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 263.
-<../data/img/rechtsamp.png, id=165, 462.528pt x 346.896pt>
+<../data/img/rechtsamp.png, id=164, 462.528pt x 346.896pt>
 File: ../data/img/rechtsamp.png Graphic file (type png)
 <use ../data/img/rechtsamp.png>
 Package pdftex.def Info: ../data/img/rechtsamp.png  used on input line 269.
@@ -2043,9 +2043,138 @@ p.png>]
  3.
 [4
 
-] [5
-
 ]
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
+stlang1.sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 317.
+ (../task1.1.py
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 17.
+
+("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1
+ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) [5
+
+] (../task1.2.py
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+) [6] (../task1.3.py [7]) [8] (../task1.4.py
+[9]) [10] (../task2.1.py
+Overfull \hbox (8.89842pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.67831pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (24.4582pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[11]
+Overfull \hbox (11.53938pt too wide) in paragraph at lines 68--69
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
+
+
+Overfull \hbox (11.53938pt too wide) in paragraph at lines 70--72
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
+
+) [12] (../task2.2.py
+Overfull \hbox (8.89842pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.67831pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[13]
+Overfull \hbox (11.53938pt too wide) in paragraph at lines 43--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
+
+
+Overfull \hbox (11.53938pt too wide) in paragraph at lines 45--46
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
+
+) [14] (../task2.3.py
+Overfull \hbox (8.89842pt too wide) in paragraph at lines 8--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.37756pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (100.03702pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[15]
+Overfull \hbox (11.53938pt too wide) in paragraph at lines 57--58
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
+
+
+Overfull \hbox (11.53938pt too wide) in paragraph at lines 59--60
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][] 
+ []
+
+[16]) [17]
 \openout2 = `appendix/bibliography.aux'.
 
  (appendix/bibliography.tex
@@ -2056,37 +2185,35 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: F807807E37B3B902149369E34E046DC4;2920.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
+(rerunfilecheck)             Checksum: 1BA8E9B72AEFE60F22D9875941655A9C;2464.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
- 37952 strings out of 492945
- 828612 string characters out of 3122700
- 1018615 words of memory out of 3000000
- 41063 multiletter control sequences out of 15000+200000
- 37256 words of font info for 59 fonts, out of 3000000 for 9000
+ 38972 strings out of 492945
+ 841470 string characters out of 3122700
+ 1192433 words of memory out of 3000000
+ 41631 multiletter control sequences out of 15000+200000
+ 59696 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,98p,715b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,12n,98p,715b,2232s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
 e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/urw/times/utmr8a.pfb>
-Output written on SSS_Laborbericht.pdf (11 pages, 156460 bytes).
+public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SSS_Laborbericht.pdf (23 pages, 269265 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 741 PDF objects out of 1000 (max. 8388607)
+ 450 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

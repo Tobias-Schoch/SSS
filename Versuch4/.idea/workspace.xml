@@ -1,85 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fd2d1f0-e395-4ba7-b76e-20b7b6e183db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task2.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Mundharmonika/eins.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amplitude.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/amplitude2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/10000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/10000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/100_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1200_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1500.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1500_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1700.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/1700_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/2000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/2000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/200_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/300.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/3000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/3000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/300_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/400.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/4000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/4000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/400_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/500.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/5000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/5000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/500_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/6000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/6000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/700.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/700_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/850.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/großerLautsprecher/850_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/10000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/10000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/100_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1200_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1500.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1500_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1700.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/1700_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/200.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/2000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/2000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/200_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/300.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/3000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/3000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/300_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/400.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/4000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/4000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/400_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/500.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/5000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/5000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/500_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/600.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/6000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/6000_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/600_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/700.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/700_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/850.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/850_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/kleinerLautsprecher/hundert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/signal.png" beforeDir="false" />
+    <list default="true" id="4fd2d1f0-e395-4ba7-b76e-20b7b6e183db" name="Default Changelist" comment="Starting with the first LaTeX text.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.aux" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.log" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.lol" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.lol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.out" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.toc" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/appendix/bibliography.aux" beforeDir="false" afterPath="$PROJECT_DIR$/latex/appendix/bibliography.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +28,11 @@
         <entry file="file://$PROJECT_DIR$/task1.1.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <first_editor>
+                <caret lean-forward="true" />
+                <folding>
+                  <element signature="e#0#14#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -105,10 +43,10 @@
         <entry file="file://$PROJECT_DIR$/task1.2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor>
-                <caret selection-end-line="44" />
+              <first_editor relative-caret-position="272">
+                <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
                 <folding>
-                  <element signature="e#0#31#0" expanded="true" />
+                  <element signature="e#0#14#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -116,14 +54,72 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2.1.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <first_editor>
+                <caret lean-forward="true" />
+                <folding>
+                  <element signature="e#0#24#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1.3.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="166">
+                <caret line="41" column="84" selection-start-line="41" selection-start-column="84" selection-end-line="41" selection-end-column="84" />
                 <folding>
                   <element signature="e#0#31#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2.2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="-429">
+                <folding>
+                  <element signature="e#0#24#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1.4.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="350">
+                <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+                <folding>
+                  <element signature="e#0#24#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task2.3.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor>
+                <folding>
+                  <element signature="e#0#24#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -149,8 +145,10 @@
         <option value="$PROJECT_DIR$/abc/harmonica_plot.py" />
         <option value="$PROJECT_DIR$/abc/harmonica_fft.py" />
         <option value="$PROJECT_DIR$/2.py" />
-        <option value="$PROJECT_DIR$/task1.2.py" />
         <option value="$PROJECT_DIR$/task2.1.py" />
+        <option value="$PROJECT_DIR$/task1.1.py" />
+        <option value="$PROJECT_DIR$/task1.2.py" />
+        <option value="$PROJECT_DIR$/task1.3.py" />
       </list>
     </option>
   </component>
@@ -170,8 +168,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Versuch3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Versuch3" type="462c0819:PsiDirectoryNode" />
+              <item name="Versuch4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Versuch4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,29 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task2.1">
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Versuch3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task1.3">
     <configuration name="harmonica_fft (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Versuch3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,6 +271,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task1.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="task2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Versuch3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task1.3" />
         <item itemvalue="Python.task2.1" />
         <item itemvalue="Python.harmonica_fft (1)" />
         <item itemvalue="Python.harmonica_plot (1)" />
         <item itemvalue="Python.task1.2" />
-        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -344,6 +342,7 @@
       <workItem from="1557314463924" duration="11586000" />
       <workItem from="1557351189082" duration="2080000" />
       <workItem from="1557387587047" duration="5983000" />
+      <workItem from="1558778178973" duration="4621000" />
     </task>
     <task id="LOCAL-00001" summary="Added files for the third task">
       <created>1557173846294</created>
@@ -401,17 +400,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557353187489</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Starting with the first LaTeX text.">
+      <created>1558783648187</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558783648187</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30543000" />
+    <option name="totallyTimeSpent" value="35164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -430,7 +436,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -442,9 +448,12 @@
     <MESSAGE value="CSV visualized in plot and calculating for the first task" />
     <MESSAGE value="Fouriertransformation and Amplitude" />
     <MESSAGE value="Finished Fouriertransformation and Amplitude. Still need to fix amplitude." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Fouriertransformation and Amplitude. Still need to fix amplitude." />
+    <MESSAGE value="Starting with the first LaTeX text." />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting with the first LaTeX text." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Versuch4$task2_1.coverage" NAME="task2.1 Coverage Results" MODIFIED="1558778233766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Versuch4$task1_3.coverage" NAME="task1.3 Coverage Results" MODIFIED="1558783147544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Versuch3$task2_1.coverage" NAME="task2.1 Coverage Results" MODIFIED="1557393720362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Versuch3$harmonica_fft__1_.coverage" NAME="harmonica_fft (1) Coverage Results" MODIFIED="1557392716555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
     <SUITE FILE_PATH="coverage/Versuch3$harmonica_fft.coverage" NAME="harmonica_fft Coverage Results" MODIFIED="1557349062006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abc" />
@@ -473,16 +482,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.py" />
-    <entry file="file://$PROJECT_DIR$/task1.1.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/frequency_response.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -514,13 +513,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task1.2.py">
+    <entry file="file://$PROJECT_DIR$/task1.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor>
-            <caret selection-end-line="44" />
+            <caret lean-forward="true" />
             <folding>
-              <element signature="e#0#31#0" expanded="true" />
+              <element signature="e#0#14#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="272">
+            <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <folding>
+              <element signature="e#0#14#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
@@ -530,10 +542,60 @@
     <entry file="file://$PROJECT_DIR$/task2.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <first_editor>
+            <caret lean-forward="true" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1.3.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="166">
+            <caret line="41" column="84" selection-start-line="41" selection-start-column="84" selection-end-line="41" selection-end-column="84" />
             <folding>
               <element signature="e#0#31#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-429">
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1.4.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="350">
+            <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2.3.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor>
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
