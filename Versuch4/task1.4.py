@@ -7,6 +7,7 @@ import numpy as np
 data = np.load('data/test.npy')
 window = np.zeros((879, 512))
 z = 256
+freq = np.zeros(225280)
 gaussianwindow = signal.windows.gaussian(512, std=4)
 for y in range(0, 879):
     z = z - 256
@@ -50,3 +51,19 @@ plt.ylabel('Frequenz')
 plt.savefig('data/img/AlleRichtig.png')
 plt.show()
 
+# Der zweite Wert wird absolut minus den ersten absoluten wert gerechnet um später den Wert
+difference = 2 / 225280
+# Die zweite Spalte der .csv Datei wird Fouriertransformiert
+fourier = np.fft.fft(window)
+# Die Fouriertransformierte Frequenz wird absolutiert, so dass kein negativer Wert mehr vorzufinden ist
+spektrum = np.abs(fourier)
+# Formel um die Anzahl der Schwingungen in die Freuquenz umzurechnen - f = n / (M * t)
+for x in range(0, 225280, 1):
+    freq[x] = (x / (difference * 225280))
+
+plt.plot(freq, 'r')
+plt.grid(True)
+plt.xlabel('Signalnr.')
+plt.ylabel('Frequenz')
+plt.savefig('data/img/ampwin.png')
+plt.show()

@@ -5,11 +5,25 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Die aufgenommene Sprachaufnahme visualisiert mit Python\relax }}{5}{figure.caption.9}% 
 \contentsline {subfigure}{\numberline {2.2a}{\ignorespaces Sprachaufnahme des Wortes Test\relax }}{5}{figure.caption.9}% 
 \contentsline {subfigure}{\numberline {2.2b}{\ignorespaces Dieselbe Sprachaufnahme mit kurzer Zeitachse\relax }}{5}{figure.caption.9}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{5}{figure.caption.10}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Das Amplitudenspektrum mit der dazugeh\IeC {\"o}rigen Frequenz\relax }}{6}{figure.caption.11}% 
-\contentsline {subfigure}{\numberline {2.4a}{\ignorespaces Amplitudenspektrum der Sprachaufnahme\relax }}{6}{figure.caption.11}% 
-\contentsline {subfigure}{\numberline {2.4b}{\ignorespaces Amplitudenspektrum mit geringerer Frequenz\relax }}{6}{figure.caption.11}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{6}{figure.caption.12}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{7}{figure.caption.13}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{7}{figure.caption.14}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{6}{figure.caption.10}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Das Amplitudenspektrum mit der dazugeh\IeC {\"o}rigen Frequenz\relax }}{7}{figure.caption.11}% 
+\contentsline {subfigure}{\numberline {2.4a}{\ignorespaces Amplitudenspektrum der Sprachaufnahme\relax }}{7}{figure.caption.11}% 
+\contentsline {subfigure}{\numberline {2.4b}{\ignorespaces Amplitudenspektrum mit geringerer Frequenz\relax }}{7}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Gausssche Fensterfunktion mit Standardabweichung 4\relax }}{7}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{8}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Aufnahme mit Triggerfunktion des Wortes rechts\relax }}{8}{figure.caption.14}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces S\IeC {\"a}mtliche Signale mit Windowing berechnet\relax }}{11}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Zwei verschiedene Sprachaufnahmen im Vergleich.\relax }}{11}{figure.caption.16}% 
+\contentsline {subfigure}{\numberline {3.2a}{\ignorespaces Erste Sprachaufnahme von 'links'\relax }}{11}{figure.caption.16}% 
+\contentsline {subfigure}{\numberline {3.2b}{\ignorespaces F\IeC {\"u}nfte Sprachaufnahme von 'links'\relax }}{11}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Die vier Referenzspektren\relax }}{12}{figure.caption.17}% 
+\contentsline {subfigure}{\numberline {3.3a}{\ignorespaces Person 1: Referenzspektrum 'Links'\relax }}{12}{figure.caption.17}% 
+\contentsline {subfigure}{\numberline {3.3b}{\ignorespaces Person 1: Referenzspektrum 'Rechts'\relax }}{12}{figure.caption.17}% 
+\contentsline {subfigure}{\numberline {3.3c}{\ignorespaces Person 1: Referenzspektrum 'Hoch'\relax }}{12}{figure.caption.17}% 
+\contentsline {subfigure}{\numberline {3.3d}{\ignorespaces Person 1: Referenzspektrum 'Tief'\relax }}{12}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Die vier Referenzspektren mit den gr\IeC {\"o}\IeC {\ss }ten Unterschieden\relax }}{13}{figure.caption.19}% 
+\contentsline {subfigure}{\numberline {3.4a}{\ignorespaces Person 1: Referenzspektrum 'Rechts'\relax }}{13}{figure.caption.19}% 
+\contentsline {subfigure}{\numberline {3.4b}{\ignorespaces Person 2: Referenzspektrum 'Rechts'\relax }}{13}{figure.caption.19}% 
+\contentsline {subfigure}{\numberline {3.4c}{\ignorespaces Person 1: Referenzspektrum 'Hoch'\relax }}{13}{figure.caption.19}% 
+\contentsline {subfigure}{\numberline {3.4d}{\ignorespaces Person 2: Referenzspektrum 'Hoch'\relax }}{13}{figure.caption.19}% 

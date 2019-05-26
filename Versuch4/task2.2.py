@@ -48,5 +48,11 @@ for z in range(0, 4):
 for x in range(0, 20):
     num[x] = num[x].ravel()
 
+r, p = scipy.stats.pearsonr(num[0], num[0])
+print("r:", r, "p:", p)
+
+r, p = scipy.stats.pearsonr(num[0], capital[0])
+print("r:", r, "p:", p)
+
 r, p = scipy.stats.pearsonr(num[0], capital[0])
 print("r:", r, "p:", p)

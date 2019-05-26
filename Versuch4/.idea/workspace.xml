@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fd2d1f0-e395-4ba7-b76e-20b7b6e183db" name="Default Changelist" comment="Starting with the first LaTeX text.">
+    <list default="true" id="4fd2d1f0-e395-4ba7-b76e-20b7b6e183db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/img/Averagehoch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/img/Averagelinks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/img/Averagerechts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/img/Averagetief.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.aux" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.lof" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.lof" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.log" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.lol" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.lol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.lot" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.lot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.out" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.toc" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/appendix/bibliography.aux" beforeDir="false" afterPath="$PROJECT_DIR$/latex/appendix/bibliography.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task2.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2.3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +36,6 @@
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor>
-                <caret lean-forward="true" />
                 <folding>
                   <element signature="e#0#14#0" expanded="true" />
                 </folding>
@@ -54,12 +60,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task2.1.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor>
-                <caret lean-forward="true" />
+              <first_editor relative-caret-position="459">
+                <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+                <folding>
+                  <element signature="e#0#24#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1.3.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="425">
+                <caret line="25" selection-start-line="25" selection-end-line="25" />
+                <folding>
+                  <element signature="e#0#31#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2.2.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
@@ -70,54 +106,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task1.3.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="166">
-                <caret line="41" column="84" selection-start-line="41" selection-start-column="84" selection-end-line="41" selection-end-column="84" />
-                <folding>
-                  <element signature="e#0#31#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor relative-caret-position="-119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2.2.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="-429">
-                <folding>
-                  <element signature="e#0#24#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor relative-caret-position="-119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task1.4.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="350">
-                <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <first_editor relative-caret-position="1132">
+                <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor relative-caret-position="-119" />
+              <second_editor relative-caret-position="-24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2.3.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor>
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="100" selection-start-line="9" selection-end-line="10" selection-end-column="100" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
@@ -145,18 +153,21 @@
         <option value="$PROJECT_DIR$/abc/harmonica_plot.py" />
         <option value="$PROJECT_DIR$/abc/harmonica_fft.py" />
         <option value="$PROJECT_DIR$/2.py" />
-        <option value="$PROJECT_DIR$/task2.1.py" />
         <option value="$PROJECT_DIR$/task1.1.py" />
         <option value="$PROJECT_DIR$/task1.2.py" />
+        <option value="$PROJECT_DIR$/task1.4.py" />
         <option value="$PROJECT_DIR$/task1.3.py" />
+        <option value="$PROJECT_DIR$/task2.3.py" />
+        <option value="$PROJECT_DIR$/task2.2.py" />
+        <option value="$PROJECT_DIR$/task2.1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="728" />
-    <option name="y" value="7" />
-    <option name="width" value="659" />
-    <option name="height" value="1056" />
+    <option name="x" value="609" />
+    <option name="y" value="-9" />
+    <option name="width" value="1323" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,73 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task1.3">
-    <configuration name="harmonica_fft (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Versuch3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/harmonica_fft.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="harmonica_plot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Versuch3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code/harmonica_plot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task1.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Versuch3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1.2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task2.3">
     <configuration name="task1.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Versuch3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,6 +230,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task1.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1.4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,13 +282,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task2.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task2.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Versuch3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task1.3" />
+        <item itemvalue="Python.task2.3" />
         <item itemvalue="Python.task2.1" />
-        <item itemvalue="Python.harmonica_fft (1)" />
-        <item itemvalue="Python.harmonica_plot (1)" />
-        <item itemvalue="Python.task1.2" />
+        <item itemvalue="Python.task2.2" />
+        <item itemvalue="Python.task1.3" />
+        <item itemvalue="Python.task1.4" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +353,8 @@
       <workItem from="1557314463924" duration="11586000" />
       <workItem from="1557351189082" duration="2080000" />
       <workItem from="1557387587047" duration="5983000" />
-      <workItem from="1558778178973" duration="4621000" />
+      <workItem from="1558778178973" duration="6954000" />
+      <workItem from="1558822510867" duration="7264000" />
     </task>
     <task id="LOCAL-00001" summary="Added files for the third task">
       <created>1557173846294</created>
@@ -407,22 +419,36 @@
       <option name="project" value="LOCAL" />
       <updated>1558783648187</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Python files to the LaTeX Documentation">
+      <created>1558785667264</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558785667264</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added plots and text for 2.1, 2.2 and 2.3">
+      <created>1558793732908</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558793732908</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35164000" />
+    <option name="totallyTimeSpent" value="44761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08848614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,7 +462,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.10501066" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -449,18 +475,23 @@
     <MESSAGE value="Fouriertransformation and Amplitude" />
     <MESSAGE value="Finished Fouriertransformation and Amplitude. Still need to fix amplitude." />
     <MESSAGE value="Starting with the first LaTeX text." />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting with the first LaTeX text." />
+    <MESSAGE value="Added Python files to the LaTeX Documentation" />
+    <MESSAGE value="Added plots and text for 2.1, 2.2 and 2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added plots and text for 2.1, 2.2 and 2.3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Versuch4$task2_1.coverage" NAME="task2.1 Coverage Results" MODIFIED="1558778233766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Versuch4$task1_3.coverage" NAME="task1.3 Coverage Results" MODIFIED="1558783147544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Versuch4$task1_3.coverage" NAME="task1.3 Coverage Results" MODIFIED="1558826501309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Versuch4$task2_1.coverage" NAME="task2.1 Coverage Results" MODIFIED="1558837011816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Versuch3$task2_1.coverage" NAME="task2.1 Coverage Results" MODIFIED="1557393720362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Versuch4$task1_4.coverage" NAME="task1.4 Coverage Results" MODIFIED="1558826422201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Versuch3$harmonica_fft__1_.coverage" NAME="harmonica_fft (1) Coverage Results" MODIFIED="1557392716555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
     <SUITE FILE_PATH="coverage/Versuch3$harmonica_fft.coverage" NAME="harmonica_fft Coverage Results" MODIFIED="1557349062006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abc" />
     <SUITE FILE_PATH="coverage/Versuch3$harmonica_plot__1_.coverage" NAME="harmonica_plot (1) Coverage Results" MODIFIED="1557392114645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/data/Tobias.Schoch/Downloads/AIN3-SSS-master/AIN3-SSS-master/Aufgabe3/Code" />
+    <SUITE FILE_PATH="coverage/Versuch4$task2_2.coverage" NAME="task2.2 Coverage Results" MODIFIED="1558836821046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Versuch3$2.coverage" NAME="2 Coverage Results" MODIFIED="1557352714669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Versuch3$harmonica_plot.coverage" NAME="harmonica_plot Coverage Results" MODIFIED="1557348785677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abc" />
     <SUITE FILE_PATH="coverage/Versuch3$task1_2.coverage" NAME="task1.2 Coverage Results" MODIFIED="1557390824383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Versuch4$task2_3.coverage" NAME="task2.3 Coverage Results" MODIFIED="1558837827913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TekTDS2000.py" />
@@ -517,7 +548,6 @@
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor>
-            <caret lean-forward="true" />
             <folding>
               <element signature="e#0#14#0" expanded="true" />
             </folding>
@@ -539,66 +569,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2.1.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor>
-            <caret lean-forward="true" />
-            <folding>
-              <element signature="e#0#24#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1.3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="166">
-            <caret line="41" column="84" selection-start-line="41" selection-start-column="84" selection-end-line="41" selection-end-column="84" />
+          <first_editor relative-caret-position="425">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
             <folding>
               <element signature="e#0#31#0" expanded="true" />
             </folding>
           </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2.2.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="-429">
-            <folding>
-              <element signature="e#0#24#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1.4.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="350">
-            <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-            <folding>
-              <element signature="e#0#24#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor relative-caret-position="-119" />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task2.3.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor>
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="100" selection-start-line="9" selection-end-line="10" selection-end-column="100" />
             <folding>
               <element signature="e#0#24#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1.4.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="1132">
+            <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2.2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2.1.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="459">
+            <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-51" />
         </state>
       </provider>
     </entry>

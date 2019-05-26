@@ -242,7 +242,7 @@
 
 \textbf{Fragestellung:}
 \newline
-In dem ersten Teil des Versuchs 'Aufbau eines einfachen Spracherkenners' werden wir einen Spracherkenner bauen.
+In dem ersten Teil des Versuchs \textit{'Aufbau eines einfachen Spracherkenners'} werden wir einen Spracherkenner bauen.
 Zudem erweitern wir den Spracherkenner mit einer Triggerfunktion.
 Mit der Aufnahme bestimmen wir dessen Amplitudenspektrum.
 Im Anschluss werden die Methode des Windowing anwenden.
@@ -258,9 +258,9 @@ Im ersten Versuch starten wir mit einem Pythonskript. Das Mikrofon wird mit eine
 Auf den Computern im Labor, ist das Paket PyAudio bereits in den IDE's integriert.
 \newline
 Mit dem geschriebenen Pythonskript können wir nun akustische Signale aufnehmen. 
-Über das Objekt audiorecorder haben wir Zugriff auf die Aufnahmefunktion der Soundkarte.
+Über das Objekt \textit{audiorecorder} haben wir Zugriff auf die Aufnahmefunktion der Soundkarte.
 \newline
-Das Signal speichern wir anschließend mittels numpy.save().
+Das Signal speichern wir anschließend mittels \textit{numpy.save()}.
 Im Anschluss sollen wir eine beliebige Spracheingabe aufnehmen und diese in einem Diagramm darstellen.
 \newline
 \newline
@@ -301,9 +301,12 @@ Durch ein Pythonskript können wir nun Sprachaufnahmen machen.
 \newpage
 \section{Messwerte}
 \label{chap:VERSUCH_1_MESSWERTE}
-Mit einem Mikrofon das an den Computer angeschlossen ist, sehen wir die mit dem Pythonskript aufgenommene Sprachaufnahme des Wortes 'Test', welche mit Python visualisiert wurde.
-In der linken Darstellung ist die gesamte Dauer des empfangenen Signals.
-Im rechten Bild ist eine verkürzte Darstellung der Sprachaufnahme um das Signal besser zu erkennen.
+Mit einem Mikrofon das an den Computer angeschlossen ist, sehen wir die mit dem Pythonskript aufgenommene Sprachaufnahme des Wortes \textit{'Test'}, welche mit Python visualisiert wurde.
+\newline
+In der linken Darstellung ist die gesamte Dauer des empfangenen Signals, welche sich durch einen einfachen Plot des Signals darstellen lässt.
+\newline
+Im rechten Bild ist eine verkürzte Darstellung der Sprachaufnahme um das Signal besser zu erkennen welches durch \textit{plt.xlim(0, 35000)} auf eine Frequenz von 35000 limitiert wird.
+
 \begin{figure}[hbt!]
 \centering
 	\begin{subfigure}{.5\textwidth}
@@ -321,18 +324,30 @@ Im rechten Bild ist eine verkürzte Darstellung der Sprachaufnahme um das Signal
 	\caption{Die aufgenommene Sprachaufnahme visualisiert mit Python}
 	\label{fig:test}
 \end{figure}
+Die Aufnahme wurde durch die Funktion \textit{p.open()} gestartet. 
 \newline
+Im Gegensatz zum zweiten Teil der Aufgabe wird hier bereits durch das Starten des Skriptes aufgenommen.
+\newpage
 Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
+Die Aufnahme läuft bereits durch das Starten des Programmes.
+\newline
+Die Stelle bei der die Überschreitung des Schwellenwertes geschieht wird gespeichert und beginnt ab dieser Stelle.
+\newline
+Durch die Triggerfunktion startet die Aufnahme dadurch erst ab dem Schwellenwert.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.6\linewidth]{../data/img/rechtsamp.png}
+	\includegraphics[width=.75\linewidth]{../data/img/rechtsamp.png}
 	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
 	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
 \end{figure}
 
-
+\newpage
 \section{Auswertung}
 \label{chap:VERSUCH_1_AUSWERTUNG}
+Auf der linken Seite ist das Amplitudenspektrum und auf der rechten Seite das Amplitudenspektrum bis zur Frequenz von 1000.
+\newline
+Diese wurden mit der Formel berechnet. Mit der Anwendung der Formel auf jedes eingegangene Signal erhalten wir den folgenden Plot:
+
 \begin{figure}[H]
 \centering
 	\begin{subfigure}{.5\textwidth}
@@ -351,21 +366,24 @@ Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfun
 	\label{fig:test}
 \end{figure}
 \newline
-Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
+Im folgenden sieht man eine Gaußsche Fensterfunktion mit der Fensterbreite von 4 Standardabweichungen.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.8\linewidth]{../data/img/gauss.png}
+	\includegraphics[width=.7\linewidth]{../data/img/gauss.png}
+	\caption{Gausssche Fensterfunktion mit Standardabweichung 4}
+	\label{img:Gausssche Fensterfunktion mit Standardabweichung 4}
+\end{figure}
+Im Anschluss zerlegt man das Signal in Abschnitte mit der von Länge 512 Samples, die sich jeweils zur Hälfte überlappen sollen.
+Das Signal wird mit dem entsprechenden Signal der Gaußschen Fensterfunktion multipliziert und daraufhin eine lokale Fouriertransformation durchgeführt.
+Zu guter Letzt werden die Fouriertransformierten über alle Fenster gemittelt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\linewidth]{../data/img/AlleRichtig.png}
 	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
 	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
 \end{figure}
-Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=.8\linewidth]{../data/img/AlleRichtig.png}
-	\caption{Aufnahme mit Triggerfunktion des Wortes rechts}
-	\label{img:Aufnahme mit Triggerfunktion des Wortes rechts}
-\end{figure}
-Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfunktion.
+Das Windowing wird auf das Signal angewandt. Nachdem zum Beispiel bei dem Wort 'Hoch' über 170 Windows ausgegeben wurden als Plot, sieht der Explorer folgendermaßen aus.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.8\linewidth]{../data/img/window.png}
@@ -375,22 +393,178 @@ Im folgenden sieht man die Sprachaufnahme des Wortes 'Rechts' mit der Triggerfun
 \newpage
 \section{Interpretation}
 \label{chap:VERSUCH_1_INTERPRETATION}
-
+Bei der Betrachtung der Sprachaufnahme sehen wir die übliche Amplituden und Frequenzen bei der Aussprache des Wortes 'Test'.
+In der Vergrößerung sind nochmals besser die Amplitudenausschläge zu sehen.
+\newline 
+\newline
+In der Abbildung 2.3 sieht man die Sprachaufnahme des Wortes 'Rechts'.
+Die Aufnahme wurde mit einem Pythonskript gemacht, dass eine Triggerfunktion implementiert hat.
+Ab einem bestimmten Schwellenwert beginnt die Aufnahme. Hier ist es schön zu sehen, dass die Aufnahme nicht mit Start des Skriptes beginnt, sondern erst wenn gesprochen wird. 
+\newline 
+\newline
+Auf das Signal wurde daraufhin das Amplitudenspektrum berechnet. Durch dieses erfährt man die Frequenzen die in einem Wort stecken.
+Der größte Ausschlag bei der Frequenz mit eienr Amplitude von über 0.8 ist die maximalste Amplitude. Die Frequenz liegt bei knapp über 300Hz.
+Die x Achse wurde  auf die Hälfte gekürzt, da bei ein Amplitudenspektrum sich nach der Hälfte wiederholt.
+\newline
+\newline
+Wenn man diese mit dem Gaußschen Fenster multipliziert, erhält man die gemittelten fouriertransfomierten Fenster.
+Desto höher der absolute Ausschlag, desto höher ist die Amplitude im Window. Durch den senkrechten Ausschnitte sind steile Übergänge erzeugt
+worden, die im ursprünglichen Signal nicht vorhanden sind. 
+Steile Übergänge erzeugen jedoch viele hohe Frequenzen im Spektrum.
 %
 % CHAPTER Versuch 2
 %
 \chapter{Versuch 2}
 \label{chap:VERSUCH_2}
-
 \section{Fragestellung, Messprinzip, Aufbau, Messmittel}
 \label{chap:VERSUCH_2_FRAGESTELLUNG}
+Im zweiten Versuch müssen wir vier verschiedene Befehle jeweils fünf mal aufnehmen. 
+\newline
+Die Befehle die wir aufnehmen lauten:
+\item[NichtnummerierteAufzahlung]~\par
+   \begin{itemize}
+      \item Links
+      \item Rechts
+      \item Hoch
+      \item Tief
+   \end{itemize}
+Anhand der aufgenommenen Numpy Funktionen berechnen wir die Spektren mit der Windowing Methode.
+Daraufhin berechnen wir noch die eigentlichen Referenzspektren.
+\newline
+Im Anschluss berechnen wir noch den Korrelationskoeffizienten nach Bravais-Pearson mit dem wir zwei verschiedene Spektren miteinander vergleichen können.
+\newline
+Dafür brauchen wir vom selben und einem anderen Sprecher erneut Sprachaufnahmen.
+\newline
+Mit diesen testen wir die Routine an den Referenzspektren: 
+\newline
+Beim Vergleich identischer Spektren sollte die Korrelation 1 sein, bei verschiedenen Spektren nahe an 0.
+\newline
+Zudem sollen wir eine Fehler- und eine Detektionsrate angeben.
 
 \section{Messwerte}
 \label{chap:VERSUCH_2_MESSWERTE}
+Die sämtlichen aufgenommenen Sprachaufnahmen in Form von Numpy-Dateien werden wir mit der Windowing Methode in Spektren berechnen.
+Dabei wird erstmal das Spektrum mit der Gaußschen Fensterfunktion berechnet und multipliziert mit den einzelnen Windows.
+\newline
+Danach wird das Fenster absolut fouriertransformiert.
+Daraus wiederrum wird der Durchschnitt berechnet. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{media/folder.png}
+	\caption{Sämtliche Signale mit Windowing berechnet}
+	\label{img:Sämtliche Signale mit Windowing berechnet}
+\end{figure}
 
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/hoch/links1AlleRichtig.png}
+  		\caption{Erste Sprachaufnahme von 'links'}
+ 		 \label{fig:sub1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/hoch/links5AlleRichtig.png}
+  		\caption{Fünfte Sprachaufnahme von 'links'}
+  		\label{fig:sub2}
+	\end{subfigure}
+	\caption{Zwei verschiedene Sprachaufnahmen im Vergleich.}
+	\label{fig:test}
+\end{figure}
+\newpage
 \section{Auswertung}
 \label{chap:VERSUCH_2_AUSWERTUNG}
+Die Daten aus den Numpydateien werden in einzelne Windows zerlegt mit einer Länge von 512 Samples die sich jeweils überlappen.
+\newline
+Die einzelnen Samples werden mit der Gaußschen Fensterfunktion multipliziert, welche eine Fensterbreite von 4 Standardabweichungen hat.
+In jedem Fenster wird eine lokale Fouriertransformation durchgeführt.
+Daraufhin werden die Fouriertransformierten über alle Fenster gemittelt.
+\newline
+Nachdem man sämtliche 4 Befehle und die jeweils fünf Beispiel dazu gemittelt hat, erhält man das Referenzspektrum.
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/2Averagelinks.png}
+  		\caption{Person 1: Referenzspektrum 'Links'}
+ 		 \label{fig:sub1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/2Averagerechts.png}
+  		\caption{Person 1: Referenzspektrum 'Rechts'}
+  		\label{fig:sub2}
+	\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/2Averagehoch.png}
+  		\caption{Person 1: Referenzspektrum 'Hoch'}
+ 		 \label{fig:sub3}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/2Averagetief.png}
+  		\caption{Person 1: Referenzspektrum 'Tief'}
+  		\label{fig:sub4}
+	\end{subfigure}
+	\caption{Die vier Referenzspektren}
+	\label{fig:test}
+\end{figure}
+\newpage
+Hier werden zwei Eingabespektren beziehungsweise zwei Dateien mittels der Bravais-Pearson Methode verglichen auf ihre Korrelationskoeffizienten.
+Wenn die Spektren identisch sind, sollte der Wert 1.0 ergeben. Bei ungleichen Spektren sollte dieser nahe 0 sein.
+Person 1 ist die Person, welche die Spracheeingabe gemacht hat.
 
+\begin{table}[H]
+	\centering\small
+	\begin{tabular}{||c | c | c||}
+		 \hline
+		 Spracheingabe & Person 1 & Person 2 \\ [0.5ex] 
+		 \hline
+		 Hoch & 0.5817 & 0.5496 \\ 
+		 \hline
+		 Tief & 0.7088 & 0.6172 \\
+		 \hline
+		 Links & 0.6514 & 0.6084 \\
+		 \hline
+		 Rechts & 0.4219 & 0.1779 \\
+		 \hline
+	\end{tabular}
+	\caption{Vergleich der berechneten Referenzspektren}
+	\label{fig:Vergleich der berechneten Referenzspektren}
+\end{table}
+
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/2Averagerechts.png}
+  		\caption{Person 1: Referenzspektrum 'Rechts'}
+ 		 \label{fig:sub1}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/Averagerechts.png}
+  		\caption{Person 2: Referenzspektrum 'Rechts'}
+  		\label{fig:sub2}
+	\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/2Averagehoch.png}
+  		\caption{Person 1: Referenzspektrum 'Hoch'}
+ 		 \label{fig:sub3}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+  		\centering
+ 		 \includegraphics[width=.95\linewidth]{../data/img/Versuch2/Averagehoch.png}
+  		\caption{ Person 2: Referenzspektrum 'Hoch'}
+  		\label{fig:sub4}
+	\end{subfigure}
+	\caption{Die vier Referenzspektren mit den größten Unterschieden}
+	\label{fig:test}
+\end{figure}
+\newpage
 \section{Interpretation}
 \label{chap:VERSUCH_2_INTERPRETATION}
 
