@@ -1,3 +1,7 @@
+# -------------------------------------
+# Task 1.2
+# -------------------------------------
+
 import pyaudio
 import numpy as np
 import matplotlib.pyplot as plt

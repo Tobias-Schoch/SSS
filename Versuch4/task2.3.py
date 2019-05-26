@@ -1,3 +1,7 @@
+# -------------------------------------
+# Task 2.3
+# -------------------------------------
+
 from scipy import signal
 import matplotlib.pyplot as plt
 import numpy as np

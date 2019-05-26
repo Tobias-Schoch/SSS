@@ -1,5 +1,8 @@
-from scipy import signal
+# -------------------------------------
+# Task 1.4
+# -------------------------------------
 
+from scipy import signal
 import matplotlib.pyplot as plt
 import numpy as np
 
