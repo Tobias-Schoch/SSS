@@ -36,10 +36,8 @@ for a in range(0, 20):
             num[a][y, x] = np.mean(np.abs(np.fft.fft(data[z] * gaussianwindow)))
             z = z + 1
 
-    # For loop um die einzelnen Windows zu erstellen
-    for y in range(0, 171):
-        # For loop um die einzelnen Frames zu berechnen
-        for x in range(0, 512):
+    for y in range(0, 171): # For loop um die einzelnen Windows zu erstellen
+        for x in range(0, 512): # For loop um die einzelnen Frames zu berechnen
             # Signale * Gaußfenster, das wiederrum wird absolut fouriertransformiert.
             # Daraus der Durchschnitt ergibt den Windowingwert
             num[a][y, x] = num[a][y, x] * gaussianwindow[x]
@@ -50,10 +48,8 @@ for a in range(0, 20):
 for z in range(0, 4):
     # Vektoren zum Speichern der Plots
     capital[z] = np.zeros((171, 512))
-    # For loop für die einzelnen Windows
-    for y in range(0, 171):
-        # For loop für die einzelnen Samples
-        for x in range(0, 512):
+    for y in range(0, 171): # For loop für die einzelnen Windows
+        for x in range(0, 512): # For loop für die einzelnen Samples
             # Hoch Mittelung
             if (z == 0):
                 capital[z][y, x] = (num[0][y, x] + num[1][y, x] + num[2][y, x] + num[3][y, x]

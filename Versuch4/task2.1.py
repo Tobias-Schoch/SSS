@@ -33,13 +33,11 @@ plt.show()
 
 # For loop um alle Dateien zu analysieren
 for a in range(0, 20):
-    # Einlesen der Numpy Dateien von Person 1
+    # Einlesen der Numpy Dateien von Person 1 & 2
     data = np.load('data/' + str(num[a]) + '.npy')
-    # Einlesen der Numpy Dateien von Person 2
     data2 = np.load('data/' + str(num2[a]) + '.npy')
-    # Definieren eines leeren Vectors für Person 1
+    # Definieren eines leeren Vectors für Person 1 & 2
     num[a] = np.zeros((171, 512))
-    # Definieren eines leeren Vectors für Person 2
     num2[a] = np.zeros((171, 512))
     z = 256
 
@@ -74,8 +72,7 @@ for a in range(0, 20):
         num[a][y] = np.mean(num[a][y])
         num2[a][y] = np.mean(num2[a][y])
 
-    # Plot zur Darstellung der Mittelung der Windows
-    plt.plot(num[a], 'r')
+    plt.plot(num[a], 'r') # Plot zur Darstellung der Mittelung der Windows
     plt.title(str(nummm[a]))
     plt.grid(True)
     plt.xlabel('Signalnr.')
@@ -116,9 +113,7 @@ for z in range(0, 4):
                                     + num[19][y, x]) / 4
                 capital2[z][y, x] = (num2[15][y, x] + num2[16][y, x] + num2[17][y, x] + num2[18][y, x]
                                      + num2[19][y, x]) / 4
-
-    # Geplotete Endwerte
-    plt.plot(capital[z], 'r')
+    plt.plot(capital[z], 'r') # Geplotete Endwerte
     plt.grid(True)
     plt.xlabel('Signalnr.')
     plt.ylabel('Frequenz')

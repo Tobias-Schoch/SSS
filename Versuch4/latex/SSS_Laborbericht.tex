@@ -155,7 +155,14 @@
 %\newcommand{\strAuthorCEmail}{cauthor@htwg-konstanz.de}
 % Versuchsbeschreibung 
 \newcommand{\strTopic}{Aufbau eines einfachen Spracherkenners}
-\newcommand{\strAbstract}{Zusammenfassung etwa 100 Worte.}
+\newcommand{\strAbstract}{In dem vierten Versuch der Versuchsreihe mit dem Titel  \textit{Aufbau eines einfachen Spracherkenners}, geht es um einen Spracherkenner und dessen Auswertung.
+\newline
+So werden wir einen einfachen Spracherkenner aufbauen, der beispielsweise zur Steuerung eines Staplers in einem Hochregallager dienen könnte.
+\newline
+\newline
+Es reichen hierzu die Erkennung von vier einfachen Befehlen (Hoch, Tief, Links, Rechts). Der Aufbau  des Spracherkenners folgt dem in der Vorlesung beschriebenen Prinzip des Prototyp Klassifikators. 
+\newline
+Wir werden die Methoden des Windowing, der Triggerung, des Amplitudenspektrums und der Korrelationskoeffizienten.}
 % hyperref customization
 \hypersetup{
 	pdftitle     = {\strTopic}, % title
@@ -228,9 +235,28 @@
 \chapter{Einleitung}
 \label{chap:EINL}
 
-\cite{Franz2016n}
-\cite{Franz2016e}
+In dem vierten Versuch der Versuchsreihe mit dem Titel  \textit{Aufbau eines einfachen Spracherkenners}, geht es um einen Spracherkenner und dessen Auswertung.
+\newline
+So werden wir einen einfachen Spracherkenner aufbauen, der beispielsweise zur Steuerung eines Staplers in einem Hochregallager dienen könnte.
+\newline
+Es reichen hierzu die Erkennung von vier einfachen Befehlen (Hoch, Tief, Links, Rechts). Der Aufbau  des Spracherkenners folgt dem in der Vorlesung beschriebenen Prinzip des Prototyp Klassifikators. 
+\newline
+\newline
+Die zugehörigen Spektren werden mit der Windowing Methode berechnet. Zur Aufnahme der Befehle werden wir ein Mikrofon verwenden, dass mit der Soundkarte des Computers verbunden ist, über das Pythonpaket PyAudio.
+\newline
+Dieses ermöglicht eine bequeme Möglichkeit zum Auslesen der Soundkarte.
+Zudem werden wir eine Triggerfunktion dem Ausleseprogramm hinzufügen, dass die Signale alle an der selben Stelle anfangen.
+\newline
+Daraufhin werden wir das Signal in ein Amplitudenspektrum anwenden und die Methode des Windowing anwenden.
+Außerdem werden wir die Korrelationskoeffizienten anwenden.
 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{media/archi.png}
+	\caption{Architektur des Spracherkenners}
+	\label{img:Architektur des Spracherkenners}
+\end{figure}
 %
 % CHAPTER Versuch 1
 %
@@ -509,10 +535,11 @@ Nachdem man sämtliche 4 Befehle und die jeweils fünf Beispiel dazu gemittelt h
   		\label{fig:sub4}
 	\end{subfigure}
 	\caption{Die vier Referenzspektren}
-	\label{fig:test}
+	\label{fig:2test}
 \end{figure}
 \newpage
 Hier werden zwei Eingabespektren beziehungsweise zwei Dateien mittels der Bravais-Pearson Methode verglichen auf ihre Korrelationskoeffizienten.
+\newline
 Wenn die Spektren identisch sind, sollte der Wert 1.0 ergeben. Bei ungleichen Spektren sollte dieser nahe 0 sein.
 Person 1 ist die Person, welche die Spracheeingabe gemacht hat.
 
@@ -522,18 +549,59 @@ Person 1 ist die Person, welche die Spracheeingabe gemacht hat.
 		 \hline
 		 Spracheingabe & Person 1 & Person 2 \\ [0.5ex] 
 		 \hline
-		 Hoch & 0.5817 & 0.5496 \\ 
+		 \textbf{Hoch} & \textbf{0.5817} & \textbf{0.5496} \\ 
 		 \hline
-		 Tief & 0.7088 & 0.6172 \\
+		 1 - Hoch & 0.6856 & 0.6283 \\ 
 		 \hline
-		 Links & 0.6514 & 0.6084 \\
+		 2 - Hoch & 0.5001 & 0.6000 \\ 
 		 \hline
-		 Rechts & 0.4219 & 0.1779 \\
+		 3 - Hoch & 0.5829 & 0.5600 \\ 
+		 \hline
+		 4 - Hoch & 0.5754 & 0.4902 \\ 
+		 \hline
+		 5 - Hoch & 0.5644 & 0.4691 \\ 
+		 \hline
+		 \textbf{Tief} & \textbf{0.7088} & \textbf{0.6172} \\
+		 \hline
+		 1 - Tief & 0.6682 & 0.5976 \\ 
+		 \hline
+		 2 - Tief & 0.7210 & 0.6520 \\ 
+		 \hline
+		 3 - Tief & 0.6947 &0.4947 \\ 
+		 \hline
+		 4 - Tief & 0.7069 &0.6098 \\ 
+		 \hline
+		 5 - Tief & 0.7531 & 0.7318 \\ 
+		\hline
+		\textbf{Links} & \textbf{0.6514} & \textbf{0.6084} \\
+		\hline
+		 1 - Links & 0.6708 & 0.5711 \\ 
+		 \hline
+		 2 - Links & 0.6451 & 0.5953 \\ 
+		 \hline
+		 3 - Links & 0.6273 & 0.5785 \\ 
+		 \hline
+		 4 - Links & 0.6472 & 0.6512 \\ 
+		 \hline
+		 5 - Links & 0.6666 &  0.6460 \\ 
+		 \hline
+		 \textbf{Rechts} & \textbf{0.4219} & \textbf{0.1779} \\
+		 \hline
+		 1 - Rechts & 0.5001 & 0.1401 \\ 
+		 \hline
+		 2 - Rechts & 0.5402 & 0.2892 \\ 
+		 \hline
+		 3 - Rechts & 0.5032 & 0.2790 \\ 
+		 \hline
+		 4 - Rechts & 0.3895 & 0.2849 \\ 
+		 \hline
+		 5 - Rechts & 0.1764 & 0.1764 \\ 
 		 \hline
 	\end{tabular}
 	\caption{Vergleich der berechneten Referenzspektren}
 	\label{fig:Vergleich der berechneten Referenzspektren}
 \end{table}
+\newpage
 
 \begin{figure}[H]
 \centering
@@ -562,11 +630,41 @@ Person 1 ist die Person, welche die Spracheeingabe gemacht hat.
   		\label{fig:sub4}
 	\end{subfigure}
 	\caption{Die vier Referenzspektren mit den größten Unterschieden}
-	\label{fig:test}
+	\label{fig:test2}
 \end{figure}
 \newpage
 \section{Interpretation}
 \label{chap:VERSUCH_2_INTERPRETATION}
+In Abbildung [\ref{fig:test}] sieht man, wie sich Sprachaufnahmen von der selben Person mit dem selben Wort unterscheiden können.
+Im hinteren Teil von der linken Abbildung sieht man zum Schluß eine Steigung der Spannung. 
+\newline
+Diese ist entstanden durch ungefähr 8 bis 9 andere Gruppen im Raum, durch welche die Hintergrundgeräusche sehr laut waren.
+Die anderen Geräusche unterscheiden sich nur geringfügig.
+\newline
+\newline
+Nachdem wir die Signale ausgewertet haben, haben wir mit der Windowing Methode und der Bravais-Pearson den Korrelationskoeffizienten berechnet.
+In der Abbildung [\ref{fig:2test}] sieht man die durchschnittlichen Spektren für eines der Worte (Hoch, Tief, Links, Rechts).
+\newline
+Dabei ähneln sich die Spektren der Wiederholungen der Worte sehr. Das Wort rechts hat ein sehr ausgeprägtes Spektrum. 
+\newline
+Am Anfang geht das Signal sehr steil nach oben durch das Vokal 'e'.
+Bei den Konsonanten 'ch' gibt es eine sehr große Verringerung. Zum Schluss bei 's' geht das Signal wieder nach oben.
+So kann man gut die einzelnen Buchstaben des Wortes identifizieren.
+\newline
+\newline
+Bei der Bravais-Pearson Methode mit den Referenzspektren und der erneuten Aufnahme der Worte erhält man eine Lange Tabelle mit einigen Werten.
+Am deutlichsten ist der Unterschied bei der Aufnahme mit dem Wort 'Rechts'.
+\newline
+Auch ist es gut sichtbar bei einzelnen Aufnahmen mit dem Wort 'Tief'.
+Der größte Unterschied liegt bei 0.35, was ziemlich viel ist, wenn man die Skala von 1.0 - 0.0 betrachtet.
+\newline
+Die Bravais-Pearson Korrelationskoeffizientenberechnung hat sich gelohnt und als richtig erwiesen, da die Werte immer bei den Sprachaufnahmen der selben Person höher waren, als bei der fremden Person.
+\newline
+\newline
+Hier [\ref{fig:test2}] kann nochmal gut einzelne Spektren begutachten, die das selbe Wort von unterschiedlichen Menschen darstellen.
+Man kann gut betrachten, dass der zweite Sprecher definitiv energischer und lauter gesprochen hat.
+\newline
+Die Amplituden liegen im zwei- bis sogar dreifachen Bereich und haben ein sehr viel unruhigeres Spektrum.
 
 %
 % CHAPTER Anhang
@@ -599,7 +697,6 @@ Person 1 ist die Person, welche die Spracheeingabe gemacht hat.
 \lstinputlisting[style=PYTHON, frame=single, caption=Windowing und Mittelung der Spektren, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA5]{../task2.1.py}
 \newpage
 \lstinputlisting[style=PYTHON, frame=single, caption=Windowing und Bravais-Pearson Methode, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA6]{../task2.2.py}
-\newpage
 \lstinputlisting[style=PYTHON, frame=single, caption=Bravais-Pearson Methode mit Ausgabe der Korrelation, captionpos=b, label=lst:APPENDIX_SOURCECODE_AREA7]{../task2.3.py}
 
 %
