@@ -71,11 +71,13 @@ for z in range(0, 4):
     for y in range(0, 171):
         for x in range(0, 512):
             if (z == 0):
-                capital[z][y, x] = (num[0][y, x] + num[1][y, x] + num[2][y, x] + num[3][y, x] + num[4][y, x]) / 4
+                capital[z][y, x] = (num[0][y, x] + num[1][y, x] + num[2][y, x] + num[3][y, x]
+                                    + num[4][y, x]) / 4
                 capital2[z][y, x] = (num2[0][y, x] + num2[1][y, x] + num2[2][y, x]
                                      + num2[3][y, x] + num2[4][y, x]) / 4
             elif (z == 1):
-                capital[z][y, x] = (num[5][y, x] + num[6][y, x] + num[7][y, x] + num[8][y, x] + num[9][y, x]) / 4
+                capital[z][y, x] = (num[5][y, x] + num[6][y, x] + num[7][y, x] + num[8][y, x]
+                                    + num[9][y, x]) / 4
                 capital2[z][y, x] = (num2[5][y, x] + num2[6][y, x] + num2[7][y, x] + num2[8][y, x]
                                      + num2[9][y, x]) / 4
             elif (z == 2):

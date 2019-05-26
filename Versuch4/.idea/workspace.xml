@@ -3,22 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4fd2d1f0-e395-4ba7-b76e-20b7b6e183db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/img/Averagehoch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/img/Averagelinks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/img/Averagerechts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/img/Averagetief.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.aux" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.lof" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.lof" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.log" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.lol" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.lol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.lot" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.lot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.out" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/SSS_Laborbericht.toc" beforeDir="false" afterPath="$PROJECT_DIR$/latex/SSS_Laborbericht.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/appendix/bibliography.aux" beforeDir="false" afterPath="$PROJECT_DIR$/latex/appendix/bibliography.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1.4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task2.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2.3.py" afterDir="false" />
@@ -60,17 +47,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2.1.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="459">
-                <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+              <first_editor relative-caret-position="1343">
+                <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor relative-caret-position="-51" />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,13 +81,13 @@
         <entry file="file://$PROJECT_DIR$/task2.2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="136">
-                <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+              <first_editor relative-caret-position="248">
+                <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor />
+              <second_editor relative-caret-position="-119" />
             </state>
           </provider>
         </entry>
@@ -120,17 +107,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task2.3.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="100" selection-start-line="9" selection-end-line="10" selection-end-column="100" />
+              <first_editor relative-caret-position="-1309">
+                <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
                 <folding>
                   <element signature="e#0#24#0" expanded="true" />
                 </folding>
               </first_editor>
-              <second_editor />
+              <second_editor relative-caret-position="-119" />
             </state>
           </provider>
         </entry>
@@ -157,15 +144,15 @@
         <option value="$PROJECT_DIR$/task1.2.py" />
         <option value="$PROJECT_DIR$/task1.4.py" />
         <option value="$PROJECT_DIR$/task1.3.py" />
-        <option value="$PROJECT_DIR$/task2.3.py" />
-        <option value="$PROJECT_DIR$/task2.2.py" />
         <option value="$PROJECT_DIR$/task2.1.py" />
+        <option value="$PROJECT_DIR$/task2.2.py" />
+        <option value="$PROJECT_DIR$/task2.3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="609" />
-    <option name="y" value="-9" />
+    <option name="x" value="-142" />
+    <option name="y" value="-22" />
     <option name="width" value="1323" />
     <option name="height" value="721" />
   </component>
@@ -354,7 +341,7 @@
       <workItem from="1557351189082" duration="2080000" />
       <workItem from="1557387587047" duration="5983000" />
       <workItem from="1558778178973" duration="6954000" />
-      <workItem from="1558822510867" duration="7264000" />
+      <workItem from="1558822510867" duration="7685000" />
     </task>
     <task id="LOCAL-00001" summary="Added files for the third task">
       <created>1557173846294</created>
@@ -433,11 +420,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558793732908</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Nearly finished with the LaTeX Documentation.">
+      <created>1558838825933</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558838825933</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Changed Pythonfiles for a nicer Documentation.">
+      <created>1558839111255</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558839111255</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44761000" />
+    <option name="totallyTimeSpent" value="45182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -477,7 +478,9 @@
     <MESSAGE value="Starting with the first LaTeX text." />
     <MESSAGE value="Added Python files to the LaTeX Documentation" />
     <MESSAGE value="Added plots and text for 2.1, 2.2 and 2.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added plots and text for 2.1, 2.2 and 2.3" />
+    <MESSAGE value="Nearly finished with the LaTeX Documentation." />
+    <MESSAGE value="Changed Pythonfiles for a nicer Documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Pythonfiles for a nicer Documentation." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Versuch4$task1_3.coverage" NAME="task1.3 Coverage Results" MODIFIED="1558826501309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -582,19 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2.3.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="100" selection-start-line="9" selection-end-line="10" selection-end-column="100" />
-            <folding>
-              <element signature="e#0#24#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1.4.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
@@ -608,11 +598,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2.2.py">
+    <entry file="file://$PROJECT_DIR$/task2.1.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="136">
-            <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+          <first_editor relative-caret-position="1343">
+            <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
             <folding>
               <element signature="e#0#24#0" expanded="true" />
             </folding>
@@ -621,16 +611,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2.1.py">
+    <entry file="file://$PROJECT_DIR$/task2.2.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="459">
-            <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <first_editor relative-caret-position="248">
+            <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
             <folding>
               <element signature="e#0#24#0" expanded="true" />
             </folding>
           </first_editor>
-          <second_editor relative-caret-position="-51" />
+          <second_editor relative-caret-position="-119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2.3.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="-1309">
+            <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+            <folding>
+              <element signature="e#0#24#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119" />
         </state>
       </provider>
     </entry>
