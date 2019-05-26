@@ -6,7 +6,7 @@ from scipy import signal
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Einlesen der .csv Datei
+# Einlesen der .npy Datei
 data = np.load('data/test.npy')
 window = np.zeros((879, 512))
 z = 256

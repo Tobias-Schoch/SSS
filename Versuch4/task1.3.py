@@ -5,7 +5,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Einlesen der .csv Datei
+# Einlesen der .npy Datei
 data = np.load('data/test.npy')
 freq = np.zeros(225280)
 
