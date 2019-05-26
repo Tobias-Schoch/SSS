@@ -10,9 +10,9 @@ num = ["hoch1", "hoch2", "hoch3", "hoch4", "hoch5", "tief1", "tief2", "tief3", "
 anderer = ["ahoch1", "ahoch2", "ahoch3", "ahoch4", "ahoch5", "atief1", "atief2", "atief3", "atief4", "atief5",
            "alinks1", "alinks2", "alinks3", "alinks4", "alinks5", "arechts1", "arechts2", "arechts3", "arechts4",
            "arechts5"]
-moi = ["mhoch1", "mhoch2", "mhoch3", "mhoch4", "mhoch5", "mtief1", "mtief2", "mtief3", "mtief4", "mtief5",
-       "mlinks1", "mlinks2", "mlinks3", "mlinks4", "mlinks5", "mrechts1", "mrechts2", "mrechts3", "mrechts4",
-       "arechts5"]
+moi = ["mhoch1", "mhoch2", "mhoch3", "mhoch4", "mhoch5", "mtief1", "mtief2", "mtief3", "mtief4",
+       "mtief5", "mlinks1", "mlinks2", "mlinks3", "mlinks4", "mlinks5", "mrechts1", "mrechts2", "mrechts3",
+       "mrechts4", "arechts5"]
 capital = ["hoch", "tief", "links", "rechts"]
 capital2 = ["hoch", "tief", "links", "rechts"]
 
