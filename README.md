@@ -39,7 +39,7 @@ Aufgabe4 :
 <br>
 ✔️ Programmieren
 <br>
-❌ Bericht  
+✔️ Bericht  
 ❌ Bewertung
 <br><br>
 Aufgabe5 : 
