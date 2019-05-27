@@ -19,17 +19,18 @@ nummm = ["hoch1", "hoch2", "hoch3", "hoch4", "hoch5", "tief1", "tief2", "tief3",
          "links2", "links3", "links4", "links5", "rechts1", "rechts2", "rechts3", "rechts4", "rechts5"]
 capital = ["hoch", "tief", "links", "rechts"]
 capital2 = ["hoch", "tief", "links", "rechts"]
+capital3 = ["hoch", "tief", "links", "rechts"]
 
 # Gaußfenster definieren mit Fensterbreite Standardabweichung 4
 gaussianwindow = signal.windows.gaussian(512, std=4)
 
 # Darstellung des Gaußfensters
-plt.plot(gaussianwindow)
-plt.grid(True)
-plt.xlabel('Signalnr.')
-plt.ylabel('Frequenz')
-plt.savefig('data/img/gauss.png')
-plt.show()
+# plt.plot(gaussianwindow)
+# plt.grid(True)
+# plt.xlabel('Samples')
+# plt.ylabel('Amplitude')
+# plt.savefig('data/img/gauss.png')
+# plt.show()
 
 # For loop um alle Dateien zu analysieren
 for a in range(0, 20):
@@ -72,13 +73,13 @@ for a in range(0, 20):
         num[a][y] = np.mean(num[a][y])
         num2[a][y] = np.mean(num2[a][y])
 
-    plt.plot(num[a], 'r') # Plot zur Darstellung der Mittelung der Windows
-    plt.title(str(nummm[a]))
-    plt.grid(True)
-    plt.xlabel('Signalnr.')
-    plt.ylabel('Frequenz')
-    plt.savefig('data/img/' + numm[a] + 'AlleRichtig.png')
-    plt.show()
+    # plt.plot(num[a], 'r')  # Plot zur Darstellung der Mittelung der Windows
+    # plt.title(str(nummm[a]))
+    # plt.grid(True)
+    # plt.xlabel('Window')
+    # plt.ylabel('Amplitude')
+    # plt.savefig('data/img/' + numm[a] + 'AlleRichtig.png')
+    # plt.show()
 
 # For loop zur Ausgabe der endgültig berechneten Plots
 for z in range(0, 4):
@@ -92,30 +93,30 @@ for z in range(0, 4):
             # Hoch Mittelung
             if (z == 0):
                 capital[z][y, x] = (num[0][y, x] + num[1][y, x] + num[2][y, x] + num[3][y, x]
-                                    + num[4][y, x]) / 4
+                                    + num[4][y, x]) / 5
                 capital2[z][y, x] = (num2[0][y, x] + num2[1][y, x] + num2[2][y, x]
-                                     + num2[3][y, x] + num2[4][y, x]) / 4
+                                     + num2[3][y, x] + num2[4][y, x]) / 5
             # Tief Mittelung
             elif (z == 1):
                 capital[z][y, x] = (num[5][y, x] + num[6][y, x] + num[7][y, x] + num[8][y, x]
-                                    + num[9][y, x]) / 4
+                                    + num[9][y, x]) / 5
                 capital2[z][y, x] = (num2[5][y, x] + num2[6][y, x] + num2[7][y, x] + num2[8][y, x]
-                                     + num2[9][y, x]) / 4
+                                     + num2[9][y, x]) / 5
             # Links Mittelung
             elif (z == 2):
                 capital[z][y, x] = (num[10][y, x] + num[11][y, x] + num[12][y, x] + num[13][y, x]
-                                    + num[14][y, x]) / 4
+                                    + num[14][y, x]) / 5
                 capital2[z][y, x] = (num2[10][y, x] + num2[11][y, x] + num2[12][y, x] + num2[13][y, x]
-                                     + num2[14][y, x]) / 4
+                                     + num2[14][y, x]) / 5
             # Rechts Mittelung
             elif (z == 3):
                 capital[z][y, x] = (num[15][y, x] + num[16][y, x] + num[17][y, x] + num[18][y, x]
-                                    + num[19][y, x]) / 4
+                                    + num[19][y, x]) / 5
                 capital2[z][y, x] = (num2[15][y, x] + num2[16][y, x] + num2[17][y, x] + num2[18][y, x]
-                                     + num2[19][y, x]) / 4
-    plt.plot(capital[z], 'r') # Geplotete Endwerte
+                                     + num2[19][y, x]) / 5
+    plt.plot(capital[z], 'r')  # Geplotete Endwerte
     plt.grid(True)
-    plt.xlabel('Signalnr.')
-    plt.ylabel('Frequenz')
-    plt.savefig('data/img/' + capital2[z] + 'Average.png')
+    plt.xlabel('Window')
+    plt.ylabel('Amplitude')
+    plt.savefig('data/img/Average' + capital3[z] + '.png')
     plt.show()

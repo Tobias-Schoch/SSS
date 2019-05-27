@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  26 MAY 2019 06:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  27 MAY 2019 14:46
 entering extended mode
 **./SSS_Laborbericht.tex
 (SSS_Laborbericht.tex
@@ -1705,8 +1705,8 @@ File: tikzlibraryplotmarks.code.tex 2019/04/04 v3.1.2 (3.1.2)
 aries\pgflibraryplotmarks.code.tex"
 File: pgflibraryplotmarks.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )))
-Package hyperref Info: Option `colorlinks' set `false' on input line 185.
-Package hyperref Info: Option `unicode' set `true' on input line 185.
+Package hyperref Info: Option `colorlinks' set `false' on input line 187.
+Package hyperref Info: Option `unicode' set `true' on input line 187.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\p
 uenc.def"
@@ -1714,17 +1714,13 @@ File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 185.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 185.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 185.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 185.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 187.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 187.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 187.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 187.
  (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
-
-LaTeX Warning: Label `img:Aufnahme mit Triggerfunktion des Wortes rechts' multi
-ply defined.
-
 
 LaTeX Warning: Label `fig:sub1' multiply defined.
 
@@ -1802,41 +1798,41 @@ LaTeX Warning: Label `sub@fig:sub4' multiply defined.
 (appendix/bibliography.aux))
 \openout1 = `SSS_Laborbericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 193.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 193.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 195.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 195.
 
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cbfonts-fd
 \lgrcmr.fd"
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 193.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 193.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 195.
 
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cm
 r.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 193.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 195.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1p
 tm.fd"
@@ -1877,7 +1873,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 193.
+Package hyperref Info: Link coloring OFF on input line 195.
 
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\n
 ameref.sty"
@@ -1889,9 +1885,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 193.
-LaTeX Info: Redefining \pageref on input line 193.
-LaTeX Info: Redefining \nameref on input line 193.
+LaTeX Info: Redefining \ref on input line 195.
+LaTeX Info: Redefining \pageref on input line 195.
+LaTeX Info: Redefining \nameref on input line 195.
  (SSS_Laborbericht.out) (SSS_Laborbericht.out)
 \@outlinefile=\write4
 \openout4 = `SSS_Laborbericht.out'.
@@ -1927,7 +1923,7 @@ i\supp-pdf.mkii"
 \c@lstlisting=\count177
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 193.
+(lastpage)             ! on input line 195.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1936,7 +1932,7 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 193.
+ on input line 195.
 
 \openout2 = `preface/cover.aux'.
 
@@ -2024,7 +2020,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.199 \include{preface/abstract}
+l.201 \include{preface/abstract}
                                  [1
 
 
@@ -2084,14 +2080,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ])
  1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--252
+Underfull \hbox (badness 10000) in paragraph at lines 240--255
 
  []
 
-<media/archi.png, id=197, 952.30782pt x 560.8453pt>
+<media/archi.png, id=199, 952.30782pt x 560.8453pt>
 File: media/archi.png Graphic file (type png)
 <use media/archi.png>
-Package pdftex.def Info: media/archi.png  used on input line 256.
+Package pdftex.def Info: media/archi.png  used on input line 259.
 (pdftex.def)             Requested size: 396.91325pt x 233.75629pt.
 [1
 
@@ -2100,19 +2096,19 @@ Package pdftex.def Info: media/archi.png  used on input line 256.
 ] [2 <./media/archi.png>]
  2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--296
+Underfull \hbox (badness 10000) in paragraph at lines 272--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--296
+Underfull \hbox (badness 10000) in paragraph at lines 272--296
 
  []
 
 [3
 
 ]
-<media/aufbau.jpg, id=210, 813.0375pt x 1084.05pt>
+<media/aufbau.jpg, id=212, 813.0375pt x 1084.05pt>
 File: media/aufbau.jpg Graphic file (type jpg)
 <use media/aufbau.jpg>
 Package pdftex.def Info: media/aufbau.jpg  used on input line 316.
@@ -2150,12 +2146,12 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 324.
 ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [5]
-<../data/img/testamp.png, id=219, 462.528pt x 346.896pt>
+<../data/img/testamp.png, id=221, 462.528pt x 346.896pt>
 File: ../data/img/testamp.png Graphic file (type png)
 <use ../data/img/testamp.png>
 Package pdftex.def Info: ../data/img/testamp.png  used on input line 340.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/testamp2.png, id=220, 462.528pt x 346.896pt>
+<../data/img/testamp2.png, id=222, 462.528pt x 346.896pt>
 File: ../data/img/testamp2.png Graphic file (type png)
 <use ../data/img/testamp2.png>
 Package pdftex.def Info: ../data/img/testamp2.png  used on input line 346.
@@ -2163,68 +2159,71 @@ Package pdftex.def Info: ../data/img/testamp2.png  used on input line 346.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 350.
  [6 <../data/img/testamp.png> <../data/img/testamp2.png>]
-<../data/img/rechtsamp.png, id=228, 462.528pt x 346.896pt>
+<../data/img/rechtsamp.png, id=230, 462.528pt x 346.896pt>
 File: ../data/img/rechtsamp.png Graphic file (type png)
 <use ../data/img/rechtsamp.png>
 Package pdftex.def Info: ../data/img/rechtsamp.png  used on input line 365.
 (pdftex.def)             Requested size: 330.76329pt x 248.08168pt.
  [7 <../data/img/rechtsamp.png>]
-<../data/img/testspektrum1.png, id=234, 462.528pt x 346.896pt>
+Underfull \hbox (badness 10000) in paragraph at lines 373--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--381
+
+ []
+
+<../data/img/testspektrum1.png, id=236, 462.528pt x 346.896pt>
 File: ../data/img/testspektrum1.png Graphic file (type png)
 <use ../data/img/testspektrum1.png>
-Package pdftex.def Info: ../data/img/testspektrum1.png  used on input line 381.
+Package pdftex.def Info: ../data/img/testspektrum1.png  used on input line 386.
 
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/testspektrum3.png, id=235, 462.528pt x 346.896pt>
+<../data/img/testspektrum3.png, id=237, 462.528pt x 346.896pt>
 File: ../data/img/testspektrum3.png Graphic file (type png)
 <use ../data/img/testspektrum3.png>
-Package pdftex.def Info: ../data/img/testspektrum3.png  used on input line 387.
+Package pdftex.def Info: ../data/img/testspektrum3.png  used on input line 392.
 
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.394 \newline
-              
-? 
-<../data/img/gauss.png, id=236, 462.528pt x 346.896pt>
+[8 <../data/img/testspektrum1.png> <../data/img/testspektrum3.png>]
+<../data/img/gauss.png, id=246, 462.528pt x 346.896pt>
 File: ../data/img/gauss.png Graphic file (type png)
 <use ../data/img/gauss.png>
-Package pdftex.def Info: ../data/img/gauss.png  used on input line 398.
-(pdftex.def)             Requested size: 308.71106pt x 231.54573pt.
-[8 <../data/img/testspektrum1.png> <../data/img/testspektrum3.png> <../data/img
-/gauss.png>]
-<../data/img/AlleRichtig.png, id=244, 462.528pt x 346.896pt>
+Package pdftex.def Info: ../data/img/gauss.png  used on input line 403.
+(pdftex.def)             Requested size: 264.61333pt x 198.46852pt.
+<../data/img/AlleRichtig.png, id=247, 462.528pt x 346.896pt>
 File: ../data/img/AlleRichtig.png Graphic file (type png)
 <use ../data/img/AlleRichtig.png>
-Package pdftex.def Info: ../data/img/AlleRichtig.png  used on input line 408.
+Package pdftex.def Info: ../data/img/AlleRichtig.png  used on input line 413.
 (pdftex.def)             Requested size: 264.61333pt x 198.46852pt.
-<../data/img/window.png, id=245, 1447.65843pt x 812.28468pt>
+ [9 <../data/img/gauss.png> <../data/img/AlleRichtig.png>]
+<../data/img/window.png, id=254, 1447.65843pt x 812.28468pt>
 File: ../data/img/window.png Graphic file (type png)
 <use ../data/img/window.png>
-Package pdftex.def Info: ../data/img/window.png  used on input line 415.
+Package pdftex.def Info: ../data/img/window.png  used on input line 421.
 (pdftex.def)             Requested size: 352.81552pt x 197.96416pt.
- [9 <../data/img/AlleRichtig.png> <../data/img/window.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 422--443
+ [10 <../data/img/window.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 428--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--443
+Underfull \hbox (badness 10000) in paragraph at lines 428--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--443
+Underfull \hbox (badness 10000) in paragraph at lines 428--456
 
  []
 
-[10]
+[11]
  3.
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
@@ -2233,119 +2232,115 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.450 \item[NichtnummerierteAufzahlung]
+l.463 \item[NichtnummerierteAufzahlung]
                                        ~\par
 ? 
 
-Underfull \hbox (badness 10000) detected at line 450
+Underfull \hbox (badness 10000) detected at line 463
 [][]
  []
 
-<media/folder.png, id=255, 612.03656pt x 450.9347pt>
+<media/folder.png, id=264, 612.03656pt x 450.9347pt>
 File: media/folder.png Graphic file (type png)
 <use media/folder.png>
-Package pdftex.def Info: media/folder.png  used on input line 479.
+Package pdftex.def Info: media/folder.png  used on input line 492.
 (pdftex.def)             Requested size: 308.71106pt x 227.44843pt.
-[11
+[12
 
 ]
-<../data/img/Versuch2/hoch/links1AlleRichtig.png, id=260, 462.528pt x 346.896pt
+<../data/img/Versuch2/hoch/links1AlleRichtig.png, id=270, 462.528pt x 346.896pt
 >
 File: ../data/img/Versuch2/hoch/links1AlleRichtig.png Graphic file (type png)
 <use ../data/img/Versuch2/hoch/links1AlleRichtig.png>
 Package pdftex.def Info: ../data/img/Versuch2/hoch/links1AlleRichtig.png  used 
-on input line 488.
+on input line 501.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/Versuch2/hoch/links5AlleRichtig.png, id=261, 462.528pt x 346.896pt
+<../data/img/Versuch2/hoch/links5AlleRichtig.png, id=271, 462.528pt x 346.896pt
 >
 File: ../data/img/Versuch2/hoch/links5AlleRichtig.png Graphic file (type png)
 <use ../data/img/Versuch2/hoch/links5AlleRichtig.png>
 Package pdftex.def Info: ../data/img/Versuch2/hoch/links5AlleRichtig.png  used 
-on input line 494.
+on input line 507.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
- [12 <./media/folder.png> <../data/img/Versuch2/hoch/links1AlleRichtig.png> <..
+ [13 <./media/folder.png> <../data/img/Versuch2/hoch/links1AlleRichtig.png> <..
 /data/img/Versuch2/hoch/links5AlleRichtig.png>]
-<../data/img/Versuch2/2Averagelinks.png, id=269, 462.528pt x 346.896pt>
+<../data/img/Versuch2/2Averagelinks.png, id=278, 462.528pt x 346.896pt>
 File: ../data/img/Versuch2/2Averagelinks.png Graphic file (type png)
 <use ../data/img/Versuch2/2Averagelinks.png>
 Package pdftex.def Info: ../data/img/Versuch2/2Averagelinks.png  used on input 
-line 515.
+line 528.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/Versuch2/2Averagerechts.png, id=270, 462.528pt x 346.896pt>
+<../data/img/Versuch2/2Averagerechts.png, id=279, 462.528pt x 346.896pt>
 File: ../data/img/Versuch2/2Averagerechts.png Graphic file (type png)
 <use ../data/img/Versuch2/2Averagerechts.png>
 Package pdftex.def Info: ../data/img/Versuch2/2Averagerechts.png  used on input
- line 521.
+ line 534.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/Versuch2/2Averagehoch.png, id=271, 462.528pt x 346.896pt>
+<../data/img/Versuch2/2Averagehoch.png, id=280, 462.528pt x 346.896pt>
 File: ../data/img/Versuch2/2Averagehoch.png Graphic file (type png)
 <use ../data/img/Versuch2/2Averagehoch.png>
 Package pdftex.def Info: ../data/img/Versuch2/2Averagehoch.png  used on input l
-ine 527.
+ine 540.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/Versuch2/2Averagetief.png, id=272, 462.528pt x 346.896pt>
+<../data/img/Versuch2/2Averagetief.png, id=281, 462.528pt x 346.896pt>
 File: ../data/img/Versuch2/2Averagetief.png Graphic file (type png)
 <use ../data/img/Versuch2/2Averagetief.png>
 Package pdftex.def Info: ../data/img/Versuch2/2Averagetief.png  used on input l
-ine 533.
+ine 546.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
- [13 <../data/img/Versuch2/2Averagelinks.png> <../data/img/Versuch2/2Averagerec
+ [14 <../data/img/Versuch2/2Averagelinks.png> <../data/img/Versuch2/2Averagerec
 hts.png> <../data/img/Versuch2/2Averagehoch.png> <../data/img/Versuch2/2Average
 tief.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 548.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 561.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 548.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 561.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 548.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 561.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 552.
- [14]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 563.
+ [15] [16]
 File: ../data/img/Versuch2/2Averagerechts.png Graphic file (type png)
 <use ../data/img/Versuch2/2Averagerechts.png>
 Package pdftex.def Info: ../data/img/Versuch2/2Averagerechts.png  used on input
- line 610.
+ line 646.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/Versuch2/Averagerechts.png, id=285, 462.528pt x 346.896pt>
+<../data/img/Versuch2/Averagerechts.png, id=298, 462.528pt x 346.896pt>
 File: ../data/img/Versuch2/Averagerechts.png Graphic file (type png)
 <use ../data/img/Versuch2/Averagerechts.png>
 Package pdftex.def Info: ../data/img/Versuch2/Averagerechts.png  used on input 
-line 616.
+line 652.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
 File: ../data/img/Versuch2/2Averagehoch.png Graphic file (type png)
 <use ../data/img/Versuch2/2Averagehoch.png>
 Package pdftex.def Info: ../data/img/Versuch2/2Averagehoch.png  used on input l
-ine 622.
+ine 658.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
-<../data/img/Versuch2/Averagehoch.png, id=286, 462.528pt x 346.896pt>
+<../data/img/Versuch2/Averagehoch.png, id=299, 462.528pt x 346.896pt>
 File: ../data/img/Versuch2/Averagehoch.png Graphic file (type png)
 <use ../data/img/Versuch2/Averagehoch.png>
 Package pdftex.def Info: ../data/img/Versuch2/Averagehoch.png  used on input li
-ne 628.
+ne 664.
 (pdftex.def)             Requested size: 209.48274pt x 157.11275pt.
- [15 <../data/img/Versuch2/Averagerechts.png> <../data/img/Versuch2/Averagehoch
-.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 638--668
+
+[17 <../data/img/Versuch2/Averagerechts.png> <../data/img/Versuch2/Averagehoch.
+png>]
+Underfull \hbox (badness 10000) in paragraph at lines 674--702
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--668
+Underfull \hbox (badness 10000) in paragraph at lines 674--702
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 638--668
-
- []
-
-[16]
+[18] [19]
 ("C:\Users\Tobias.Schoch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\l
 stlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 687.
+nput line 728.
  (../task1.1.py
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -2353,11 +2348,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
-) [17
+) [20
 
-] (../task1.2.py) [18] (../task1.3.py [19])
-[20] (../task1.4.py [21]) [22] (../task2.1.py [23] [24]) [25] (../task2.2.py
-[26]) [27] (../task2.3.py [28] [29] [30] [31] [32]) [33]
+] (../task1.2.py) [21] (../task1.3.py [22])
+[23] (../task1.4.py [24]) [25] (../task2.1.py [26] [27]) [28] (../task2.2.py
+[29]) [30] (../task2.3.py [31] [32] [33] [34] [35]) [36]
 \openout2 = `appendix/bibliography.aux'.
 
 
@@ -2365,39 +2360,40 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 No file SSS_Laborbericht.bbl.
 ) 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 707.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 707.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 748.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 748.
 (SSS_Laborbericht.aux (preface/cover.aux) (preface/abstract.aux)
 (preface/tableofcontents.aux) (preface/listoffigures.aux)
 (preface/listoftables.aux) (preface/lstlistoflistings.aux)
 (appendix/bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 707.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 707.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 748.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 748.
 Package rerunfilecheck Info: File `SSS_Laborbericht.out' has not changed.
-(rerunfilecheck)             Checksum: 67EDD9A036F63CB482EB7558E0ACA87B;2464.
+(rerunfilecheck)             Checksum: C08CDD40032A83CF93D43A4EDFC38E2F;2464.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 707.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 748.
  ) 
 Here is how much of TeX's memory you used:
- 39402 strings out of 492945
- 849300 string characters out of 3122700
- 1201712 words of memory out of 3000000
- 41774 multiletter control sequences out of 15000+200000
- 72463 words of font info for 121 fonts, out of 3000000 for 9000
+ 39440 strings out of 492945
+ 849848 string characters out of 3122700
+ 1201983 words of memory out of 3000000
+ 41776 multiletter control sequences out of 15000+200000
+ 74243 words of font info for 127 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,98p,715b,2234s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
 e/8r.enc}<C:/Users/Tobias.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb><C:/Users/Tobias.Schoch/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobias.Schoch/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SSS_Laborbericht.pdf (40 pages, 1499818 bytes).
+KTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Tobias.Schoch/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Tobias.Schoch/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Tobi
+as.Schoch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SSS_Laborbericht.pdf (43 pages, 1510209 bytes).
 PDF statistics:
- 1169 PDF objects out of 1200 (max. 8388607)
- 715 named destinations out of 1000 (max. 500000)
+ 1223 PDF objects out of 1440 (max. 8388607)
+ 745 named destinations out of 1000 (max. 500000)
  257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

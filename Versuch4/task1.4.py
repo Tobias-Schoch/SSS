@@ -28,16 +28,16 @@ for y in range(0, 879):
 # Darstellung des Amplitudenspektrums
 plt.plot(gaussianwindow)
 plt.grid(True)
-plt.xlabel('Signalnr.')
-plt.ylabel('Frequenz')
+plt.xlabel('Samples')
+plt.ylabel('Amplitude')
 plt.savefig('data/img/gauss.png')
 plt.show()
 
 # Darstellung des Amplitudenspektrums
 plt.plot(window)
 plt.grid(True)
-plt.xlabel('Signalnr.')
-plt.ylabel('Frequenz')
+plt.xlabel('Windows')
+plt.ylabel('Amplitude')
 plt.savefig('data/img/Alle.png')
 plt.show()
 
@@ -49,8 +49,8 @@ for y in range(0, 879):
 
 plt.plot(window, 'r')
 plt.grid(True)
-plt.xlabel('Signalnr.')
-plt.ylabel('Frequenz')
+plt.xlabel('Windows')
+plt.ylabel('Amplitude')
 plt.savefig('data/img/AlleRichtig.png')
 plt.show()
 
@@ -66,7 +66,7 @@ for x in range(0, 225280, 1):
 
 plt.plot(freq, 'r')
 plt.grid(True)
-plt.xlabel('Signalnr.')
+plt.xlabel('Windows')
 plt.ylabel('Frequenz')
 plt.savefig('data/img/ampwin.png')
 plt.show()

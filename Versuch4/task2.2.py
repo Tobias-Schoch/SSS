@@ -53,19 +53,19 @@ for z in range(0, 4):
             # Hoch Mittelung
             if (z == 0):
                 capital[z][y, x] = (num[0][y, x] + num[1][y, x] + num[2][y, x] + num[3][y, x]
-                                    + num[4][y, x]) / 4
+                                    + num[4][y, x]) / 5
             # Tief Mittelung
             elif (z == 1):
                 capital[z][y, x] = (num[5][y, x] + num[6][y, x] + num[7][y, x] + num[8][y, x]
-                                    + num[9][y, x]) / 4
+                                    + num[9][y, x]) / 5
             # Links Mittelung
             elif (z == 2):
                 capital[z][y, x] = (num[10][y, x] + num[11][y, x] + num[12][y, x] + num[13][y, x]
-                                    + num[14][y, x]) / 4
+                                    + num[14][y, x]) / 5
             # Rechts Mittelung
             elif (z == 3):
                 capital[z][y, x] = (num[15][y, x] + num[16][y, x] + num[17][y, x] + num[18][y, x]
-                                    + num[19][y, x]) / 4
+                                    + num[19][y, x]) / 5
     capital[z] = capital[z].ravel()
 
 # 2D Array in 1D Array für Bravais-Pearson Methode
