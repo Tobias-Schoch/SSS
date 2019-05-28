@@ -33,7 +33,7 @@ Aufgabe3 :
 ✔️ Programmieren
 <br>
 ✔️ Bericht  
-❌ Bewertung   
+✔️ Bewertung  7/7  
 <br>
 Aufgabe4 : 
 <br>
