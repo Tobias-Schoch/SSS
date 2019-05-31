@@ -44,9 +44,9 @@ Aufgabe4 :
 <br><br>
 Aufgabe5 : 
 <br>
-❌ Programmieren
+❌ Programmieren angefangen
 <br>
-❌ Bericht   
+❌ Bericht angefangen
 ❌ Bewertung
 <br>
 
