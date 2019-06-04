@@ -14,6 +14,10 @@ This is a project created at the University of Applied Science HTWG Konstanz in 
 
 ## 💾 Progress
 
+<br>
+TOTAL: 21/21  Punkten
+<br><br><br>
+
 Aufgabe1 : 
 <br>
 ✔️ Programmieren
@@ -33,7 +37,7 @@ Aufgabe3 :
 ✔️ Programmieren
 <br>
 ✔️ Bericht  
-❌ Bewertung   
+✔️ Bewertung  7/7  
 <br>
 Aufgabe4 : 
 <br>
@@ -46,7 +50,8 @@ Aufgabe5 :
 <br>
 ❌ Programmieren
 <br>
-❌ Bericht   
+❌ Bericht
+<br>
 ❌ Bewertung
 <br>
 
