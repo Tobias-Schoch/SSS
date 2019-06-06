@@ -44,7 +44,7 @@ Aufgabe4 :
 ✔️ Programmieren
 <br>
 ✔️ Bericht  
-❌ Bewertung
+✔️ Bewertung  7/7
 <br><br>
 Aufgabe5 : 
 <br>
