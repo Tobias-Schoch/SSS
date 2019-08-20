@@ -51,7 +51,7 @@ Aufgabe5 :
 ✔️ Programmieren
 <br>
 ✔️ Bericht  
-✔️ Bewertung  6.4/7
+✔️ Bewertung  6.4/7 (Damn, not 7 :D)
 <br><br>
 
 
